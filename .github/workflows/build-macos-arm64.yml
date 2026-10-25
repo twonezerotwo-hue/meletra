@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 330
     env:
       HAS_APPLE_CREDENTIALS: ${{ secrets.MACOS_CERT_P12 != '' && secrets.MACOS_CERT_PASSWORD != '' && secrets.APPLE_ID != '' && secrets.APPLE_TEAM_ID != '' && secrets.APPLE_APP_PASSWORD != '' }}
-      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      MACOSX_DEPLOYMENT_TARGET: "15.0"
       PIP_NO_CACHE_DIR: "1"
       PIP_DISABLE_PIP_VERSION_CHECK: "1"
       PYTHONDONTWRITEBYTECODE: "1"
@@ -88,7 +88,7 @@ jobs:
       - name: Verify native imports and deployment versions
         run: |
           . .venv-ci/bin/activate
-          python scripts/ci_macos_facts.py --max-macos 14.0 | tee ci_out/dependencies.txt
+          python scripts/ci_macos_facts.py --max-macos 15.0 | tee ci_out/dependencies.txt
 
       - name: Dependency vulnerability audit (informational)
         continue-on-error: true

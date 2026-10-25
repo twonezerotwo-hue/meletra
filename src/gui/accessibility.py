@@ -17,7 +17,7 @@ from typing import Any, Optional
 import shiboken6
 from PySide6.QtCore import QObject
 from PySide6.QtGui import QAccessible
-from PySide6.QtWidgets import QAccessibleWidget, QWidget
+from PySide6.QtWidgets import QAccessibleWidget, QComboBox, QWidget
 
 #: classes (Qt class names) that are pressed like a button although they are frames
 BUTTON_LIKE = ("LectureCard",)
@@ -54,8 +54,11 @@ def snapshot(widget: QObject) -> Optional[dict]:
     if interface is None:
         return None
     state = interface.state()
+    value = interface.text(QAccessible.Value)
+    if not value and isinstance(widget, QComboBox):
+        value = widget.currentText()                 # Qt's offscreen macOS backend may omit QAccessible.Value for combo boxes
     return {"role": interface.role().name, "name": interface.text(QAccessible.Name), "description": interface.text(QAccessible.Description),
-            "value": interface.text(QAccessible.Value), "focusable": bool(state.focusable), "checked": bool(state.checked),
+            "value": value, "focusable": bool(state.focusable), "checked": bool(state.checked),
             "enabled": not bool(state.disabled), "class": type(widget).__name__}
 
 

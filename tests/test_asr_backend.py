@@ -1,6 +1,7 @@
 """The ASR backend abstraction and the macOS-optimized backend (MLX). The MLX package is replaced by a fake on this Windows machine;
 what is checked is the contract: the same Segment / Word / TranscriptionResult objects and the same exports as the faster-whisper backend."""
 
+import platform
 import sys
 import types
 from pathlib import Path
@@ -132,12 +133,16 @@ def test_the_engine_a_computer_should_use(tmp_path):
     intel, _ = mac(tmp_path, machine="x86_64")
     assert default_engine(arm) == "mlx_whisper" and default_engine(intel) == "faster_whisper"
     assert default_engine(WindowsPlatform(env={}, home=Path("C:/Users/x"))) == "faster_whisper"
-    assert default_engine() == "faster_whisper"                           # this machine
+    expected = "mlx_whisper" if sys.platform == "darwin" and platform.machine() == "arm64" else "faster_whisper"
+    assert default_engine() == expected
 
 
 def test_describe_engines_says_why_an_engine_cannot_run(tmp_path, monkeypatch):
     rows = {r["engine"]: r for r in describe_engines()}
-    assert rows["mlx_whisper"]["ready"] == "no" and "Apple Silicon" in rows["mlx_whisper"]["note"]
+    if sys.platform == "darwin" and platform.machine() == "arm64":
+        assert rows["mlx_whisper"]["ready"] == "yes"
+    else:
+        assert rows["mlx_whisper"]["ready"] == "no" and "Apple Silicon" in rows["mlx_whisper"]["note"]
     assert rows["faster_whisper"]["ready"] == "yes"
     arm, _ = mac(tmp_path)
     monkeypatch.setattr("importlib.util.find_spec", lambda name, *a: None if name == "mlx_whisper" else object())
@@ -147,8 +152,9 @@ def test_describe_engines_says_why_an_engine_cannot_run(tmp_path, monkeypatch):
 # ---------------------------------------------------------------------------------------------------------------------- loading
 def test_loading_needs_apple_silicon_and_the_package(monkeypatch, tmp_path):
     backend = create_backend(SPEC, "cpu")
-    with pytest.raises(BackendUnavailable, match="Apple Silicon"):
-        backend.load("float16")                                           # this machine is Windows
+    if sys.platform != "darwin" or platform.machine() != "arm64":
+        with pytest.raises(BackendUnavailable, match="Apple Silicon"):
+            backend.load("float16")
     intel, _ = mac(tmp_path, machine="x86_64")
     monkeypatch.setattr(mac_module, "current", lambda: intel)
     with pytest.raises(BackendUnavailable, match="Apple Silicon"):

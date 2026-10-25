@@ -175,7 +175,9 @@ class JobStore:
             record = self.get(path.stem)
             if record is not None and (wanted is None or record.state in wanted):
                 records.append(record)
-        return sorted(records, key=lambda r: r.updated, reverse=True)
+        records.sort(key=lambda r: r.job_id)          # deterministic order when two updates share the same timestamp
+        records.sort(key=lambda r: r.updated, reverse=True)
+        return records
 
     def unfinished(self) -> list[JobRecord]:
         """Jobs the user could resume. A job still marked ``running`` whose worker is gone was interrupted: it is reported
@@ -288,6 +290,7 @@ class JobStore:
         elif sort == "duration":
             records.sort(key=lambda r: r.duration_seconds, reverse=True)
         else:
+            records.sort(key=lambda r: r.job_id)
             records.sort(key=lambda r: r.updated, reverse=True)
         return records[:limit] if limit else records
 

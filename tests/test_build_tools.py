@@ -302,6 +302,7 @@ def test_every_batch_script_exists_and_calls_the_right_step():
         assert needle in text and "%~dp0" in text and "\r\n" in (ROOT / name).read_bytes().decode("utf-8"), name
 
 
+@pytest.mark.skipif(sys.platform != "win32" or not (ROOT / "BUILD_ALL.bat").is_file(), reason="Windows build driver is not part of the public ARM mirror")
 def test_build_all_runs_the_steps_in_order_and_stops_on_failure():
     text = (ROOT / "BUILD_ALL.bat").read_text(encoding="utf-8")
     order = [text.index(s) for s in ("TEST_ALL.bat", "build_app.py", "smoke_packaged.py", "build_portable.py", "build_installer.py")]
@@ -351,6 +352,7 @@ def test_run_streaming_returns_the_exit_code_and_logs_output(tmp_path):
     assert code == 3 and "line one" in (tmp_path / "l.log").read_text(encoding="utf-8")
 
 
+@pytest.mark.skipif(sys.platform != "win32", reason="Windows DLL search path")
 def test_pyinstaller_analysis_cannot_borrow_dlls_from_the_callers_path(tmp_path, monkeypatch):
     from scripts import build_app
 

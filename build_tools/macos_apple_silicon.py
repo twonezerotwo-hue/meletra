@@ -26,7 +26,7 @@ LEGACY_APP_FOLDERS = ("WhisperMedical.app", "Medical Lecture Transcriber.app")  
 LEGACY_APP_FOLDER = LEGACY_APP_FOLDERS[-1]
 OFFLINE_MARKER = "offline_release.json"
 MODEL_KEY = "whisper-large-v3-mlx"
-MIN_MACOS = "14.0"                      # the public GitHub arm64 runner and the pinned MLX/PySide wheels target macOS 14+
+MIN_MACOS = "15.0"                      # mlx 0.32.4 / mlx-metal wheels require macOS 15; never advertise a lower deployment target
 MIN_FREE_GB = 25                        # model (3 GB) + venv + PyInstaller work folder + app + DMG
 RELEASE_FOLDER = "macOS-Apple-Silicon"          # release/v<version>/macOS-Apple-Silicon/
 

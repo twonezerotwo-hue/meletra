@@ -350,7 +350,7 @@ def test_wrong_and_typed_answers_are_judged(env):
     wrong.setChecked(True)
     mcq.check()
     assert "Not quite." in labels(mcq)
-    short = next(c for c in q.cards if c.question.type == "short_answer")
+    short = next(c for c in q.cards if c.text_edit is not None)       # short-answer or explain-why: both use the typed-answer path
     short.text_edit.setPlainText(short.question.answer)
     short.check()
     assert "Correct!" in labels(short)

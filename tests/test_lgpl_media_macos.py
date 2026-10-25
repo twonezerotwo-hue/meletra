@@ -131,7 +131,7 @@ def _ci_report(sha="a" * 64):
 def _ci_manifest(**over):
     return {"dmg_sha256": "a" * 64, "dmg_check": {"mount": True, "copy": True, "eject": True, "selftest": True}, "mach_o_audit": {"problems": 0},
             "tests": {"passed": 1, "failed": 0, "skipped": 0, "ran": True}, "study_quality_included": True, "developer_id": False, "notarized": False,
-            "gpl_source_offer": "MISSING", "min_macos_effective": "14.0", **over}
+            "gpl_source_offer": "MISSING", "min_macos_effective": "15.0", **over}
 
 
 def test_an_lgpl_swapped_build_needs_no_gpl_source_offer_and_the_media_check_is_required():

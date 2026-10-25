@@ -16,7 +16,7 @@ This is a history-free, privacy-reviewed source snapshot of MELETRA 4.1.2. It ex
 - The packaged app is tested after being copied out of the DMG, with network access blocked during application runs.
 - A build without Apple credentials is ad-hoc signed and not notarized. Its release notes state that limitation explicitly.
 
-The canonical installer page is [MELETRA Downloads](https://twonezerotwo-hue.github.io/whispermedical-downloads/). A Mac download should appear there only after the build, architecture audit, checksum verification and packaged-app tests pass.
+The canonical installer page is [MELETRA Downloads](https://twonezerotwo-hue.github.io/whispermedical-downloads/). The current pinned MLX runtime requires macOS 15 or newer. A Mac download should appear there only after the build, architecture audit, checksum verification and packaged-app tests pass.
 
 ## Reproduce the Apple Silicon build
 
