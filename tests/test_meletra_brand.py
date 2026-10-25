@@ -182,7 +182,7 @@ def test_the_installer_script_installs_meletra_and_upgrades_the_old_names():
 def test_the_readme_and_the_brand_files_use_the_new_name():
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     assert readme.splitlines()[0].count("meletra_logo.png") == 1 and "# MELETRA" in readme and "Medical Learning & Transcription" in readme
-    assert "## Install MELETRA" in readme
+    assert "## Public build mirror" in readme and "## Reproduce the Apple Silicon build" in readme
     assert not any(path.name.startswith(("app_", "whispermedical")) for path in (ROOT / "assets" / "brand").iterdir())
 
 

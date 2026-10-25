@@ -2,6 +2,8 @@
 
 # MELETRA
 
+**Medical Learning & Transcription.**
+
 MELETRA turns lecture audio, video and documents into a local transcript, medical-term review, summary, key concepts, flashcards and questions. Audio, video, PDFs and images are processed on the user's computer. Sharing is off unless the user explicitly enables it.
 
 ## Public build mirror

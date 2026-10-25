@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from build_tools import lgpl_media_macos as L  # noqa: E402
-from build_tools import macos_intel as intel  # noqa: E402
+from build_tools import macos_apple_silicon as apple  # noqa: E402
 
 MAGIC = b"\xcf\xfa\xed\xfe"
 
@@ -107,41 +107,37 @@ def test_the_build_script_configures_an_lgpl_only_ffmpeg_and_checks_the_result()
     assert "\r" not in script
 
 
-def test_the_workflow_is_valid_and_the_lgpl_steps_run_only_when_asked_for():
-    wf = yaml.safe_load((ROOT / ".github" / "workflows" / "build-macos-intel.yml").read_text(encoding="utf-8"))
+def test_the_public_arm_workflow_is_valid_and_records_a_license_inventory():
+    wf = yaml.safe_load((ROOT / ".github" / "workflows" / "build-macos-arm64.yml").read_text(encoding="utf-8"))
     inputs = wf[True]["workflow_dispatch"]["inputs"]
-    assert inputs["media"]["default"] == "stock" and inputs["media"]["options"] == ["stock", "lgpl"] and inputs["mode"]["default"] == "tests"
-    steps = {s.get("name", "").split(" - ")[0]: s for s in wf["jobs"]["intel"]["steps"]}
-    build = next(s for n, s in steps.items() if n.startswith("LGPL media stack"))
-    audit = next(s for n, s in steps.items() if n.startswith("License audit with media=lgpl"))
-    assert build["if"] == "${{ inputs.media == 'lgpl' }}" and "MLT_LGPL_FFMPEG" in build["run"] and "build_macos_ffmpeg_lgpl.sh" in build["run"]
-    assert "inputs.media == 'lgpl'" in audit["if"] and "continue-on-error" not in audit and "lgpl_media_macos audit" in audit["run"] and "license_audit.py" in audit["run"]
-    informational = next(s for n, s in steps.items() if n.startswith("License audit of the built app"))
-    assert informational.get("continue-on-error") is True
+    assert inputs["mode"]["default"] == "build" and "build-fast" in inputs["mode"]["options"]
+    steps = {s.get("name", ""): s for s in wf["jobs"]["arm64"]["steps"]}
+    informational = next(s for n, s in steps.items() if n.startswith("License inventory of the built app"))
+    assert informational.get("continue-on-error") is True and "license_audit.py" in informational["run"]
 
 
 def test_the_notices_say_lgpl_only_for_a_swapped_app_and_keep_the_gpl_warning_for_the_stock_wheels():
-    stock = intel.third_party_licenses("", {"av": "18.1.0"})
+    stock = apple.third_party_licenses("", {"av": "18.1.0"})
     assert "GPL - READ THIS" in stock and "LEGAL REVIEW REQUIRED" in stock and "NO libx264" not in stock
-    swapped = intel.third_party_licenses("", {"av": "18.1.0", "opencv-python-headless": "4.10.0.84"}, L.SOURCES)
+    swapped = apple.third_party_licenses("", {"av": "18.1.0", "opencv-python-headless": "4.10.0.84"}, L.SOURCES)
     assert "LGPL-only FFmpeg libraries" in swapped and "NO libx264, NO libx265" in swapped and "GPL - READ THIS" not in swapped and "LEGAL REVIEW REQUIRED" not in swapped
     assert L.SOURCES["62"]["sha256"] in swapped and "ffmpeg-7.1.5.tar.xz" in swapped
 
 
 def _ci_report(sha="a" * 64):
-    return {"provider": "GitHub Actions", "machine": "x86_64", "dmg_sha256": sha, "checks": {k: "PASS" for k in intel.CI_KEYS}}
+    return {"provider": "GitHub Actions", "machine": "arm64", "dmg_sha256": sha, "checks": {k: "PASS" for k in apple.CI_KEYS}}
 
 
 def _ci_manifest(**over):
     return {"dmg_sha256": "a" * 64, "dmg_check": {"mount": True, "copy": True, "eject": True, "selftest": True}, "mach_o_audit": {"problems": 0},
             "tests": {"passed": 1, "failed": 0, "skipped": 0, "ran": True}, "study_quality_included": True, "developer_id": False, "notarized": False,
-            "gpl_source_offer": "MISSING", "min_macos_effective": "12.0", **over}
+            "gpl_source_offer": "MISSING", "min_macos_effective": "14.0", **over}
 
 
 def test_an_lgpl_swapped_build_needs_no_gpl_source_offer_and_the_media_check_is_required():
-    assert "media_formats" in intel.CI_KEYS
-    verdict, reasons, caveats = intel.ci_readiness(_ci_report(), "a" * 64, _ci_manifest(gpl_source_offer="NOT NEEDED", media_libraries={"lgpl_only": True}))
-    assert verdict == "CI-TESTED INTEL MAC DMG READY" and reasons == [] and "LGPL-only" in " ".join(caveats) and "source-offer" not in " ".join(caveats)
+    assert "media_formats" in apple.CI_KEYS
+    verdict, reasons, caveats = apple.ci_readiness(_ci_report(), "a" * 64, _ci_manifest(gpl_source_offer="NOT NEEDED", media_libraries={"lgpl_only": True}))
+    assert verdict == "CI-TESTED APPLE SILICON DMG READY" and reasons == [] and "LGPL-only" in " ".join(caveats) and "source-offer" not in " ".join(caveats)
     report = _ci_report()
     report["checks"]["media_formats"] = "FAIL"
-    assert intel.ci_readiness(report, "a" * 64, _ci_manifest())[0] == "NEEDS WORK"
+    assert apple.ci_readiness(report, "a" * 64, _ci_manifest())[0] == "NEEDS WORK"
