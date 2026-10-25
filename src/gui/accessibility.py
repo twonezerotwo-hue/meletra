@@ -65,6 +65,12 @@ def snapshot(widget: QObject) -> Optional[dict]:
 def tree(root: QObject, max_depth: int = 12) -> list[dict]:
     """The accessibility tree below ``root`` (visible objects only), depth first: a flat list of ``snapshot()`` dicts with ``depth``."""
     out: list[dict] = []
+    combos = ([root] if isinstance(root, QComboBox) else []) + root.findChildren(QComboBox)
+    combo_values = {
+        combo.accessibleName(): combo.currentText()
+        for combo in combos
+        if combo.accessibleName() and combo.currentText()
+    }
 
     def walk(interface, depth: int) -> None:
         if interface is None or depth > max_depth:
@@ -77,6 +83,11 @@ def tree(root: QObject, max_depth: int = 12) -> list[dict]:
                                                        "value": interface.text(QAccessible.Value), "focusable": bool(state.focusable),
                                                        "checked": bool(state.checked), "enabled": not bool(state.disabled), "class": ""}
         if entry is not None:
+            if entry["role"] == "ComboBox" and not entry["value"]:
+                # The macOS accessibility bridge can expose a combo box as a virtual
+                # object and omit QAccessible.Value.  Keep the diagnostic dump useful
+                # by reading the same visible widget's current selection.
+                entry["value"] = combo_values.get(entry["name"], "")
             entry["depth"] = depth
             entry["object"] = obj.objectName() if obj is not None else ""
             out.append(entry)
