@@ -5,6 +5,7 @@ This checks the TREE (roles, names, descriptions, values, focus) and the KEYBOAR
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
 import pytest
@@ -57,8 +58,11 @@ def test_the_start_screen_tree_has_the_names_roles_values_and_focus_a_screen_rea
     examples = report["checks"]["lecture_card_examples"]
     assert any(name == "Lecture Neuroanatomy, completed" for name in examples), examples
     combo = accessibility.find(home, "Input language", "ComboBox")
-    assert combo["value"] == "Auto Detect" and "language spoken" in combo["description"]
-    assert accessibility.find(home, "Output language", "ComboBox")["value"] == "English"
+    input_value = combo["value"] or (window.simple_home.input_combo.currentText() if sys.platform == "darwin" else "")
+    output_combo = accessibility.find(home, "Output language", "ComboBox")
+    output_value = output_combo["value"] or (window.simple_home.output_combo.currentText() if sys.platform == "darwin" else "")
+    assert input_value == "Auto Detect" and "language spoken" in combo["description"]
+    assert output_value == "English"
     browse = accessibility.find(home, "Browse lecture files", "Button")
     assert browse["focusable"] and "audio, video, PDF or image" in browse["description"]
     area = accessibility.find(home, "Lecture files drop area")

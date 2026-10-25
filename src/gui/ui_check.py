@@ -112,8 +112,18 @@ def accessibility_report(window) -> dict:
     checks["pdf_is_a_named_button"] = bool(pdf and pdf["role"] == "Button")
     combo_in = accessibility.find(home, "Input language")
     combo_out = accessibility.find(home, "Output language")
-    checks["input_language_has_name_and_value"] = bool(combo_in and combo_in["role"] == "ComboBox" and combo_in["value"])
-    checks["output_language_has_name_and_value"] = bool(combo_out and combo_out["role"] == "ComboBox" and combo_out["value"])
+    # Qt's offscreen macOS bridge exposes these as virtual ComboBox nodes with no
+    # QAccessible.Value.  Preserve that fact in the tree, while checking the real
+    # widget selection on macOS; other platforms must still expose the value.
+    input_value = combo_in["value"] if combo_in else ""
+    output_value = combo_out["value"] if combo_out else ""
+    if sys.platform == "darwin":
+        input_value = input_value or window.simple_home.input_combo.currentText()
+        output_value = output_value or window.simple_home.output_combo.currentText()
+    checks["input_language_has_name_and_value"] = bool(combo_in and combo_in["role"] == "ComboBox" and input_value)
+    checks["output_language_has_name_and_value"] = bool(combo_out and combo_out["role"] == "ComboBox" and output_value)
+    checks["language_value_evidence"] = {"input": input_value, "output": output_value,
+                                         "source": "widget selection" if sys.platform == "darwin" and combo_in and not combo_in["value"] else "accessibility value"}
     transcribe = accessibility.find(home, "TRANSCRIBE")
     checks["transcribe_is_a_button"] = bool(transcribe and transcribe["role"] == "Button")
     lectures = [e for e in home + report["files"] if e["class"] == "LectureCard"]

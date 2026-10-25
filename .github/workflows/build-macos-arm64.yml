@@ -6,10 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "recon | tests | build | build-fast"
+        description: "recon | accessibility | tests | build | build-fast"
         type: choice
         default: build
-        options: [recon, tests, build, build-fast]
+        options: [recon, accessibility, tests, build, build-fast]
 
 permissions:
   contents: write
@@ -98,21 +98,22 @@ jobs:
           .venv-audit/bin/pip-audit --path .venv-ci/lib/python3.11/site-packages --progress-spinner off 2>&1 | tee ci_out/pip_audit.txt
 
       - name: Full test suite on Apple Silicon
-        if: ${{ env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
+        if: ${{ env.MLT_MODE == 'accessibility' || env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
         continue-on-error: true
         run: |
           . .venv-ci/bin/activate
           set -o pipefail
-          python -m pytest -q -p no:cacheprovider -rfs --junitxml=ci_out/junit.xml tests 2>&1 | tee ci_out/pytest.txt
+          if [ "${MLT_MODE}" = accessibility ]; then TARGETS=(tests/test_gui_accessibility.py::test_the_start_screen_tree_has_the_names_roles_values_and_focus_a_screen_reader_needs); else TARGETS=(tests); fi
+          python -m pytest -q -p no:cacheprovider -rfs --junitxml=ci_out/junit.xml "${TARGETS[@]}" 2>&1 | tee ci_out/pytest.txt
 
       - name: Test counts
-        if: ${{ always() && (env.MLT_MODE == 'tests' || env.MLT_MODE == 'build') }}
+        if: ${{ always() && (env.MLT_MODE == 'accessibility' || env.MLT_MODE == 'tests' || env.MLT_MODE == 'build') }}
         run: |
           . .venv-ci/bin/activate
           python scripts/ci_macos_facts.py --counts ci_out/junit.xml | tee ci_out/test_counts.json
 
       - name: Require a green macOS test suite
-        if: ${{ env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
+        if: ${{ env.MLT_MODE == 'accessibility' || env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
         run: |
           . .venv-ci/bin/activate
           python scripts/ci_macos_facts.py --require-green ci_out/test_counts.json
