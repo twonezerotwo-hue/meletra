@@ -53,7 +53,9 @@ def test_the_start_screen_tree_has_the_names_roles_values_and_focus_a_screen_rea
     window, *_ = env
     report = ui_check.accessibility_report(window)
     failed = {key: value for key, value in report["checks"].items() if value is False}
-    assert not failed, failed
+    assert not failed, {"failed": failed, "input": accessibility.find(report["home"], "Input language"),
+                        "output": accessibility.find(report["home"], "Output language"),
+                        "evidence": report["checks"].get("language_value_evidence")}
     home = report["home"]
     examples = report["checks"]["lecture_card_examples"]
     assert any(name == "Lecture Neuroanatomy, completed" for name in examples), examples
