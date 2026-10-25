@@ -260,7 +260,7 @@ def main(argv: Optional[list[str]] = None) -> int:
         report["turkish_builtin_voice"] = "AVAILABLE: " + ", ".join(turkish[:3]) if turkish else "NOT AVAILABLE"
 
         # real transcription on the runner's own speech (offline voice -> WAV)
-        session.write_settings()
+        session.write_settings(model_key="whisper-large-v3-mlx" if platform.machine() == "arm64" else "whisper-large-v3")
         speech = make_speech(work, "The glycolysis pathway converts glucose to pyruvate. Hexokinase phosphorylates glucose and ATP is produced.", "audio")
         result = work / "audio.json"
         r = session.run(["--autorun", str(speech), "--result", str(result), "--timeout", "1500", "--language", "en"], 1600)

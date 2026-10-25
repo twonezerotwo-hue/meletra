@@ -38,6 +38,7 @@ class UiProbe:
 
     def __init__(self, window, interval_ms: int = 100) -> None:
         self.window = window
+        self.initial_home = home_facts(window)
         self.started = time.monotonic()
         self.rows: list[list[Any]] = []
         self._last: dict[str, str] = {}
@@ -150,6 +151,7 @@ def study_facts(window) -> dict[str, Any]:
         out["engine"] = pack_engine(pack)
     for index, name in enumerate(TAB_NAMES):
         study.tabs.setCurrentIndex(index)
+        QApplication.processEvents()
         page = study.tabs.widget(index)
         if name == "Flashcards":
             for button in page.findChildren(QPushButton):
@@ -166,7 +168,7 @@ def payload(probe: UiProbe | None, window, study: bool = False) -> dict[str, Any
     if probe is None:
         return {}
     data: dict[str, Any] = {"ui_trace": probe.stop()}
-    for key, fn in (("ui_home", home_facts), ("ui_first_launch", first_launch_facts)) + ((("ui_study", study_facts),) if study else ()):
+    for key, fn in (("ui_home", lambda _window: probe.initial_home), ("ui_first_launch", first_launch_facts)) + ((("ui_study", study_facts),) if study else ()):
         try:
             data[key] = fn(window)
         except Exception as exc:  # noqa: BLE001 - the probe must never break the run it observes
