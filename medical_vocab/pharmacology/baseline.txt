@@ -1,0 +1,174 @@
+# Baseline: the starter vocabulary shipped since 0.1 (medical_terms/pharmacology.txt), one term per line.
+pharmacokinetics
+pharmacodynamics
+bioavailability
+volume of distribution
+half life
+first pass metabolism
+cytochrome P450
+CYP3A4
+CYP2D6
+enzyme induction
+enzyme inhibition
+therapeutic index
+agonist
+partial agonist
+antagonist
+inverse agonist
+competitive antagonist
+dose response curve
+beta blocker
+propranolol
+metoprolol
+atenolol
+ACE inhibitor
+captopril
+enalapril
+lisinopril
+angiotensin receptor blocker
+losartan
+calcium channel blocker
+verapamil
+diltiazem
+amlodipine
+furosemide
+hydrochlorothiazide
+spironolactone
+digoxin
+amiodarone
+lidocaine
+warfarin
+heparin
+enoxaparin
+rivaroxaban
+aspirin
+clopidogrel
+atorvastatin
+metformin
+sulfonylurea
+glibenclamide
+insulin glargine
+levothyroxine
+prednisolone
+dexamethasone
+penicillin
+amoxicillin
+cephalosporin
+vancomycin
+gentamicin
+ciprofloxacin
+azithromycin
+doxycycline
+metronidazole
+rifampicin
+isoniazid
+paracetamol
+ibuprofen
+morphine
+naloxone
+diazepam
+haloperidol
+fluoxetine
+lithium
+levodopa
+carbidopa
+absorption
+distribution
+metabolism
+excretion
+clearance
+steady state
+loading dose
+maintenance dose
+zero-order kinetics
+first-order kinetics
+prodrug
+active metabolite
+competitive antagonism
+non-competitive antagonism
+receptor affinity
+intrinsic activity
+potency
+efficacy
+EC50
+therapeutic window
+adverse drug reaction
+side effect
+idiosyncratic reaction
+hypersensitivity reaction
+tolerance
+tachyphylaxis
+dependence
+withdrawal
+drug interaction
+synergism
+antagonism
+acetylcholinesterase
+acetylcholinesterase inhibitor
+anticholinergic
+adrenergic receptor
+alpha blocker
+sodium channel blocker
+potassium channel opener
+diuretic
+loop diuretic
+thiazide diuretic
+potassium-sparing diuretic
+aldosterone antagonist
+statin
+fibrate
+anticoagulant
+low molecular weight heparin
+direct oral anticoagulant
+antiplatelet
+thrombolytic
+nitrate
+antiarrhythmic
+beta-lactam antibiotic
+carbapenem
+macrolide
+aminoglycoside
+tetracycline
+fluoroquinolone
+glycopeptide
+antifungal
+azoles
+polyene
+antiviral
+nucleoside analogue
+protease inhibitor
+corticosteroid
+glucocorticoid
+mineralocorticoid
+immunosuppressant
+calcineurin inhibitor
+monoclonal antibody
+tyrosine kinase inhibitor
+chemotherapy
+alkylating agent
+antimetabolite
+topoisomerase inhibitor
+vinca alkaloid
+taxane
+selective serotonin reuptake inhibitor
+benzodiazepine
+barbiturate
+opioid analgesic
+local anesthetic
+general anesthetic
+neuromuscular blocker
+antiepileptic
+dopamine agonist
+MAO inhibitor
+antipsychotic
+bronchodilator
+inhaled corticosteroid
+leukotriene receptor antagonist
+antihistamine
+proton pump inhibitor
+H2 receptor blocker
+antiemetic
+laxative
+antidiarrheal
+antituberculous drug
+nonsteroidal anti-inflammatory drug

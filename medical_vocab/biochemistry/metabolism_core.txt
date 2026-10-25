@@ -1,0 +1,207 @@
+# Biochemistry and metabolism. canonical | aliases | cues | confusables | kind
+amino acid | amino acids | protein; peptide bond; side chain; essential; nitrogen
+alanine | Ala | amino acid; glucose-alanine cycle; transamination
+arginine | Arg | amino acid; urea cycle; nitric oxide; basic
+asparagine | Asn | amino acid; asparaginase; glycosylation
+aspartate | aspartic acid; Asp | amino acid; urea cycle; acidic; transamination
+cysteine | Cys | amino acid; disulfide bond; thiol; glutathione
+glutamate | glutamic acid; Glu | amino acid; excitatory neurotransmitter; transamination; glutamine
+glutamine | Gln | amino acid; ammonia transport; glutaminase; nitrogen
+glycine | Gly | amino acid; smallest; collagen; inhibitory neurotransmitter; heme synthesis
+histidine | His | amino acid; imidazole; histamine; basic
+isoleucine | Ile | amino acid; branched-chain; essential
+leucine | Leu | amino acid; branched-chain; ketogenic; essential
+lysine | Lys | amino acid; basic; ketogenic; essential; collagen cross-links
+methionine | Met | amino acid; start codon; S-adenosylmethionine; sulfur
+phenylalanine | Phe | amino acid; tyrosine; phenylketonuria; aromatic
+proline | Pro | amino acid; collagen; helix breaker
+serine | Ser | amino acid; phosphorylation; hydroxyl
+threonine | Thr | amino acid; phosphorylation; essential
+tryptophan | Trp | amino acid; serotonin; niacin; aromatic; essential
+tyrosine | Tyr | amino acid; dopamine; catecholamines; thyroid hormone; melanin
+valine | Val | amino acid; branched-chain; sickle cell; essential
+essential amino acids | essential amino acid | diet; cannot be synthesized
+branched-chain amino acids | BCAA; BCAAs | leucine; isoleucine; valine; maple syrup urine disease
+protein | proteins | amino acids; folding; enzymes; structure
+peptide bond | peptide bonds | amino acids; condensation; protein
+primary structure | | protein; amino acid sequence
+secondary structure | | protein; alpha helix; beta sheet
+tertiary structure | | protein; folding; disulfide bonds
+quaternary structure | | protein; subunits; hemoglobin
+alpha helix | α-helix; alpha-helix | protein; secondary structure; hydrogen bonds
+beta sheet | β-sheet; beta-sheet; beta pleated sheet | protein; secondary structure
+chaperone | chaperones; chaperone proteins; heat shock protein; Hsp70 | protein folding
+denaturation | denatured | protein; heat; pH; loss of structure
+enzyme | enzymes | catalyst; substrate; active site; activation energy; kinetics
+active site | | enzyme; substrate binding
+substrate | substrates | enzyme; binding; product
+cofactor | cofactors; coenzyme; coenzymes; prosthetic group | enzyme; vitamins; metal ions
+competitive inhibition | competitive inhibitor | enzyme; Km; Vmax; substrate
+noncompetitive inhibition | non-competitive inhibition; noncompetitive inhibitor | enzyme; Vmax
+allosteric regulation | allosteric; allosteric enzyme | cooperativity; effector; regulation
+feedback inhibition | end-product inhibition | pathway; regulation
+Michaelis-Menten kinetics | Michaelis-Menten equation; Michaelis Menten | Km; Vmax; hyperbolic
+Km | Michaelis constant | substrate concentration; half-maximal; affinity
+Vmax | maximum velocity; maximal velocity | enzyme kinetics; saturation
+zymogen | zymogens; proenzyme | inactive precursor; proteolytic activation; trypsinogen
+isozyme | isozymes; isoenzyme; isoenzymes | enzyme forms; LDH; CK
+kinase | kinases | phosphorylation; ATP; phosphate transfer
+phosphatase | phosphatases | dephosphorylation; hydrolysis
+dehydrogenase | dehydrogenases | NAD; oxidation; redox
+oxidoreductase | oxidoreductases | redox enzyme
+transferase | transferases | group transfer
+hydrolase | hydrolases | hydrolysis
+lyase | lyases | cleavage; double bond
+isomerase | isomerases | rearrangement
+ligase | ligases; synthetase | joining; ATP; DNA ligase
+transaminase | transaminases; aminotransferase; aminotransferases | amino group transfer; pyridoxal phosphate; ALT; AST
+transamination | transaminate; transaminated | amino acids; alpha-ketoglutarate; pyridoxal phosphate; glutamate; ALT; AST
+deamination | deaminated; oxidative deamination | amino acids; ammonia; glutamate dehydrogenase
+urea cycle | ornithine cycle; Krebs-Henseleit cycle | ammonia; urea; liver; carbamoyl phosphate synthetase; ornithine transcarbamylase
+carbamoyl phosphate synthetase | carbamoyl phosphate synthetase I; CPS1; carbamoyl phosphate synthetase 1; carbamyl phosphate synthetase | urea cycle; N-acetylglutamate; mitochondria; ammonia
+ornithine transcarbamylase | ornithine transcarbamoylase; OTC | urea cycle; citrulline; X-linked
+argininosuccinate synthetase | argininosuccinate synthase | urea cycle; citrulline; aspartate
+argininosuccinate lyase | argininosuccinase | urea cycle; arginine; fumarate
+arginase | | urea cycle; arginine; urea; ornithine
+N-acetylglutamate | NAG | urea cycle; activator; carbamoyl phosphate synthetase
+citrulline | | urea cycle; amino acid
+ornithine | | urea cycle; amino acid
+urea | | nitrogen excretion; kidney; urea cycle; BUN
+ammonia | NH3; ammonium | toxic; urea cycle; hyperammonemia; glutamine; brain
+hyperammonemia | | ammonia; urea cycle defect; encephalopathy
+glycolysis | glycolytic | glucose; pyruvate; ATP; cytosol; hexokinase; phosphofructokinase
+gluconeogenesis | gluconeogenic | glucose synthesis; liver; pyruvate carboxylase; fasting
+glycogenesis | | glycogen synthesis; glycogen synthase; insulin
+glycogenolysis | | glycogen breakdown; glycogen phosphorylase; glucagon
+glycogen | | storage; liver; muscle; glucose polymer; branching
+glycogen synthase | | glycogenesis; UDP-glucose
+glycogen phosphorylase | | glycogenolysis; pyridoxal phosphate
+glucose | glucose-6-phosphate | blood sugar; glycolysis; insulin; glucagon
+glucose-6-phosphate | glucose 6 phosphate; G6P | glycolysis; pentose phosphate pathway; hexokinase
+fructose | fructose-6-phosphate; fructose 1,6-bisphosphate | sugar; glycolysis; sucrose
+galactose | | sugar; lactose; galactosemia
+mannose | | sugar; glycosylation
+lactose | | milk sugar; lactase; galactose; glucose
+sucrose | | table sugar; sucrase; glucose; fructose
+maltose | | disaccharide; maltase
+monosaccharide | monosaccharides | simple sugar; glucose; fructose; galactose
+disaccharide | disaccharides | two sugars; sucrose; lactose; maltose
+polysaccharide | polysaccharides | starch; glycogen; cellulose; glycosidic
+glycosidic bond | glycosidic bonds | sugars; linkage
+hexokinase | | glycolysis; first step; glucose phosphorylation; low Km
+glucokinase | | liver; glucose; high Km; insulin
+phosphofructokinase | phosphofructokinase-1; PFK-1; PFK1 | glycolysis; rate-limiting; fructose-2,6-bisphosphate
+pyruvate kinase | | glycolysis; ATP; last step
+pyruvate | pyruvic acid | glycolysis; acetyl-CoA; lactate; alanine
+pyruvate dehydrogenase | pyruvate dehydrogenase complex; PDH complex | acetyl-CoA; thiamine; lipoic acid; NAD; mitochondria
+pyruvate carboxylase | | gluconeogenesis; biotin; oxaloacetate; mitochondria
+lactate | lactic acid | anaerobic glycolysis; Cori cycle; muscle
+lactate dehydrogenase | LDH | lactate; pyruvate; NADH
+Cori cycle | | lactate; liver; muscle; gluconeogenesis
+glucose-alanine cycle | | alanine; muscle; liver; nitrogen transport
+pentose phosphate pathway | PPP; hexose monophosphate shunt; HMP shunt | NADPH; ribose-5-phosphate; glucose-6-phosphate dehydrogenase
+ribose | ribose-5-phosphate | pentose; nucleotides; RNA
+citric acid cycle | Krebs cycle; TCA cycle; tricarboxylic acid cycle | mitochondria; acetyl-CoA; NADH; FADH2; citrate; oxaloacetate
+citrate | citric acid | Krebs cycle; citrate synthase; fatty acid synthesis
+citrate synthase | | Krebs cycle; oxaloacetate; acetyl-CoA
+isocitrate dehydrogenase | | Krebs cycle; NADH; alpha-ketoglutarate
+alpha-ketoglutarate | α-ketoglutarate; 2-oxoglutarate; alpha ketoglutarate | Krebs cycle; transamination; glutamate
+alpha-ketoglutarate dehydrogenase | α-ketoglutarate dehydrogenase | Krebs cycle; thiamine; lipoic acid; succinyl-CoA
+succinyl-CoA | succinyl coenzyme A | Krebs cycle; heme synthesis; ketone bodies
+succinate | succinic acid | Krebs cycle; succinate dehydrogenase; complex II
+succinate dehydrogenase | complex II | Krebs cycle; electron transport chain; FAD
+fumarate | fumaric acid | Krebs cycle; urea cycle; fumarase
+fumarase | fumarate hydratase | Krebs cycle; malate
+malate | malic acid | Krebs cycle; malate dehydrogenase; malate-aspartate shuttle
+oxaloacetate | oxaloacetic acid; OAA | Krebs cycle; gluconeogenesis; aspartate
+acetyl-CoA | acetyl coenzyme A; acetyl CoA | pyruvate dehydrogenase; fatty acid oxidation; Krebs cycle; cholesterol; ketone bodies
+oxidative phosphorylation | OXPHOS | ATP synthesis; electron transport chain; mitochondria; proton gradient; ATP synthase
+electron transport chain | respiratory chain | mitochondria; complexes I-IV; cytochromes; oxygen; NADH
+ATP synthase | complex V; F1F0 ATPase | oxidative phosphorylation; proton gradient; mitochondria
+cytochrome c | cytochrome C | electron transport chain; apoptosis; mitochondria
+cytochrome | cytochromes | heme; electron transport; P450
+cytochrome oxidase | complex IV; cytochrome c oxidase | electron transport chain; cyanide; oxygen
+coenzyme Q | ubiquinone; CoQ10; coenzyme Q10 | electron transport chain; complex I; complex II
+uncoupling protein | UCP1; thermogenin; uncoupler | brown fat; heat; proton gradient
+2,4-dinitrophenol | DNP | uncoupler; heat
+cyanide | | complex IV inhibitor; poison
+oligomycin | | ATP synthase inhibitor
+rotenone | | complex I inhibitor
+fatty acid | fatty acids | lipids; beta oxidation; triglycerides; palmitate
+beta oxidation | β-oxidation; beta-oxidation | fatty acids; acetyl-CoA; mitochondria; carnitine; NADH; FADH2
+carnitine | L-carnitine | fatty acid transport; carnitine palmitoyltransferase; mitochondria
+carnitine palmitoyltransferase | CPT1; CPT-1; CPT I; CPT2 | carnitine shuttle; fatty acids
+fatty acid synthase | FAS | fatty acid synthesis; palmitate; NADPH; malonyl-CoA
+acetyl-CoA carboxylase | ACC | fatty acid synthesis; biotin; malonyl-CoA; rate-limiting
+malonyl-CoA | | fatty acid synthesis; carnitine palmitoyltransferase inhibitor
+palmitate | palmitic acid | fatty acid; fatty acid synthase
+triglyceride | triglycerides; triacylglycerol; triacylglycerols; TAG | fats; glycerol; lipase; adipose
+glycerol | glycerol-3-phosphate | triglycerides; gluconeogenesis
+lipase | lipases; hormone-sensitive lipase; lipoprotein lipase; pancreatic lipase | triglycerides; fat digestion
+phospholipid | phospholipids | membrane; phosphatidylcholine; lecithin
+sphingolipid | sphingolipids | membrane; ceramide; sphingomyelin; myelin
+cholesterol | | membrane; steroid; HMG-CoA reductase; LDL; bile acids; lipids
+HMG-CoA reductase | HMG CoA reductase; hydroxymethylglutaryl-CoA reductase | cholesterol synthesis; statins; rate-limiting
+statin | statins | HMG-CoA reductase; cholesterol; atorvastatin; simvastatin
+bile acids | bile acid; bile salts; bile salt | cholesterol; fat digestion; liver; enterohepatic circulation
+ketone bodies | ketone body; ketones; ketogenesis | acetoacetate; beta-hydroxybutyrate; acetone; fasting; liver; diabetic ketoacidosis
+ketogenesis | | ketone bodies; liver; HMG-CoA synthase
+acetoacetate | | ketone body
+beta-hydroxybutyrate | β-hydroxybutyrate; 3-hydroxybutyrate; BHB | ketone body
+lipoprotein | lipoproteins | chylomicron; VLDL; LDL; HDL; transport
+chylomicron | chylomicrons | lipoprotein; intestine; dietary fat; lymph
+LDL receptor | LDL receptors | cholesterol uptake; familial hypercholesterolemia
+apolipoprotein | apolipoproteins; apoB-100; apoA-I; apoE; apoC-II | lipoprotein
+insulin | | pancreas; beta cells; glucose uptake; GLUT4; anabolic; tyrosine kinase receptor
+glucagon | | pancreas; alpha cells; glycogenolysis; gluconeogenesis; cAMP
+cortisol | hydrocortisone | glucocorticoid; adrenal; gluconeogenesis; stress
+fed state | well-fed state | insulin; anabolic; glycogen synthesis
+fasting state | fasting; starvation | glucagon; gluconeogenesis; ketone bodies; glycogenolysis
+vitamin | vitamins | cofactor; deficiency; dietary
+thiamine | vitamin B1; thiamin; TPP; thiamine pyrophosphate | pyruvate dehydrogenase; beriberi; Wernicke
+riboflavin | vitamin B2 | FAD; FMN
+niacin | vitamin B3; nicotinic acid; nicotinamide | NAD; NADP; pellagra
+pantothenic acid | vitamin B5 | coenzyme A
+pyridoxine | vitamin B6; pyridoxal phosphate; PLP | transamination; heme synthesis; neuropathy
+biotin | vitamin B7 | carboxylase; pyruvate carboxylase; acetyl-CoA carboxylase; egg white
+folate | vitamin B9; tetrahydrofolate; THF; folic acid | one-carbon metabolism; thymidylate; neural tube defects; megaloblastic anemia
+cobalamin | vitamin B12 | methylmalonyl-CoA mutase; methionine synthase; pernicious anemia; intrinsic factor
+ascorbic acid | vitamin C; ascorbate | collagen synthesis; hydroxylation; scurvy; antioxidant
+retinol | vitamin A; retinal; retinoic acid; retinoids | vision; epithelial differentiation; night blindness
+vitamin D | calcitriol; cholecalciferol; 1,25-dihydroxyvitamin D; ergocalciferol | calcium absorption; bone; rickets; kidney
+vitamin E | tocopherol; alpha-tocopherol | antioxidant; lipid peroxidation
+vitamin K | phylloquinone; menaquinone | clotting factors; gamma-carboxylation; warfarin
+heme | haem | porphyrin; hemoglobin; iron; heme synthesis; ALA synthase
+porphyrin | porphyrins | heme; porphyria
+bilirubin | | heme degradation; jaundice; conjugation; UDP-glucuronosyltransferase
+iron | | hemoglobin; ferritin; transferrin; absorption
+ferritin | | iron storage
+transferrin | | iron transport; plasma
+hemoglobin | haemoglobin | oxygen transport; heme; globin; alpha chains; beta chains
+myoglobin | | muscle; oxygen storage; heme
+collagen synthesis | | hydroxylation; vitamin C; procollagen; triple helix
+nucleotide | nucleotides | DNA; RNA; purine; pyrimidine; phosphate
+purine | purines; adenine; guanine | nucleotide; uric acid; gout; de novo synthesis
+pyrimidine | pyrimidines; cytosine; thymine; uracil | nucleotide; orotic acid
+uric acid | urate | purine catabolism; gout; xanthine oxidase
+xanthine oxidase | | purine catabolism; allopurinol; uric acid
+thymidylate synthase | | dTMP; folate; 5-fluorouracil
+dihydrofolate reductase | DHFR | folate; methotrexate; trimethoprim
+ribonucleotide reductase | | deoxyribonucleotides; hydroxyurea
+orotic aciduria | | pyrimidine synthesis; UMP synthase
+Lesch-Nyhan syndrome | Lesch Nyhan | HGPRT deficiency; purine salvage; self-mutilation; gout
+phenylketonuria | PKU | phenylalanine hydroxylase; tetrahydrobiopterin; intellectual disability
+maple syrup urine disease | MSUD | branched-chain amino acids; branched-chain alpha-ketoacid dehydrogenase
+homocystinuria | | cystathionine beta-synthase; homocysteine; marfanoid
+galactosemia | | galactose-1-phosphate uridyltransferase; cataracts
+glycogen storage disease | glycogen storage diseases; von Gierke disease; Pompe disease; McArdle disease | glycogen; enzyme deficiency
+lysosomal storage disease | lysosomal storage diseases | enzyme deficiency; Gaucher; Tay-Sachs; Niemann-Pick; Fabry
+pH | | acid base; hydrogen ion; buffer
+buffer | buffers; bicarbonate buffer; phosphate buffer | pH; acid-base; Henderson-Hasselbalch
+pKa | | acid dissociation; buffer; ionization
+oxidation | oxidized | electron loss; redox
+reduction | reduced | electron gain; redox
+redox | | oxidation; reduction; electrons; NAD
+free energy | Gibbs free energy; delta G | thermodynamics; spontaneous; ATP hydrolysis
+high-energy phosphate | high energy phosphate bond | ATP; creatine phosphate; phosphoenolpyruvate
+creatine phosphate | phosphocreatine; creatine | muscle; energy buffer; creatine kinase

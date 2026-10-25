@@ -1,0 +1,125 @@
+{
+  "format": 1,
+  "note": "One entry per terminology source. status ALLOW only after the license text was read (verified_on + evidence). A source that is not listed behaves as REVIEW_REQUIRED (= private).",
+  "sources": [
+    {
+      "source_id": "MLT_CURATED",
+      "name": "Project-authored medical vocabulary (medical_vocab/)",
+      "license_name": "project-owned",
+      "license_url": "medical_vocab/SOURCES.json",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "evidence": "Written for this project from general medical-education knowledge, not scraped or copied from a third-party dataset (medical_vocab/SOURCES.json); the owner of the project is the rights holder.",
+      "notes": "Generic (INN) drug names are public names, not copyrightable."
+    },
+    {
+      "source_id": "MLT_FIXTURE",
+      "name": "Synthetic test fixtures (concepts written for the v4 tests and false-positive traps)",
+      "license_name": "project-owned",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "evidence": "Authored in this repository for tests; contains no third-party data.",
+      "notes": "Never counted as medical coverage."
+    },
+    {
+      "source_id": "SYNTHETIC_SCALE",
+      "name": "Synthetic medical-looking terms for scale benchmarks",
+      "license_name": "project-owned (generated)",
+      "status": "PRIVATE_ONLY",
+      "verified_on": "2026-10-13",
+      "evidence": "Random compositions of Greek/Latin roots; not medical knowledge and not meant for shipping.",
+      "notes": "Benchmark data only; refused by public builds on purpose."
+    },
+    {
+      "source_id": "UMLS",
+      "name": "UMLS Metathesaurus (NLM)",
+      "license_name": "UMLS Metathesaurus License Agreement (UTS account required)",
+      "license_url": "https://www.nlm.nih.gov/research/umls/knowledge_sources/metathesaurus/release/license_agreement.html",
+      "status": "PRIVATE_ONLY",
+      "requires_credentials": true,
+      "verified_on": "2026-10-13",
+      "evidence": "Access needs an accepted license agreement; many included source vocabularies carry their own restrictions. Treated as private-only; the per-vocabulary categories are not evaluated here.",
+      "notes": "The importer reads a locally licensed copy and never downloads or bypasses the agreement."
+    },
+    {
+      "source_id": "SNOMEDCT",
+      "name": "SNOMED CT (via UMLS or directly)",
+      "license_name": "SNOMED CT affiliate / UMLS source license",
+      "license_url": "https://www.snomed.org/snomed-ct/get-snomed",
+      "status": "PRIVATE_ONLY",
+      "requires_credentials": true,
+      "verified_on": "2026-10-13",
+      "evidence": "Distributed under a membership / affiliate license; redistribution inside a product needs its own agreement.",
+      "notes": "Never enters the public database."
+    },
+    {
+      "source_id": "MESH",
+      "name": "Medical Subject Headings (NLM)",
+      "license_name": "NLM Terms and Conditions (no fee; attribution and currency notice on redistribution)",
+      "license_url": "https://www.nlm.nih.gov/databases/download/terms_and_conditions.html",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "attribution": "Courtesy of the U.S. National Library of Medicine. MeSH data are a snapshot of the release named in the knowledge pack; they may not reflect the most current MeSH.",
+      "evidence": "Page read on 2026-10-13 (last reviewed by NLM 2019-05-21): no charges or royalties; users agree to acknowledge NLM with 'Courtesy of the U.S. National Library of Medicine', not to imply NLM endorsement, and - when redistributing - to maintain the most current version OR state conspicuously that the product does not reflect the most current data.",
+      "notes": "English descriptor file only (translations and supplementary concept records are not imported)."
+    },
+    {
+      "source_id": "GO",
+      "name": "Gene Ontology",
+      "license_name": "Creative Commons Attribution 4.0 (CC BY 4.0)",
+      "license_url": "https://geneontology.org/docs/go-citation-policy/",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "attribution": "Gene Ontology Consortium data, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/); release identified in the knowledge pack manifest.",
+      "evidence": "Page read on 2026-10-13: 'Gene Ontology Consortium data and data products are licensed under the Creative Commons Attribution 4.0 Unported License'; attribution requires creator identification, a copyright notice and a notice referring to the license."
+    },
+    {
+      "source_id": "HPO",
+      "name": "Human Phenotype Ontology",
+      "license_name": "HPO license (text could not be read)",
+      "license_url": "https://hpo.jax.org/app/license",
+      "status": "REVIEW_REQUIRED",
+      "verified_on": "2026-10-13",
+      "evidence": "NOT decided: the license page is rendered by script (the GitHub LICENSE.md only points to it) and its text could not be retrieved; hp.obo says 'Please see license of HPO'. Usable in the private (full) database only until somebody reads the license."
+    },
+    {
+      "source_id": "CHEBI",
+      "name": "ChEBI",
+      "license_name": "Creative Commons Attribution 4.0 (CC BY 4.0) + EMBL-EBI terms of use",
+      "license_url": "https://www.ebi.ac.uk/chebi/aboutChebiForward.do",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "attribution": "ChEBI (EMBL-EBI), CC BY 4.0. Malik A. et al. (2025) ChEBI: re-engineered for a sustainable future. Nucleic Acids Res.",
+      "evidence": "Page read on 2026-10-13: 'The data on this website is available under the Creative Commons License (CC BY 4.0), and governed by EMBL-EBI's terms of use'."
+    },
+    {
+      "source_id": "HGNC",
+      "name": "HGNC gene nomenclature",
+      "license_name": "Creative Commons CC0 (public domain dedication)",
+      "license_url": "https://www.genenames.org/about/license/",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "attribution": "HGNC (genenames.org) - attribution recommended, not required.",
+      "evidence": "Page read on 2026-10-13: 'all data is released under the Creative Commons Public Domain (CC0) License ... any form of reuse of the content is permitted'."
+    },
+    {
+      "source_id": "PUBMED_MINED",
+      "name": "Terms mined from PubMed titles/abstract metadata (literature layer)",
+      "license_name": "to be read (milestone 9)",
+      "status": "REVIEW_REQUIRED",
+      "evidence": "not read yet",
+      "notes": "Only term candidates and identifiers are kept, never article text."
+    },
+    {
+      "source_id": "SCOWL",
+      "name": "SCOWL English word lists (Kevin Atkinson)",
+      "license_name": "permissive notice licenses (public domain and permission-with-notice components)",
+      "license_url": "http://wordlist.aspell.net/scowl-readme/",
+      "status": "ALLOW",
+      "verified_on": "2026-10-13",
+      "attribution": "SCOWL Copyright text (licenses/SCOWL_COPYRIGHT.txt) must accompany every redistribution (Atkinson, WordNet, UKACD and Ispell notices).",
+      "evidence": "Copyright file of scowl-2020.12.07 read in full on 2026-10-13: permission to use, copy, modify, distribute and sell the word lists for any purpose provided the copyright and permission notices are kept; components are public domain (Moby, 12Dicts, ENABLE, UK English wordlist) or permissive with notice (WordNet, UKACD, Ispell).",
+      "notes": "Ordinary English words only; levels up to 80 imported (level 95 and proper names are left out)."
+    }
+  ]
+}

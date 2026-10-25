@@ -1,0 +1,42 @@
+{
+  "format": 1,
+  "vocabulary_version": "1.0.0",
+  "updated": "2026-10-11",
+  "policy": "Only redistributable material. No third-party dataset has been copied into this folder; no network download was made to build it.",
+  "sources": [
+    {
+      "name": "Project-authored medical vocabulary",
+      "scope": "all domain folders (*_core.txt, cells_glia_myelin.txt, brain_structures.txt, synapse_transmission.txt, stains_cytology.txt, drugs_generic.txt, ...)",
+      "origin": "written for this project by the maintainers / assistant from general medical-education knowledge (standard terms, eponyms, generic drug names, Latin plurals); reviewed line by line, not scraped",
+      "version": "1.0.0",
+      "license": "same license as the application (project-owned)",
+      "downloaded": null,
+      "notes": "Cue words are plain context hints written by hand; confusables are generic ASR mix-ups (never lecture-specific replacement rules)."
+    },
+    {
+      "name": "Starter vocabulary shipped since 0.1 (medical_terms/*.txt)",
+      "scope": "<domain>/baseline.txt in anatomy, biochemistry, internal_medicine, histology, molecular_biology, neuroscience, pathology, pharmacology, physiology",
+      "origin": "the project's own starter lists, imported unchanged (lines for Turkish-only runs removed)",
+      "version": "0.1",
+      "license": "project-owned",
+      "downloaded": null
+    },
+    {
+      "name": "Generic (non-proprietary) drug names",
+      "scope": "pharmacology/drugs_generic.txt",
+      "origin": "international non-proprietary names (INN) are public names; brand names appear only as accepted alternative spellings",
+      "version": "1.0.0",
+      "license": "names are not copyrightable; list compiled by hand",
+      "downloaded": null
+    }
+  ],
+  "extension": {
+    "how": "add a line to any medical_vocab/<domain>/*.txt, or a new folder with an optional _domain.json; run scripts/lint_medical_vocab.py",
+    "user_terms": "Settings > Medical Vocabulary > Add Terms (stored per user, never written into this folder)",
+    "candidate_bulk_sources": [
+      {"name": "MeSH (NLM)", "license": "public domain (U.S. government work); attribution requested", "status": "not imported"},
+      {"name": "HGNC gene symbols", "license": "CC0", "status": "not imported"},
+      {"name": "RxNorm / WHO INN lists", "license": "public / open names", "status": "not imported"}
+    ]
+  }
+}

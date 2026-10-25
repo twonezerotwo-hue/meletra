@@ -1,0 +1,9 @@
+{
+ "title": "Radiology and imaging",
+ "version": "1.0.0",
+ "related": [
+  "anatomy",
+  "internal_medicine",
+  "surgery"
+ ]
+}

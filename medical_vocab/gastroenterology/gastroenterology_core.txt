@@ -1,0 +1,43 @@
+# Gastroenterology and hepatology. canonical | aliases | cues | confusables | kind
+gastrointestinal tract | GI tract; digestive tract; alimentary canal | mouth to anus; layers; motility
+submucosa | submucosal | Meissner plexus; glands; connective tissue
+muscularis externa | | circular layer; longitudinal layer; Auerbach plexus
+serosa | | outer layer; peritoneum; visceral peritoneum
+lamina propria | | loose connective tissue; mucosa; lymphoid
+muscularis mucosae | | thin smooth muscle; mucosa
+myenteric plexus | Auerbach's plexus | motility; between muscle layers; enteric nervous system
+submucosal plexus | Meissner's plexus | secretion; absorption; enteric nervous system
+lower esophageal sphincter | LES | reflux; achalasia; gastroesophageal junction
+achalasia | | failure of LES relaxation; bird's beak; dysphagia
+esophageal cancer | oesophageal cancer | squamous cell; adenocarcinoma; Barrett
+gastric cancer | stomach cancer | adenocarcinoma; Helicobacter pylori; signet ring cells
+gastric ulcer | | pain worse with food; Helicobacter pylori
+duodenal ulcer | | pain relieved by food; Brunner glands
+Zollinger-Ellison syndrome | gastrinoma | gastrin; multiple ulcers
+pernicious anemia | | intrinsic factor; B12 deficiency; autoimmune gastritis
+malabsorption | | steatorrhea; celiac; chronic diarrhea
+steatorrhea | | fatty stools; fat malabsorption
+villous atrophy | | celiac disease; flattened villi
+diverticulosis | | colon outpouchings; low fiber
+diverticulitis | | inflammation of diverticula; left lower quadrant pain
+polyps | colon polyps | adenomatous; screening
+colonoscopy | | screening; polypectomy
+endoscopy | upper endoscopy; gastroscopy | camera; biopsy
+Barrett esophagus | Barrett's esophagus | intestinal metaplasia; GERD
+hepatic lobule | | central vein; portal triads; hepatocyte plates
+Kupffer cells | | liver macrophages; sinusoids
+stellate cells | hepatic stellate cells; Ito cells | vitamin A storage; fibrosis
+hepatic sinusoids | sinusoid | fenestrated; space of Disse
+bile canaliculi | bile canaliculus | hepatocytes; bile secretion
+alcoholic liver disease | | fatty liver; hepatitis; cirrhosis; Mallory bodies
+non-alcoholic fatty liver disease | NAFLD | steatosis; obesity; insulin resistance
+hemochromatosis | haemochromatosis | iron overload; HFE; bronze diabetes
+Wilson disease | Wilson's disease | copper; ceruloplasmin; Kayser-Fleischer rings; ATP7B
+primary biliary cholangitis | PBC | anti-mitochondrial antibodies; women
+primary sclerosing cholangitis | PSC | ulcerative colitis; beading of bile ducts
+alpha-1 antitrypsin deficiency | | emphysema; liver cirrhosis; PAS-positive globules
+liver transplant | | end-stage liver disease
+bilirubin metabolism | | conjugation; urobilinogen; stercobilin
+direct bilirubin | conjugated bilirubin | cholestasis; obstructive jaundice
+indirect bilirubin | unconjugated bilirubin | hemolysis; Gilbert
+cholestasis | | bile flow obstruction; alkaline phosphatase

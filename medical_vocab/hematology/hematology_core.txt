@@ -1,0 +1,55 @@
+# Hematology. canonical | aliases | cues | confusables | kind
+hematopoiesis | haematopoiesis; haemopoiesis | blood cell formation; bone marrow; yolk sac; liver; spleen
+hematopoietic stem cell | hematopoietic stem cells; HSC; HSCs | bone marrow; multipotent; CD34
+myeloid lineage | myeloid | granulocytes; monocytes; erythrocytes; megakaryocytes
+lymphoid lineage | lymphoid | B cells; T cells; NK cells
+erythropoiesis | | red blood cell production; erythropoietin; reticulocytes
+granulopoiesis | | neutrophil production; G-CSF
+thrombopoiesis | | platelet production; thrombopoietin; megakaryocytes
+proerythroblast | erythroblast; normoblast | red cell precursors; nucleus extruded
+red blood cell | red blood cells; erythrocyte; erythrocytes; RBC | hemoglobin; biconcave; no nucleus
+biconcave disc | | red cell shape; flexibility
+hemoglobin A | HbA | adult hemoglobin; alpha2 beta2
+hemoglobin F | HbF; fetal hemoglobin | alpha2 gamma2; high oxygen affinity
+hemoglobin S | HbS | sickle cell; valine substitution
+methemoglobin | methaemoglobin | ferric iron; dapsone; methylene blue
+carboxyhemoglobin | | carbon monoxide
+hemolysis | haemolysis | red cell destruction; LDH; haptoglobin; bilirubin
+hereditary spherocytosis | | spectrin; ankyrin; osmotic fragility; splenectomy
+G6PD deficiency | glucose-6-phosphate dehydrogenase deficiency | Heinz bodies; bite cells; oxidative stress; fava beans
+paroxysmal nocturnal hemoglobinuria | PNH | complement; GPI anchor; CD55 CD59
+autoimmune hemolytic anemia | AIHA | warm IgG; cold IgM; Coombs positive
+microcytic anemia | | iron deficiency; thalassemia; low MCV
+macrocytic anemia | | B12; folate; high MCV
+normocytic anemia | | chronic disease; acute blood loss
+thalassemia major | Cooley anemia | beta globin; transfusion dependent
+sideroblastic anemia | | ring sideroblasts; B6
+neutrophilia | | high neutrophils; infection
+neutropenia | | low neutrophils; infection risk
+lymphocytosis | | high lymphocytes; viral
+eosinophilia | | parasites; allergy
+thrombocytosis | | high platelets
+immune thrombocytopenic purpura | ITP | antiplatelet antibodies; splenic destruction
+thrombotic thrombocytopenic purpura | TTP | ADAMTS13; schistocytes; neurologic symptoms
+hemolytic uremic syndrome | HUS | E. coli O157:H7; Shiga toxin; children
+heparin-induced thrombocytopenia | HIT | platelet factor 4; thrombosis
+hemophilia A | | factor VIII deficiency; prolonged aPTT
+hemophilia B | Christmas disease | factor IX deficiency
+vitamin K deficiency | | factors II VII IX X; prolonged PT
+Factor V Leiden | | resistance to activated protein C; thrombophilia
+antithrombin deficiency | | heparin resistance
+protein C | protein S | anticoagulant; warfarin skin necrosis
+polycythemia vera | PV | JAK2 mutation; increased red cells; pruritus after bathing
+essential thrombocythemia | | JAK2; platelets
+myelofibrosis | | bone marrow fibrosis; teardrop cells; splenomegaly
+myelodysplastic syndrome | MDS | dysplasia; cytopenias; pre-leukemia
+leukemoid reaction | | high leukocyte alkaline phosphatase
+hairy cell leukemia | | TRAP positive; cladribine
+mycosis fungoides | | cutaneous T cell lymphoma
+Burkitt lymphoma | | c-myc; starry sky; EBV
+follicular lymphoma | | t(14;18); BCL-2
+diffuse large B-cell lymphoma | DLBCL | aggressive; most common
+mantle cell lymphoma | | t(11;14); cyclin D1
+Waldenström macroglobulinemia | Waldenstrom macroglobulinemia | IgM; hyperviscosity
+Langerhans cell histiocytosis | | Birbeck granules; S100
+bone marrow transplantation | stem cell transplantation | allogeneic; autologous; GVHD

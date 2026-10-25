@@ -1,0 +1,138 @@
+# Baseline: the starter vocabulary shipped since 0.1 (medical_terms/molecular_biology.txt), one term per line.
+DNA polymerase
+RNA polymerase
+helicase
+topoisomerase
+primase
+DNA ligase
+Okazaki fragment
+replication fork
+origin of replication
+telomerase
+telomere
+mismatch repair
+nucleotide excision repair
+base excision repair
+homologous recombination
+non homologous end joining
+transcription factor
+promoter
+enhancer
+silencer
+operon
+lac operon
+splicing
+spliceosome
+alternative splicing
+polyadenylation
+five prime cap
+messenger RNA
+transfer RNA
+ribosomal RNA
+microRNA
+small interfering RNA
+long noncoding RNA
+reverse transcriptase
+open reading frame
+start codon
+stop codon
+Shine-Dalgarno sequence
+Kozak sequence
+ribosome
+translation initiation
+elongation factor
+post translational modification
+phosphorylation
+ubiquitination
+proteasome
+chaperone
+epigenetics
+DNA methylation
+histone acetylation
+chromatin remodeling
+CRISPR Cas9
+polymerase chain reaction
+Southern blot
+Northern blot
+Western blot
+restriction enzyme
+plasmid
+oncogene
+tumor suppressor gene
+p53
+retinoblastoma protein
+apoptosis
+caspase
+cytochrome c
+central dogma
+DNA replication
+semiconservative replication
+leading strand
+lagging strand
+proofreading
+double-strand break repair
+transcription
+TATA box
+enhancer element
+silencer element
+trp operon
+attenuation
+terminator sequence
+5-prime cap
+poly-A tail
+RNA splicing
+exon
+intron
+snRNP
+translation
+initiation complex
+release factor
+codon
+anticodon
+nucleosome
+euchromatin
+heterochromatin
+imprinting
+X-inactivation
+dosage compensation
+Mendelian inheritance
+autosomal dominant
+autosomal recessive
+X-linked recessive
+codominance
+incomplete dominance
+penetrance
+expressivity
+pleiotropy
+mutation
+missense mutation
+nonsense mutation
+frameshift mutation
+silent mutation
+deletion
+duplication
+inversion
+translocation
+aneuploidy
+trisomy
+monosomy
+karyotype
+allele
+genotype
+phenotype
+homozygous
+heterozygous
+linkage disequilibrium
+genome-wide association study
+reverse transcription PCR
+quantitative PCR
+Sanger sequencing
+next-generation sequencing
+whole exome sequencing
+gel electrophoresis
+guide RNA
+plasmid vector
+cloning
+recombinant DNA
+transfection
+transduction

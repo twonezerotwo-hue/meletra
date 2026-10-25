@@ -1,0 +1,37 @@
+# medical-lecture-transcriber - macOS build environment (Python 3.11, Apple Silicon first, Intel secondary).
+#
+# NOT verified on a Mac yet: this repository is developed on Windows, so these are the Windows-verified pins where the same package exists
+# for macOS, and compatible ranges for the macOS-only packages. `build_macos.sh` installs this file, runs the test suite and the
+# packaging; fix any resolution problem it reports and commit the result as requirements-macos-lock.txt.
+#
+# Differences from requirements.txt (Windows):
+#   * no torch / CUDA wheels (the optional Turkish medical model needs PyTorch and is Windows/Linux only),
+#   * mlx-whisper: the optimized Apple Silicon engine (arm64 only; installed only there),
+#   * keyring: macOS Keychain access for API keys.
+
+faster-whisper==1.2.1       # CTranslate2 backend: Intel Macs, and the fallback on Apple Silicon (CPU, int8)
+ctranslate2==4.8.2          # macOS arm64 + x86_64 CPU wheels
+onnxruntime==1.31.0         # Silero VAD (inside faster-whisper)
+sentencepiece==0.2.2        # tokenizer of the offline translation model (Output Language)
+av==18.1.0                  # PyAV: decodes audio/video without a separate ffmpeg
+numpy==2.4.6
+soundfile==0.14.0
+pyyaml==6.0.3
+RapidFuzz==3.14.6       # the Medical Expert and the self-test need it (the first Mac requirements file left it out)
+pypdf==6.21.2        # (6.20.0 has known vulnerabilities)
+PySide6-Essentials==6.12.0
+
+mlx-whisper>=0.4.2 ; sys_platform == "darwin" and platform_machine == "arm64"
+keyring>=25.0 ; sys_platform == "darwin"
+
+# v3 text recognition on the Mac (UNVERIFIED: needs a Mac to test). rapidocr-onnxruntime itself is installed by build_macos.sh with
+# --no-deps (it asks for the full OpenCV; the headless one is enough).
+Pillow==13.0.0        # (12.3.0 has known vulnerabilities)
+opencv-python-headless==4.13.0.92
+pyclipper==1.4.0
+shapely==2.2.0
+six==1.17.0
+
+# Build + tests
+pyinstaller==6.22.3
+pytest==9.1.1

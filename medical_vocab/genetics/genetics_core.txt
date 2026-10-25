@@ -1,0 +1,84 @@
+# Genetics and genomics. canonical | aliases | cues | confusables | kind
+gene | genes | DNA; allele; locus; expression; protein
+allele | alleles | gene variant; dominant; recessive; homozygous; heterozygous
+genotype | genotypes | alleles; genetic makeup
+phenotype | phenotypes | observable traits; expression
+homozygous | homozygote | identical alleles
+heterozygous | heterozygote | different alleles; carrier
+dominant | dominant allele | expressed in heterozygote
+recessive | recessive allele | expressed in homozygote only; carrier
+autosomal dominant | AD inheritance | vertical transmission; affected parent; 50 percent
+autosomal recessive | AR inheritance | carriers; consanguinity; horizontal
+X-linked recessive | X linked recessive | males affected; carrier mothers; hemophilia; Duchenne
+X-linked dominant | X linked dominant | females affected; no male-to-male
+mitochondrial inheritance | maternal inheritance | mitochondrial DNA; all children of affected mother
+penetrance | incomplete penetrance | probability of phenotype; genotype
+expressivity | variable expressivity | degree of phenotype
+pleiotropy | pleiotropic | one gene multiple effects
+genetic heterogeneity | locus heterogeneity; allelic heterogeneity | same phenotype; different genes
+anticipation | | trinucleotide repeat; earlier onset; Huntington; fragile X
+trinucleotide repeat | trinucleotide repeats; trinucleotide repeat expansion; CAG repeat | Huntington; fragile X; myotonic dystrophy; anticipation
+mosaicism | mosaic | two cell lines; postzygotic
+imprinting disorder | imprinting disorders | Prader-Willi; Angelman
+Hardy-Weinberg equilibrium | Hardy-Weinberg; Hardy Weinberg | allele frequencies; p squared; 2pq; q squared
+linkage | genetic linkage | recombination frequency; LOD score
+karyotype | karyotypes | chromosomes; G-banding; cytogenetics
+trisomy 21 | Down syndrome | nondisjunction; chromosome 21; intellectual disability; extra chromosome
+trisomy 18 | Edwards syndrome | chromosome 18; clenched hands; rocker-bottom feet
+trisomy 13 | Patau syndrome | chromosome 13; holoprosencephaly; cleft lip
+Turner syndrome | 45,X; monosomy X | short stature; streak ovaries; webbed neck; coarctation
+Klinefelter syndrome | 47,XXY | tall; hypogonadism; gynecomastia; Barr body
+fragile X syndrome | fragile X | FMR1; CGG repeat; intellectual disability; macroorchidism
+Prader-Willi syndrome | Prader Willi | chromosome 15; paternal deletion; hyperphagia; hypotonia
+Angelman syndrome | | chromosome 15; maternal deletion; UBE3A; happy puppet
+DiGeorge syndrome | 22q11.2 deletion; DiGeorge | thymic aplasia; hypocalcemia; cardiac defects; third and fourth pharyngeal pouches
+cri-du-chat syndrome | cri du chat | 5p deletion; cat-like cry
+Williams syndrome | | 7q11.23 deletion; elfin facies; supravalvular aortic stenosis
+translocation | translocations | chromosome rearrangement; Philadelphia chromosome; Robertsonian
+Philadelphia chromosome | t(9;22) | BCR-ABL; chronic myeloid leukemia; translocation
+deletion | deletions | chromosome loss; gene loss
+duplication | duplications | extra copy; gene dosage
+inversion | inversions | chromosome segment reversed
+point mutation | point mutations | single nucleotide change; missense; nonsense; silent
+missense mutation | missense | amino acid change; point mutation
+nonsense mutation | nonsense | premature stop codon; truncated protein
+silent mutation | | no amino acid change; synonymous
+frameshift mutation | frameshift; frameshift mutations | insertion; deletion; reading frame
+splice site mutation | splice-site mutation | intron; exon; splicing defect
+loss of function | loss-of-function | recessive; null allele
+gain of function | gain-of-function | dominant; oncogene
+dominant negative | | mutant protein interferes
+haploinsufficiency | | one functional copy not enough
+cystic fibrosis | CF | CFTR; chloride channel; autosomal recessive; delta F508; thick mucus
+sickle cell disease | sickle cell anemia; sickle-cell disease; sickle cell | hemoglobin S; glutamate to valine; crises; autosomal recessive
+thalassemia | thalassaemia; alpha thalassemia; beta thalassemia | globin chain; microcytic anemia
+hemophilia | haemophilia; hemophilia A; hemophilia B | factor VIII; factor IX; X-linked recessive; bleeding
+Duchenne muscular dystrophy | Duchenne; DMD | dystrophin; X-linked; muscle weakness; Gowers sign
+Huntington disease | Huntington's disease; Huntington chorea | CAG repeat; huntingtin; caudate; chorea
+familial hypercholesterolemia | | LDL receptor; autosomal dominant; xanthomas
+Marfan syndrome | Marfan | fibrillin-1; FBN1; aortic dissection; tall; ectopia lentis
+Ehlers-Danlos syndrome | Ehlers Danlos | collagen; hypermobility; skin elasticity
+neurofibromatosis | neurofibromatosis type 1; neurofibromatosis type 2; NF1; NF2 | neurofibromas; café-au-lait spots; Lisch nodules
+tuberous sclerosis | | hamartomas; TSC1; TSC2; seizures; shagreen patch
+von Hippel-Lindau disease | VHL; von Hippel Lindau | hemangioblastoma; renal cell carcinoma; VHL gene
+polycystic kidney disease | PKD; ADPKD | PKD1; cysts; autosomal dominant
+Tay-Sachs disease | Tay Sachs | hexosaminidase A; GM2 ganglioside; cherry-red spot
+Lynch syndrome | hereditary nonpolyposis colorectal cancer; HNPCC | mismatch repair; MSH2; MLH1; colorectal cancer
+familial adenomatous polyposis | FAP | APC gene; polyps; colorectal cancer; chromosome 5
+Li-Fraumeni syndrome | Li Fraumeni | p53 mutation; multiple cancers
+BRCA mutation | BRCA1 mutation; BRCA2 mutation; BRCA mutations | breast cancer; ovarian cancer; DNA repair
+pedigree | pedigrees | family tree; inheritance pattern; proband
+proband | probands | index case; affected individual
+genome | genomes; genomic | complete DNA; sequencing; human genome project
+exome | exomes; whole exome sequencing | coding regions; sequencing
+genome-wide association study | GWAS | SNPs; complex disease; association
+single nucleotide polymorphism | SNP; SNPs | variant; genome; GWAS
+copy number variation | CNV; CNVs | duplications; deletions; genome
+haplotype | haplotypes | linked alleles; inherited together
+genetic counseling | genetic counselling | risk; inheritance; family history
+prenatal diagnosis | prenatal testing | amniocentesis; chorionic villus sampling; cell-free DNA
+amniocentesis | | amniotic fluid; karyotype; prenatal
+chorionic villus sampling | CVS | placenta; first trimester; karyotype
+newborn screening | | PKU; heel prick; metabolic disorders
+gene therapy | | vector; correcting gene; AAV
+pharmacogenomics | pharmacogenetics | drug response; CYP2D6; polymorphism

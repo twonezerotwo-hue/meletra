@@ -1,0 +1,133 @@
+# English <TAB> Turkish medical term pairs (language-aware vocabulary).
+# Used to RECOGNISE both forms in a lecture; transcripts are never translated or rewritten.
+# Lines starting with # are comments. Add more pairs freely (UTF-8).
+corticospinal tract	kortikospinal trakt
+spinothalamic tract	spinotalamik trakt
+medial lemniscus	medial lemniskus
+substantia nigra	substantia nigra
+periaqueductal gray	periakuaduktal gri madde
+vestibulocochlear nerve	vestibülokoklear sinir
+cerebrospinal fluid	beyin omurilik sıvısı
+blood-brain barrier	kan-beyin bariyeri
+basal ganglia	bazal gangliyonlar
+internal capsule	internal kapsül
+thalamus	talamus
+hypothalamus	hipotalamus
+hippocampus	hipokampüs
+amygdala	amigdala
+cerebellum	serebellum
+brainstem	beyin sapı
+spinal cord	omurilik
+action potential	aksiyon potansiyeli
+synapse	sinaps
+neurotransmitter	nörotransmitter
+dopamine	dopamin
+serotonin	serotonin
+acetylcholine	asetilkolin
+acetylcholinesterase	asetilkolinesteraz
+glutamate	glutamat
+oligodendrocyte	oligodendrosit
+astrocyte	astrosit
+microglia	mikroglia
+myelin	miyelin
+axon	akson
+dendrite	dendrit
+Broca area	Broca alanı
+Wernicke area	Wernicke alanı
+dorsal root ganglion	dorsal kök gangliyonu
+reticular formation	retiküler formasyon
+cranial nerve	kraniyal sinir
+vagus nerve	vagus siniri
+facial nerve	fasiyal sinir
+trigeminal nerve	trigeminal sinir
+optic nerve	optik sinir
+brachial plexus	brakiyal pleksus
+femoral artery	femoral arter
+carotid artery	karotis arter
+aorta	aort
+vena cava	vena kava
+clavicle	klavikula
+scapula	skapula
+diaphragm	diyafram
+esophagus	özofagus
+stomach	mide
+liver	karaciğer
+pancreas	pankreas
+kidney	böbrek
+glomerulus	glomerül
+nephron	nefron
+homeostasis	homeostaz
+epithelium	epitel
+connective tissue	bağ dokusu
+basement membrane	bazal membran
+mitochondria	mitokondri
+ribosome	ribozom
+endoplasmic reticulum	endoplazmik retikulum
+Golgi apparatus	Golgi aygıtı
+cardiac output	kalp debisi
+stroke volume	atım hacmi
+blood pressure	kan basıncı
+heart rate	kalp hızı
+tidal volume	tidal hacim
+glomerular filtration rate	glomerüler filtrasyon hızı
+erythrocyte	eritrosit
+leukocyte	lökosit
+platelet	trombosit
+hemoglobin	hemoglobin
+lymphocyte	lenfosit
+neutrophil	nötrofil
+glycolysis	glikoliz
+gluconeogenesis	glukoneogenez
+citric acid cycle	sitrik asit döngüsü
+Krebs cycle	Krebs döngüsü
+oxidative phosphorylation	oksidatif fosforilasyon
+electron transport chain	elektron taşıma zinciri
+beta oxidation	beta oksidasyon
+urea cycle	üre döngüsü
+enzyme	enzim
+hexokinase	heksokinaz
+phosphofructokinase	fosfofruktokinaz
+pyruvate dehydrogenase	piruvat dehidrogenaz
+lactate dehydrogenase	laktat dehidrogenaz
+glycogen	glikojen
+cholesterol	kolesterol
+amino acid	amino asit
+fatty acid	yağ asidi
+DNA polymerase	DNA polimeraz
+RNA polymerase	RNA polimeraz
+transcription	transkripsiyon
+translation	translasyon
+replication	replikasyon
+mutation	mutasyon
+gene expression	gen ifadesi
+polymerase chain reaction	polimeraz zincir reaksiyonu
+ATP synthase	ATP sentaz
+insulin	insülin
+glucagon	glukagon
+cortisol	kortizol
+aldosterone	aldosteron
+thyroxine	tiroksin
+inflammation	enflamasyon
+necrosis	nekroz
+apoptosis	apoptoz
+ischemia	iskemi
+myocardial infarction	miyokard enfarktüsü
+atrial fibrillation	atriyal fibrilasyon
+hypertension	hipertansiyon
+pneumonia	pnömoni
+diabetes mellitus	diabetes mellitus
+tuberculosis	tüberküloz
+thrombosis	tromboz
+atherosclerosis	ateroskleroz
+cirrhosis	siroz
+hepatitis	hepatit
+anemia	anemi
+carcinoma	karsinom
+metastasis	metastaz
+edema	ödem
+antibiotic	antibiyotik
+pharmacokinetics	farmakokinetik
+pharmacodynamics	farmakodinami
+beta blocker	beta bloker
+diuretic	diüretik
+anticoagulant	antikoagülan

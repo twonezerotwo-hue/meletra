@@ -1,0 +1,4 @@
+{
+  "endpoint": "",
+  "note": "The address of the developer's transcript inbox (HTTPS). Empty = this build has none: sharing is off by default (the student switches it on) and even then nothing is sent. The mail address that is notified is configured on the SERVER (OWNER_NOTIFICATION_EMAIL); this file never contains a mail address, password or key."
+}

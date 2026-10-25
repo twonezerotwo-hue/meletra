@@ -1,0 +1,10 @@
+{
+ "title": "Hematology",
+ "version": "1.0.0",
+ "related": [
+  "histology",
+  "pathology",
+  "immunology",
+  "internal_medicine"
+ ]
+}

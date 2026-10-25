@@ -1,0 +1,274 @@
+{
+  "schema": 1,
+  "models": [
+    {
+      "key": "whisper-large-v3",
+      "title": "Whisper Large-v3",
+      "repo": "Systran/faster-whisper-large-v3",
+      "engine": "faster_whisper",
+      "models_yaml_key": "default",
+      "folder": "whisper-large-v3",
+      "recommended": true,
+      "runtime": "CTranslate2 (included in the app)",
+      "description": "Recommended. OpenAI Whisper large-v3 converted for CTranslate2: best accuracy for English medical lectures.",
+      "required": [
+        "config.json",
+        "model.bin",
+        "tokenizer.json"
+      ],
+      "license": "MIT",
+      "revision": "edaa852ec7e145841d8ffdb056a99866b5f0a478",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 2394,
+          "sha256": "a9306624f5ec14270a014b647e5c316b6e03a662c369758d1b90697a7b0655b9"
+        },
+        {
+          "path": "model.bin",
+          "size": 3087284237,
+          "sha256": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 340,
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 2480617,
+          "sha256": "6d8cbd7cd0d8d5815e478dac67b85a26bbe77c1f5e0c6d76d1ce2abc0e5f21ca"
+        },
+        {
+          "path": "vocabulary.json",
+          "size": 1068114,
+          "sha256": "c69260f2ab26d659b7c398f9a2b2b48ed0df16c3b47d7326782fd9cba71690c1"
+        }
+      ],
+      "approx_bytes": 3090835702,
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "recommended_on": [
+        "windows",
+        "linux",
+        "macos-x86_64"
+      ]
+    },
+    {
+      "key": "whisper-large-v3-mlx",
+      "title": "Whisper Large-v3 (Apple Silicon)",
+      "repo": "mlx-community/whisper-large-v3-mlx",
+      "engine": "mlx_whisper",
+      "models_yaml_key": "mlx_large_v3",
+      "folder": "whisper-large-v3-mlx",
+      "recommended": false,
+      "platforms": [
+        "macos-arm64"
+      ],
+      "recommended_on": [
+        "macos-arm64"
+      ],
+      "runtime": "MLX (Apple Silicon, included in the macOS app)",
+      "description": "Recommended on a Mac with Apple Silicon. OpenAI Whisper large-v3 for Apple's MLX engine: the same model as on Windows, running on the Mac's GPU.",
+      "required": [
+        "config.json",
+        "weights.npz"
+      ],
+      "license": "MIT",
+      "revision": "49e6aa286ad60c14352c404340ded53710378a11",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 269,
+          "sha256": "34982ce6ae286095000f82ae9583b3431639e8b092bf60c961f203745e6500e3"
+        },
+        {
+          "path": "weights.npz",
+          "size": 3083520416,
+          "sha256": "05ff791ce3630fae47e7c51004e9666204d786246ec07cac6110af768099b40d"
+        }
+      ],
+      "approx_bytes": 3083520685
+    },
+    {
+      "key": "turkish-medical-large-v3",
+      "title": "Turkish Medical Large-v3",
+      "repo": "turkmedstt/whisper-large-v3-turkish-medical",
+      "engine": "transformers",
+      "models_yaml_key": "turkish_medical",
+      "folder": "turkish-medical-large-v3",
+      "recommended": false,
+      "runtime": "PyTorch + Transformers (optional runtime pack, not part of the standard build)",
+      "description": "Advanced. Whisper large-v3 fine-tuned on Turkish medical speech. Needs the optional Transformers runtime.",
+      "required": [
+        "config.json",
+        "model.safetensors",
+        "vocab.json"
+      ],
+      "license": "see model card",
+      "revision": "0e74ec8ad2e4bd62a1e8d28eda9b7455063a2cbc",
+      "files": [
+        {
+          "path": "added_tokens.json",
+          "size": 34648,
+          "sha256": "3c51f66c4c21f9e126970078f11ae77a78c74aee8df606ee9daba86e467108e0"
+        },
+        {
+          "path": "config.json",
+          "size": 1248,
+          "sha256": "bf436e80bbc02c820a2176e7f722f482009c50995774364818a1d72006aa5800"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 3898,
+          "sha256": "d3b30a459f7d93eaba9006c16c962cc18d41435ad7ea19e0b13c8d8e7acba107"
+        },
+        {
+          "path": "merges.txt",
+          "size": 493869,
+          "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 3087130976,
+          "sha256": "fac41060e2a8ffc3c0bc3bd9e42eeec0d948f4bda57670ae2e673206dd51b07c"
+        },
+        {
+          "path": "normalizer.json",
+          "size": 52666,
+          "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd"
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 340,
+          "sha256": "7ccc62c6f2765af1f3b46c00c9b5894426835a05021c8b9c01eecb6dfb542711"
+        },
+        {
+          "path": "special_tokens_map.json",
+          "size": 2186,
+          "sha256": "baea4ea09372eb4fca86b4e4346139fd73cb807d5087e9de0948e971739c3e74"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 282843,
+          "sha256": "844b642c73a91359722f47b35705f7174686df33d252695d8572cf9ac03a6389"
+        },
+        {
+          "path": "vocab.json",
+          "size": 1036558,
+          "sha256": "e2aa043ef015641d363d8288e7c241c85e36a5c761fb303598e0710233344387"
+        }
+      ],
+      "approx_bytes": 3089039232,
+      "platforms": [
+        "windows",
+        "linux"
+      ]
+    },
+    {
+      "key": "whisper-tiny-test",
+      "title": "Whisper Tiny (self-test)",
+      "repo": "Systran/faster-whisper-tiny",
+      "engine": "faster_whisper",
+      "models_yaml_key": "tiny_test",
+      "folder": "whisper-tiny-test",
+      "recommended": false,
+      "hidden": true,
+      "runtime": "CTranslate2 (included in the app)",
+      "description": "75 MB model used by the self-test and the automated download tests.",
+      "required": [
+        "config.json",
+        "model.bin",
+        "tokenizer.json"
+      ],
+      "license": "MIT",
+      "revision": "d90ca5fe260221311c53c58e660288d3deb8d356",
+      "files": [
+        {
+          "path": "config.json",
+          "size": 2249,
+          "sha256": "a73a28cdfe1c43ccc7202fa333d1f89c202477271407ae9a7f19afa52039cac8"
+        },
+        {
+          "path": "model.bin",
+          "size": 75538270,
+          "sha256": "dcb76c6586fc06cbdac6dd21f14cfd129cc4cdd9dce19bf4ffa62e59cbe6e6d1"
+        },
+        {
+          "path": "tokenizer.json",
+          "size": 2203239,
+          "sha256": "fb7b63191e9bb045082c79fd742a3106a12c99513ab30df4a0d47fa6cb6fd0ab"
+        },
+        {
+          "path": "vocabulary.txt",
+          "size": 459861,
+          "sha256": "34ce3fe1c5041027b3f8d42912270993f986dbc4bb34cf27f951e34a1e453913"
+        }
+      ],
+      "approx_bytes": 78203619
+    },
+    {
+      "key": "translation-m2m100",
+      "title": "Offline translation pack (M2M100)",
+      "kind": "translation",
+      "repo": "twonezerotwo-hue/whispermedical-downloads",
+      "revision": "translation-m2m100-v1",
+      "engine": "m2m100",
+      "models_yaml_key": "default",
+      "folder": "translation-m2m100",
+      "recommended": false,
+      "hidden": false,
+      "source_url": "https://github.com/twonezerotwo-hue/whispermedical-downloads/releases/download/{revision}/{path}",
+      "runtime": "CTranslate2 (included in the app)",
+      "description": "Optional. Translates a saved transcript into any of the ten Output Languages without internet, directly between any two of them. Neural machine translation (Meta M2M100, 418M parameters, int8): usually understandable, sometimes wrong on rare medical terms - the original transcript is always kept.",
+      "required": [
+        "model.bin",
+        "config.json",
+        "sentencepiece.bpe.model",
+        "shared_vocabulary.json"
+      ],
+      "license": "MIT",
+      "files": [
+        {
+          "path": "LICENSE-M2M100.txt",
+          "size": 958,
+          "sha256": "8aa7f8e620234e9e88d84a6328c7bb4db7190df74b2dee10e3abb5942c3ba8f2"
+        },
+        {
+          "path": "config.json",
+          "size": 223,
+          "sha256": "8f6496adfc930cbfecbe8281112197705c488fab47d34b4829b06d7f478909af"
+        },
+        {
+          "path": "model.bin",
+          "size": 490667752,
+          "sha256": "a1826980fc5c037e69c7ac94fcb56c03001a66f380eb71863cc0a3879e71421b"
+        },
+        {
+          "path": "pack.json",
+          "size": 641,
+          "sha256": "a1e5d9e5314c26d30f5f64240a2f6694564200d24064fcce3c059443e7abb4d0"
+        },
+        {
+          "path": "sentencepiece.bpe.model",
+          "size": 2423393,
+          "sha256": "d8f7c76ed2a5e0822be39f0a4f95a55eb19c78f4593ce609e2edbc2aea4d380a"
+        },
+        {
+          "path": "shared_vocabulary.json",
+          "size": 2796509,
+          "sha256": "7eb5d0ff184c6095c7c10f9911c0aea492250abd12854f9c3d787c64b1c6397e"
+        }
+      ],
+      "approx_bytes": 495889476,
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+# Radiology. canonical | aliases | cues | confusables | kind
+radiograph | X-ray; X ray; plain film; radiography | chest X-ray; bones; ionizing radiation
+computed tomography | CT scan; CAT scan | cross-sectional; Hounsfield units; contrast
+ultrasound | ultrasonography; sonography; sonogram | echo; Doppler; fetal
+Doppler ultrasound | Doppler | blood flow; velocity
+positron emission tomography | PET scan; PET | FDG; tracer; metabolism
+single-photon emission computed tomography | SPECT | gamma camera; perfusion
+angiography | angiogram | contrast; vessels; catheter
+fluoroscopy | | real-time X-ray; barium
+barium swallow | barium meal; barium enema | contrast; GI tract
+mammography | mammogram | breast imaging; screening
+bone scan | scintigraphy | technetium; metastases
+DEXA scan | DXA; bone densitometry | osteoporosis; T-score
+contrast medium | contrast agent; contrast agents; contrast | iodine; gadolinium; barium
+gadolinium | | MRI contrast; nephrogenic systemic fibrosis
+T1-weighted | T1 weighted; T1 | MRI; anatomy; fat bright
+T2-weighted | T2 weighted; T2 | MRI; pathology; fluid bright
+FLAIR | fluid-attenuated inversion recovery | MRI; periventricular lesions; MS
+Hounsfield unit | Hounsfield units; HU | CT density; water zero
+ground-glass opacity | ground glass opacity; ground-glass opacities | CT; chest; interstitial
+pneumoperitoneum | free air | perforation; X-ray
+air bronchogram | air bronchograms | consolidation; pneumonia
+Kerley lines | Kerley B lines | pulmonary edema; interstitial
+cardiothoracic ratio | | chest X-ray; cardiomegaly
+cardiomegaly | | enlarged heart; chest X-ray
+midline shift | | mass effect; CT head
+mass effect | | displacement; tumor; hemorrhage
+radiation dose | ionizing radiation | sievert; ALARA

@@ -1,0 +1,13 @@
+{
+  "format": 1,
+  "note": "A source may only be in the PUBLIC knowledge base if it is listed here AND its registry status is ALLOW. Add a source only after reading its license.",
+  "sources": [
+    "MLT_CURATED",
+    "MLT_FIXTURE",
+    "MESH",
+    "GO",
+    "CHEBI",
+    "HGNC",
+    "SCOWL"
+  ]
+}

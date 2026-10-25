@@ -1,0 +1,140 @@
+# Baseline: the starter vocabulary shipped since 0.1 (medical_terms/physiology.txt), one term per line.
+action potential
+resting membrane potential
+Nernst equation
+Goldman equation
+sodium potassium ATPase
+excitation contraction coupling
+sarcoplasmic reticulum
+troponin
+tropomyosin
+cross bridge cycling
+Frank-Starling mechanism
+stroke volume
+cardiac output
+ejection fraction
+preload
+afterload
+mean arterial pressure
+total peripheral resistance
+baroreceptor reflex
+sinoatrial node
+atrioventricular node
+Purkinje fibers
+cardiac cycle
+isovolumetric contraction
+Wiggers diagram
+tidal volume
+functional residual capacity
+residual volume
+vital capacity
+forced expiratory volume
+alveolar ventilation
+dead space
+ventilation perfusion ratio
+oxygen hemoglobin dissociation curve
+Bohr effect
+Haldane effect
+glomerular filtration rate
+renal plasma flow
+filtration fraction
+tubuloglomerular feedback
+countercurrent multiplier
+antidiuretic hormone
+renin angiotensin aldosterone system
+atrial natriuretic peptide
+acid base balance
+Henderson-Hasselbalch equation
+anion gap
+parathyroid hormone
+thyroid stimulating hormone
+adrenocorticotropic hormone
+growth hormone
+insulin
+glucagon
+cortisol
+aldosterone
+migrating motor complex
+enterohepatic circulation
+gastric emptying
+depolarization
+repolarization
+hyperpolarization
+threshold potential
+refractory period
+saltatory conduction
+nerve conduction velocity
+excitatory postsynaptic potential
+inhibitory postsynaptic potential
+spatial summation
+temporal summation
+synaptic cleft
+neurotransmitter release
+calcium influx
+voltage-gated sodium channel
+potassium leak channel
+ligand-gated ion channel
+g protein coupled receptor
+second messenger
+cyclic AMP
+inositol triphosphate
+protein kinase A
+receptor tyrosine kinase
+heart rate
+contractility
+Frank-Starling law
+end-diastolic volume
+end-systolic volume
+chemoreceptor
+vasomotor center
+sympathetic tone
+parasympathetic tone
+total lung capacity
+minute ventilation
+anatomic dead space
+partial pressure of oxygen
+partial pressure of carbon dioxide
+carbon dioxide transport
+hypoxic pulmonary vasoconstriction
+compliance
+elastic recoil
+surface tension
+Laplace law
+renal clearance
+tubular reabsorption
+tubular secretion
+countercurrent exchanger
+vasa recta
+osmotic diuresis
+free water clearance
+micturition reflex
+detrusor muscle
+internal urethral sphincter
+gastric acid secretion
+intrinsic factor
+gastrin
+secretin
+cholecystokinin
+pepsinogen
+bile salts
+peristalsis
+segmentation contraction
+basal metabolic rate
+glycolysis
+gluconeogenesis
+glycogenolysis
+lipolysis
+ketogenesis
+thermoregulation
+circadian rhythm
+negative feedback loop
+positive feedback loop
+homeostasis
+set point
+sensor and effector
+carboxypeptidase
+procarboxypeptidase
+enteropeptidase
+chymotrypsinogen
+trypsinogen
+proelastase

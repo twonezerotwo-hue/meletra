@@ -1,0 +1,11 @@
+{
+ "title": "Biochemistry and metabolism",
+ "version": "1.0.0",
+ "related": [
+  "molecular_biology",
+  "physiology",
+  "genetics",
+  "pharmacology",
+  "laboratory_medicine"
+ ]
+}

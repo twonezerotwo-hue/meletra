@@ -1,0 +1,167 @@
+# Molecular and cell biology, signalling, techniques. canonical | aliases | cues | confusables | kind
+DNA replication | replication | DNA polymerase; helicase; primase; Okazaki fragments; leading strand; lagging strand; origin of replication
+DNA polymerase | DNA polymerases; polymerase | replication; proofreading; 5 prime to 3 prime; nucleotides
+helicase | helicases | unwinds DNA; replication fork; ATP
+primase | | RNA primer; replication; DNA polymerase
+topoisomerase | topoisomerases; DNA gyrase; gyrase | supercoiling; replication; quinolones
+DNA ligase | ligase | joins fragments; Okazaki fragments; nick sealing
+single-strand binding protein | SSB; single strand binding protein | replication fork; stabilises single strands
+telomere | telomeres | chromosome ends; telomerase; aging; repeats
+telomerase | | telomere; reverse transcriptase; cancer
+Okazaki fragment | Okazaki fragments | lagging strand; replication; DNA ligase
+leading strand | | continuous synthesis; replication
+lagging strand | | discontinuous synthesis; Okazaki fragments
+replication fork | | replication; helicase; polymerase
+origin of replication | ori; replication origin | replication; initiation
+DNA repair | | mismatch repair; nucleotide excision repair; base excision repair; double-strand break
+mismatch repair | MMR | MSH2; MLH1; Lynch syndrome; DNA repair
+nucleotide excision repair | NER | thymine dimers; xeroderma pigmentosum; UV
+base excision repair | BER | glycosylase; AP endonuclease; DNA repair
+homologous recombination | HR | double-strand break repair; BRCA1; BRCA2
+non-homologous end joining | NHEJ; nonhomologous end joining | double-strand break repair; Ku
+xeroderma pigmentosum | XP | nucleotide excision repair; UV sensitivity; skin cancer
+transcription | transcribed | RNA polymerase; mRNA; promoter; DNA template
+RNA polymerase | RNA polymerase II; RNA pol II; Pol II | transcription; promoter; TATA box; transcription factors
+promoter | promoters | transcription start; TATA box; RNA polymerase
+enhancer | enhancers | transcription factor binding; gene regulation; distal
+transcription factor | transcription factors | DNA binding; gene regulation; promoter; enhancer
+operon | lac operon; trp operon | prokaryotes; repressor; inducer; lactose
+repressor | repressors | operon; transcription; operator
+sigma factor | | prokaryote; RNA polymerase; promoter recognition
+splicing | RNA splicing; alternative splicing | spliceosome; introns; exons; snRNPs
+spliceosome | | splicing; snRNPs; introns
+intron | introns | non-coding; spliced out; pre-mRNA
+exon | exons | coding; spliced together; pre-mRNA
+pre-mRNA | primary transcript; hnRNA | splicing; 5 prime cap; poly-A tail
+5' cap | 5 prime cap; 5-prime cap; m7G cap; 7-methylguanosine cap | mRNA processing; stability; translation initiation
+poly-A tail | polyA tail; polyadenylation; poly A tail | mRNA processing; 3 prime end; stability
+messenger RNA | mRNA | transcription; translation; codons; ribosomes
+transfer RNA | tRNA | translation; anticodon; amino acid; aminoacyl-tRNA synthetase
+ribosomal RNA | rRNA | ribosome; translation; nucleolus
+microRNA | miRNA | gene silencing; post-transcriptional; RISC
+long non-coding RNA | lncRNA | gene regulation; X inactivation; XIST
+RNA interference | RNAi | siRNA; silencing; Dicer; RISC
+reverse transcriptase | reverse transcription | HIV; retrovirus; RNA to DNA; cDNA
+translation | translated | ribosome; mRNA; tRNA; protein synthesis; codons; initiation; elongation; termination
+codon | codons | triplet; genetic code; mRNA; start codon; stop codon
+anticodon | anticodons | tRNA; codon pairing
+start codon | AUG | methionine; initiation
+stop codon | stop codons; termination codon; UAA; UAG; UGA | termination; release factor
+genetic code | | codon; degenerate; universal; amino acids
+ribosome | ribosomes | translation; 80S; 70S; 60S; 40S; rRNA; protein synthesis
+polysome | polysomes; polyribosome | multiple ribosomes; mRNA; translation
+initiation factor | initiation factors; eIF; IF | translation; start
+elongation factor | elongation factors; EF-Tu; EF-G | translation; GTP
+release factor | release factors | translation termination; stop codon
+signal peptide | signal sequence; signal recognition particle; SRP | rough endoplasmic reticulum; secretory proteins; translocon
+post-translational modification | post translational modification; PTM; posttranslational modification | phosphorylation; glycosylation; ubiquitination; acetylation
+phosphorylation | phosphorylated; phosphorylate | kinase; ATP; serine; threonine; tyrosine; regulation
+glycosylation | glycosylated; N-linked glycosylation; O-linked glycosylation | Golgi; endoplasmic reticulum; glycoproteins
+ubiquitination | ubiquitin; ubiquitylation; ubiquitinated | proteasome; degradation; E3 ligase
+proteasome | proteasomes; 26S proteasome | protein degradation; ubiquitin
+autophagy | autophagosome; autophagosomes; macroautophagy | lysosome; mTOR; self-eating; LC3
+apoptosis | apoptotic; programmed cell death | caspases; cytochrome c; Bcl-2; Bax; DNA fragmentation
+caspase | caspases; caspase-3; caspase-9; caspase-8 | apoptosis; protease; cascade
+necrosis | necrotic | cell death; inflammation; swelling; lysis
+necroptosis | | programmed necrosis; RIPK3
+pyroptosis | | inflammasome; caspase-1; gasdermin
+cell cycle | | G1; S phase; G2; mitosis; checkpoints; cyclins; CDK
+cyclin | cyclins | cell cycle; CDK; regulation
+cyclin-dependent kinase | CDK; CDKs; cyclin dependent kinase | cell cycle; cyclins; checkpoint
+checkpoint | checkpoints; cell cycle checkpoint | G1/S; G2/M; p53; DNA damage
+interphase | | G1; S; G2; cell cycle
+mitosis | mitotic | prophase; metaphase; anaphase; telophase; spindle; chromosomes
+meiosis | meiotic | gametes; crossing over; reduction division; homologous chromosomes
+prophase | | mitosis; chromosome condensation
+metaphase | | mitosis; chromosomes align; spindle
+anaphase | | mitosis; sister chromatids separate
+telophase | | mitosis; nuclear envelope reforms
+cytokinesis | | cell division; contractile ring
+spindle | mitotic spindle; spindle fibers; spindle fibres | microtubules; chromosomes; centrosome
+kinetochore | kinetochores | chromosome; microtubule attachment; centromere
+centromere | centromeres | chromosome; kinetochore; constriction
+chromatid | chromatids; sister chromatids | chromosome; replicated
+chromosome | chromosomes | DNA; histones; karyotype; autosomes; sex chromosomes
+nondisjunction | non-disjunction | aneuploidy; meiosis; trisomy; Down syndrome
+aneuploidy | aneuploid | chromosome number; trisomy; monosomy
+crossing over | | meiosis prophase I; recombination; chiasma
+histone | histones | nucleosome; chromatin; acetylation; methylation
+nucleosome | nucleosomes | histone octamer; chromatin; DNA wrapped
+epigenetics | epigenetic | DNA methylation; histone modification; imprinting; gene expression
+DNA methylation | methylation | CpG islands; gene silencing; epigenetic
+genomic imprinting | imprinting | parent of origin; Prader-Willi; Angelman
+X inactivation | Lyonization; lyonisation | Barr body; XIST; females; dosage compensation
+signal transduction | signaling; signalling; signal transduction pathway | receptor; second messenger; kinase cascade
+receptor | receptors | ligand; binding; signal transduction
+ligand | ligands | receptor binding; agonist
+G protein | G proteins; heterotrimeric G protein; Gs; Gi; Gq | GPCR; GTP; adenylyl cyclase; second messenger
+adenylyl cyclase | adenylate cyclase | cAMP; ATP; G protein
+cyclic AMP | cAMP | second messenger; PKA; adenylyl cyclase; phosphodiesterase
+phosphodiesterase | PDE; phosphodiesterases | cAMP breakdown; cGMP; sildenafil; caffeine; theophylline
+protein kinase A | PKA | cAMP; phosphorylation; CREB
+protein kinase C | PKC | diacylglycerol; calcium; phosphorylation
+phospholipase C | PLC | PIP2; IP3; DAG; Gq
+inositol trisphosphate | IP3; inositol 1,4,5-trisphosphate | calcium release; endoplasmic reticulum
+diacylglycerol | DAG | PKC; PLC; membrane
+calcium signaling | calcium signalling; calcium ions; Ca2+ | second messenger; calmodulin; calcium channels
+calmodulin | | calcium binding; CaMKII; signaling
+CaMKII | calcium/calmodulin-dependent protein kinase II; CaM kinase II | LTP; synapse; memory
+receptor tyrosine kinase | RTK; receptor tyrosine kinases | growth factor; autophosphorylation; Ras; insulin receptor
+Ras | RAS; Ras protein; small GTPase | oncogene; MAPK; GTP; growth signaling
+MAPK pathway | MAP kinase; mitogen-activated protein kinase; ERK pathway | Ras; Raf; MEK; ERK; proliferation
+PI3K/AKT pathway | PI3K-AKT; PI3K AKT pathway; AKT pathway | insulin; survival; mTOR; PIP3
+mTOR | mTORC1; mTORC2; mechanistic target of rapamycin | growth; protein synthesis; autophagy; AKT; rapamycin
+AMPK | AMP-activated protein kinase; AMP kinase | energy sensor; metabolism; metformin
+JAK-STAT pathway | JAK/STAT; JAK STAT | cytokine receptor; transcription
+NF-κB | NF-kB; NFkB; nuclear factor kappa B | inflammation; IκB; transcription factor
+Wnt | Wnt signaling; Wnt pathway; Wnt signalling | beta-catenin; development; colorectal cancer
+Notch | Notch signaling; Notch signalling | cell fate; juxtacrine; development
+Hedgehog | Hedgehog signaling; hedgehog pathway | development; patched; smoothened
+TGF-β | TGF-beta; transforming growth factor beta | SMAD; fibrosis; growth inhibition
+SMAD | SMADs; Smad proteins | TGF-beta signaling; BMP; transcription factors
+nuclear receptor | nuclear receptors; steroid receptor; steroid receptors | steroid hormones; thyroid hormone; transcription
+second messenger | second messengers | cAMP; cGMP; IP3; DAG; calcium
+agonist | agonists | receptor activation; drug
+antagonist | antagonists | receptor blockade; drug
+endocytosis | endocytic; endocytosed | clathrin; vesicles; receptor-mediated; membrane
+exocytosis | exocytotic | vesicle fusion; SNARE; secretion; calcium
+phagocytosis | phagocytose; phagocytic; phagocytosed; phagocytes; phagocyte | macrophages; engulfment; phagosome; lysosome
+pinocytosis | | cell drinking; fluid uptake
+clathrin | clathrin-coated pits; clathrin-coated vesicles | endocytosis; receptor-mediated; adaptins
+caveolae | caveola; caveolin | endocytosis; lipid rafts; membrane invaginations
+receptor-mediated endocytosis | | clathrin; LDL receptor; transferrin
+SNARE complex | SNAREs; SNARE proteins | vesicle fusion; syntaxin; synaptobrevin; SNAP-25
+Rab | Rab GTPases; Rab proteins | vesicle trafficking; membrane identity
+COPI | COPII | vesicle coat; ER to Golgi; retrograde; anterograde
+mitochondrion | mitochondria; mitochondrial | ATP; cristae; matrix; own DNA; maternal inheritance
+mitochondrial DNA | mtDNA | maternal inheritance; heteroplasmy; mitochondria
+endosymbiotic theory | endosymbiosis | mitochondria; bacteria origin
+nuclear pore complex | nuclear pore; nuclear pores | nuclear transport; importin; nuclear envelope
+nuclear localization signal | NLS | importin; nuclear import
+lysosome | lysosomes; lysosomal | acid hydrolases; pH 5; autophagy; digestion; storage diseases
+peroxisome | peroxisomes; peroxisomal | catalase; fatty acid oxidation; Zellweger
+Golgi apparatus | Golgi complex; Golgi body; Golgi | cis; trans; glycosylation; sorting; vesicles
+cytoskeleton | cytoskeletal | actin; microtubules; intermediate filaments
+gel electrophoresis | electrophoresis | DNA; protein; size separation; agarose
+Western blot | western blotting; immunoblot | protein detection; antibody; SDS-PAGE
+Southern blot | Southern blotting | DNA detection; probe
+Northern blot | Northern blotting | RNA detection
+polymerase chain reaction | PCR | amplification; primers; Taq; denaturation; annealing; extension
+real-time PCR | qPCR; quantitative PCR; RT-qPCR | amplification; Ct; fluorescence
+DNA sequencing | Sanger sequencing; next-generation sequencing; NGS | bases; dideoxy; reads
+restriction enzyme | restriction enzymes; restriction endonuclease; restriction endonucleases | cuts DNA; palindromic; EcoRI
+cloning | molecular cloning; gene cloning | plasmid; vector; insert; ligation
+plasmid | plasmids | circular DNA; vector; bacteria; antibiotic resistance
+vector | vectors; viral vector | gene delivery; plasmid; cloning
+CRISPR-Cas9 | CRISPR; Cas9; CRISPR Cas9 | gene editing; guide RNA; double-strand break
+transfection | transfected | introducing DNA into cells
+transgenic | transgenic mouse; transgenic animals | gene insertion; knock-in
+knockout | knockout mouse; gene knockout | gene deletion; null
+knock-in | knock in | gene insertion
+siRNA knockdown | knockdown | RNA interference; reduced expression
+flow cytometry | FACS; fluorescence-activated cell sorting | cell sorting; markers; fluorescence; CD
+immunofluorescence | IF | antibody; fluorescent label; microscopy
+ELISA | enzyme-linked immunosorbent assay | antibody; antigen; detection
+oncogene | oncogenes; proto-oncogene; proto-oncogenes | gain of function; cancer; Ras; Myc
+tumor suppressor | tumor suppressors; tumour suppressor; tumour suppressors | loss of function; p53; Rb; two-hit
+two-hit hypothesis | Knudson hypothesis | tumor suppressor; retinoblastoma

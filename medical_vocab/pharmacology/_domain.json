@@ -1,0 +1,10 @@
+{
+ "title": "Pharmacology (generic drug names, classes, mechanisms)",
+ "version": "1.0.0",
+ "related": [
+  "physiology",
+  "biochemistry",
+  "internal_medicine",
+  "neuroscience"
+ ]
+}

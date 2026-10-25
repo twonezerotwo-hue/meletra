@@ -1,0 +1,10 @@
+{
+ "title": "Microbiology (bacteria, viruses, fungi, parasites)",
+ "version": "1.0.0",
+ "related": [
+  "immunology",
+  "pathology",
+  "pharmacology",
+  "internal_medicine"
+ ]
+}

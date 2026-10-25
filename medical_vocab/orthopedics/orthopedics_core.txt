@@ -1,0 +1,40 @@
+# Orthopedics and musculoskeletal. canonical | aliases | cues | confusables | kind
+fracture | fractures | broken bone; displaced; closed; open
+open fracture | compound fracture | bone through skin; infection
+greenstick fracture | | children; incomplete
+comminuted fracture | | multiple fragments
+stress fracture | | repetitive loading; athletes
+pathological fracture | pathologic fracture | weak bone; tumor; osteoporosis
+femoral neck fracture | hip fracture | elderly; avascular necrosis; osteoporosis
+Colles fracture | Colles' fracture | distal radius; dinner fork; fall on outstretched hand
+scaphoid fracture | | snuffbox tenderness; avascular necrosis
+supracondylar fracture | | humerus; children; brachial artery
+dislocation | dislocations | joint; reduction; shoulder
+subluxation | | partial dislocation
+sprain | sprains | ligament injury; ankle
+strain | strains | muscle injury
+tendinitis | tendonitis | tendon inflammation; overuse
+rotator cuff tear | | shoulder; supraspinatus
+carpal tunnel | | median nerve compression
+compartment syndrome | | pressure; pain on passive stretch; fasciotomy
+osteomyelitis | | bone infection; Staphylococcus aureus
+septic arthritis | | joint infection; emergency
+osteoarthritis | OA | cartilage degeneration; osteophytes; Heberden nodes
+ankylosing spondylitis | | HLA-B27; sacroiliitis; bamboo spine
+scoliosis | | lateral curvature of the spine
+kyphosis | | hunchback; thoracic
+lordosis | | lumbar curvature
+osteosarcoma | | bone tumor; adolescents; Codman triangle
+Ewing sarcoma | | children; onion skin
+slipped capital femoral epiphysis | SCFE | adolescent obese; hip pain
+Legg-Calvé-Perthes disease | Perthes disease | avascular necrosis femoral head; children
+developmental dysplasia of the hip | DDH | Ortolani; Barlow
+clubfoot | talipes equinovarus | congenital foot deformity
+osteogenesis imperfecta | brittle bone disease | type I collagen; blue sclera
+achondroplasia | | FGFR3; dwarfism
+bone healing | fracture healing | hematoma; callus; remodeling
+callus | | bone healing; fracture
+cast | plaster cast | immobilization
+traction | | fracture reduction; alignment
+arthroplasty | joint replacement; total hip replacement; total knee replacement | prosthesis
+arthroscopy | | joint camera

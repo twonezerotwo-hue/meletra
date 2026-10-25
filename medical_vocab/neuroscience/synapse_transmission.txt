@@ -1,0 +1,83 @@
+# Synapses, transmitters, excitability. canonical | aliases | cues | confusables | kind
+synapse | synapses; synaptic | presynaptic; postsynaptic; neurotransmitter; vesicle; cleft; axon terminal; dendrite
+chemical synapse | chemical synapses | neurotransmitter; vesicle; cleft; postsynaptic receptor; presynaptic
+electrical synapse | electrical synapses; gap junction synapse | gap junction; connexin; fast; bidirectional; coupling
+gap junction | gap junctions; connexon | connexin; electrical coupling; astrocyte; cardiac
+presynaptic | presynaptic terminal; presynaptic membrane; presynaptic neuron | vesicle; calcium; active zone; release; axon terminal
+postsynaptic | postsynaptic membrane; postsynaptic neuron; postsynaptic cell | receptor; spine; density; dendrite; EPSP
+synaptic vesicle | synaptic vesicles | neurotransmitter; exocytosis; presynaptic; SNARE; synaptotagmin; calcium
+synaptic cleft | synaptic clefts | gap; neurotransmitter; diffusion; presynaptic; postsynaptic; 20 nanometers
+active zone | active zones | presynaptic; vesicle release; calcium channels; docking
+exocytosis | | vesicle; SNARE; calcium; release; membrane fusion
+endocytosis | | vesicle recycling; clathrin; membrane; retrieval
+SNARE | SNAREs; SNARE proteins; SNARE complex | vesicle fusion; syntaxin; synaptobrevin; SNAP-25; botulinum toxin; exocytosis
+synaptotagmin | | calcium sensor; vesicle; SNARE; release
+botulinum toxin | botulinum; botox; botulism | SNARE; acetylcholine release; neuromuscular junction; paralysis
+tetanus toxin | tetanospasmin | retrograde transport; inhibitory interneurons; glycine; GABA release; spastic paralysis
+axodendritic | axodendritic synapse; axodendritic synapses | axon; dendrite; excitatory; synapse; spine; most common; type I | exodendritic; axe dendritic; axo dendritic; exodendritic synapse
+axosomatic | axosomatic synapse; axosomatic synapses | axon; soma; inhibitory; cell body; synapse; type II | exosomatic; axe osomatic; axosomatic synapse
+axoaxonic | axoaxonic synapse; axoaxonic synapses; axo-axonic | axon; initial segment; presynaptic inhibition; chandelier cell; axon terminal | axe oaxonic; exoaxonic
+dendrodendritic | dendrodendritic synapse; dendrodendritic synapses; dendro-dendritic | dendrite; olfactory bulb; mitral cell; granule cell; reciprocal | dendro dendritic
+reciprocal synapse | reciprocal synapses | dendrodendritic; olfactory bulb; two directions
+synaptic glomerulus | synaptic glomeruli; glomerulus | cerebellum; thalamus; mossy fiber; complex; glial sheath; encapsulated
+neurotransmitter | neurotransmitters; transmitter; transmitters | synapse; receptor; release; vesicle; glutamate; GABA; acetylcholine
+neuromodulator | neuromodulators; neuromodulation | dopamine; serotonin; norepinephrine; peptide; slow; modulates
+neuropeptide | neuropeptides; peptide neurotransmitter; peptide neurotransmitters | substance P; opioid; dense-core vesicle; volume transmission; spillover
+spillover | | extrasynaptic; volume transmission; neuropeptide; glutamate; diffusion
+volume transmission | | spillover; extrasynaptic; neuromodulator; diffusion
+glutamate | glutamic acid | excitatory; NMDA; AMPA; receptor; neurotransmitter; synapse; excitotoxicity
+GABA | gamma-aminobutyric acid; gamma aminobutyric acid; γ-aminobutyric acid | inhibitory; neurotransmitter; chloride; interneuron; receptor; benzodiazepine; cerebellum; Purkinje | gamma-amino-butyric ester; gamma amino butyric acid; gaba; gabba; gamma amino butyric ester
+glycine | | inhibitory; spinal cord; brainstem; strychnine; neurotransmitter
+acetylcholine | ACh | cholinergic; neuromuscular junction; muscarinic; nicotinic; autonomic; parasympathetic; neurotransmitter
+dopamine | DA | substantia nigra; Parkinson; reward; ventral tegmental area; striatum; catecholamine
+serotonin | 5-HT; 5-hydroxytryptamine | raphe nuclei; mood; depression; SSRI; neurotransmitter
+norepinephrine | noradrenaline; NE | locus coeruleus; sympathetic; catecholamine; arousal; adrenergic
+epinephrine | adrenaline | adrenal medulla; catecholamine; sympathetic; adrenergic
+histamine | | hypothalamus; wakefulness; tuberomammillary; H1 receptor
+substance P | | pain; neuropeptide; C fiber; dorsal horn; tachykinin
+endorphin | endorphins; enkephalin; enkephalins; dynorphin | opioid; pain; neuropeptide; analgesia
+nitric oxide | NO | gaseous transmitter; retrograde messenger; guanylyl cyclase; vasodilation
+ionotropic receptor | ionotropic receptors; ligand-gated ion channel; ligand-gated ion channels | fast; channel; NMDA; AMPA; GABA-A; nicotinic
+metabotropic receptor | metabotropic receptors; G protein-coupled receptor; G-protein coupled receptor; GPCR | G protein; second messenger; slow; modulatory; mGluR
+NMDA receptor | NMDA receptors; NMDAR | glutamate; magnesium block; calcium; plasticity; long-term potentiation; coincidence detector
+AMPA receptor | AMPA receptors; AMPAR | glutamate; fast excitatory; sodium; spine; plasticity
+kainate receptor | kainate receptors | glutamate; ionotropic
+nicotinic receptor | nicotinic receptors; nicotinic acetylcholine receptor | neuromuscular junction; ganglion; acetylcholine; ligand-gated; curare
+muscarinic receptor | muscarinic receptors | parasympathetic; G protein; atropine; acetylcholine
+GABA-A receptor | GABAA receptor; GABA A receptor | chloride channel; benzodiazepine; barbiturate; inhibitory; ionotropic
+GABA-B receptor | GABAB receptor; GABA B receptor | baclofen; G protein; potassium; metabotropic
+long-term potentiation | LTP | hippocampus; plasticity; learning; memory; NMDA; spine
+long-term depression | LTD | plasticity; cerebellum; Purkinje; synaptic weakening
+synaptic plasticity | | LTP; LTD; learning; memory; spine; strengthening
+membrane potential | membrane potentials; transmembrane potential | resting; depolarization; ion; sodium; potassium; mV; voltage; polarized
+resting membrane potential | resting potential; resting membrane potentials | potassium; leak channels; Na/K pump; negative; minus 70; Nernst
+action potential | action potentials; spike; spikes; nerve impulse | threshold; depolarization; repolarization; sodium channels; axon; all-or-none; propagation; refractory | actual potential
+threshold | firing threshold; threshold potential | action potential; depolarization; sodium channels; axon hillock
+depolarization | depolarisation; depolarize; depolarizing | sodium; threshold; membrane potential; positive; action potential
+repolarization | repolarisation; repolarize | potassium; efflux; sodium channels inactivate; membrane potential
+hyperpolarization | hyperpolarisation; hyperpolarize; hyperpolarizing; afterhyperpolarization | potassium; chloride; inhibitory; undershoot; membrane potential
+refractory period | absolute refractory period; relative refractory period | sodium channel inactivation; action potential; unidirectional
+all-or-none | all or none; all-or-nothing | action potential; threshold; amplitude
+EPSP | excitatory postsynaptic potential; excitatory postsynaptic potentials | depolarization; glutamate; summation; graded; synapse
+IPSP | inhibitory postsynaptic potential; inhibitory postsynaptic potentials | hyperpolarization; GABA; chloride; summation; graded
+summation | temporal summation; spatial summation | EPSP; IPSP; threshold; axon hillock; integration
+length constant | space constant | passive conduction; cable properties; decay; myelin
+time constant | membrane time constant | capacitance; resistance; passive properties
+Nernst equation | Nernst potential; Nernst | equilibrium potential; ion; concentration gradient; potassium; sodium
+Goldman equation | Goldman-Hodgkin-Katz equation; GHK equation | membrane potential; permeability; resting potential
+equilibrium potential | reversal potential | Nernst; ion; sodium; potassium; chloride; electrochemical gradient
+voltage-gated sodium channel | voltage-gated sodium channels; Nav channels; sodium channel; sodium channels | action potential; node of Ranvier; initial segment; tetrodotoxin; inactivation | voltage gated sodium channel
+voltage-gated potassium channel | voltage-gated potassium channels; Kv channels; potassium channel; potassium channels | repolarization; delayed rectifier; juxtaparanode
+voltage-gated calcium channel | voltage-gated calcium channels; calcium channels; Cav channels | presynaptic; release; L-type; N-type; T-type
+leak channel | leak channels | resting potential; potassium; background
+sodium-potassium pump | sodium potassium pump; Na/K ATPase; Na+/K+-ATPase; sodium-potassium ATPase | ATP; resting potential; three sodium; two potassium; ouabain
+tetrodotoxin | TTX | pufferfish; sodium channel blocker; action potential
+neuromuscular junction | NMJ; motor end plate; neuromuscular junctions; end plate | acetylcholine; nicotinic receptor; skeletal muscle; motor neuron; myasthenia gravis; curare | neuro muscular junction
+motor unit | motor units | motor neuron; muscle fibers; recruitment; size principle
+myasthenia gravis | | acetylcholine receptor antibodies; neuromuscular junction; autoimmune; weakness; fatigable
+autonomic nervous system | ANS; autonomic nervous system | sympathetic; parasympathetic; visceral; ganglia; preganglionic; postganglionic
+sympathetic nervous system | sympathetic division; sympathetic | thoracolumbar; fight or flight; norepinephrine; chain ganglia
+parasympathetic nervous system | parasympathetic division; parasympathetic | craniosacral; rest and digest; vagus; acetylcholine; muscarinic
+enteric nervous system | ENS | gut; myenteric plexus; submucosal plexus; Meissner plexus; Auerbach plexus
+preganglionic | preganglionic neuron; preganglionic fibers | autonomic ganglion; acetylcholine; nicotinic; lateral horn
+postganglionic | postganglionic neuron; postganglionic fibers | autonomic ganglion; target organ; norepinephrine; unmyelinated

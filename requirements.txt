@@ -1,0 +1,41 @@
+# medical-lecture-transcriber - main environment (Python 3.11, Windows 11, NVIDIA RTX 2070)
+#
+# Verified together on: Windows 11, Python 3.11.9, NVIDIA driver 617.14, RTX 2070 (sm_75).
+# Why these pins (details in README "Dependency decisions"):
+#   * torch 2.14.1+cu126  - the cu126 wheel BUNDLES cuBLAS 12 and cuDNN 9, the two libraries that
+#                           CTranslate2 4.x needs on Windows but does not ship. The plain PyPI torch
+#                           wheel for Windows is CPU-only and would silently break the GPU path.
+#   * ctranslate2 4.8.2   - CUDA 12 + cuDNN 9 build, supports Turing (sm_75) float16 / int8_float16.
+#   * faster-whisper 1.2.1 - requires ctranslate2 >=4,<5; provides Silero VAD, hotwords, word timestamps.
+#   * transformers 5.19.0 - backend for third-party Whisper fine-tunes (Turkish medical model).
+# The driver reports CUDA 13.4, which is fine: drivers are backward compatible with the CUDA 12 runtime.
+
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.14.1+cu126
+
+faster-whisper==1.2.1
+ctranslate2==4.8.2
+sentencepiece==0.2.2    # tokenizer of the offline translation model (Output Language, src/translation)
+transformers==5.19.0
+numpy==2.4.6
+soundfile==0.14.0
+pyyaml==6.0.3
+
+# Optional features (kept installed by default; the app degrades gracefully if missing)
+pypdf==6.21.2        # lecture PDF terminology context
+jiwer==4.0.0         # WER in scripts/benchmark.py
+Pillow==13.0.0       # v3: pictures and scanned PDF pages
+winrt-runtime==3.2.1 ; sys_platform == "win32"                   # v3: text recognition built into Windows (OCR)
+winrt-Windows.Foundation==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Foundation.Collections==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Globalization==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Graphics.Imaging==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Media.Ocr==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Storage==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Storage.Streams==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Media.Core==3.2.1 ; sys_platform == "win32"                # v3: text to speech (voices already on Windows)
+winrt-Windows.Media.MediaProperties==3.2.1 ; sys_platform == "win32"
+winrt-Windows.Media.SpeechSynthesis==3.2.1 ; sys_platform == "win32"
+
+# Tests
+pytest==9.1.1

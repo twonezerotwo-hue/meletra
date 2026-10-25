@@ -1,0 +1,38 @@
+# medical-lecture-transcriber - macOS INTEL (x86_64) build environment. Python 3.11 (x86_64), macOS 12 (Monterey) or newer.
+#
+# Why this file exists: requirements-macos.txt pinned the Windows versions. Checked against PyPI for a 2019 Intel MacBook:
+#   * onnxruntime 1.31.0     has NO macOS x86_64 wheel at all (the newest with one is 1.23.2, which needs macOS 13)  -> 1.19.2 (macOS 11+)
+#   * PySide6-Essentials 6.12.0  needs macOS 14        -> 6.9.3 (macOS 12+)
+#   * opencv-python-headless 4.13.0.92 needs macOS 14  -> 4.10.0.84 (macOS 12+)
+#   * RapidFuzz was missing: src/medical/* imports it, it only arrived through jiwer on Windows -> pinned here
+# The pure-Python behaviour with exactly these onnxruntime / PySide6 / OpenCV / RapidOCR versions was run on Windows (OCR, GUI, queue tests
+# pass, including the RapidOCR test that is skipped without them). The macOS binaries themselves are UNTESTED until build_macos_intel.sh ran
+# on a real Intel Mac.
+#
+# No torch / CUDA (Windows/Linux only), no mlx-whisper (Apple Silicon only): Intel Macs use faster-whisper + CTranslate2 on the CPU.
+
+faster-whisper==1.2.1       # tokenizers + huggingface_hub come with it
+ctranslate2==4.8.2          # macOS x86_64 wheel (macOS 11+), CPU kernels chosen at run time (AVX2 where the CPU has it)
+onnxruntime==1.19.2         # Silero VAD; last release line that supports macOS 11/12 on Intel
+av==18.1.0                  # PyAV: decodes audio / video with its own FFmpeg libraries - no separate ffmpeg needed
+sentencepiece==0.2.2      # tokenizer of the offline translation model (Output Language)
+numpy==2.4.6
+soundfile==0.14.0
+pyyaml==6.0.3
+pypdf==6.20.0
+RapidFuzz==3.14.6
+PySide6-Essentials==6.9.3
+shiboken6==6.9.3
+keyring>=25.0               # macOS Keychain (optional cloud keys)
+
+# text recognition for scanned pages and pictures: RapidOCR carries its ONNX models inside its wheel (no download). It is installed by
+# build_macos_intel.sh with --no-deps (it asks for the full OpenCV; the headless one is enough):  rapidocr-onnxruntime==1.4.4
+Pillow==12.3.0
+opencv-python-headless==4.10.0.84
+pyclipper==1.4.0
+shapely==2.2.0
+six==1.17.0
+
+# Build + tests
+pyinstaller==6.22.3
+pytest==9.1.1

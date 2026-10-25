@@ -1,0 +1,62 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_tmp/
+.pytest_cache/
+models/
+outputs/*
+!outputs/.gitkeep
+input/*
+!input/.gitkeep
+*.log
+# optional online backend key (see .env.example)
+.env
+# desktop app build output
+dist/
+build/
+release/
+.vscode/
+logs/
+benchmarks/audio/*.wav
+benchmarks/results/
+*.egg-info/
+vendor/
+build_cache/
+
+# private / local data and big files must never reach a remote
+.venv*/
+.env.*
+!.env.example
+*.dmg
+*.pkg
+*.zip
+*.mp4
+*.m4a
+*.mp3
+*.wav
+*.aiff
+*.mov
+*.mkv
+*.flac
+Medical Transcription/
+.pytest_tmp/
+ci_out/
+
+# v4 generated knowledge databases and raw terminology (never committed)
+/data/
+/medical_knowledge_raw/
+*.rrf
+*.RRF
+
+# v4 benchmark audio is synthetic and regenerated on demand
+benchmarks/v4/corpus/audio/
+benchmarks/v4/results_local/
+
+benchmarks/v4/corpus/audio_v3/
+
+# local review package of the private real recordings (audio clips + transcript snippets): never committed
+benchmarks/v4/real_audio_review/
+
+benchmarks/v4/corpus/audio_v4/
+benchmarks/v4/corpus/audio_v5/
+benchmarks/multilingual/

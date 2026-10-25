@@ -1,0 +1,199 @@
+# Eponyms (spelling and diacritics are authoritative). canonical | aliases (correct variants) | cues | confusables (ASR mishearings) | kind
+Santiago Ramón y Cajal | Ramón y Cajal; Santiago Ramon y Cajal; Ramon y Cajal | neuron doctrine; histology; Golgi; silver stain; Spanish; neuroanatomist; Nobel | Santiago Ramon y Kahal; Ramon y Kahal; Ramón y Kajal | eponym
+Cajal | Cajal's | neuron doctrine; Golgi; silver; Spanish; neuroanatomist; interstitial cells of Cajal | Kahal; Kajal; Cahal; Cajall | eponym
+Camillo Golgi | Golgi | reticular theory; silver nitrate; black reaction; Nobel; Italian; Cajal | | eponym
+Golgi | Golgi's; Golgi apparatus; Golgi complex | silver; black reaction; apparatus; cell; stain; method; tendon organ; type I; type II | Goldie; Gogi; Goji | eponym
+Golgi apparatus | Golgi complex; Golgi body; Golgi bodies | secretory pathway; vesicles; cisternae; glycosylation; endoplasmic reticulum; cis face; trans face; organelle | Golgi apparatuses | eponym
+Golgi tendon organ | Golgi tendon organs | tendon; muscle tension; Ib afferent; proprioception; stretch | | eponym
+Franz Nissl | Nissl | cresyl violet; stain; rough endoplasmic reticulum; ribosome; neuron; basophilic | | eponym
+Nissl | Nissl's; Nissl stain; Nissl substance | cresyl violet; rough endoplasmic reticulum; ribosomes; soma; perikaryon; basophilic; neuron; stain; histology | Nisle; Nizel; Nissel; Nisal; Nizzle; Nissl's | eponym
+Purkinje | Purkinje cell; Purkinje cells; Purkinje fiber; Purkinje fibers; Purkinje fibre; Purkinje fibres; Purkyně | cerebellum; cerebellar cortex; GABA; dendritic arbor; heart; conduction system; ventricle | Purkinjee; Purkindji; Perkinje; Purkinge; Purkinji | eponym
+Schwann | Schwann cell; Schwann cells; Schwann's | peripheral nerve; myelin; PNS; neurolemma; Remak; node of Ranvier | Shwan; Schwan; Shwann; Schwann's | eponym
+Ranvier | Ranvier's; node of Ranvier; nodes of Ranvier | myelin; saltatory conduction; internode; sodium channels; axon; gap | Ranvyay; Ronvier; Ranveer; Ranvia | eponym
+Remak | Remak fiber; Remak fibre; Remak bundle; Remak bundles; Remak fibers; Remak fibres | unmyelinated; Schwann cell; C fiber; PNS; nonmyelinating; Schwann cells | Rimak; Rymak; Remac; Ramak | eponym
+Müller | Müller cell; Müller cells; Müller glia; Muller glia; Muller cell; Muller cells | retina; radial glia; glia; retinal | Miller; Mueller | eponym
+Bergmann | Bergmann glia; Bergmann cell; Bergmann cells | cerebellum; radial glia; Purkinje; molecular layer | Bergman; Burgman | eponym
+Broca | Broca's area; Broca area; Broca's aphasia | speech; frontal lobe; inferior frontal gyrus; aphasia; language production; Wernicke | Brocca; Broka | eponym
+Wernicke | Wernicke's area; Wernicke area; Wernicke's aphasia; Wernicke's encephalopathy | speech; language comprehension; temporal lobe; aphasia; Broca; superior temporal gyrus | Vernicke; Wernika; Wernike; Vernike | eponym
+Langerhans | Langerhans cell; Langerhans cells; islets of Langerhans; islet of Langerhans; Langerhans islets | skin; dendritic cell; pancreas; insulin; beta cells; epidermis; antigen presenting | Langerhan; Langerhands; Langerhaus | eponym
+Pacinian corpuscle | Pacinian corpuscles; Pacini corpuscle; Pacinian | vibration; pressure; mechanoreceptor; lamellated; deep dermis | Pacini an; Passinian; Pacinean | eponym
+Meissner | Meissner corpuscle; Meissner corpuscles; Meissner's corpuscle; Meissner plexus; Meissner's plexus | touch; light touch; dermal papillae; mechanoreceptor; glabrous skin; submucosal plexus | Meisner; Mizner; Mysner | eponym
+Merkel | Merkel cell; Merkel cells; Merkel disc; Merkel discs; Merkel disk | touch; epidermis; mechanoreceptor; slowly adapting | Merkle; Merkal | eponym
+Ruffini | Ruffini corpuscle; Ruffini endings; Ruffini ending; Ruffini corpuscles | stretch; skin; slowly adapting; mechanoreceptor | Rufini; Rufinni | eponym
+Auerbach | Auerbach plexus; Auerbach's plexus | myenteric plexus; gut; enteric nervous system; motility | Auerbach's; Auerbahk | eponym
+Betz | Betz cell; Betz cells | motor cortex; layer V; pyramidal; corticospinal; giant | Bets; Betts | eponym
+Renshaw | Renshaw cell; Renshaw cells | spinal cord; recurrent inhibition; motor neuron; glycine | Renshaw's; Renshaw | eponym
+Martinotti | Martinotti cell; Martinotti cells | cortex; interneuron; somatostatin; layer I | Martinoti; Martinotty | eponym
+Cajal-Retzius | Cajal Retzius; Cajal-Retzius cell; Cajal-Retzius cells | cortex; layer I; reelin; development; neuronal migration | Cajal Reitzius; Cajal Retsius | eponym
+Hortega | del Río Hortega; Del Rio Hortega; Pío del Río Hortega; Río Hortega | microglia; oligodendrocyte; Spanish; silver carbonate; Cajal | Ortega; Hortega's | eponym
+Virchow | Virchow's triad; Virchow-Robin space; Virchow Robin space | pathology; thrombosis; perivascular space; stasis; hypercoagulability | Virchov; Verkow; Virkow | eponym
+Alzheimer | Alzheimer's disease; Alzheimer disease; Alzheimer's | dementia; amyloid; tau; plaques; tangles; neurodegeneration | Alzheimers; Alsheimer; Altsheimer | eponym
+Parkinson | Parkinson's disease; Parkinson disease; Parkinson's | substantia nigra; dopamine; tremor; Lewy body; bradykinesia | Parkingson; Parkinsons | eponym
+Huntington | Huntington's disease; Huntington disease; Huntington's | caudate; CAG repeat; chorea; huntingtin; genetics | Huntingdon; Huntingdon's | eponym
+Lewy | Lewy body; Lewy bodies | Parkinson; alpha-synuclein; dementia; inclusion | Louis body; Luie | eponym
+Pick | Pick's disease; Pick body; Pick bodies | frontotemporal dementia; tau; inclusion | Pic | eponym
+Creutzfeldt-Jakob | Creutzfeldt-Jakob disease; Creutzfeldt Jakob; CJD | prion; spongiform; dementia; neurodegeneration | Kreutzfeld Jacob; Creutzfeld Jakob; Kroitzfeld Yakob | eponym
+Guillain-Barré | Guillain-Barré syndrome; Guillain Barre; Guillain-Barre; GBS; Guillain-Barre syndrome | demyelination; peripheral nerve; ascending paralysis; autoimmune; Schwann cell | Gillian Barre; Ghee yan Barre; Guillain Bar | eponym
+Charcot-Marie-Tooth | Charcot-Marie-Tooth disease; Charcot Marie Tooth; CMT | peripheral neuropathy; PMP22; Schwann cell; hereditary | Charcot Marie Tooth; Sharko Marie Tooth | eponym
+Charcot | Charcot's triad; Charcot joint | multiple sclerosis; neurology; Parkinson; arthropathy | Sharko; Charco | eponym
+Wallerian degeneration | Waller; Wallerian | axon injury; distal; Schwann cell; macrophage; regeneration; peripheral nerve | Valerian degeneration; Wallarian degeneration; Wallerian degenerate | eponym
+Waller | Waller degeneration | axon; degeneration; Wallerian | | eponym
+Brodmann | Brodmann area; Brodmann areas; Brodmann's area; BA | cortex; cytoarchitecture; area 4; area 17; map | Brodman; Brodmans | eponym
+Papez | Papez circuit | limbic; hippocampus; mammillary bodies; memory; fornix; cingulate | Papes; Pape's | eponym
+Meynert | nucleus basalis of Meynert; basal nucleus of Meynert | acetylcholine; Alzheimer; basal forebrain | Mynert; Meinert | eponym
+Edinger-Westphal | Edinger-Westphal nucleus; Edinger Westphal | pupil constriction; oculomotor; parasympathetic | Edinger Westfall; Edinger Westphall | eponym
+Clarke | Clarke's column; Clarke column; nucleus dorsalis; Clarke's nucleus | spinal cord; proprioception; spinocerebellar; T1-L3 | Clark's column | eponym
+Onuf | Onuf's nucleus; Onuf nucleus | sacral; sphincter; S2-S4; pudendal | Onuff | eponym
+Lissauer | Lissauer's tract; Lissauer tract; dorsolateral fasciculus | pain; temperature; dorsal horn; spinal cord | Lizauer; Lissour | eponym
+Rexed | Rexed laminae; Rexed lamina; laminae of Rexed | spinal cord; gray matter; dorsal horn; layers | Rex; Rexid | eponym
+Gasser | Gasserian ganglion; Gasser's ganglion | trigeminal ganglion; cranial nerve V; trigeminal | Gasser's | eponym
+Corti | organ of Corti | cochlea; hair cells; hearing; basilar membrane; auditory | Cordi; Corty; organ of Cordy | eponym
+Reissner | Reissner's membrane; vestibular membrane | cochlea; scala vestibuli; scala media | Reisner; Rice ner | eponym
+Scarpa | Scarpa's ganglion; vestibular ganglion | vestibular; ganglion; inner ear | Scarpa's | eponym
+Eustachian tube | Eustachian | middle ear; auditory tube; pharynx; pressure | Eustachean tube; Yustakian | eponym
+Müllerian | Mullerian; Müllerian duct; Mullerian duct; paramesonephric duct | embryology; uterus; fallopian tube; female reproductive; development | Millerian; Mullarian | eponym
+Wolffian | Wolffian duct; mesonephric duct | embryology; male reproductive; epididymis; vas deferens | Wolfian; Wolfian duct | eponym
+Sertoli | Sertoli cell; Sertoli cells | testis; seminiferous tubule; spermatogenesis; blood-testis barrier | Sertoli's; Sir Tolly; Certoli | eponym
+Leydig | Leydig cell; Leydig cells | testis; testosterone; interstitial; androgen | Lidig; Leidig; Lydig | eponym
+Kupffer | Kupffer cell; Kupffer cells | liver; macrophage; sinusoid; phagocytosis | Cooper cells; Kuffer; Kupfer; Coffer cells | eponym
+Paneth | Paneth cell; Paneth cells | small intestine; crypts of Lieberkühn; lysozyme; defensins; antimicrobial | Panneth; Panet | eponym
+Lieberkühn | crypts of Lieberkühn; crypt of Lieberkühn; Lieberkuhn; Lieberkuhn crypts | small intestine; intestinal glands; epithelium; crypts | Liberkuhn; Lieberkun; Leaberkoon | eponym
+Brunner | Brunner's glands; Brunner glands; Brunner gland | duodenum; mucus; bicarbonate; submucosa | Bruner; Brunner's | eponym
+Peyer | Peyer's patches; Peyer patch; Peyer patches; Peyer's patch | ileum; lymphoid; M cells; immune; gut-associated | Pyre patches; Payer's patches; Pier patches | eponym
+Hassall | Hassall's corpuscles; Hassall corpuscle; Hassall corpuscles | thymus; medulla; epithelial reticular cells | Hassel's corpuscles; Hasal | eponym
+Bowman | Bowman's capsule; Bowman capsule; Bowman's membrane; Bowman's space | kidney; glomerulus; nephron; cornea; filtration | Bauman's capsule; Bowman's | eponym
+Henle | loop of Henle; Henle's loop; Henle loop | kidney; nephron; countercurrent; thick ascending limb; thin descending limb | Henley; Henley loop; Henlee | eponym
+Malpighi | Malpighian; Malpighian corpuscle; stratum Malpighii | kidney; skin; epidermis; renal corpuscle | Malpiggy; Malpiggi | eponym
+Bellini | ducts of Bellini; duct of Bellini; papillary duct | kidney; collecting duct; renal papilla | Belini; Bellini's | eponym
+Cowper | Cowper's gland; Cowper glands; bulbourethral gland | male reproductive; urethra; mucus | Cooper's gland; Cowper's | eponym
+Skene | Skene's glands; Skene gland; paraurethral glands | female urethra; mucus | Skeene; Skene's | eponym
+Bartholin | Bartholin's glands; Bartholin gland; greater vestibular glands | vagina; vestibule; lubrication; cyst | Bartholin's; Bartolin | eponym
+Graaf | Graafian follicle; Graafian follicles; follicle of de Graaf | ovary; oocyte; ovulation; mature follicle | Grafian follicle; Graff follicle; Grafton follicle | eponym
+Fallopian tube | Fallopian tubes; Fallopian; uterine tube | oviduct; fertilization; ovary; ampulla; infundibulum; fimbriae | Fallopian tube's; Fallopian | eponym
+Achilles tendon | Achilles; calcaneal tendon | calf; gastrocnemius; heel; tendon | Achilles' tendon | eponym
+Heschl | Heschl's gyrus; Heschl gyrus; transverse temporal gyrus | auditory cortex; temporal lobe | Heshel; Heschl's | eponym
+Sylvian | Sylvian fissure; fissure of Sylvius; lateral sulcus | brain; temporal lobe; lateral fissure | Sylvan fissure; Silvian fissure; Sylvia fissure | eponym
+Rolando | fissure of Rolando; Rolandic; Rolandic fissure; central sulcus | brain; central sulcus; precentral gyrus | Rolando's | eponym
+Monro | foramen of Monro; interventricular foramen | lateral ventricles; third ventricle; CSF | Monroe; foramen of Monroe; foramen Monroe | eponym
+Magendie | foramen of Magendie; median aperture | fourth ventricle; CSF; subarachnoid space | Mazhandy; Magendy; Majendie | eponym
+Luschka | foramina of Luschka; foramen of Luschka; lateral apertures | fourth ventricle; CSF; subarachnoid space | Lushka; Luska; Luschka's | eponym
+Willis | circle of Willis; Willis | arterial circle; brain; anterior communicating; posterior communicating; cerebral arteries | circle of Willus; Willis' | eponym
+Pacchioni | arachnoid granulations; granulations of Pacchioni | CSF; arachnoid villi; superior sagittal sinus; venous sinus | Pachioni; Pakioni; Pacioni | eponym
+Vater | ampulla of Vater; Vater-Pacini corpuscle | pancreas; biliary; duodenum; sphincter of Oddi | Fater; Vader; Water | eponym
+Oddi | sphincter of Oddi; Oddi sphincter | biliary; pancreas; duodenum; ampulla | Oddy; Oddie | eponym
+Glisson | Glisson's capsule; Glisson capsule | liver; connective tissue; portal triad | Glissen; Glisson's | eponym
+Disse | space of Disse; perisinusoidal space | liver; hepatocytes; sinusoids; stellate cells | Dissey; Dise | eponym
+Ito | Ito cell; Ito cells; hepatic stellate cells | liver; vitamin A; fibrosis; stellate | Eaton | eponym
+Hering | canals of Hering; canal of Hering | liver; bile ductule; progenitor | Herring; Herring's | eponym
+Kohn | pores of Kohn; pore of Kohn | lung; alveoli; interalveolar septum | Cohn; Cone | eponym
+Clara | Clara cell; Clara cells; club cells; club cell | bronchiole; surfactant; secretoglobin | Clarke cell; Clara's | eponym
+Heimlich | Heimlich maneuver | choking | Hymlich | eponym
+Wharton | Wharton's jelly; Wharton jelly; Wharton's duct | umbilical cord; submandibular gland; mucoid connective tissue | Warton; Wharton's | eponym
+Stensen | Stensen's duct; Stenson's duct; parotid duct | parotid gland; saliva | Stenson; Stenson's | eponym
+Hunter | Hunter syndrome; Hunter's canal; adductor canal | femoral artery; mucopolysaccharidosis | Hunter's | eponym
+Hurler | Hurler syndrome | mucopolysaccharidosis; lysosomal; alpha-L-iduronidase | Hurler's; Herler | eponym
+Gaucher | Gaucher disease; Gaucher cell; Gaucher cells | glucocerebrosidase; lysosomal storage; macrophage; Tay-Sachs | Gaucher's; Go share; Gosher | eponym
+Tay-Sachs | Tay-Sachs disease; Tay Sachs | hexosaminidase A; lysosomal; GM2 gangliosidosis; cherry-red spot | Tay Sacks; Tay-Sacks | eponym
+Niemann-Pick | Niemann-Pick disease; Niemann Pick | sphingomyelinase; lysosomal; foam cells | Neumann Pick; Niemann Pic | eponym
+Down | Down syndrome; Down's syndrome | trisomy 21; chromosome; genetics | | eponym
+Turner | Turner syndrome | 45,X; monosomy X; genetics | | eponym
+Klinefelter | Klinefelter syndrome; Klinefelter's | 47,XXY; genetics; hypogonadism | Kleinfelter; Klein Felter | eponym
+Marfan | Marfan syndrome; Marfan's | fibrillin; connective tissue; aortic root; tall | Marfin; Marfan's | eponym
+Ehlers-Danlos | Ehlers-Danlos syndrome; Ehlers Danlos; EDS | collagen; hypermobility; connective tissue | Ehlers Danlos; Ehlers-Danlos | eponym
+Cushing | Cushing's syndrome; Cushing syndrome; Cushing's disease; Cushing reflex | cortisol; ACTH; adrenal; hypothalamic-pituitary; intracranial pressure | Cushing's; Cushin | eponym
+Addison | Addison's disease; Addison disease | adrenal insufficiency; cortisol; hypotension | Addison's; Addyson | eponym
+Graves | Graves' disease; Graves disease | thyroid; hyperthyroidism; TSH receptor antibodies | Grave's disease; Graves's | eponym
+Hashimoto | Hashimoto's thyroiditis; Hashimoto thyroiditis | thyroid; autoimmune; hypothyroidism; anti-TPO | Hashimoto's; Hashimotos | eponym
+Crohn | Crohn's disease; Crohn disease | inflammatory bowel disease; ileum; granuloma; transmural | Crohn's; Crone's; Krone's disease | eponym
+Hodgkin | Hodgkin lymphoma; Hodgkin's lymphoma; Hodgkin disease | Reed-Sternberg; lymph node; lymphoma | Hodgkins; Hodgkin's | eponym
+Reed-Sternberg | Reed-Sternberg cell; Reed Sternberg; Reed-Sternberg cells | Hodgkin lymphoma; owl-eye; CD30 | Reid Sternberg; Reed Stenberg | eponym
+Burkitt | Burkitt lymphoma; Burkitt's lymphoma | EBV; c-myc; starry sky; translocation | Berkitt; Burkit | eponym
+Epstein-Barr | Epstein-Barr virus; Epstein Barr; EBV | herpesvirus; mononucleosis; B cells; Burkitt | Epstein Barr; Epstein-Bar | eponym
+Koch | Koch's postulates; Koch postulates | microbiology; tuberculosis; bacteria | Cook's postulates; Cox postulates | eponym
+Gram | Gram stain; Gram-positive; Gram-negative; Gram positive; Gram negative | bacteria; peptidoglycan; crystal violet; microbiology | gram stain; Gramm | eponym
+Ziehl-Neelsen | Ziehl-Neelsen stain; Ziehl Neelsen; acid-fast stain | mycobacteria; tuberculosis; acid-fast | Zeal Neelsen; Zeel Nielsen | eponym
+Mendel | Mendelian; Mendel's laws; Mendelian inheritance | genetics; inheritance; dominant; recessive | | eponym
+Barr | Barr body; Barr bodies | X inactivation; chromatin; females; genetics | Bar body; Bar bodies | eponym
+Okazaki | Okazaki fragment; Okazaki fragments | DNA replication; lagging strand; primase; ligase | Okasaki; Okazaki's; Okasaki fragments | eponym
+Krebs | Krebs cycle; Krebs | citric acid cycle; TCA; mitochondria; acetyl-CoA; NADH | Crabs cycle; Krebs' | eponym
+Michaelis-Menten | Michaelis-Menten kinetics; Michaelis Menten; Michaelis-Menten equation | enzyme; Km; Vmax; substrate | Michaelis Menton; Michaelis Menten | eponym
+Lineweaver-Burk | Lineweaver-Burk plot; Lineweaver Burk | enzyme kinetics; double reciprocal | Lineweaver Burke | eponym
+Henderson-Hasselbalch | Henderson-Hasselbalch equation; Henderson Hasselbalch | pH; pKa; buffer; acid-base | Henderson Hasselbach; Henderson-Hasselbach | eponym
+Starling | Starling forces; Starling's law; Frank-Starling; Starling equation | capillary; fluid; heart; filtration; cardiac output | Starlin; Sterling forces; Sterling's law | eponym
+Frank-Starling | Frank-Starling law; Frank-Starling mechanism; Frank Starling | preload; stroke volume; cardiac muscle | Frank Sterling; Frank Starlin | eponym
+Bohr | Bohr effect | hemoglobin; oxygen dissociation curve; pH; CO2 | Boar effect; Bore effect | eponym
+Haldane | Haldane effect | hemoglobin; carbon dioxide; oxygen | Halden; Holden effect | eponym
+Poiseuille | Poiseuille's law; Poiseuille | flow; viscosity; radius; resistance | Pwazay; Poiseille; Poisel | eponym
+Laplace | Law of Laplace; Laplace's law | wall tension; pressure; radius | La Place | eponym
+Purkinje fiber | Purkinje fibers; Purkinje fibre; Purkinje fibres | heart; conduction system; ventricles; His bundle | | eponym
+His | bundle of His; His bundle | heart; conduction; atrioventricular; septum | | eponym
+Bachmann | Bachmann's bundle; Bachmann bundle | atrium; interatrial; conduction | Bachman's bundle; Bachmann's | eponym
+Waldeyer | Waldeyer's ring; Waldeyer ring | tonsils; lymphoid; pharynx; adenoids | Waldeyers; Valdeyer | eponym
+Kiesselbach | Kiesselbach's plexus; Kiesselbach plexus; Little's area | nose; epistaxis; nosebleed | Kisselbach; Kiesselbach's | eponym
+Chvostek | Chvostek sign; Chvostek's sign | hypocalcemia; facial nerve; tetany | Chvostek's; Shvostek | eponym
+Trousseau | Trousseau sign; Trousseau's sign | hypocalcemia; carpal spasm; malignancy | Trousseau's; Trusso | eponym
+Babinski | Babinski sign; Babinski reflex; Babinski's sign | upper motor neuron; plantar; corticospinal | Babinsky; Babinski's; Babiski | eponym
+Romberg | Romberg sign; Romberg test | proprioception; balance; dorsal columns; eyes closed | Romburg; Romberg's | eponym
+Horner | Horner syndrome; Horner's syndrome | ptosis; miosis; anhidrosis; sympathetic | Horner's; Horna | eponym
+Argyll Robertson | Argyll Robertson pupil; Argyll-Robertson pupil | syphilis; accommodation; light reflex | Argyle Robertson | eponym
+Brown-Séquard | Brown-Séquard syndrome; Brown-Sequard; Brown Sequard | spinal cord hemisection; ipsilateral; contralateral | Brown Secard; Brown Sequart; Brown-Sekar | eponym
+Erb | Erb's palsy; Erb palsy; Erb-Duchenne | brachial plexus; C5; C6; upper trunk | Erb's; Herb's palsy | eponym
+Klumpke | Klumpke's palsy; Klumpke palsy | brachial plexus; C8; T1; lower trunk | Klumpke's; Clumpkey | eponym
+Bell | Bell's palsy; Bell palsy | facial nerve; paralysis; unilateral | Bells palsy | eponym
+Parkinsonian | Parkinsonism | tremor; rigidity; basal ganglia | | term
+Wilson | Wilson's disease; Wilson disease | copper; ceruloplasmin; liver; basal ganglia | Wilson's | eponym
+Sydenham | Sydenham chorea; Sydenham's chorea | rheumatic fever; streptococcus; chorea | Sidenham; Sydenham's | eponym
+Gerstmann | Gerstmann syndrome | angular gyrus; agraphia; acalculia; finger agnosia | Gerstman; Gerstman's | eponym
+Korsakoff | Korsakoff syndrome; Korsakoff's syndrome; Wernicke-Korsakoff | thiamine; alcohol; amnesia; mammillary bodies | Korsakov; Corsican off | eponym
+Tourette | Tourette syndrome; Tourette's | tics; basal ganglia | Torett; Tourette's | eponym
+Meniere | Ménière's disease; Meniere's disease; Ménière disease | vertigo; endolymph; tinnitus; hearing loss | Mennier; Meniere's | eponym
+Raynaud | Raynaud phenomenon; Raynaud's phenomenon; Raynaud's disease | vasospasm; fingers; cold | Raynaud's; Reynold's phenomenon | eponym
+Kawasaki | Kawasaki disease | vasculitis; coronary aneurysm; children | Kawasaki's | eponym
+Sjögren | Sjögren syndrome; Sjögren's syndrome; Sjogren syndrome; Sjogren's | dry eyes; dry mouth; autoimmune; anti-SSA; anti-SSB | Shogren; Sjogren's; Show-grin | eponym
+Hirschsprung | Hirschsprung disease; Hirschsprung's disease | enteric nervous system; aganglionosis; neural crest; megacolon | Hirshprung; Hirschprung; Hirsch spring | eponym
+Meckel | Meckel diverticulum; Meckel's diverticulum; Meckel cartilage | ileum; vitelline duct; rule of 2s; pharyngeal arch | Mekel; Meckel's | eponym
+Barrett | Barrett esophagus; Barrett's esophagus; Barrett oesophagus | metaplasia; GERD; esophageal adenocarcinoma | Barrett's; Barret esophagus | eponym
+Mallory-Weiss | Mallory-Weiss tear; Mallory Weiss | esophagus; vomiting; hematemesis | Mallory Weiss | eponym
+Zenker | Zenker diverticulum; Zenker's diverticulum | pharyngoesophageal; cricopharyngeus | Zenker's; Zencker | eponym
+Dubin-Johnson | Dubin-Johnson syndrome | conjugated hyperbilirubinemia; liver | Dubin Johnson | eponym
+Gilbert | Gilbert syndrome; Gilbert's syndrome | unconjugated hyperbilirubinemia; UDP-glucuronosyltransferase | Gilbert's | eponym
+Crigler-Najjar | Crigler-Najjar syndrome | unconjugated hyperbilirubinemia; UGT1A1 | Crigler Najjar; Cringler Najjar | eponym
+Wolff-Parkinson-White | Wolff-Parkinson-White syndrome; WPW | accessory pathway; delta wave; Kent bundle; preexcitation | Wolf Parkinson White; Wolfe Parkinson White | eponym
+Kent | bundle of Kent; Kent bundle | accessory pathway; WPW | | eponym
+Eisenmenger | Eisenmenger syndrome; Eisenmenger's | right-to-left shunt; pulmonary hypertension; cyanosis | Eisenmenger's; Eisenmanger | eponym
+Fallot | tetralogy of Fallot; Fallot's tetralogy; Tetralogy of Fallot | congenital heart; VSD; pulmonary stenosis; overriding aorta; right ventricular hypertrophy | Fallow; Fallo; tetralogy of Fellow | eponym
+Ebstein | Ebstein anomaly; Ebstein's anomaly | tricuspid valve; atrialized ventricle; lithium | Epstein anomaly; Ebstein's | eponym
+Dressler | Dressler syndrome; Dressler's syndrome | post-MI; pericarditis; autoimmune | Dresler; Dressler's | eponym
+Osler | Osler nodes; Osler node; Osler-Weber-Rendu | endocarditis; fingers; immune complex | Ausler; Osler's | eponym
+Janeway | Janeway lesions; Janeway lesion | endocarditis; palms; soles; septic emboli | Janeway's; Janway | eponym
+Virchow node | Virchow's node; Troisier sign | left supraclavicular; gastric cancer; lymph node | | eponym
+Krukenberg | Krukenberg tumor; Krukenberg tumour | ovary; gastric cancer; signet ring; metastasis | Krukenberg's; Kruckenberg | eponym
+Wilms | Wilms tumor; Wilms' tumor; Wilms tumour; nephroblastoma | kidney; children; WT1 | Wilm's tumor; Wilms' | eponym
+Ewing | Ewing sarcoma; Ewing's sarcoma | bone; EWS-FLI1; t(11;22); onion skin | Ewing's; Yewing | eponym
+Paget | Paget disease; Paget's disease | bone; osteoclast; alkaline phosphatase; breast | Paget's; Padget | eponym
+Langhans | Langhans giant cell; Langhans giant cells | granuloma; tuberculosis; multinucleated | Langhan's; Langhans' | eponym
+Aschoff | Aschoff body; Aschoff bodies | rheumatic fever; heart; granuloma | Ashoff; Aschoff's | eponym
+Councilman | Councilman body; Councilman bodies | hepatitis; apoptosis; liver | Counselman body | eponym
+Mallory | Mallory body; Mallory bodies; Mallory-Denk bodies | alcoholic hepatitis; liver; keratin | Mallory's; Malory | eponym
+Negri | Negri bodies; Negri body | rabies; neuron; cytoplasmic inclusion | Negri's; Nagri | eponym
+Auer | Auer rods; Auer rod | acute myeloid leukemia; myeloblast; APL | Our rods; Auer's rods | eponym
+Howell-Jolly | Howell-Jolly bodies; Howell-Jolly body; Howell Jolly | spleen; asplenia; red blood cells | Howell Jolly | eponym
+Heinz | Heinz bodies; Heinz body | G6PD; hemolysis; oxidized hemoglobin | Hines bodies; Heinz's | eponym
+Pappenheimer | Pappenheimer bodies; Pappenheimer body | siderocytes; iron; sideroblastic | Papenheimer | eponym
+Cabot | Cabot rings; Cabot ring | red cells; megaloblastic; remnants | Cabot's rings | eponym
+Giemsa | Giemsa stain | blood smear; malaria; Wright | Gemsa; Giemsa's; Giemza | eponym
+Wright | Wright stain; Wright-Giemsa | blood smear; hematology; peripheral | Right stain | eponym
+Prussian blue | Perls Prussian blue; Perls stain | iron; hemosiderin; Perls | | term
+Perls | Perls stain; Perls Prussian blue | iron; hemosiderin; Prussian blue | Pearls stain; Pearl stain; Perl's | eponym
+Masson | Masson trichrome; Masson's trichrome; trichrome | collagen; fibrosis; blue; histology; connective tissue | Mason trichrome; Mason's trichrome | eponym
+Van Gieson | van Gieson stain; Van Gieson; Verhoeff-van Gieson | elastic fibers; collagen; histology | Van Geeson; Van Gieson's | eponym
+Verhoeff | Verhoeff stain; Verhoeff-van Gieson | elastic fibers; histology | Verhoef | eponym
+Weigert | Weigert stain; Weigert's stain; Weigert elastic stain | myelin; elastic fibers; histology | Wiegert; Vygert | eponym
+Luxol fast blue | Luxol fast blue stain; LFB | myelin; histology; blue; phospholipids | Luxol fast blue stain; Lux all fast blue; Luxor fast blue; Luxol fast blue | term
+Bielschowsky | Bielschowsky stain; Bielschowsky silver stain | neurofibrils; silver; axons; histology | Bielchowsky; Bielschowski; Bill Chaoski | eponym
+Bodian | Bodian stain; Bodian silver stain | axons; neurofibrils; silver | Bodean; Bodian's | eponym
+Cajal stain | Cajal silver stain; Cajal's stain | silver; astrocytes; gold sublimate | | eponym
+Weil | Weil-Felix; Weil's disease | leptospirosis; Proteus; microbiology | Vile; Weil's | eponym
+Eosin | hematoxylin and eosin; H&E; H and E | pink; acidophilic; cytoplasm; stain; histology | Eosine; Eosan; Ian | term
+Hematoxylin | haematoxylin; hematoxylin and eosin | blue; basophilic; nuclei; stain; histology | Hematoxilin; Hemotoxylin; Hematoxlin | term
+Hand-Schüller-Christian disease | Hand Schuller Christian disease | histiocytosis; Langerhans cell; skull lesions; diabetes insipidus | | eponym

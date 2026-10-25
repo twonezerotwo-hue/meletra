@@ -1,0 +1,162 @@
+# Pathology. canonical | aliases | cues | confusables | kind
+pathogenesis | | disease mechanism; development of disease
+etiology | aetiology | cause of disease
+pathophysiology | | disease mechanism; altered function
+cell injury | cellular injury | reversible; irreversible; hypoxia; swelling
+reversible cell injury | | cell swelling; fatty change; ATP depletion
+irreversible cell injury | | membrane damage; nuclear changes; necrosis
+hydropic change | cellular swelling | sodium pump failure; reversible injury
+fatty change | steatosis; fatty liver | liver; triglycerides; alcohol
+coagulative necrosis | | infarct; ischemia; preserved architecture; heart; kidney
+liquefactive necrosis | | brain infarct; abscess; enzymes
+caseous necrosis | | tuberculosis; granuloma; cheesy
+fat necrosis | | pancreatitis; breast trauma; saponification
+fibrinoid necrosis | | immune complexes; vasculitis; malignant hypertension
+gangrene | gangrenous | necrosis; dry; wet; gas
+karyolysis | | nucleus fading; necrosis
+pyknosis | pyknotic | nuclear shrinkage; condensed
+karyorrhexis | | nuclear fragmentation
+ischemia | ischaemia; ischemic | reduced blood supply; hypoxia; infarction
+infarction | infarct; infarcts | tissue death; ischemia; occlusion
+reperfusion injury | | free radicals; restored blood flow
+free radicals | free radical | reactive oxygen species; oxidative stress; lipid peroxidation
+acute inflammation | | neutrophils; edema; vasodilation; increased permeability; hours to days
+chronic inflammation | | macrophages; lymphocytes; plasma cells; fibrosis
+cardinal signs of inflammation | | rubor; calor; tumor; dolor; functio laesa
+exudate | exudates | protein-rich fluid; inflammation; high specific gravity
+transudate | transudates | protein-poor fluid; hydrostatic pressure
+margination | | neutrophils; endothelium; selectins
+chemotaxis | chemotactic | neutrophils; C5a; IL-8; LTB4; migration
+diapedesis | transmigration | leukocytes; endothelium; PECAM
+opsonization | opsonin; opsonins | C3b; IgG; phagocytosis
+leukocyte adhesion | | selectins; integrins; rolling; adhesion
+granuloma | granulomas; granulomatous | epithelioid histiocytes; giant cells; tuberculosis; sarcoidosis
+abscess | abscesses | pus; neutrophils; liquefactive necrosis; localized collection
+pus | purulent | neutrophils; abscess
+fibrosis | fibrotic | collagen deposition; scarring; chronic injury
+scar | scarring | collagen; healing; fibroblasts; keloid
+wound healing | | hemostasis; inflammation; proliferation; remodeling; granulation tissue
+granulation tissue | | fibroblasts; new vessels; wound healing
+keloid | keloids | excess collagen; scar; dark skin
+regeneration | | labile cells; stable cells; permanent cells
+hyperplasia | hyperplastic | increased cell number; physiologic; pathologic
+hypertrophy | hypertrophic | increased cell size; heart; muscle
+atrophy | atrophic | decreased size; disuse; denervation
+metaplasia | metaplastic | change of cell type; Barrett esophagus; smokers
+dysplasia | dysplastic | disordered growth; precancerous; carcinoma in situ
+anaplasia | anaplastic | undifferentiated; malignant; pleomorphism
+neoplasia | neoplasm; neoplasms; neoplastic | tumor; benign; malignant; uncontrolled growth
+benign tumor | benign tumour; benign neoplasm | well differentiated; slow growth; encapsulated; no metastasis
+malignant tumor | malignant tumour; malignant neoplasm; cancer | invasion; metastasis; anaplasia
+carcinoma | carcinomas | epithelial malignancy; adenocarcinoma; squamous cell carcinoma
+adenocarcinoma | adenocarcinomas | glandular epithelium; malignant
+squamous cell carcinoma | SCC | keratin pearls; squamous epithelium
+sarcoma | sarcomas | mesenchymal malignancy; bone; soft tissue
+lymphoma | lymphomas | lymph nodes; Hodgkin; non-Hodgkin
+leukemia | leukaemia; leukemias | bone marrow; white blood cells; blasts
+melanoma | melanomas | melanocytes; skin cancer; BRAF
+glioma | gliomas | glial tumor; astrocytoma; oligodendroglioma
+glioblastoma | glioblastoma multiforme; GBM | astrocytoma grade IV; necrosis; pseudopalisading
+astrocytoma | astrocytomas | glial tumor; GFAP
+meningioma | meningiomas | meninges; psammoma bodies; benign
+neuroblastoma | | children; adrenal; N-myc; catecholamines
+medulloblastoma | | children; cerebellum; posterior fossa
+schwannoma | schwannomas; vestibular schwannoma; acoustic neuroma | Schwann cells; NF2; Antoni A; Verocay bodies
+teratoma | teratomas | germ cell tumor; three germ layers; ovary; testis
+metastasis | metastases; metastatic | spread; lymphatic; hematogenous; secondary tumor
+invasion | invasive | basement membrane; local spread
+carcinoma in situ | CIS | no invasion; basement membrane intact
+tumor grade | grading | differentiation; histologic grade
+tumor stage | staging; TNM staging; TNM | size; nodes; metastasis
+oncogenesis | carcinogenesis | mutations; multi-step; tumor
+paraneoplastic syndrome | paraneoplastic syndromes | tumor products; hormones; SIADH; small cell
+tumor marker | tumor markers | PSA; CEA; AFP; CA-125; hCG
+amyloidosis | amyloid | beta-pleated sheet; Congo red; apple-green birefringence
+atherosclerosis | atherosclerotic | plaque; intima; cholesterol; foam cells; fibrous cap
+atheroma | atheromatous plaque | lipid core; fibrous cap
+foam cells | foam cell | macrophages; lipids; atherosclerosis
+thrombosis | thrombotic; thrombus | Virchow triad; clot; vessel; stasis
+embolism | embolus; emboli; embolic | thrombus; lodged; pulmonary embolism; fat embolism
+Virchow's triad | Virchow triad | stasis; hypercoagulability; endothelial injury
+hemorrhagic infarct | red infarct | venous occlusion; loose tissue; lung
+pale infarct | anemic infarct; white infarct | arterial occlusion; solid organ; heart; kidney
+hyperemia | hyperaemia | increased blood flow; active; red
+congestion | | passive; venous; heart failure; nutmeg liver
+petechiae | petechia | pinpoint hemorrhages; platelets
+purpura | | skin hemorrhage; vasculitis; thrombocytopenia
+ecchymosis | ecchymoses | bruise; skin
+hematoma | haematoma; hematomas | collection of blood; trauma
+hypertension | hypertensive | high blood pressure; essential; secondary
+hypotension | hypotensive | low blood pressure; shock
+aneurysm | aneurysms | vessel dilation; berry aneurysm; aortic aneurysm; rupture
+dissection | aortic dissection | intimal tear; Marfan; false lumen
+vasculitis | vasculitides | vessel inflammation; giant cell arteritis; polyarteritis nodosa
+arteriosclerosis | | hardening of arteries; arteriolosclerosis; Monckeberg
+cardiomyopathy | cardiomyopathies | dilated; hypertrophic; restrictive
+endocarditis | infective endocarditis | vegetations; valves; bacteria
+rheumatic fever | rheumatic heart disease | Streptococcus; Aschoff bodies; mitral stenosis
+pericarditis | | pericardium inflammation; friction rub
+myocarditis | | myocardium inflammation; viral; Coxsackie
+pneumonia | lobar pneumonia; bronchopneumonia | alveoli; consolidation; Streptococcus pneumoniae
+pulmonary edema | | alveolar fluid; heart failure
+pneumothorax | | air in pleural space; collapsed lung
+emphysema | | alveolar destruction; alpha-1 antitrypsin; smoking
+chronic bronchitis | | productive cough; mucus; Reid index
+asthma | asthmatic | bronchoconstriction; reversible; eosinophils; Charcot-Leyden crystals
+bronchiectasis | | permanently dilated bronchi
+pulmonary fibrosis | idiopathic pulmonary fibrosis | restrictive; honeycombing
+lung cancer | | small cell; non-small cell; smoking; adenocarcinoma
+sarcoidosis | | noncaseating granulomas; hilar lymphadenopathy
+gastritis | | stomach inflammation; Helicobacter pylori
+peptic ulcer | peptic ulcers; peptic ulcer disease | stomach; duodenum; Helicobacter pylori; NSAIDs
+cirrhosis | cirrhotic | liver; fibrosis; regenerative nodules; portal hypertension
+hepatitis | | liver inflammation; viral; autoimmune; alcoholic
+jaundice | icterus; icteric | bilirubin; yellow skin; liver
+portal hypertension | | cirrhosis; varices; ascites; splenomegaly
+ascites | | peritoneal fluid; cirrhosis
+esophageal varices | oesophageal varices | portal hypertension; bleeding
+cholelithiasis | gallstones | gallbladder; cholesterol stones; pigment stones
+pancreatitis | acute pancreatitis; chronic pancreatitis | pancreas inflammation; amylase; lipase
+colorectal cancer | colon cancer | adenoma-carcinoma sequence; APC; polyps
+glomerulonephritis | glomerular disease | nephritic; nephrotic; immune complex
+nephrotic syndrome | | proteinuria; hypoalbuminemia; edema; hyperlipidemia
+nephritic syndrome | | hematuria; hypertension; oliguria
+pyelonephritis | | kidney infection; E. coli; white cell casts
+kidney stones | nephrolithiasis; renal calculi; urolithiasis | calcium oxalate; colic
+acute kidney injury | AKI; acute renal failure | azotemia; oliguria; prerenal; intrinsic; postrenal
+chronic kidney disease | CKD; chronic renal failure | GFR; uremia; anemia
+diabetes mellitus | diabetes | insulin; hyperglycemia; type 1; type 2; complications
+diabetic nephropathy | | Kimmelstiel-Wilson nodules; glomerulosclerosis
+diabetic retinopathy | | microaneurysms; neovascularization
+hyperthyroidism | thyrotoxicosis | Graves disease; high T4
+hypothyroidism | | Hashimoto thyroiditis; high TSH; myxedema
+goiter | goitre | thyroid enlargement; iodine deficiency
+osteoporosis | | decreased bone density; postmenopausal; fractures
+osteomalacia | rickets | vitamin D deficiency; soft bones
+osteoarthritis | | degenerative joint disease; cartilage loss; osteophytes
+rheumatoid arthritis | RA | autoimmune; synovitis; pannus; rheumatoid factor
+gout | gouty | uric acid crystals; monosodium urate; negatively birefringent
+systemic lupus erythematosus | SLE; lupus | autoimmune; ANA; anti-dsDNA; anti-Smith; immune complex
+stroke | cerebrovascular accident | ischemic; hemorrhagic; infarct; deficit
+cerebral edema | brain edema | swelling; intracranial pressure; herniation
+brain herniation | herniation | uncal; tonsillar; subfalcine; intracranial pressure
+epidural hematoma | extradural hematoma | middle meningeal artery; lucid interval; lens-shaped
+subdural hematoma | | bridging veins; crescent-shaped; elderly
+intracerebral hemorrhage | | hypertension; basal ganglia
+meningitis | | meninges inflammation; CSF; bacterial; viral
+encephalitis | | brain inflammation; herpes simplex
+neurodegeneration | neurodegenerative | neuron loss; Alzheimer; Parkinson; protein aggregation
+amyloid plaque | amyloid plaques; senile plaques | beta-amyloid; Alzheimer
+neurofibrillary tangle | neurofibrillary tangles | tau; Alzheimer; hyperphosphorylated
+Lewy body | Lewy bodies | alpha-synuclein; Parkinson; substantia nigra
+demyelination | demyelinating | myelin loss; multiple sclerosis; Guillain-Barré
+prion disease | prion diseases; prion | Creutzfeldt-Jakob; spongiform; PrPSc
+sepsis | septic | systemic infection; SIRS; shock
+septic shock | | sepsis; hypotension; vasopressors
+anemia | anaemia; anemic | low hemoglobin; iron deficiency; macrocytic; microcytic
+iron deficiency anemia | | microcytic; ferritin low; hypochromic
+megaloblastic anemia | | B12 deficiency; folate deficiency; macrocytic
+aplastic anemia | | pancytopenia; bone marrow failure
+hemolytic anemia | | hemolysis; reticulocytosis; spherocytes
+polycythemia | polycythaemia | increased red cells; hematocrit
+thrombocytopenia | | low platelets; bleeding; ITP

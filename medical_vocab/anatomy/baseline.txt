@@ -1,0 +1,175 @@
+# Baseline: the starter vocabulary shipped since 0.1 (medical_terms/anatomy.txt), one term per line.
+anterior cruciate ligament
+posterior cruciate ligament
+medial collateral ligament
+lateral collateral ligament
+rotator cuff
+supraspinatus
+infraspinatus
+subscapularis
+teres minor
+latissimus dorsi
+serratus anterior
+pectoralis major
+brachial plexus
+axillary nerve
+radial nerve
+median nerve
+ulnar nerve
+musculocutaneous nerve
+sciatic nerve
+femoral nerve
+obturator nerve
+common peroneal nerve
+tibial nerve
+femoral triangle
+adductor canal
+popliteal fossa
+carpal tunnel
+cubital fossa
+inguinal canal
+linea alba
+rectus abdominis
+transversus abdominis
+external oblique
+diaphragm
+esophagus
+duodenum
+jejunum
+ileum
+ileocecal valve
+sigmoid colon
+celiac trunk
+superior mesenteric artery
+inferior mesenteric artery
+abdominal aorta
+inferior vena cava
+portal vein
+common carotid artery
+internal jugular vein
+circle of Willis
+middle cerebral artery
+foramen magnum
+foramen ovale
+sphenoid bone
+ethmoid bone
+temporal bone
+mandible
+scapula
+clavicle
+humerus
+radius
+ulna
+scaphoid
+lunate
+femur
+tibia
+fibula
+calcaneus
+talus
+corticospinal tract
+spinothalamic tract
+dorsal column medial lemniscus pathway
+medial lemniscus
+lateral lemniscus
+dorsal root ganglion
+ventral root
+sympathetic chain
+lumbosacral plexus
+cervical plexus
+thoracic duct
+superior vena cava
+aortic arch
+ascending aorta
+descending aorta
+thoracic aorta
+internal carotid artery
+external carotid artery
+subclavian artery
+axillary artery
+brachial artery
+radial artery
+ulnar artery
+femoral artery
+popliteal artery
+tibial artery
+hepatic vein
+renal artery
+renal vein
+cephalic vein
+basilic vein
+median cubital vein
+greater saphenous vein
+lesser saphenous vein
+cranial nerve
+optic chiasm
+trigeminal ganglion
+facial nerve
+vestibulocochlear nerve
+glossopharyngeal nerve
+vagus nerve
+hypoglossal nerve
+spinal accessory nerve
+jugular foramen
+foramen rotundum
+optic canal
+superior orbital fissure
+cribriform plate
+sella turcica
+occipital condyle
+atlas vertebra
+axis vertebra
+vertebral body
+intervertebral disc
+nucleus pulposus
+annulus fibrosus
+anterior longitudinal ligament
+ligamentum flavum
+thoracic cage
+sternum
+manubrium
+xiphoid process
+true ribs
+floating ribs
+glenoid fossa
+acromion
+olecranon
+radius and ulna
+carpal bones
+metacarpals
+phalanges
+pelvis
+ilium
+ischium
+pubis
+acetabulum
+patella
+tibial plateau
+malleolus
+sternocleidomastoid
+trapezius
+deltoid
+internal oblique
+biceps brachii
+triceps brachii
+brachioradialis
+flexor digitorum
+extensor digitorum
+gluteus maximus
+gluteus medius
+iliopsoas
+quadriceps femoris
+rectus femoris
+biceps femoris
+gastrocnemius
+soleus
+tibialis anterior
+intercostal muscles
+axilla
+mediastinum
+pleural cavity
+pericardium
+peritoneum
+retroperitoneal space
+greater omentum
+mesentery

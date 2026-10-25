@@ -1,0 +1,203 @@
+# Pathology starter vocabulary (one term per line, "#" starts a comment).
+# Prefix "tr:" = only used for Turkish/auto runs, "en:" = only English. No prefix = both.
+coagulative necrosis
+liquefactive necrosis
+caseous necrosis
+fat necrosis
+fibrinoid necrosis
+apoptosis
+hyperplasia
+hypertrophy
+atrophy
+metaplasia
+dysplasia
+anaplasia
+neoplasia
+carcinoma in situ
+adenocarcinoma
+squamous cell carcinoma
+transitional cell carcinoma
+sarcoma
+lymphoma
+Hodgkin lymphoma
+Reed-Sternberg cell
+non Hodgkin lymphoma
+leukemia
+metastasis
+paraneoplastic syndrome
+acute inflammation
+chronic inflammation
+granulomatous inflammation
+granuloma
+Langhans giant cell
+neutrophil
+eosinophil
+thrombosis
+embolism
+infarction
+Virchow triad
+disseminated intravascular coagulation
+atherosclerosis
+atheroma
+aneurysm
+myocardial infarction
+rheumatic heart disease
+hypertrophic cardiomyopathy
+dilated cardiomyopathy
+amyloidosis
+Congo red
+cirrhosis
+hepatocellular carcinoma
+glomerulonephritis
+nephrotic syndrome
+nephritic syndrome
+pyelonephritis
+Crohn disease
+ulcerative colitis
+Barrett esophagus
+Helicobacter pylori
+adenomatous polyp
+familial adenomatous polyposis
+lung adenocarcinoma
+tuberculosis
+Ghon complex
+sarcoidosis
+tr:nekroz
+tr:iltihap
+# --- merged from the Cline reference vocabulary (deduplicated against the terms above) ---
+cell injury
+reversible injury
+irreversible injury
+necrosis
+autophagy
+cellular swelling
+fatty change
+ischemia-reperfusion injury
+free radical injury
+oxidative stress
+heat shock protein
+ubiquitin-proteasome pathway
+adaptation
+inflammation
+exudate
+transudate
+serous inflammation
+fibrinous inflammation
+suppurative inflammation
+chemotaxis
+opsonization
+phagocytosis
+complement system
+membrane attack complex
+cytokine
+interleukin
+tumor necrosis factor
+interferon
+histamine
+bradykinin
+prostaglandin
+leukotriene
+arachidonic acid
+cyclooxygenase
+lipoxygenase
+wound healing
+primary intention
+secondary intention
+granulation tissue
+scar formation
+keloid
+contracture
+hemorrhage
+hematoma
+hyperemia
+congestion
+shock
+edema
+ascites
+hydrothorax
+benign tumor
+malignant tumor
+invasion
+lymphatic spread
+hematogenous spread
+transcoelomic spread
+grading and staging
+TNM classification
+desmoplasia
+oncogene
+tumor suppressor gene
+retinoblastoma gene
+p53
+apoptosis evasion
+angiogenesis
+telomerase
+Warburg effect
+carcinogen
+mutagen
+initiation and promotion
+chemical carcinogenesis
+radiation injury
+viral oncogenesis
+hyaline change
+calcification
+dystrophic calcification
+metastatic calcification
+pigmentation
+hemosiderin
+lipofuscin
+melanin
+steatosis
+fibrosis
+thromboembolism
+hepatitis
+cirrhosis of the liver
+pneumonia
+bronchopneumonia
+meningitis
+encephalitis
+meningoencephalitis
+pericarditis
+myocarditis
+endocarditis
+pancreatitis
+cholecystitis
+appendicitis
+diverticulitis
+colitis
+gastritis
+esophagitis
+arthritis
+osteoarthritis
+rheumatoid arthritis
+osteomyelitis
+dermatitis
+psoriasis
+eczema
+melanoma
+basal cell carcinoma
+multiple myeloma
+hypercholesterolemia
+hypertriglyceridemia
+hyperglycemia
+hypoglycemia
+hyperkalemia
+hypokalemia
+hyponatremia
+hypernatremia
+hypercalcemia
+hypocalcemia
+acidosis
+alkalosis
+sepsis
+septic shock
+anaphylaxis
+transudative effusion
+exudative effusion
+pleural effusion
+pneumothorax
+hemothorax
+ascites fluid
+portal hypertension
+varices
+malabsorption
+steatorrhea

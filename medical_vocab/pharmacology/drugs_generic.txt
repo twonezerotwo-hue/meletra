@@ -1,0 +1,388 @@
+# Generic drug names (kind drug: a drug is only ever changed with strong sound AND context evidence; exact names are never touched).
+# canonical | brand/other correct forms | cues (class, use, mechanism) | confusables | drug
+acetaminophen | paracetamol; Tylenol | analgesic; antipyretic; hepatotoxicity; N-acetylcysteine; fever | | drug
+aspirin | acetylsalicylic acid; ASA | NSAID; COX inhibitor; antiplatelet; Reye syndrome; thromboxane | | drug
+ibuprofen | Advil; Motrin | NSAID; COX inhibitor; analgesic; anti-inflammatory | | drug
+naproxen | Aleve | NSAID; COX inhibitor | | drug
+diclofenac | | NSAID; COX inhibitor | | drug
+indomethacin | | NSAID; patent ductus arteriosus; gout | | drug
+ketorolac | | NSAID; analgesic | | drug
+celecoxib | Celebrex | COX-2 inhibitor; NSAID | | drug
+meloxicam | | NSAID; COX-2 preferential | | drug
+morphine | | opioid; mu receptor; analgesic; respiratory depression; naloxone | | drug
+codeine | | opioid; antitussive; prodrug; CYP2D6 | | drug
+fentanyl | | opioid; potent; transdermal; anesthesia | | drug
+oxycodone | | opioid; analgesic | | drug
+hydrocodone | | opioid; analgesic | | drug
+methadone | | opioid; maintenance; QT prolongation | | drug
+tramadol | | opioid; serotonin reuptake; seizures | | drug
+naloxone | Narcan | opioid antagonist; overdose; reversal | | drug
+naltrexone | | opioid antagonist; alcohol dependence | | drug
+buprenorphine | | partial opioid agonist; opioid dependence | | drug
+penicillin | penicillin G; penicillin V | beta-lactam; cell wall; Streptococcus; syphilis | | drug
+amoxicillin | | beta-lactam; aminopenicillin; otitis media | | drug
+ampicillin | | beta-lactam; aminopenicillin; Listeria | | drug
+piperacillin | piperacillin-tazobactam | beta-lactam; Pseudomonas | | drug
+dicloxacillin | | beta-lactam; staphylococci; penicillinase-resistant | | drug
+nafcillin | | beta-lactam; staphylococci | | drug
+oxacillin | | beta-lactam; staphylococci | | drug
+methicillin | | penicillinase-resistant; MRSA | | drug
+cephalexin | | first-generation cephalosporin; skin infections | | drug
+cefazolin | | first-generation cephalosporin; surgical prophylaxis | | drug
+cefuroxime | | second-generation cephalosporin | | drug
+ceftriaxone | | third-generation cephalosporin; meningitis; gonorrhea | | drug
+cefotaxime | | third-generation cephalosporin | | drug
+ceftazidime | | third-generation cephalosporin; Pseudomonas | | drug
+cefepime | | fourth-generation cephalosporin | | drug
+meropenem | | carbapenem; broad spectrum | | drug
+imipenem | | carbapenem; cilastatin; seizures | | drug
+aztreonam | | monobactam; gram-negative | | drug
+vancomycin | | glycopeptide; MRSA; cell wall; red man syndrome; nephrotoxicity | | drug
+gentamicin | | aminoglycoside; 30S; nephrotoxicity; ototoxicity | | drug
+tobramycin | | aminoglycoside; Pseudomonas | | drug
+amikacin | | aminoglycoside | | drug
+streptomycin | | aminoglycoside; tuberculosis | | drug
+azithromycin | | macrolide; 50S; QT prolongation | | drug
+erythromycin | | macrolide; 50S; gastroparesis | | drug
+clarithromycin | | macrolide; CYP3A4 inhibitor | | drug
+doxycycline | | tetracycline; 30S; tooth discoloration | | drug
+tetracycline | | 30S; tooth discoloration | | drug
+minocycline | | tetracycline | | drug
+ciprofloxacin | | fluoroquinolone; DNA gyrase; tendon rupture | | drug
+levofloxacin | | fluoroquinolone; DNA gyrase | | drug
+moxifloxacin | | fluoroquinolone | | drug
+clindamycin | | lincosamide; 50S; Clostridioides difficile; anaerobes | | drug
+linezolid | | oxazolidinone; 50S; serotonin syndrome | | drug
+metronidazole | | nitroimidazole; anaerobes; protozoa; disulfiram-like reaction | | drug
+trimethoprim | trimethoprim-sulfamethoxazole; TMP-SMX; co-trimoxazole | folate synthesis; DHFR; urinary tract infection | | drug
+sulfamethoxazole | | sulfonamide; folate synthesis | | drug
+nitrofurantoin | | urinary tract infection | | drug
+rifampin | rifampicin | RNA polymerase; tuberculosis; CYP inducer; orange urine | | drug
+isoniazid | INH | tuberculosis; hepatotoxicity; pyridoxine; peripheral neuropathy | | drug
+pyrazinamide | | tuberculosis; hyperuricemia | | drug
+ethambutol | | tuberculosis; optic neuritis | | drug
+dapsone | | leprosy; methemoglobinemia | | drug
+chloramphenicol | | 50S; gray baby syndrome; aplastic anemia | | drug
+fluconazole | | azole antifungal; ergosterol; CYP inhibitor | | drug
+itraconazole | | azole antifungal | | drug
+voriconazole | | azole antifungal; Aspergillus | | drug
+ketoconazole | | azole antifungal; steroid synthesis inhibitor | | drug
+amphotericin B | amphotericin | polyene antifungal; nephrotoxicity | | drug
+nystatin | | polyene antifungal; topical | | drug
+terbinafine | | allylamine; squalene epoxidase; onychomycosis | | drug
+caspofungin | | echinocandin; glucan synthase | | drug
+acyclovir | aciclovir | antiviral; herpes; thymidine kinase | | drug
+valacyclovir | | antiviral; herpes | | drug
+ganciclovir | | antiviral; cytomegalovirus | | drug
+oseltamivir | Tamiflu | neuraminidase inhibitor; influenza | | drug
+zidovudine | AZT | NRTI; HIV; reverse transcriptase | | drug
+tenofovir | | NRTI; HIV; hepatitis B | | drug
+lamivudine | | NRTI; HIV; hepatitis B | | drug
+efavirenz | | NNRTI; HIV | | drug
+ritonavir | | protease inhibitor; CYP3A4 booster | | drug
+raltegravir | | integrase inhibitor; HIV | | drug
+sofosbuvir | | hepatitis C; NS5B | | drug
+ribavirin | | hepatitis C; RSV | | drug
+chloroquine | | antimalarial; Plasmodium | | drug
+hydroxychloroquine | | antimalarial; lupus; rheumatoid arthritis | | drug
+mefloquine | | antimalarial | | drug
+artemisinin | | antimalarial | | drug
+ivermectin | | antiparasitic; onchocerciasis | | drug
+albendazole | | anthelmintic | | drug
+praziquantel | | anthelmintic; schistosomiasis | | drug
+metformin | | biguanide; type 2 diabetes; AMPK; lactic acidosis | | drug
+glipizide | | sulfonylurea; type 2 diabetes; insulin secretion | | drug
+glyburide | glibenclamide | sulfonylurea; type 2 diabetes | | drug
+glimepiride | | sulfonylurea; type 2 diabetes | | drug
+pioglitazone | | thiazolidinedione; PPAR gamma; insulin sensitizer | | drug
+sitagliptin | | DPP-4 inhibitor; incretin | | drug
+empagliflozin | | SGLT2 inhibitor; glucosuria | | drug
+dapagliflozin | | SGLT2 inhibitor | | drug
+liraglutide | | GLP-1 agonist; incretin | | drug
+semaglutide | | GLP-1 agonist | | drug
+exenatide | | GLP-1 agonist | | drug
+acarbose | | alpha-glucosidase inhibitor | | drug
+insulin glargine | insulin lispro; insulin aspart; insulin detemir; NPH insulin; regular insulin | insulin analog; diabetes | | drug
+levothyroxine | | thyroid hormone; hypothyroidism | | drug
+methimazole | | antithyroid; thyroid peroxidase; agranulocytosis | | drug
+propylthiouracil | PTU | antithyroid; thyroid peroxidase; liver failure | | drug
+prednisone | | glucocorticoid; anti-inflammatory; immunosuppression; adrenal suppression | | drug
+prednisolone | | glucocorticoid | | drug
+dexamethasone | | glucocorticoid; cerebral edema | | drug
+hydrocortisone | | glucocorticoid; adrenal insufficiency | | drug
+methylprednisolone | | glucocorticoid | | drug
+fludrocortisone | | mineralocorticoid; Addison disease | | drug
+tamoxifen | | selective estrogen receptor modulator; breast cancer; endometrial cancer | | drug
+raloxifene | | selective estrogen receptor modulator; osteoporosis | | drug
+anastrozole | | aromatase inhibitor; breast cancer | | drug
+letrozole | | aromatase inhibitor; breast cancer | | drug
+estradiol | | estrogen; hormone therapy | | drug
+progesterone | | progestin; endometrium | | drug
+medroxyprogesterone | | progestin; contraceptive | | drug
+levonorgestrel | | progestin; emergency contraception | | drug
+clomiphene | | ovulation induction; selective estrogen receptor modulator | | drug
+oxytocin | Pitocin | uterine contraction; labor; milk letdown | | drug
+misoprostol | | prostaglandin E1 analog; ulcer; abortion | | drug
+testosterone | | androgen; hypogonadism | | drug
+finasteride | | 5-alpha reductase inhibitor; BPH | | drug
+flutamide | | antiandrogen; prostate cancer | | drug
+leuprolide | | GnRH agonist; prostate cancer | | drug
+sildenafil | Viagra | PDE5 inhibitor; erectile dysfunction; nitrates contraindicated | | drug
+tadalafil | | PDE5 inhibitor | | drug
+alendronate | | bisphosphonate; osteoporosis; osteoclast | | drug
+calcitonin | | calcium; bone; osteoclast inhibition | | drug
+teriparatide | | PTH analog; osteoporosis | | drug
+furosemide | Lasix | loop diuretic; Na-K-2Cl; ototoxicity; hypokalemia | | drug
+bumetanide | | loop diuretic | | drug
+hydrochlorothiazide | HCTZ | thiazide diuretic; hypercalcemia; hypokalemia | | drug
+chlorthalidone | | thiazide-like diuretic | | drug
+spironolactone | | aldosterone antagonist; potassium-sparing; gynecomastia | | drug
+eplerenone | | aldosterone antagonist | | drug
+amiloride | | potassium-sparing diuretic; ENaC | | drug
+triamterene | | potassium-sparing diuretic | | drug
+acetazolamide | | carbonic anhydrase inhibitor; glaucoma; altitude sickness | | drug
+mannitol | | osmotic diuretic; cerebral edema | | drug
+captopril | | ACE inhibitor; cough; angioedema | | drug
+enalapril | | ACE inhibitor | | drug
+lisinopril | | ACE inhibitor | | drug
+ramipril | | ACE inhibitor | | drug
+losartan | | angiotensin receptor blocker; hypertension | | drug
+valsartan | | angiotensin receptor blocker | | drug
+candesartan | | angiotensin receptor blocker | | drug
+aliskiren | | renin inhibitor | | drug
+amlodipine | | dihydropyridine calcium channel blocker; peripheral edema | | drug
+nifedipine | | dihydropyridine calcium channel blocker | | drug
+verapamil | | non-dihydropyridine calcium channel blocker; AV node; constipation | | drug
+diltiazem | | non-dihydropyridine calcium channel blocker | | drug
+propranolol | | nonselective beta blocker; tremor; migraine | | drug
+metoprolol | | beta-1 selective blocker; heart failure | | drug
+atenolol | | beta-1 selective blocker | | drug
+carvedilol | | beta blocker; alpha-1 blocker; heart failure | | drug
+labetalol | | beta blocker; alpha blocker; pregnancy hypertension | | drug
+esmolol | | short-acting beta blocker | | drug
+clonidine | | alpha-2 agonist; hypertension; withdrawal | | drug
+methyldopa | | alpha-2 agonist; pregnancy hypertension | | drug
+hydralazine | | vasodilator; lupus-like syndrome | | drug
+minoxidil | | vasodilator; hirsutism | | drug
+nitroprusside | sodium nitroprusside | vasodilator; cyanide toxicity | | drug
+nitroglycerin | glyceryl trinitrate | nitrate; angina; vasodilator | | drug
+isosorbide | isosorbide mononitrate; isosorbide dinitrate | nitrate; angina | | drug
+prazosin | | alpha-1 blocker; BPH; hypertension | | drug
+tamsulosin | | alpha-1A blocker; BPH | | drug
+digoxin | | cardiac glycoside; Na/K ATPase; heart failure; atrial fibrillation; toxicity | | drug
+amiodarone | | class III antiarrhythmic; potassium channel; thyroid toxicity; pulmonary fibrosis | | drug
+sotalol | | class III antiarrhythmic; beta blocker | | drug
+lidocaine | | class IB antiarrhythmic; local anesthetic; sodium channel | | drug
+procainamide | | class IA antiarrhythmic; lupus-like syndrome | | drug
+flecainide | | class IC antiarrhythmic | | drug
+quinidine | | class IA antiarrhythmic; cinchonism | | drug
+adenosine | | SVT termination; AV node | | drug
+atropine | | muscarinic antagonist; bradycardia; organophosphate poisoning | | drug
+epinephrine | adrenaline | anaphylaxis; alpha and beta agonist; cardiac arrest | | drug
+norepinephrine | noradrenaline | vasopressor; septic shock; alpha-1 agonist | | drug
+dopamine | | inotrope; renal dose; vasopressor | | drug
+dobutamine | | beta-1 agonist; inotrope | | drug
+isoproterenol | | beta agonist; bradycardia | | drug
+phenylephrine | | alpha-1 agonist; nasal decongestant; vasopressor | | drug
+albuterol | salbutamol | beta-2 agonist; asthma; bronchodilator | | drug
+salmeterol | | long-acting beta-2 agonist; asthma | | drug
+ipratropium | | muscarinic antagonist; COPD | | drug
+tiotropium | | long-acting muscarinic antagonist; COPD | | drug
+theophylline | | methylxanthine; phosphodiesterase inhibitor; asthma | | drug
+montelukast | | leukotriene receptor antagonist; asthma | | drug
+budesonide | | inhaled corticosteroid; asthma | | drug
+fluticasone | | inhaled corticosteroid | | drug
+cromolyn | | mast cell stabilizer | | drug
+omalizumab | | anti-IgE; asthma | | drug
+warfarin | Coumadin | vitamin K antagonist; INR; teratogenic; anticoagulant | | drug
+heparin | unfractionated heparin | antithrombin; anticoagulant; aPTT; heparin-induced thrombocytopenia | | drug
+enoxaparin | low molecular weight heparin; LMWH | anticoagulant; anti-Xa | | drug
+rivaroxaban | | factor Xa inhibitor; DOAC | | drug
+apixaban | | factor Xa inhibitor; DOAC | | drug
+dabigatran | | direct thrombin inhibitor; DOAC | | drug
+clopidogrel | Plavix | P2Y12 inhibitor; antiplatelet; stent | | drug
+ticagrelor | | P2Y12 inhibitor; antiplatelet | | drug
+prasugrel | | P2Y12 inhibitor; antiplatelet | | drug
+abciximab | | GP IIb/IIIa inhibitor; antiplatelet | | drug
+alteplase | tPA; tissue plasminogen activator | thrombolytic; stroke; myocardial infarction | | drug
+streptokinase | | thrombolytic | | drug
+tranexamic acid | | antifibrinolytic; bleeding | | drug
+protamine | | heparin reversal | | drug
+phytonadione | vitamin K1 | warfarin reversal | | drug
+atorvastatin | | statin; HMG-CoA reductase; myopathy | | drug
+simvastatin | | statin; HMG-CoA reductase | | drug
+rosuvastatin | | statin; HMG-CoA reductase | | drug
+ezetimibe | | cholesterol absorption inhibitor | | drug
+fenofibrate | | fibrate; PPAR alpha; triglycerides | | drug
+gemfibrozil | | fibrate; triglycerides | | drug
+niacin | nicotinic acid | lipid lowering; flushing | | drug
+cholestyramine | | bile acid sequestrant | | drug
+omeprazole | | proton pump inhibitor; gastric acid; H+/K+ ATPase | | drug
+esomeprazole | | proton pump inhibitor | | drug
+pantoprazole | | proton pump inhibitor | | drug
+lansoprazole | | proton pump inhibitor | | drug
+famotidine | | H2 blocker; gastric acid | | drug
+ranitidine | | H2 blocker | | drug
+cimetidine | | H2 blocker; CYP inhibitor | | drug
+sucralfate | | mucosal protectant; ulcer | | drug
+ondansetron | | 5-HT3 antagonist; antiemetic; QT prolongation | | drug
+metoclopramide | | dopamine antagonist; prokinetic; antiemetic | | drug
+loperamide | | opioid agonist; antidiarrheal | | drug
+bisacodyl | | stimulant laxative | | drug
+lactulose | | osmotic laxative; hepatic encephalopathy | | drug
+mesalamine | | aminosalicylate; ulcerative colitis | | drug
+sulfasalazine | | aminosalicylate; ulcerative colitis; rheumatoid arthritis | | drug
+infliximab | | anti-TNF; Crohn disease; rheumatoid arthritis | | drug
+adalimumab | | anti-TNF | | drug
+etanercept | | TNF receptor fusion protein | | drug
+rituximab | | anti-CD20; lymphoma | | drug
+trastuzumab | Herceptin | anti-HER2; breast cancer | | drug
+bevacizumab | | anti-VEGF | | drug
+cetuximab | | anti-EGFR | | drug
+imatinib | Gleevec | tyrosine kinase inhibitor; BCR-ABL; chronic myeloid leukemia | | drug
+erlotinib | | EGFR inhibitor; lung cancer | | drug
+methotrexate | | antimetabolite; DHFR inhibitor; folate; rheumatoid arthritis | | drug
+5-fluorouracil | fluorouracil; 5-FU | antimetabolite; thymidylate synthase | | drug
+cytarabine | | antimetabolite; leukemia | | drug
+mercaptopurine | 6-MP | antimetabolite; purine; xanthine oxidase | | drug
+azathioprine | | immunosuppressant; purine; allopurinol interaction | | drug
+cyclophosphamide | | alkylating agent; hemorrhagic cystitis; mesna | | drug
+cisplatin | | platinum; nephrotoxicity; ototoxicity | | drug
+carboplatin | | platinum | | drug
+doxorubicin | | anthracycline; cardiotoxicity | | drug
+bleomycin | | pulmonary fibrosis; testicular cancer | | drug
+vincristine | | vinca alkaloid; microtubule; neuropathy | | drug
+vinblastine | | vinca alkaloid; microtubule | | drug
+paclitaxel | | taxane; microtubule stabilizer | | drug
+etoposide | | topoisomerase II inhibitor | | drug
+irinotecan | | topoisomerase I inhibitor | | drug
+hydroxyurea | | ribonucleotide reductase; sickle cell | | drug
+busulfan | | alkylating agent | | drug
+cyclosporine | ciclosporin | calcineurin inhibitor; immunosuppressant; transplant | | drug
+tacrolimus | | calcineurin inhibitor; transplant | | drug
+sirolimus | rapamycin | mTOR inhibitor; transplant | | drug
+mycophenolate | mycophenolate mofetil | IMP dehydrogenase; transplant | | drug
+allopurinol | | xanthine oxidase inhibitor; gout | | drug
+febuxostat | | xanthine oxidase inhibitor; gout | | drug
+colchicine | | microtubule; gout; neutrophils | | drug
+probenecid | | uricosuric; gout | | drug
+phenytoin | | antiepileptic; sodium channel; gingival hyperplasia; zero-order kinetics | | drug
+carbamazepine | | antiepileptic; sodium channel; trigeminal neuralgia; CYP inducer | | drug
+valproate | valproic acid | antiepileptic; hepatotoxicity; neural tube defects | | drug
+lamotrigine | | antiepileptic; Stevens-Johnson syndrome | | drug
+levetiracetam | | antiepileptic; SV2A | | drug
+phenobarbital | | barbiturate; antiepileptic; CYP inducer | | drug
+ethosuximide | | antiepileptic; absence seizures; T-type calcium channel | | drug
+topiramate | | antiepileptic; migraine | | drug
+gabapentin | | antiepileptic; neuropathic pain; calcium channel alpha-2-delta | | drug
+pregabalin | | neuropathic pain; calcium channel alpha-2-delta | | drug
+diazepam | | benzodiazepine; GABA-A; status epilepticus | | drug
+lorazepam | | benzodiazepine; GABA-A | | drug
+alprazolam | | benzodiazepine; anxiety | | drug
+clonazepam | | benzodiazepine; seizures; panic disorder | | drug
+midazolam | | benzodiazepine; sedation | | drug
+flumazenil | | benzodiazepine antagonist | | drug
+zolpidem | | nonbenzodiazepine hypnotic; GABA-A | | drug
+buspirone | | 5-HT1A partial agonist; anxiety | | drug
+fluoxetine | | SSRI; serotonin reuptake; depression | | drug
+sertraline | | SSRI; depression | | drug
+paroxetine | | SSRI; depression | | drug
+citalopram | | SSRI; QT prolongation | | drug
+escitalopram | | SSRI | | drug
+venlafaxine | | SNRI; depression | | drug
+duloxetine | | SNRI; neuropathic pain | | drug
+bupropion | | norepinephrine dopamine reuptake inhibitor; smoking cessation; seizures | | drug
+mirtazapine | | alpha-2 antagonist; sedation; weight gain | | drug
+trazodone | | serotonin antagonist reuptake inhibitor; sedation | | drug
+amitriptyline | | tricyclic antidepressant; anticholinergic | | drug
+nortriptyline | | tricyclic antidepressant | | drug
+imipramine | | tricyclic antidepressant; enuresis | | drug
+phenelzine | | monoamine oxidase inhibitor | | drug
+selegiline | | MAO-B inhibitor; Parkinson | | drug
+lithium | | mood stabilizer; bipolar disorder; narrow therapeutic index; nephrogenic diabetes insipidus | | drug
+haloperidol | | typical antipsychotic; D2 antagonist; extrapyramidal symptoms | | drug
+chlorpromazine | | typical antipsychotic; D2 antagonist | | drug
+risperidone | | atypical antipsychotic; hyperprolactinemia | | drug
+olanzapine | | atypical antipsychotic; weight gain; metabolic syndrome | | drug
+quetiapine | | atypical antipsychotic | | drug
+aripiprazole | | atypical antipsychotic; partial agonist | | drug
+clozapine | | atypical antipsychotic; agranulocytosis | | drug
+levodopa | L-DOPA; carbidopa-levodopa | Parkinson disease; dopamine precursor; carbidopa | | drug
+carbidopa | | DOPA decarboxylase inhibitor; Parkinson | | drug
+pramipexole | | dopamine agonist; Parkinson | | drug
+ropinirole | | dopamine agonist; Parkinson | | drug
+bromocriptine | | dopamine agonist; hyperprolactinemia | | drug
+amantadine | | Parkinson; influenza; NMDA antagonist | | drug
+entacapone | | COMT inhibitor; Parkinson | | drug
+benztropine | | anticholinergic; Parkinson; extrapyramidal symptoms | | drug
+donepezil | | acetylcholinesterase inhibitor; Alzheimer | | drug
+memantine | | NMDA antagonist; Alzheimer | | drug
+sumatriptan | | 5-HT1B/1D agonist; migraine | | drug
+methylphenidate | Ritalin | stimulant; ADHD; dopamine norepinephrine | | drug
+amphetamine | | stimulant; ADHD; release of catecholamines | | drug
+modafinil | | wakefulness; narcolepsy | | drug
+baclofen | | GABA-B agonist; muscle relaxant; spasticity | | drug
+dantrolene | | ryanodine receptor; malignant hyperthermia | | drug
+tizanidine | | alpha-2 agonist; spasticity | | drug
+cyclobenzaprine | | muscle relaxant | | drug
+succinylcholine | | depolarizing neuromuscular blocker; malignant hyperthermia | | drug
+rocuronium | | nondepolarizing neuromuscular blocker | | drug
+vecuronium | | nondepolarizing neuromuscular blocker | | drug
+atracurium | | nondepolarizing neuromuscular blocker; Hofmann elimination | | drug
+neostigmine | | acetylcholinesterase inhibitor; myasthenia gravis; reversal | | drug
+pyridostigmine | | acetylcholinesterase inhibitor; myasthenia gravis | | drug
+physostigmine | | acetylcholinesterase inhibitor; anticholinergic toxicity | | drug
+edrophonium | | acetylcholinesterase inhibitor; Tensilon test | | drug
+pilocarpine | | muscarinic agonist; glaucoma; Sjögren | | drug
+bethanechol | | muscarinic agonist; urinary retention | | drug
+scopolamine | | muscarinic antagonist; motion sickness | | drug
+oxybutynin | | muscarinic antagonist; overactive bladder | | drug
+tolterodine | | muscarinic antagonist; overactive bladder | | drug
+glycopyrrolate | | muscarinic antagonist | | drug
+curare | tubocurarine | nondepolarizing neuromuscular blocker; nicotinic receptor | | drug
+propofol | | intravenous anesthetic; GABA-A | | drug
+ketamine | | NMDA antagonist; dissociative anesthetic | | drug
+etomidate | | intravenous anesthetic; adrenal suppression | | drug
+thiopental | | barbiturate; intravenous anesthetic | | drug
+sevoflurane | | inhaled anesthetic | | drug
+isoflurane | | inhaled anesthetic | | drug
+halothane | | inhaled anesthetic; hepatitis | | drug
+nitrous oxide | | inhaled anesthetic | | drug
+bupivacaine | | local anesthetic; cardiotoxicity | | drug
+ropivacaine | | local anesthetic | | drug
+procaine | | local anesthetic; ester | | drug
+cocaine | | local anesthetic; reuptake inhibitor; vasoconstriction | | drug
+diphenhydramine | Benadryl | H1 antihistamine; first-generation; sedation | | drug
+cetirizine | | H1 antihistamine; second-generation | | drug
+loratadine | | H1 antihistamine; second-generation | | drug
+fexofenadine | | H1 antihistamine; second-generation | | drug
+promethazine | | H1 antihistamine; antiemetic | | drug
+hydroxyzine | | H1 antihistamine; anxiety | | drug
+cyproheptadine | | H1 antihistamine; serotonin antagonist | | drug
+dextromethorphan | | antitussive; NMDA antagonist | | drug
+guaifenesin | | expectorant | | drug
+pseudoephedrine | | decongestant; sympathomimetic | | drug
+caffeine | | methylxanthine; adenosine antagonist; CNS stimulant | | drug
+nicotine | | nicotinic receptor agonist; addiction | | drug
+ethanol | alcohol | CNS depressant; alcohol dehydrogenase; zero-order kinetics | | drug
+fomepizole | | alcohol dehydrogenase inhibitor; methanol; ethylene glycol | | drug
+disulfiram | | aldehyde dehydrogenase inhibitor; alcohol aversion | | drug
+acamprosate | | alcohol dependence | | drug
+N-acetylcysteine | NAC; acetylcysteine | acetaminophen overdose; mucolytic | | drug
+deferoxamine | | iron chelator | | drug
+dimercaprol | BAL; British anti-Lewisite | chelator; arsenic; mercury; lead | | drug
+edetate calcium disodium | EDTA; calcium EDTA | chelator; lead | | drug
+penicillamine | | chelator; Wilson disease; cystinuria | | drug
+pralidoxime | | cholinesterase reactivator; organophosphate poisoning | | drug
+hydroxocobalamin | | cyanide poisoning antidote; vitamin B12 | | drug
+methylene blue | | methemoglobinemia | | drug
+sodium bicarbonate | | alkalinization; antacid; overdose | | drug
+activated charcoal | | adsorbent; poisoning | | drug
+glucagon | | hypoglycemia; beta blocker overdose | | drug
+octreotide | | somatostatin analog; acromegaly; carcinoid | | drug
+desmopressin | DDAVP | vasopressin analog; diabetes insipidus; enuresis | | drug
+vasopressin | antidiuretic hormone | vasopressor; diabetes insipidus | | drug
+cabergoline | | dopamine agonist; prolactinoma | | drug
+erythropoietin | epoetin; epoetin alfa | anemia; chronic kidney disease | | drug
+filgrastim | G-CSF | neutropenia; granulocyte colony-stimulating factor | | drug
+interferon alfa | interferon | hepatitis; melanoma | | drug

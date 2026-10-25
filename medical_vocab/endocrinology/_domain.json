@@ -1,0 +1,9 @@
+{
+ "title": "Endocrinology",
+ "version": "1.0.0",
+ "related": [
+  "physiology",
+  "biochemistry",
+  "internal_medicine"
+ ]
+}

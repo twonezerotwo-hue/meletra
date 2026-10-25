@@ -1,0 +1,31 @@
+# Pulmonology. canonical | aliases | cues | confusables | kind
+conducting zone | conducting airways | trachea; bronchi; bronchioles; no gas exchange
+respiratory zone | respiratory bronchioles; alveolar ducts | gas exchange; alveoli
+blood-air barrier | air-blood barrier; respiratory membrane | type I pneumocytes; fused basement membranes; endothelium
+type I pneumocyte | type I pneumocytes; type 1 pneumocytes | gas exchange; thin squamous cells
+type II pneumocyte | type II pneumocytes; type 2 pneumocytes | surfactant; regenerate type I; cuboidal
+alveolar macrophages | dust cells | phagocytosis; alveoli; heart failure cells
+pulmonary surfactant | | dipalmitoylphosphatidylcholine; lecithin-sphingomyelin ratio; neonatal respiratory distress
+neonatal respiratory distress syndrome | NRDS; respiratory distress syndrome of the newborn; hyaline membrane disease | premature; surfactant deficiency
+bronchopulmonary segment | bronchopulmonary segments | segmental bronchus; surgical resection
+status asthmaticus | | severe asthma; refractory
+alpha-1 antitrypsin | alpha 1 antitrypsin; A1AT | elastase inhibitor; panacinar emphysema
+centriacinar emphysema | centrilobular emphysema | smoking; upper lobes
+panacinar emphysema | panlobular emphysema | alpha-1 antitrypsin deficiency; lower lobes
+pneumoconiosis | | asbestosis; silicosis; coal workers
+asbestosis | | pleural plaques; mesothelioma; ferruginous bodies
+silicosis | | silica; upper lobes; eggshell calcification
+mesothelioma | | asbestos; pleura
+lung abscess | | aspiration; anaerobes; cavity
+empyema | | pus in pleural space
+atelectasis | | collapsed alveoli; postoperative
+tension pneumothorax | | trachea deviation; emergency; needle decompression
+spontaneous pneumothorax | | tall thin males; blebs
+hemothorax | | blood in pleural space
+flail chest | | multiple rib fractures; paradoxical movement
+hypoxemia | | low arterial oxygen; cyanosis
+type 1 respiratory failure | | hypoxemia; normal CO2
+type 2 respiratory failure | | hypercapnia; hypoventilation
+sleep apnea | | obstructive; central
+bronchoscopy | | camera; biopsy; lavage
+bronchoalveolar lavage | BAL | alveolar sampling; infection

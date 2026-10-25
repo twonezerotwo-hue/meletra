@@ -1,0 +1,307 @@
+# Gross anatomy: skeleton, joints, muscles, vessels, organs, regions. canonical | aliases | cues | confusables | kind
+vertebral column | spine; spinal column; backbone | vertebrae; cervical; thoracic; lumbar; sacral; coccyx; intervertebral discs
+cervical vertebra | cervical vertebrae | neck; C1 atlas; C2 axis; transverse foramen; seven
+thoracic vertebra | thoracic vertebrae | ribs; twelve; costal facets
+lumbar vertebra | lumbar vertebrae | five; large bodies; low back
+sacrum | | fused vertebrae; pelvis; sacral foramina; five
+coccyx | tailbone | vertebrae; pelvis; fused
+intervertebral disc | intervertebral discs; invertebral disc; slipped disc | nucleus pulposus; anulus fibrosus; herniation; vertebrae
+nucleus pulposus | | intervertebral disc; notochord remnant; herniation
+anulus fibrosus | annulus fibrosus | intervertebral disc; collagen rings
+skull | cranium; crania | bones; cranial vault; facial bones; sutures; fontanelle
+frontal bone | | skull; forehead
+parietal bone | parietal bones | skull; sagittal suture; coronal suture
+temporal bone | temporal bones | skull; petrous; mastoid; ear
+occipital bone | | skull; foramen magnum; occipital condyles
+sphenoid bone | sphenoid | skull; sella turcica; pituitary; greater wing; lesser wing
+ethmoid bone | ethmoid | skull; cribriform plate; olfactory; nasal
+mandible | mandibular; lower jaw | jaw; ramus; temporomandibular joint; condyle
+maxilla | maxillae | upper jaw; palate; teeth
+zygomatic bone | zygomatic arch; cheekbone | face; cheek
+nasal bone | nasal bones | nose
+vomer | | nasal septum; bone
+palatine bone | | hard palate
+lacrimal bone | | orbit; tears
+hyoid bone | hyoid | neck; tongue; larynx
+foramen magnum | | occipital bone; spinal cord; brainstem; skull base
+sutures | cranial sutures; coronal suture; sagittal suture; lambdoid suture; squamous suture | skull; fibrous joints; fontanelle
+fontanelle | fontanel; fontanelles | infant skull; anterior fontanelle; posterior fontanelle
+clavicle | clavicles; collarbone | shoulder; sternoclavicular; acromioclavicular; fracture
+scapula | scapulae; shoulder blade | acromion; glenoid; spine; coracoid
+humerus | humeri | arm; shoulder; elbow; surgical neck; radial groove
+radius | radii | forearm; thumb side; wrist
+ulna | | forearm; olecranon; elbow
+carpal bones | carpals; carpus | wrist; scaphoid; lunate; hamate; capitate
+scaphoid | scaphoid bone | wrist; fracture; snuffbox; avascular necrosis
+metacarpal | metacarpals; metacarpal bones | hand
+phalanx | phalanges | fingers; toes; proximal; middle; distal
+pelvis | pelvic girdle; hip bone | ilium; ischium; pubis; sacrum; acetabulum
+ilium | iliac bone; iliac crest | pelvis; hip bone
+ischium | ischial tuberosity | pelvis; sit bones
+pubis | pubic bone; pubic symphysis | pelvis; symphysis
+acetabulum | | hip joint; pelvis; femoral head
+femur | femora; thigh bone | femoral head; neck; greater trochanter; condyles; hip fracture
+patella | patellae; kneecap | knee; quadriceps; sesamoid
+tibia | tibiae; shinbone | leg; medial malleolus; tibial plateau
+fibula | fibulae; fibular | leg; lateral malleolus
+tarsal bones | tarsals; tarsus | ankle; talus; calcaneus
+talus | | ankle; tarsal; tibia
+calcaneus | heel bone | ankle; Achilles tendon
+metatarsal | metatarsals | foot
+rib | ribs; costae | thorax; true ribs; false ribs; floating ribs; twelve pairs
+sternum | breastbone | thorax; manubrium; body; xiphoid process
+manubrium | | sternum; sternal angle; clavicle
+xiphoid process | xiphoid | sternum; lower end
+costal cartilage | costal cartilages | ribs; sternum; hyaline
+thoracic cage | rib cage; thoracic cavity | ribs; sternum; thoracic vertebrae; lungs
+joint | joints; articulation | synovial; fibrous; cartilaginous; movement
+synovial joint | synovial joints | joint capsule; synovial fluid; articular cartilage; ball and socket; hinge
+synovial fluid | | joint; lubrication; hyaluronic acid
+articular cartilage | | hyaline cartilage; joint surface; avascular
+joint capsule | articular capsule | synovial; ligaments
+ball-and-socket joint | ball and socket joint | shoulder; hip; synovial
+hinge joint | | elbow; knee; synovial
+pivot joint | | atlantoaxial; radioulnar
+shoulder joint | glenohumeral joint | rotator cuff; glenoid; humerus; dislocation
+rotator cuff | | supraspinatus; infraspinatus; teres minor; subscapularis; shoulder
+elbow joint | | humerus; radius; ulna; hinge
+wrist joint | radiocarpal joint | radius; carpal bones
+hip joint | | femoral head; acetabulum; ball and socket
+knee joint | | femur; tibia; patella; menisci; cruciate ligaments
+anterior cruciate ligament | ACL | knee; tibia forward; femur
+posterior cruciate ligament | PCL | knee; tibia backward
+medial collateral ligament | MCL | knee; valgus
+lateral collateral ligament | LCL | knee; varus
+meniscus | menisci | knee; fibrocartilage; medial; lateral
+ankle joint | talocrural joint | tibia; fibula; talus; sprain
+ligament | ligaments | bone to bone; collagen; joint; sprain
+tendon | tendons | muscle to bone; collagen; Achilles
+muscle | muscles; musculature | contraction; fibers; origin; insertion
+skeletal muscle | skeletal muscles | voluntary; striated; sarcomeres; somatic
+smooth muscle tissue | | involuntary; visceral; vessels
+origin and insertion | origin; insertion | muscle attachment; bone
+deltoid | deltoid muscle | shoulder; axillary nerve; abduction
+trapezius | trapezius muscle | back; neck; accessory nerve; scapula
+latissimus dorsi | | back; thoracodorsal nerve; adduction
+pectoralis major | | chest; pectoral; shoulder; adduction
+pectoralis minor | | chest; scapula
+serratus anterior | | long thoracic nerve; winged scapula
+rhomboid | rhomboids; rhomboid major; rhomboid minor | back; scapula; dorsal scapular nerve
+biceps brachii | biceps; biceps muscle | arm; flexion; supination; musculocutaneous nerve
+triceps brachii | triceps; triceps muscle | arm; extension; radial nerve
+brachialis | | arm; elbow flexion
+brachioradialis | | forearm; elbow flexion
+supraspinatus | | rotator cuff; abduction; suprascapular nerve
+infraspinatus | | rotator cuff; external rotation
+teres major | | shoulder; internal rotation
+teres minor | | rotator cuff; external rotation; axillary nerve
+subscapularis | | rotator cuff; internal rotation
+diaphragm | thoracic diaphragm | breathing; phrenic nerve; inspiration; central tendon; hiatus
+intercostal muscles | external intercostals; internal intercostals; intercostal muscle | ribs; respiration
+rectus abdominis | | abdomen; six-pack; linea alba
+external oblique | external abdominal oblique | abdomen; lateral
+internal oblique | | abdomen; lateral
+transversus abdominis | transverse abdominis | abdomen; deep
+inguinal canal | inguinal canals | hernia; spermatic cord; round ligament; deep ring; superficial ring
+inguinal ligament | | abdomen; thigh; femoral
+linea alba | | abdomen; midline; rectus sheath
+gluteus maximus | | hip extension; buttock; inferior gluteal nerve
+gluteus medius | | hip abduction; Trendelenburg; superior gluteal nerve
+gluteus minimus | | hip abduction
+psoas major | psoas | hip flexion; lumbar plexus
+iliacus | | hip flexion; femoral nerve
+iliopsoas | | hip flexion
+quadriceps femoris | quadriceps; quads | thigh; knee extension; femoral nerve; rectus femoris; vastus
+rectus femoris | | quadriceps; hip flexion
+vastus lateralis | | quadriceps
+vastus medialis | | quadriceps; patella
+hamstrings | hamstring muscles; hamstring | thigh; knee flexion; biceps femoris; semitendinosus; semimembranosus; sciatic
+sartorius | | thigh; longest muscle; femoral nerve
+gracilis | | thigh; adduction; obturator nerve
+adductor magnus | | thigh; adduction
+gastrocnemius | calf muscle | calf; plantar flexion; Achilles; tibial nerve
+soleus | | calf; plantar flexion
+tibialis anterior | | dorsiflexion; deep fibular nerve
+Achilles tendon | calcaneal tendon | calf; gastrocnemius; soleus; heel
+masseter | | mastication; jaw; trigeminal
+temporalis | | mastication; temporal fossa
+sternocleidomastoid | SCM | neck; accessory nerve; torticollis
+platysma | | neck; facial nerve
+orbicularis oculi | | eye; facial nerve; blinking
+orbicularis oris | | mouth; facial nerve
+erector spinae | | back; extension; iliocostalis; longissimus; spinalis
+quadratus lumborum | | back; posterior abdominal wall
+pelvic floor | levator ani | pelvis; support; pubococcygeus
+heart | cardiac | chambers; valves; atria; ventricles; pericardium; coronary
+atrium | atria; right atrium; left atrium | heart; upper chamber; receiving; auricle
+ventricle | ventricles; right ventricle; left ventricle | heart; pumping; lower chamber
+mitral valve | bicuspid valve; left atrioventricular valve | left atrium; left ventricle; chordae tendineae; stenosis; regurgitation
+tricuspid valve | right atrioventricular valve | right atrium; right ventricle
+aortic valve | | left ventricle; aorta; semilunar; stenosis
+pulmonary valve | | right ventricle; pulmonary artery; semilunar
+chordae tendineae | | papillary muscles; valves
+papillary muscle | papillary muscles | ventricle; chordae tendineae
+interventricular septum | | heart; ventricles; VSD
+pericardium | pericardial | heart; fibrous; serous; pericardial sac
+myocardium | myocardial | heart muscle; cardiac muscle
+endocardium | endocardial | heart lining; endothelium
+epicardium | | heart surface; visceral pericardium
+coronary artery | coronary arteries | heart; left anterior descending; right coronary; circumflex; infarct
+left anterior descending artery | LAD; left anterior descending | coronary; anterior wall; widowmaker
+coronary sinus | | heart; venous drainage; right atrium
+aorta | aortic | main artery; ascending aorta; arch; descending aorta; abdominal aorta
+aortic arch | arch of the aorta | aorta; brachiocephalic; left common carotid; left subclavian
+ascending aorta | | aorta; coronary arteries; aortic root
+descending aorta | thoracic aorta | aorta; thorax
+abdominal aorta | | aorta; celiac trunk; renal arteries; bifurcation
+celiac trunk | celiac artery; coeliac trunk | abdominal aorta; foregut; splenic; hepatic; left gastric
+superior mesenteric artery | SMA | midgut; abdominal aorta; small intestine
+inferior mesenteric artery | IMA | hindgut; descending colon
+renal artery | renal arteries | kidney; abdominal aorta
+common iliac artery | common iliac arteries | aorta bifurcation; pelvis
+external iliac artery | | femoral artery; lower limb
+internal iliac artery | | pelvis; uterine artery
+femoral artery | | thigh; external iliac; groin; pulse
+popliteal artery | | knee; popliteal fossa
+brachiocephalic trunk | brachiocephalic artery | aortic arch; right common carotid; right subclavian
+common carotid artery | carotid artery; carotid arteries | neck; internal carotid; external carotid; carotid sinus
+carotid sinus | | baroreceptors; blood pressure; bifurcation
+carotid body | | chemoreceptors; oxygen; bifurcation
+subclavian artery | | axillary artery; upper limb; vertebral artery
+axillary artery | | shoulder; brachial artery
+brachial artery | | arm; blood pressure; cubital fossa
+radial artery | | forearm; pulse; wrist
+ulnar artery | | forearm
+external carotid artery | | face; neck; branches
+superior vena cava | SVC | right atrium; head and arms; venous return
+inferior vena cava | IVC | right atrium; abdomen and legs; venous return
+azygos vein | | thorax; vena cava; posterior mediastinum
+portal vein | hepatic portal vein | liver; splenic vein; superior mesenteric vein; portal triad
+portal triad | | liver; hepatic artery; portal vein; bile duct
+hepatic vein | hepatic veins | liver; inferior vena cava
+jugular vein | internal jugular vein; external jugular vein; jugular | neck; head venous drainage
+femoral vein | | thigh; groin
+great saphenous vein | saphenous vein; long saphenous vein | leg; superficial; bypass graft; varicose
+pulmonary artery | pulmonary arteries | right ventricle; lungs; deoxygenated
+pulmonary vein | pulmonary veins | left atrium; oxygenated; lungs
+umbilical vein | umbilical arteries; umbilical artery | fetus; placenta; cord
+lymphatic system | lymphatics; lymph vessels | lymph nodes; thoracic duct; spleen; thymus; immune
+lymph node | lymph nodes; lymph gland; lymph glands | cortex; medulla; germinal center; filtration; cervical; axillary; inguinal
+thoracic duct | | lymph; left subclavian; cisterna chyli
+spleen | splenic | red pulp; white pulp; immune; blood filtration; left upper quadrant
+thymus | thymic | T cells; mediastinum; Hassall corpuscles; involution
+tonsils | tonsil; palatine tonsils; pharyngeal tonsil; lingual tonsil | Waldeyer ring; lymphoid
+trachea | windpipe | cartilage rings; larynx; carina; bronchi
+larynx | voice box | vocal cords; epiglottis; thyroid cartilage; cricoid cartilage
+epiglottis | | larynx; swallowing; airway
+vocal cords | vocal folds; vocal cord | larynx; voice; phonation
+bronchus | bronchi; main bronchus; main bronchi; primary bronchi; bronchial | trachea; lung; airway; carina
+bronchiole | bronchioles; terminal bronchiole; respiratory bronchiole | airway; smooth muscle; Clara cells
+alveolus | alveoli; alveolar | lung; gas exchange; type I pneumocytes; type II pneumocytes; surfactant
+pneumocyte | pneumocytes; type I pneumocyte; type II pneumocyte | alveoli; surfactant; gas exchange
+surfactant | | alveoli; type II pneumocytes; surface tension; respiratory distress syndrome
+lung | lungs; pulmonary | lobes; bronchi; alveoli; pleura; hilum
+pleura | pleural | lung; visceral pleura; parietal pleura; pleural cavity; effusion
+pleural cavity | pleural space | pleura; effusion; pneumothorax
+diaphragm hiatus | esophageal hiatus; aortic hiatus; caval opening | diaphragm; esophagus; aorta; vena cava
+mediastinum | mediastinal | heart; thymus; trachea; esophagus; great vessels
+esophagus | oesophagus; esophageal; oesophageal | swallowing; gullet; lower esophageal sphincter; peristalsis
+stomach | gastric | fundus; body; antrum; pylorus; rugae; acid; parietal cells; chief cells
+pylorus | pyloric | stomach; sphincter; duodenum
+duodenum | duodenal | small intestine; bile; pancreatic juice; Brunner glands; ampulla of Vater
+jejunum | jejunal | small intestine; absorption; villi
+ileum | ileal | small intestine; Peyer patches; vitamin B12; bile salts
+small intestine | small bowel | duodenum; jejunum; ileum; absorption; villi; microvilli
+large intestine | large bowel; colon | cecum; ascending; transverse; descending; sigmoid; rectum; haustra
+cecum | caecum | large intestine; ileocecal valve; appendix
+appendix | vermiform appendix | cecum; appendicitis; McBurney
+colon | colonic | large intestine; haustra; taeniae coli; sigmoid
+rectum | rectal | anal canal; large intestine; defecation
+anal canal | anus | rectum; sphincters; pectinate line
+liver | hepatic | hepatocytes; lobules; sinusoids; bile; portal triad; Kupffer cells
+hepatocyte | hepatocytes | liver; bile; metabolism; sinusoids
+liver lobule | hepatic lobule; liver lobules | central vein; portal triad; hepatocytes
+gallbladder | gall bladder | bile; storage; cystic duct; cholecystitis; gallstones
+bile duct | common bile duct; biliary tree; bile ducts | liver; gallbladder; duodenum; cholestasis
+pancreas | pancreatic | exocrine; endocrine; islets of Langerhans; acini; ampulla of Vater
+pancreatic islets | islets of Langerhans; islet of Langerhans | beta cells; alpha cells; insulin; glucagon
+peritoneum | peritoneal | abdomen; mesentery; omentum; serous membrane; ascites
+mesentery | mesenteries | peritoneum; small intestine; blood supply
+omentum | greater omentum; lesser omentum | peritoneum; stomach; fat
+kidney | kidneys; renal | nephron; cortex; medulla; calyces; pelvis; filtration
+nephron | nephrons | glomerulus; proximal tubule; loop of Henle; distal tubule; collecting duct
+glomerulus | glomeruli; glomerular | capillaries; Bowman's capsule; filtration; podocytes
+proximal convoluted tubule | PCT; proximal tubule | nephron; reabsorption; brush border
+loop of Henle | Henle's loop | nephron; countercurrent; thick ascending limb; thin descending limb
+distal convoluted tubule | DCT; distal tubule | nephron; aldosterone; thiazide
+collecting duct | collecting ducts | nephron; ADH; aquaporin; principal cells
+juxtaglomerular apparatus | JGA; juxtaglomerular cells; macula densa | renin; afferent arteriole; blood pressure
+podocyte | podocytes | glomerulus; foot processes; slit diaphragm; filtration
+renal pelvis | | kidney; ureter; calyces
+renal pyramid | renal pyramids | medulla; kidney; papilla
+ureter | ureters | kidney; bladder; peristalsis; kidney stone
+urinary bladder | bladder; vesical | detrusor; urothelium; trigone; micturition
+urethra | urethral | bladder; urination; male; female; sphincters
+adrenal gland | adrenal glands; suprarenal gland; adrenals | cortex; medulla; cortisol; aldosterone; epinephrine
+adrenal cortex | | zona glomerulosa; zona fasciculata; zona reticularis; aldosterone; cortisol
+adrenal medulla | | chromaffin cells; epinephrine; norepinephrine; sympathetic
+thyroid gland | thyroid | follicles; colloid; T3 T4; C cells; calcitonin; neck
+parathyroid gland | parathyroid glands; parathyroids | PTH; calcium; chief cells; oxyphil cells
+testis | testes; testicle; testicles | seminiferous tubules; Sertoli cells; Leydig cells; spermatogenesis; scrotum
+epididymis | | sperm maturation; testis; vas deferens
+vas deferens | ductus deferens | sperm; epididymis; spermatic cord
+seminal vesicle | seminal vesicles | semen; fructose; male accessory gland
+prostate | prostate gland | male accessory gland; urethra; PSA; BPH; zones
+penis | penile | erectile tissue; corpus cavernosum; corpus spongiosum
+ovary | ovaries; ovarian | follicles; oocyte; corpus luteum; estrogen; progesterone
+uterine tube | uterine tubes; fallopian tube; fallopian tubes; oviduct | fertilization; ampulla; fimbriae; infundibulum; ectopic
+uterus | uterine | endometrium; myometrium; perimetrium; cervix; fundus; body; pregnancy
+endometrium | endometrial | uterus lining; menstrual cycle; proliferative; secretory
+myometrium | | uterus; smooth muscle; contractions
+cervix | cervical | uterus; os; Pap smear; HPV
+vagina | vaginal | birth canal; female reproductive; fornix
+vulva | vulvar | external genitalia; labia
+breast | mammary gland; breast tissue | lactiferous ducts; lobules; Cooper's ligaments; lactation
+placenta | placental | pregnancy; chorionic villi; maternal fetal exchange; hCG; decidua
+umbilical cord | | placenta; fetus; Wharton jelly; two arteries one vein
+eye | eyeball; ocular | retina; lens; cornea; iris; optic nerve; vitreous
+cornea | corneal | eye; transparent; refraction; Bowman membrane
+retina | retinal | photoreceptors; rods; cones; bipolar cells; ganglion cells; macula; fovea
+macula | macula lutea | retina; central vision; fovea
+fovea | fovea centralis | retina; cones; sharpest vision
+optic disc | blind spot | retina; optic nerve; no photoreceptors
+iris | | eye; pupil; sphincter pupillae; dilator pupillae
+pupil | | iris; light; constriction; dilation; miosis; mydriasis
+ciliary body | | eye; aqueous humor; accommodation; zonules
+aqueous humor | | eye; anterior chamber; glaucoma; intraocular pressure
+vitreous humor | vitreous body | eye; posterior chamber; gel
+sclera | scleral | eye; white; outer coat
+choroid | | eye; vascular layer; pigment
+ear | outer ear; middle ear; inner ear | auditory; pinna; tympanic membrane; ossicles; cochlea
+tympanic membrane | eardrum | middle ear; sound; perforation
+ossicles | auditory ossicles; ear bones | malleus; incus; stapes; middle ear
+malleus | hammer | ossicles; tympanic membrane
+incus | anvil | ossicles
+stapes | stirrup | ossicles; oval window
+cochlea | cochlear | inner ear; organ of Corti; hair cells; basilar membrane; scala
+organ of Corti | | cochlea; hair cells; hearing; basilar membrane
+semicircular canals | semicircular canal | inner ear; balance; ampulla; crista
+utricle | | inner ear; otolith; macula; balance
+saccule | | inner ear; otolith; macula; balance
+eustachian tube | auditory tube | middle ear; pharynx; pressure
+nose | nasal cavity; nasal | olfactory; turbinates; conchae; paranasal sinuses
+paranasal sinuses | sinuses; maxillary sinus; frontal sinus; ethmoid sinus; sphenoid sinus | nose; sinusitis; air-filled
+pharynx | pharyngeal | throat; nasopharynx; oropharynx; laryngopharynx
+tongue | lingual | taste buds; papillae; hypoglossal; intrinsic muscles
+taste bud | taste buds | tongue; gustatory; papillae
+salivary gland | salivary glands | parotid; submandibular; sublingual; saliva; amylase
+parotid gland | parotid | salivary; facial nerve; Stensen duct; mumps
+teeth | tooth | enamel; dentin; pulp; incisors; canines; molars
+skin | cutaneous; integument; integumentary | epidermis; dermis; hypodermis; keratinocytes; melanocytes
+epidermis | epidermal | skin; stratum corneum; stratum basale; keratinocytes
+dermis | dermal | skin; collagen; papillary layer; reticular layer
+hypodermis | subcutaneous tissue | skin; fat; superficial fascia
+hair follicle | hair follicles | skin; sebaceous gland; arrector pili
+sebaceous gland | sebaceous glands | sebum; hair follicle; acne
+sweat gland | sweat glands; eccrine gland; apocrine gland | skin; thermoregulation
+nail | nails | keratin; nail bed; matrix

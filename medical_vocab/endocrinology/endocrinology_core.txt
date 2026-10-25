@@ -1,0 +1,41 @@
+# Endocrinology. canonical | aliases | cues | confusables | kind
+endocrine system | endocrine glands | hormones; hypothalamus; pituitary; thyroid; adrenal; pancreas; gonads
+hormone | hormones | chemical messenger; receptor; feedback
+peptide hormone | peptide hormones | cell surface receptor; second messenger; insulin
+steroid hormone | steroid hormones | intracellular receptor; cholesterol derived; cortisol; estrogen
+hypothalamic-pituitary axis | hypothalamic pituitary axis; HPA axis; hypothalamic-pituitary-adrenal axis | releasing hormones; feedback; cortisol
+hypophyseal portal system | hypophyseal portal veins | hypothalamus to anterior pituitary; releasing hormones
+anterior pituitary | adenohypophysis | ACTH; TSH; FSH; LH; GH; prolactin
+posterior pituitary | neurohypophysis | oxytocin; vasopressin; axon terminals; Herring bodies
+prolactin | PRL | lactation; dopamine inhibition; pituitary
+somatostatin | growth hormone-inhibiting hormone | inhibits GH; delta cells
+thyroxine | T4 | thyroid; prohormone; deiodinase
+triiodothyronine | T3 | active thyroid hormone; nuclear receptor
+thyroid follicle | thyroid follicles | colloid; thyroglobulin; follicular cells
+thyroglobulin | | colloid; iodination; thyroid hormone synthesis
+thyroid peroxidase | TPO | iodination; antithyroid drugs; antibodies
+iodine | iodide | thyroid hormone; sodium iodide symporter; goiter
+parafollicular cells | C cells | calcitonin; thyroid
+zona glomerulosa | | aldosterone; adrenal cortex outer layer
+zona fasciculata | | cortisol; adrenal cortex middle layer
+zona reticularis | | androgens; adrenal cortex inner layer
+chromaffin cells | | adrenal medulla; catecholamines; neural crest
+glucocorticoid receptor | | cortisol; nuclear receptor
+mineralocorticoid | mineralocorticoids | aldosterone; sodium retention
+androgen | androgens | testosterone; DHEA; male characteristics
+estrogen | estrogens; estradiol; oestrogen | ovary; female characteristics; proliferative phase
+inhibin | | FSH inhibition; Sertoli cells; granulosa cells
+human chorionic gonadotropin | hCG | pregnancy test; placenta; corpus luteum
+leptin | | adipose tissue; satiety; hypothalamus
+ghrelin | | hunger; stomach
+melatonin | | pineal gland; sleep; darkness
+renin-angiotensin-aldosterone system | RAAS | blood pressure; kidney; ACE
+insulin receptor | | tyrosine kinase; GLUT4 translocation
+incretin effect | | oral glucose; insulin response
+MEN syndrome | multiple endocrine neoplasia; MEN1; MEN2 | tumors; RET; menin
+thyroid storm | thyrotoxic crisis | emergency; fever; tachycardia
+myxedema coma | | severe hypothyroidism
+SIADH | syndrome of inappropriate antidiuretic hormone secretion | hyponatremia; concentrated urine; small cell lung cancer
+Sheehan syndrome | | postpartum pituitary necrosis
+Conn syndrome | | aldosterone-producing adenoma
+carcinoid syndrome | | serotonin; flushing; diarrhea

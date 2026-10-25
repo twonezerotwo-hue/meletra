@@ -1,0 +1,91 @@
+# Neurology. canonical | aliases | cues | confusables | kind
+epilepsy | epileptic | seizures; EEG; antiepileptic drugs
+seizure | seizures; convulsion; convulsions | epilepsy; tonic-clonic; EEG
+status epilepticus | | prolonged seizure; benzodiazepines; emergency
+absence seizure | absence seizures; petit mal | 3 Hz spike and wave; ethosuximide; children
+tonic-clonic seizure | tonic-clonic seizures; grand mal | generalized; postictal
+focal seizure | focal seizures; partial seizure; partial seizures | one hemisphere; aura
+migraine | migraines | headache; aura; triptans; photophobia
+cluster headache | cluster headaches | trigeminal autonomic cephalalgia; oxygen
+tension-type headache | tension headache | band-like
+trigeminal neuralgia | tic douloureux | carbamazepine; facial pain
+Bell palsy | Bell's palsy | facial nerve; LMN facial paralysis; unilateral
+stroke syndromes | | MCA; ACA; PCA; lacunar
+ischemic stroke | | thrombotic; embolic; tPA; infarct
+hemorrhagic stroke | | intracerebral; subarachnoid; bleed
+transient ischemic attack | TIA | warning stroke; carotid
+aphasia | | language disorder; Broca; Wernicke
+Broca aphasia | Broca's aphasia; expressive aphasia; motor aphasia | non-fluent; comprehension intact
+Wernicke aphasia | Wernicke's aphasia; receptive aphasia; sensory aphasia | fluent; poor comprehension
+dysarthria | | slurred speech; motor speech
+apraxia | | learned movements; parietal
+agnosia | | recognition failure
+neglect | hemineglect; spatial neglect | right parietal lobe
+hemiparesis | hemiplegia | one-sided weakness; stroke
+paraplegia | paraparesis | legs; spinal cord injury
+quadriplegia | tetraplegia; tetraparesis | all four limbs; cervical
+spasticity | spastic | upper motor neuron; velocity-dependent
+rigidity | | basal ganglia; lead-pipe; cogwheel
+bradykinesia | | slow movement; Parkinson
+tremor | tremors | resting; intention; essential
+chorea | choreiform | Huntington; involuntary dance-like
+dystonia | | sustained muscle contraction; abnormal postures
+athetosis | | slow writhing
+hemiballismus | hemiballism | subthalamic nucleus; flinging
+ataxia | ataxic | cerebellum; incoordination; gait
+dysmetria | | cerebellar; past pointing
+intention tremor | | cerebellar; finger to nose
+nystagmus | | involuntary eye movements; vestibular; cerebellar
+vertigo | | vestibular; spinning; Meniere
+Parkinson disease | Parkinson's disease; parkinsonism | substantia nigra; dopamine; Lewy bodies; resting tremor
+Alzheimer disease | Alzheimer's disease | dementia; amyloid; tau; hippocampus
+dementia | | cognitive decline; Alzheimer; vascular; Lewy body
+vascular dementia | | multi-infarct; stepwise
+frontotemporal dementia | FTD | Pick disease; behavior change
+Lewy body dementia | dementia with Lewy bodies | hallucinations; fluctuating cognition
+Creutzfeldt-Jakob disease | CJD | prion; rapidly progressive dementia; myoclonus
+multiple sclerosis | MS | demyelination; relapsing-remitting; oligoclonal bands; optic neuritis; internuclear ophthalmoplegia
+optic neuritis | | MS; vision loss; pain on eye movement
+neuromyelitis optica | NMO | aquaporin-4; optic neuritis; transverse myelitis
+Guillain-Barré syndrome | GBS | ascending paralysis; areflexia; albuminocytologic dissociation; Campylobacter
+myasthenia gravis | MG | fatigable weakness; ptosis; acetylcholine receptor antibodies; thymoma
+Lambert-Eaton syndrome | Lambert-Eaton myasthenic syndrome; LEMS | small cell lung cancer; presynaptic calcium channels
+amyotrophic lateral sclerosis | ALS | motor neuron disease; upper and lower motor neurons; riluzole
+spinal muscular atrophy | SMA | SMN1; lower motor neurons; infants
+muscular dystrophy | muscular dystrophies | dystrophin; progressive weakness
+peripheral neuropathy | polyneuropathy; neuropathy | diabetes; stocking-glove; B12
+carpal tunnel syndrome | | median nerve; wrist; thenar atrophy
+radiculopathy | | nerve root compression; herniated disc; sciatica
+sciatica | | sciatic nerve; L5 S1; leg pain
+herniated disc | slipped disc; disc herniation; herniated nucleus pulposus | radiculopathy; intervertebral disc
+spinal cord injury | | paraplegia; quadriplegia; spinal shock
+syringomyelia | | central cavity; cape-like loss of pain and temperature; Chiari
+Brown-Séquard syndrome | Brown-Sequard syndrome | hemisection; ipsilateral motor; contralateral pain
+cauda equina syndrome | | saddle anesthesia; bladder dysfunction; emergency
+Chiari malformation | Arnold-Chiari malformation | cerebellar tonsils; hydrocephalus
+brain tumor | brain tumors; brain tumour | glioma; meningioma; metastasis
+concussion | | mild traumatic brain injury; head trauma
+coma | comatose | Glasgow Coma Scale; unresponsive
+Glasgow Coma Scale | GCS | eye opening; verbal; motor; 3 to 15
+brain death | | irreversible cessation; apnea test
+delirium | | acute confusion; fluctuating; inattention
+encephalopathy | | diffuse brain dysfunction; metabolic; hepatic
+Wernicke encephalopathy | Wernicke's encephalopathy | thiamine deficiency; ataxia; confusion; ophthalmoplegia; alcohol
+Kernig sign | Kernig's sign | meningitis; knee extension
+Brudzinski sign | Brudzinski's sign | meningitis; neck flexion
+normal pressure hydrocephalus | NPH | wet, wobbly, wacky; gait; dementia; incontinence
+papilledema | | optic disc swelling; raised intracranial pressure
+intracranial pressure | ICP | Cushing reflex; herniation; mannitol
+Cushing reflex | Cushing's triad | hypertension; bradycardia; irregular respiration; raised ICP
+reflex | reflexes; deep tendon reflex; deep tendon reflexes | hyperreflexia; hyporeflexia; tendon hammer
+Babinski sign | Babinski reflex; plantar reflex; extensor plantar response | upper motor neuron; corticospinal
+clonus | | upper motor neuron; rhythmic contractions
+fasciculation | fasciculations | lower motor neuron; twitching
+muscle atrophy | | lower motor neuron; denervation
+sensory loss | | dermatomal; stocking glove; hemisensory
+dermatomal pattern | | nerve root; segmental
+Romberg test | Romberg sign | dorsal columns; eyes closed; swaying
+electroencephalography | EEG | seizures; alpha waves; delta waves; brain death
+electromyography | EMG | muscle; neuropathy vs myopathy
+nerve conduction study | nerve conduction studies; NCS | velocity; demyelination
+neuroimaging | | MRI; CT; PET

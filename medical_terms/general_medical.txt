@@ -1,0 +1,179 @@
+# General medical starter vocabulary (one term per line, "#" starts a comment).
+# Prefix "tr:" = only used for Turkish/auto runs, "en:" = only English. No prefix = both.
+etiology
+pathogenesis
+pathophysiology
+epidemiology
+prevalence
+incidence
+morbidity
+mortality
+prognosis
+differential diagnosis
+sensitivity
+specificity
+positive predictive value
+negative predictive value
+randomized controlled trial
+odds ratio
+relative risk
+hypertension
+hypotension
+tachycardia
+bradycardia
+dyspnea
+cyanosis
+edema
+ascites
+jaundice
+anemia
+leukocytosis
+thrombocytopenia
+hyponatremia
+hyperkalemia
+hypoglycemia
+diabetes mellitus
+diabetic ketoacidosis
+myocardial infarction
+heart failure
+atrial fibrillation
+pulmonary embolism
+pneumonia
+chronic obstructive pulmonary disease
+asthma
+sepsis
+septic shock
+acute kidney injury
+chronic kidney disease
+cirrhosis
+hepatitis
+pancreatitis
+appendicitis
+cholecystitis
+stroke
+transient ischemic attack
+epilepsy
+meningitis
+electrocardiogram
+echocardiography
+computed tomography
+magnetic resonance imaging
+ultrasonography
+complete blood count
+C reactive protein
+erythrocyte sedimentation rate
+anamnesis
+auscultation
+palpation
+percussion
+tr:anamnez
+tr:fizik muayene
+tr:tanı
+tr:tedavi
+tr:anjina pektoris
+tr:hipertansiyon
+tr:hipotansiyon
+tr:taşikardi
+tr:paroksismal taşikardi
+tr:bradikardi
+tr:atriyal fibrilasyon
+tr:miyokard enfarktüsü
+tr:kalp yetmezliği
+tr:kardiyoloji
+tr:poliklinik
+tr:ritim Holteri
+tr:elektrokardiyografi
+tr:ekokardiyografi
+tr:diyabet
+tr:insülin direnci
+tr:böbrek yetmezliği
+tr:karaciğer sirozu
+tr:pnömoni
+tr:solunum sıkıntısı
+tr:nefes darlığı
+tr:göğüs ağrısı
+tr:çarpıntı
+tr:bilinç kaybı
+tr:ateş
+tr:enfeksiyon
+tr:antibiyotik
+tr:kan basıncı
+tr:tam kan sayımı
+tr:radyoloji
+tr:cerrahi
+tr:patoloji
+tr:farmakoloji
+tr:fizyoloji
+tr:biyokimya
+# --- merged from the Cline reference vocabulary (deduplicated against the terms above) ---
+history and physical examination
+provisional diagnosis
+working diagnosis
+chief complaint
+presenting complaint
+past medical history
+family history
+social history
+review of systems
+physical examination findings
+vital signs
+blood pressure
+heart rate
+respiratory rate
+body temperature
+oxygen saturation
+capillary refill
+inspection
+erythema
+pallor
+clubbing
+lymphadenopathy
+hepatosplenomegaly
+organomegaly
+tachypnea
+bradypnea
+fever
+rigors
+malaise
+cachexia
+syncope
+presyncope
+seizure
+coma
+stupor
+lethargy
+dehydration
+fluid resuscitation
+intravenous fluids
+basic metabolic panel
+comprehensive metabolic panel
+liver function tests
+renal function tests
+procalcitonin
+arterial blood gas
+venipuncture
+lumbar puncture
+cardiovascular system
+respiratory system
+gastrointestinal system
+genitourinary system
+musculoskeletal system
+neurological examination
+dermatological examination
+endocrine system
+reticuloendothelial system
+immunocompromised
+comorbidity
+symptomatic treatment
+palliative care
+evidence-based medicine
+gold standard
+sensitivity and specificity
+number needed to treat
+systematic review
+meta-analysis
+cohort study
+case-control study
+cross-sectional study
+confidence interval
+statistical significance

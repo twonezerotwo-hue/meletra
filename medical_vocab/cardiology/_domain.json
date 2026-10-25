@@ -1,0 +1,10 @@
+{
+ "title": "Cardiology",
+ "version": "1.0.0",
+ "related": [
+  "physiology",
+  "internal_medicine",
+  "pharmacology",
+  "anatomy"
+ ]
+}

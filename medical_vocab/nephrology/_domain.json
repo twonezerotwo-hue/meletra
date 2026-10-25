@@ -1,0 +1,9 @@
+{
+ "title": "Nephrology and urology",
+ "version": "1.0.0",
+ "related": [
+  "physiology",
+  "histology",
+  "internal_medicine"
+ ]
+}

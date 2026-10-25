@@ -1,0 +1,34 @@
+# Ophthalmology. canonical | aliases | cues | confusables | kind
+glaucoma | | intraocular pressure; optic neuropathy; cupping; angle closure
+open-angle glaucoma | primary open-angle glaucoma; POAG | chronic; painless; tunnel vision
+angle-closure glaucoma | acute angle closure | emergency; painful; halos
+cataract | cataracts | lens opacity; blurred vision; surgery
+macular degeneration | age-related macular degeneration; AMD | central vision loss; drusen; anti-VEGF
+retinal detachment | | flashes; floaters; curtain
+retinitis pigmentosa | | night blindness; rod degeneration
+retinoblastoma | | children; Rb gene; leukocoria
+conjunctivitis | pink eye | red eye; discharge; viral; bacterial; allergic
+uveitis | iritis | inflammation; HLA-B27; ankylosing spondylitis
+keratitis | | corneal inflammation; contact lenses
+strabismus | squint | misalignment; amblyopia
+amblyopia | lazy eye | reduced vision; children
+myopia | nearsightedness | short-sighted; concave lens
+hyperopia | farsightedness; hypermetropia | long-sighted; convex lens
+astigmatism | | irregular cornea
+presbyopia | | age; accommodation loss
+visual field defect | visual field defects | hemianopia; scotoma
+homonymous hemianopia | | optic tract; occipital lobe
+bitemporal hemianopia | | optic chiasm; pituitary adenoma
+scotoma | | blind spot area
+ptosis | | drooping eyelid; third nerve; Horner; myasthenia
+miosis | | pupil constriction; parasympathetic
+mydriasis | | pupil dilation; sympathetic; atropine
+anisocoria | | unequal pupils
+pupillary light reflex | | optic nerve; oculomotor nerve; Edinger-Westphal
+accommodation reflex | accommodation | near vision; lens; convergence
+ophthalmoscopy | fundoscopy | retina; optic disc
+tonometry | | intraocular pressure measurement
+visual acuity | | Snellen chart
+color blindness | colour blindness; red-green color blindness | X-linked; cones
+extraocular muscles | | superior rectus; inferior rectus; medial rectus; lateral rectus; superior oblique; inferior oblique
+internuclear ophthalmoplegia | INO | medial longitudinal fasciculus; MS; adduction deficit

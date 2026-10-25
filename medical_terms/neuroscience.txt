@@ -1,0 +1,138 @@
+# Neuroscience starter vocabulary (one term per line, "#" starts a comment).
+# Prefix "tr:" = only used for Turkish/auto runs, "en:" = only English. No prefix = both.
+corticospinal tract
+spinothalamic tract
+medial lemniscus
+substantia nigra
+subthalamic nucleus
+periaqueductal gray
+vestibulocochlear nerve
+dorsal root ganglion
+Broca area
+Wernicke area
+reticular formation
+nucleus ambiguus
+tractus solitarius
+spinocerebellar tract
+dorsal column
+anterolateral system
+internal capsule
+basal ganglia
+caudate nucleus
+putamen
+globus pallidus
+thalamus
+hypothalamus
+hippocampus
+amygdala
+cerebellum
+vermis
+red nucleus
+locus coeruleus
+raphe nuclei
+nucleus accumbens
+cingulate gyrus
+arcuate fasciculus
+corpus callosum
+cauda equina
+conus medullaris
+Brown-Sequard syndrome
+Horner syndrome
+Parkinson disease
+Huntington disease
+Alzheimer disease
+myasthenia gravis
+trigeminal nerve
+facial nerve
+glossopharyngeal nerve
+vagus nerve
+hypoglossal nerve
+oculomotor nerve
+trochlear nerve
+abducens nerve
+tr:omurilik
+tr:beyin sapı
+tr:talamus
+tr:bazal gangliyonlar
+# --- merged from the Cline reference vocabulary (deduplicated against the terms above) ---
+dorsal column medial lemniscus
+lateral corticospinal tract
+anterior corticospinal tract
+corticobulbar tract
+rubrospinal tract
+reticulospinal tract
+vestibulospinal tract
+tectospinal tract
+pars compacta
+pars reticulata
+nucleus solitarius
+raphe nucleus
+olivary nucleus
+pontine nuclei
+basilar pons
+medullary pyramid
+decussation of the pyramids
+corona radiata
+thalamic radiation
+ventral posterolateral nucleus
+ventral posteromedial nucleus
+lateral geniculate nucleus
+medial geniculate nucleus
+anterior thalamic nucleus
+pulvinar
+suprachiasmatic nucleus
+supraoptic nucleus
+paraventricular nucleus
+arcuate nucleus
+mammillary body
+pineal gland
+striatum
+striatopallidal pathway
+direct pathway
+indirect pathway
+nigrostriatal pathway
+mesolimbic pathway
+dentate gyrus
+cornu ammonis
+subiculum
+fornix
+entorhinal cortex
+parahippocampal gyrus
+primary motor cortex
+primary somatosensory cortex
+premotor cortex
+supplementary motor area
+prefrontal cortex
+frontal eye field
+gustatory cortex
+auditory cortex
+visual cortex
+anterior commissure
+posterior commissure
+lateral ventricle
+third ventricle
+fourth ventricle
+cerebral aqueduct
+interventricular foramen
+choroid plexus
+arachnoid granulation
+dura mater
+arachnoid mater
+pia mater
+subarachnoid space
+epidural space
+falx cerebri
+tentorium cerebelli
+cerebellar hemisphere
+flocculonodular lobe
+mossy fiber
+climbing fiber
+granule cell
+cerebrospinal fluid
+blood-brain barrier
+astrocyte end feet
+circumventricular organ
+long-term potentiation
+long-term depression
+neuroplasticity
+synaptic pruning

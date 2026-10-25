@@ -1,0 +1,9 @@
+{
+ "title": "Dermatology",
+ "version": "1.0.0",
+ "related": [
+  "histology",
+  "pathology",
+  "microbiology"
+ ]
+}

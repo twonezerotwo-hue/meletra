@@ -1,0 +1,230 @@
+name: build-macos-arm64
+
+# Public, history-free build mirror. Public repositories can use GitHub's
+# Apple Silicon runner without consuming the private-repository Actions quota.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "recon | tests | build | build-fast"
+        type: choice
+        default: build
+        options: [recon, tests, build, build-fast]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-macos-arm64
+  cancel-in-progress: false
+
+jobs:
+  arm64:
+    runs-on: macos-15
+    timeout-minutes: 330
+    env:
+      HAS_APPLE_CREDENTIALS: ${{ secrets.MACOS_CERT_P12 != '' && secrets.MACOS_CERT_PASSWORD != '' && secrets.APPLE_ID != '' && secrets.APPLE_TEAM_ID != '' && secrets.APPLE_APP_PASSWORD != '' }}
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      PIP_NO_CACHE_DIR: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      QT_QPA_PLATFORM: offscreen
+      MLT_MODE: ${{ inputs.mode }}
+      MLT_CI_RUNNER_LABEL: macos-15-arm64
+      MLT_SOURCE_CONTACT: https://github.com/twonezerotwo-hue/meletra/issues
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Runner facts (must be Apple Silicon)
+        run: |
+          mkdir -p ci_out
+          {
+            echo "uname -m: $(uname -m)"; sw_vers
+            sysctl -n machdep.cpu.brand_string hw.model hw.memsize hw.ncpu
+            echo "xcode: $(xcode-select -p)"; df -h /
+          } | tee ci_out/runner.txt
+          if [ "$(uname -m)" != "arm64" ]; then
+            echo "::error::this runner is $(uname -m), not arm64"; exit 1
+          fi
+
+      - name: Version of this build
+        run: |
+          python3 - <<'PY' >> "$GITHUB_ENV"
+          import re
+          v = re.search(r'__version__ = "([^"]+)"', open("src/__init__.py", encoding="utf-8").read()).group(1)
+          print("MLT_VERSION=" + v)
+          print("MLT_VERSION_BASE=" + ".".join(re.match(r"(\d+)\.(\d+)\.(\d+)", v).groups()))
+          PY
+
+      - name: Free build space
+        run: |
+          df -h /System/Volumes/Data || df -h /
+          sudo rm -rf /Users/runner/Library/Android /Users/runner/.dotnet /Users/runner/hostedtoolcache/Ruby /Users/runner/hostedtoolcache/go 2>/dev/null || true
+          sudo rm -rf /Library/Developer/CoreSimulator/Profiles/Runtimes/* 2>/dev/null || true
+          sudo rm -rf /Users/runner/Library/Caches/* /Users/runner/.cache 2>/dev/null || true
+          brew cleanup -s >/dev/null 2>&1 || true
+          FREE_GB=$(df -g /System/Volumes/Data | awk 'NR==2{print $4}')
+          echo "free: ${FREE_GB} GB"
+          if [[ "${MLT_MODE}" == build* ]] && [ "${FREE_GB}" -lt 30 ]; then
+            echo "::error::only ${FREE_GB} GB free; the offline build needs about 30 GB"; exit 1
+          fi
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          architecture: arm64
+
+      - name: Install native Apple Silicon dependencies
+        run: |
+          python -c "import platform,sys; print(platform.machine(), sys.version); assert platform.machine()=='arm64'"
+          python -m venv .venv-ci
+          . .venv-ci/bin/activate
+          python -m pip install --upgrade pip wheel
+          python -m pip install --only-binary=:all: -r requirements-macos.txt 2>&1 | tee ci_out/pip-install.txt | tail -n 25
+          python -m pip install --only-binary=:all: --no-deps rapidocr-onnxruntime==1.4.4
+          python -m pip list --format=freeze | tee ci_out/pip-freeze.txt
+
+      - name: Verify native imports and deployment versions
+        run: |
+          . .venv-ci/bin/activate
+          python scripts/ci_macos_facts.py --max-macos 14.0 | tee ci_out/dependencies.txt
+
+      - name: Dependency vulnerability audit (informational)
+        continue-on-error: true
+        run: |
+          python -m venv .venv-audit
+          .venv-audit/bin/python -m pip install -q pip-audit
+          .venv-audit/bin/pip-audit --path .venv-ci/lib/python3.11/site-packages --progress-spinner off 2>&1 | tee ci_out/pip_audit.txt
+
+      - name: Full test suite on Apple Silicon
+        if: ${{ env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
+        continue-on-error: true
+        run: |
+          . .venv-ci/bin/activate
+          set -o pipefail
+          python -m pytest -q -p no:cacheprovider -rfs --junitxml=ci_out/junit.xml tests 2>&1 | tee ci_out/pytest.txt
+
+      - name: Test counts
+        if: ${{ always() && (env.MLT_MODE == 'tests' || env.MLT_MODE == 'build') }}
+        run: |
+          . .venv-ci/bin/activate
+          python scripts/ci_macos_facts.py --counts ci_out/junit.xml | tee ci_out/test_counts.json
+
+      - name: Require a green macOS test suite
+        if: ${{ env.MLT_MODE == 'tests' || env.MLT_MODE == 'build' }}
+        run: |
+          . .venv-ci/bin/activate
+          python scripts/ci_macos_facts.py --require-green ci_out/test_counts.json
+
+      - name: Apple Developer ID and notary credentials
+        if: ${{ startsWith(env.MLT_MODE, 'build') && env.HAS_APPLE_CREDENTIALS == 'true' }}
+        env:
+          MACOS_CERT_P12: ${{ secrets.MACOS_CERT_P12 }}
+          MACOS_CERT_PASSWORD: ${{ secrets.MACOS_CERT_PASSWORD }}
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_APP_PASSWORD: ${{ secrets.APPLE_APP_PASSWORD }}
+        run: |
+          set -euo pipefail
+          KC="$RUNNER_TEMP/mlt-build.keychain-db"; KCPW="$(uuidgen)"
+          echo "$MACOS_CERT_P12" | base64 --decode > "$RUNNER_TEMP/cert.p12"
+          security create-keychain -p "$KCPW" "$KC"
+          security set-keychain-settings -lut 21600 "$KC"
+          security unlock-keychain -p "$KCPW" "$KC"
+          security import "$RUNNER_TEMP/cert.p12" -k "$KC" -P "$MACOS_CERT_PASSWORD" -T /usr/bin/codesign -T /usr/bin/security
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$KCPW" "$KC" >/dev/null
+          security list-keychains -d user -s "$KC" $(security list-keychains -d user | tr -d '"')
+          rm -f "$RUNNER_TEMP/cert.p12"
+          IDENTITY="$(security find-identity -v -p codesigning "$KC" | grep 'Developer ID Application' | head -1 | sed -E 's/.*"(.*)".*/\1/')"
+          [ -n "$IDENTITY" ] || { echo "::error::no Developer ID Application identity"; exit 1; }
+          xcrun notarytool store-credentials mlt-notary --apple-id "$APPLE_ID" --team-id "$APPLE_TEAM_ID" --password "$APPLE_APP_PASSWORD" --keychain "$KC"
+          echo "MLT_SIGN_IDENTITY=$IDENTITY" >> "$GITHUB_ENV"
+          echo "MLT_NOTARY_PROFILE=mlt-notary" >> "$GITHUB_ENV"
+
+      - name: Build the redistributable public medical knowledge pack
+        if: ${{ startsWith(env.MLT_MODE, 'build') }}
+        run: |
+          . .venv-ci/bin/activate
+          set -o pipefail
+          bash tools/fetch_open_sources.sh 2>&1 | tee ci_out/open_sources.log | tail -n 15
+          python tools/build_medical_knowledge.py --profile public --source mesh --source go --source hgnc --source scowl --output data/medical_knowledge_public.db --build-version 2026.10 2>&1 | tee ci_out/knowledge_build.log
+          python -c "from src.medical_knowledge.cli import report; r=report('data/medical_knowledge_public.db'); assert r['ok'],r; print(r['counts'])"
+
+      - name: Build, audit, sign and mount-test the offline app and DMG
+        if: ${{ startsWith(env.MLT_MODE, 'build') }}
+        env:
+          MLT_SKIP_TESTS: "1"
+          MLT_TEST_COUNTS_FILE: ci_out/test_counts.json
+        run: |
+          . .venv-ci/bin/activate
+          set -o pipefail
+          python scripts/build_macos_apple_silicon_offline.py --keep-installed "$RUNNER_TEMP/installed" --split-mb 1900 2>&1 | tee ci_out/build.log
+          cp release/v${MLT_VERSION_BASE}/macOS-Apple-Silicon/release_manifest.json ci_out/
+
+      - name: License inventory of the built app
+        if: ${{ startsWith(env.MLT_MODE, 'build') }}
+        continue-on-error: true
+        run: |
+          . .venv-ci/bin/activate
+          python tools/license_audit.py "$RUNNER_TEMP/installed/Applications/MELETRA.app" --json ci_out/license_audit_mac.json 2>&1 | tee ci_out/license_audit_mac.txt
+
+      - name: Validate the copied packaged app with network blocked
+        if: ${{ startsWith(env.MLT_MODE, 'build') }}
+        run: |
+          . .venv-ci/bin/activate
+          set -o pipefail
+          cd "$RUNNER_TEMP"
+          python "$GITHUB_WORKSPACE/scripts/ci_validate_packaged.py" \
+            --app "$RUNNER_TEMP/installed/Applications/MELETRA.app" \
+            --dmg "$GITHUB_WORKSPACE/release/v${MLT_VERSION_BASE}/macOS-Apple-Silicon/MELETRA-Apple-Silicon-Mac-Offline.dmg" \
+            --out "$GITHUB_WORKSPACE/ci_out/packaged_validation.json" 2>&1 | tee "$GITHUB_WORKSPACE/ci_out/packaged_validation.log"
+
+      - name: Gatekeeper and notarization evidence
+        if: ${{ always() && startsWith(env.MLT_MODE, 'build') }}
+        run: |
+          OUT=release/v${MLT_VERSION_BASE}/macOS-Apple-Silicon
+          DMG="$OUT/MELETRA-Apple-Silicon-Mac-Offline.dmg"
+          {
+            if [ "${HAS_APPLE_CREDENTIALS}" != "true" ]; then
+              echo "NOTARIZATION BLOCKED: no Apple Developer ID/notary credentials; app is ad-hoc signed"
+            elif [ -f "$DMG" ]; then
+              codesign -dv --verbose=2 "$DMG" 2>&1 | grep -E "Authority|TeamIdentifier|flags" || true
+              xcrun stapler validate "$DMG" 2>&1 | tail -3 || true
+              spctl --assess --type open --context context:primary-signature -vv "$DMG" 2>&1 | tail -3 || true
+            fi
+            echo "Test host: GitHub-hosted macOS arm64 VM; not a physical user Mac"
+          } | tee ci_out/notarization.txt
+
+      - name: Publish verified DMG parts as a prerelease
+        if: ${{ env.MLT_MODE == 'build' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          grep -q "ALL CHECKS PASS" ci_out/packaged_validation.log
+          OUT=release/v${MLT_VERSION_BASE}/macOS-Apple-Silicon
+          TAG="mac-apple-silicon-${GITHUB_RUN_ID}"
+          gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
+            --title "MELETRA ${MLT_VERSION_BASE} Apple Silicon — CI verified" \
+            --notes "Built and fully exercised on GitHub's macos-15 arm64 runner with the network blocked for packaged-app runs. The DMG is split into ordered parts; join them and verify the whole-file SHA-256. If this run has no Apple credentials, it is ad-hoc signed and not notarized, so use right-click > Open."
+          FILES=("$OUT"/parts/* "$OUT/release_manifest.json" "$OUT/MELETRA-Apple-Silicon-Mac-Offline.dmg.sha256 ci_out/packaged_validation.json ci_out/packaged_validation.log ci_out/test_counts.json ci_out/notarization.txt)
+          gh release upload "$TAG" --repo "$GITHUB_REPOSITORY" "${FILES[@]}"
+          gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json url,assets --jq '{url,assets:[.assets[]|{name,size}]}' | tee ci_out/release.json
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### Apple Silicon macOS (${MLT_MODE})"
+            echo '```'; head -8 ci_out/runner.txt || true; cat ci_out/test_counts.json 2>/dev/null || true
+            grep -E "ALL CHECKS PASS|FAILING:" ci_out/packaged_validation.log 2>/dev/null || true
+            cat ci_out/notarization.txt 2>/dev/null || true; echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ci-report-arm64-${{ github.run_id }}
+          path: ci_out/
+          retention-days: 14

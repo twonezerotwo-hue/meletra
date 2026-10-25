@@ -1,0 +1,11 @@
+{
+ "title": "Neuroscience: excitability, synapses, transmitters",
+ "version": "1.0.0",
+ "related": [
+  "neuroanatomy",
+  "physiology",
+  "pharmacology",
+  "biochemistry",
+  "neurology"
+ ]
+}

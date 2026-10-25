@@ -1,0 +1,65 @@
+# medical-lecture-transcriber - model registry
+#
+# Each entry is a "model adapter" the CLI (--model <key>) and scripts/benchmark.py can use.
+#
+# engine:
+#   faster_whisper : CTranslate2 model. `model` is a size name ("large-v3"), a Hugging Face repo that is
+#                    ALREADY in CTranslate2 format, or a local CTranslate2 directory.
+#   transformers   : plain Hugging Face Transformers pipeline (any Whisper checkpoint in safetensors).
+#                    Third-party fine-tunes are NOT assumed to be faster-whisper compatible.
+#   configurable   : placeholder. Set `model` (and optionally change `engine`) to activate.
+#                    If `model` is null the adapter refuses to run with a clear message.
+#
+# To use a third-party Hugging Face Whisper fine-tune with faster-whisper you must convert it first:
+#   python app.py convert-model --model turkish_medical --quantization float16
+# which writes a CTranslate2 copy to models/ct2/<key>/ (see README, "Model conversion").
+
+default:
+  engine: faster_whisper
+  model: large-v3
+  description: "OpenAI Whisper large-v3 via faster-whisper / CTranslate2 (primary model)"
+
+tiny_test:
+  engine: faster_whisper
+  model: tiny
+  description: "Whisper tiny (75 MB) - only for quick wiring checks, NOT for real lectures"
+
+# macOS (Apple Silicon) counterpart of "default": the same Whisper large-v3, running on the Mac's GPU through Apple's MLX.
+# Used through the app's model registry (config/app_models.json: whisper-large-v3-mlx); `model` is replaced by the folder of the
+# downloaded weights.
+mlx_large_v3:
+  engine: mlx_whisper
+  model: mlx-community/whisper-large-v3-mlx
+  description: "OpenAI Whisper large-v3 via mlx-whisper (Apple Silicon, Metal) - the optimized macOS backend"
+
+turkish_medical:
+  engine: transformers
+  model: turkmedstt/whisper-large-v3-turkish-medical
+  default_language: tr
+  description: "Turkish medical fine-tune of Whisper large-v3 (full merged weights, Apache-2.0)"
+  options:
+    dtype: float16
+    chunk_length_s: null     # only used when VAD is off: null = sequential long-form (recommended), 30 = pipeline chunking
+    batch_size: 1            # speech windows (<=29 s, found by Silero VAD) decoded together. Measured on RTX 2070:
+                             # 1 -> ~4.9 GB process VRAM, 2 -> ~6.2 GB (faster, but crowds an 8 GB card)
+    num_beams: 5
+    prompt_hotwords: false   # true = bias decoding with prompt_ids; in our tests this can remove timestamps
+
+english_medical:
+  engine: configurable
+  model: null
+  default_language: en
+  description: "Placeholder: put an English medical Whisper checkpoint here to benchmark it"
+  options:
+    dtype: float16
+    chunk_length_s: null
+    batch_size: 1
+    num_beams: 5
+    prompt_hotwords: false
+
+# Example of an additional entry (uncomment and fill in):
+#
+# my_english_medical:
+#   engine: transformers
+#   model: some-org/whisper-large-v3-medical-en
+#   default_language: en

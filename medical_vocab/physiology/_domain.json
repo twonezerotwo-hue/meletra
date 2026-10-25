@@ -1,0 +1,13 @@
+{
+ "title": "Physiology",
+ "version": "1.0.0",
+ "related": [
+  "biochemistry",
+  "neuroscience",
+  "cardiology",
+  "pulmonology",
+  "nephrology",
+  "endocrinology",
+  "gastroenterology"
+ ]
+}

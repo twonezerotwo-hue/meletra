@@ -1,0 +1,9 @@
+Everything is transcribed and prepared on your own computer, without internet. Your audio, video, PDFs and pictures never leave it.
+
+Sharing completed transcripts (off by default)
+
+MELETRA shares nothing unless you switch it on. If you want to help improve transcription quality, you can turn on "Share completed transcript text with MELETRA" in Settings -> Privacy & Data; you are shown what would be shared before it starts.
+
+What would be sent, only after the transcript has been saved on your computer: the transcript text (and the medical corrected transcript), the lecture name, the languages, the program version, a random installation number that identifies no person, and the time. What is never sent: audio, video, PDF files, pictures, file paths, your user name, your computer's name or any hardware number.
+
+If you turn sharing off in Settings -> Privacy & Data, nothing is sent from then on and anything waiting to be sent is deleted. If the connection fails the program simply tries again later; transcribing is never delayed by it.

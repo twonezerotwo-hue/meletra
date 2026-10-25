@@ -1,0 +1,44 @@
+# Nephrology and urology. canonical | aliases | cues | confusables | kind
+renal corpuscle | renal corpuscles | glomerulus; Bowman capsule; filtration
+Bowman's capsule | Bowman capsule; glomerular capsule | renal corpuscle; parietal layer; visceral layer
+filtration barrier | glomerular filtration barrier | fenestrated endothelium; basement membrane; podocytes; slit diaphragm
+mesangial cells | mesangial cell; mesangium | glomerulus; supportive; phagocytic
+afferent arteriole | | glomerulus; blood supply; juxtaglomerular
+efferent arteriole | | glomerulus; angiotensin II; GFR
+peritubular capillaries | | reabsorption; vasa recta
+macula densa | | distal tubule; sodium chloride sensing; juxtaglomerular apparatus
+juxtaglomerular cells | | renin; afferent arteriole
+principal cells | | collecting duct; ADH; aldosterone; sodium reabsorption
+intercalated cells | | collecting duct; acid base; hydrogen secretion
+Na-K-2Cl cotransporter | NKCC2 | thick ascending limb; loop diuretics
+sodium-chloride cotransporter | NCC | distal convoluted tubule; thiazides
+epithelial sodium channel | ENaC | collecting duct; amiloride; aldosterone
+tubular reabsorption | | proximal tubule; glucose; amino acids
+glycosuria | glucosuria | glucose in urine; diabetes; SGLT2
+renal threshold | | glucose; transport maximum
+transport maximum | Tm | saturation; reabsorption
+nephrolithiasis | kidney stone | renal colic; calcium oxalate; uric acid; struvite
+renal colic | | severe flank pain; ureteric stone
+hydronephrosis | | dilated renal pelvis; obstruction
+urinary retention | | BPH; neurogenic bladder
+urinary incontinence | incontinence | stress; urge; overflow
+neurogenic bladder | | spinal cord injury; detrusor
+cystitis | | bladder infection; dysuria; E. coli
+urethritis | | gonorrhea; chlamydia
+renal cell carcinoma | RCC; clear cell carcinoma | von Hippel-Lindau; hematuria; flank mass
+bladder cancer | urothelial carcinoma; transitional cell carcinoma | smoking; painless hematuria; schistosomiasis
+Wilms tumor | nephroblastoma | children; WT1; flank mass
+polycystic kidney | | cysts; autosomal dominant; PKD1
+renal tubular acidosis | RTA | non-anion gap acidosis
+Fanconi syndrome | | proximal tubule dysfunction; glycosuria; aminoaciduria
+Alport syndrome | | type IV collagen; hematuria; hearing loss
+minimal change disease | | nephrotic syndrome in children; podocyte effacement
+membranous nephropathy | membranous glomerulonephritis | nephrotic; spike and dome
+focal segmental glomerulosclerosis | FSGS | nephrotic; HIV; heroin
+IgA nephropathy | Berger disease | hematuria after infection; mesangial IgA
+poststreptococcal glomerulonephritis | PSGN | nephritic; children; subepithelial humps
+rapidly progressive glomerulonephritis | RPGN | crescents; Goodpasture; ANCA
+Goodpasture syndrome | Goodpasture's syndrome | anti-GBM; lung and kidney
+uremia | uraemia | high urea; pericarditis; encephalopathy
+azotemia | | high BUN and creatinine
+estimated glomerular filtration rate | eGFR | CKD staging

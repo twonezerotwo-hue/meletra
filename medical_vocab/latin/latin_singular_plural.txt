@@ -1,0 +1,145 @@
+# Latin / Greek-derived terms with their plurals. Never converted to or from English by the corrector; listed so they are recognised as correct.
+# canonical | plural and other correct forms | cues | confusables | latin
+foramen | foramina; foramens | skull; opening; passage; nerve; vessel | | latin
+nucleus | nuclei; nucleuses | cell; brain; neurons; cluster; DNA | | latin
+ganglion | ganglia; ganglions | nerve; cell bodies; autonomic; dorsal root; basal | | latin
+septum | septa; septums | wall; heart; nasal; division | | latin
+cornu | cornua; horn | horn; ventricle; spinal cord; sacrum | | latin
+ramus | rami | branch; nerve; mandible; dorsal ramus; ventral ramus | | latin
+sulcus | sulci | groove; cortex; brain | | latin
+gyrus | gyri | fold; cortex; brain | | latin
+fascia | fasciae; fascias | connective tissue; muscle; sheath; deep fascia | | latin
+vertebra | vertebrae | spine; cervical; thoracic; lumbar; sacral; column | | latin
+plexus | plexuses; plexus | nerve network; brachial; lumbar; sacral; choroid | | latin
+nervus | nervi | nerve; cranial | | latin
+arteria | arteriae | artery; vessel | | latin
+vena | venae | vein; vessel | | latin
+musculus | musculi | muscle | | latin
+ligamentum | ligamenta | ligament; joint; stabilizes | | latin
+tendo | tendines | tendon; muscle | | latin
+os | ossa | bone | | latin
+corpus | corpora | body; corpus callosum; corpora quadrigemina; corpus luteum | | latin
+cortex | cortices; cortexes | outer layer; cerebral; adrenal; renal | | latin
+medulla | medullae; medullas | inner part; adrenal; renal; oblongata; spinal | | latin
+cavitas | cavitates | cavity | | latin
+cavum | cava | cavity; cavum septi pellucidi | | latin
+fossa | fossae | pit; depression; cranial fossa; popliteal; infratemporal | | latin
+fovea | foveae | pit; retina; macula; central | | latin
+facies | facies | face; surface; articular facies | | latin
+fissura | fissurae; fissure; fissures | cleft; brain; lung; liver | | latin
+hilum | hila; hilus | lung; kidney; lymph node; spleen | | latin
+isthmus | isthmi; isthmuses | narrow; thyroid; fauces; uterine tube | | latin
+lamina | laminae | layer; plate; vertebral; spinal; cortex | | latin
+lingula | lingulae | tongue-like; lung; cerebellum | | latin
+lumen | lumina; lumens | cavity; vessel; gut; tube | | latin
+meatus | meatuses; meatus | passage; ear; nasal; urethral | | latin
+meninx | meninges | membrane; dura; arachnoid; pia | | latin
+mucosa | mucosae; mucosas | lining; epithelium; mucous membrane; gut | | latin
+nodus | nodi | node; lymph; sinoatrial | | latin
+ostium | ostia | opening; heart; uterine tube; coronary | | latin
+pons | pontes | bridge; brainstem | | latin
+processus | processus | process; projection; vertebra; styloid | | latin
+radix | radices | root; nerve root; tooth | | latin
+recessus | recessus | recess; pleural; pharyngeal | | latin
+rete | retia | network; rete testis; rete mirabile | | latin
+sinus | sinus; sinuses | cavity; paranasal; venous; cavernous; sagittal | | latin
+squama | squamae | scale; temporal bone; occipital bone | | latin
+stratum | strata | layer; epidermis; granulosum; corneum; basale | | latin
+sulcus terminalis | sulci terminales | tongue; right atrium | | latin
+tuber | tubera | swelling; tuber cinereum | | latin
+tuberculum | tubercula; tubercle; tubercles | rib; humerus; tuberculum | | latin
+tunica | tunicae | coat; blood vessel; intima; media; adventitia | | latin
+uvula | uvulae; uvulas | palate; throat; cerebellum | | latin
+vas | vasa | vessel; vas deferens; vasa recta; vasa vasorum | | latin
+velum | vela | veil; medullary velum; palate | | latin
+vinculum | vincula | band; tendon | | latin
+vomer | vomers | nasal septum; bone | | latin
+bursa | bursae; bursas | joint; synovial sac; friction | | latin
+calx | calces | heel | | latin
+cervix | cervices; cervixes | neck; uterus; cervical | | latin
+concha | conchae | nasal turbinate; ear | | latin
+condylus | condyli | condyle; femur; mandible | | latin
+cuspis | cuspides | cusp; valve; tooth | | latin
+decussatio | decussationes | crossing; pyramids; optic chiasm | | latin
+diverticulum | diverticula; diverticulums | outpouching; colon; Meckel | | latin
+epicondylus | epicondyli | humerus; femur | | latin
+femur | femora; femurs | thigh bone; thigh | | latin
+fimbria | fimbriae | fringe; uterine tube; hippocampus | | latin
+genu | genua | knee; internal capsule; corpus callosum | | latin
+glomerulus | glomeruli | kidney; capillaries; filtration; olfactory bulb | | latin
+humerus | humeri | arm bone; upper arm | | latin
+incus | incudes | ear bone; anvil; ossicles | | latin
+infundibulum | infundibula | funnel; pituitary stalk; uterine tube | | latin
+labium | labia | lip; vulva; labium majus | | latin
+larynx | larynges; larynxes | voice box; vocal cords | | latin
+lens | lentes; lenses | eye; refraction | | latin
+locus | loci | place; gene location; locus coeruleus | | latin
+maxilla | maxillae | upper jaw; bone | | latin
+mediastinum | mediastina | chest; heart; thymus | | latin
+modiolus | modioli | cochlea; core | | latin
+nasus | nasi | nose | | latin
+nidus | nidi | nest | | latin
+omentum | omenta | peritoneum; greater omentum; lesser omentum | | latin
+orbita | orbitae; orbit; orbits | eye socket | | latin
+papilla | papillae | nipple-like; tongue; dermal; renal | | latin
+pelvis | pelves; pelvises | hip; renal pelvis; bony pelvis | | latin
+phalanx | phalanges | finger; toe | | latin
+placenta | placentae; placentas | pregnancy; fetus; chorionic villi | | latin
+pleura | pleurae; pleuras | lung; membrane; pleural cavity | | latin
+pulvinar | pulvinaria | thalamus | | latin
+pyramis | pyramides | pyramid; medulla; kidney | | latin
+quadriceps | quadriceps | thigh; extensor | | latin
+rostrum | rostra | corpus callosum; beak | | latin
+sacrum | sacra; sacrums | sacral; vertebrae; pelvis | | latin
+scapula | scapulae; scapulas | shoulder blade; shoulder | | latin
+stapes | stapedes | ear bone; stirrup | | latin
+sternum | sterna; sternums | breastbone; chest | | latin
+stoma | stomata; stomas | opening; surgical | | latin
+talus | tali | ankle bone | | latin
+thorax | thoraces; thoraxes | chest; rib cage | | latin
+thrombus | thrombi | clot; vessel; DVT | | latin
+trachea | tracheae; tracheas | windpipe; airway; larynx | | latin
+trochlea | trochleae | pulley; superior oblique; humerus | | latin
+tympanum | tympana | eardrum; middle ear | | latin
+ulna | ulnae; ulnas | forearm bone | | latin
+umbilicus | umbilici | navel; umbilical cord | | latin
+ureter | ureters | kidney; bladder; urinary | | latin
+urethra | urethrae; urethras | bladder; urinary | | latin
+uterus | uteri; uteruses | womb; pregnancy; endometrium | | latin
+vagina | vaginae; vaginas | birth canal; female reproductive | | latin
+valva | valvae | valve | | latin
+vertex | vertices | top of head; skull | | latin
+villus | villi | intestine; chorionic; absorption; microvilli | | latin
+viscus | viscera | organ; internal organs; visceral | | latin
+zygoma | zygomata; zygomas | cheekbone; zygomatic | | latin
+alveolus | alveoli | lung; air sac; tooth socket; gas exchange | | latin
+bronchus | bronchi | airway; lung; branching | | latin
+bronchiolus | bronchioli; bronchiole; bronchioles | airway; lung | | latin
+coccyx | coccyges; coccyxes | tailbone; vertebral column | | latin
+cochlea | cochleae; cochleas | inner ear; hearing; organ of Corti | | latin
+cilium | cilia | hair-like; epithelium; motile; axoneme | | latin
+flagellum | flagella; flagellums | sperm; motility | | latin
+bacterium | bacteria | microbe; infection; prokaryote | | latin
+bacillus | bacilli | rod; gram-positive | | latin
+coccus | cocci | sphere; staphylococcus; streptococcus | | latin
+streptococcus | streptococci | chains; gram-positive; beta-hemolytic | | latin
+staphylococcus | staphylococci | clusters; gram-positive; aureus | | latin
+fungus | fungi; funguses | mycology; yeast; mold | | latin
+virus | viruses | capsid; nucleic acid; infection | | latin
+thymus | thymi; thymuses | T cells; mediastinum; immune | | latin
+testis | testes | male gonad; spermatogenesis; Leydig | | latin
+ovarium | ovaria; ovary; ovaries | oocyte; follicles; female gonad | | latin
+appendix | appendices; appendixes | cecum; appendicitis; vermiform | | latin
+apex | apices; apexes | tip; heart; lung; tooth | | latin
+atrium | atria; atriums | heart chamber; upper chamber | | latin
+ventriculus | ventriculi; ventricle; ventricles | heart; brain; chamber | | latin
+aorta | aortae; aortas | main artery; heart; ascending; descending | | latin
+axis | axes | second cervical vertebra; atlas | | latin
+atlas | atlases | first cervical vertebra; axis | | latin
+cerebrum | cerebra; cerebrums | brain; hemispheres | | latin
+cerebellum | cerebella; cerebellums | brain; coordination | | latin
+diaphragm | diaphragms | breathing; muscle; phrenic | | latin
+esophagus | oesophagus; esophagi; esophaguses | gullet; swallowing | | latin
+hepar | hepata; liver; livers | liver; hepatic | | latin
+pancreas | pancreata; pancreases | islets; digestive; insulin | | latin
+sella turcica | | pituitary; sphenoid; Turkish saddle | | latin

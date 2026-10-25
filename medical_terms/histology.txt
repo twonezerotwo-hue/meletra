@@ -1,0 +1,158 @@
+# Histology starter vocabulary (one term per line, "#" starts a comment).
+# Prefix "tr:" = only used for Turkish/auto runs, "en:" = only English. No prefix = both.
+simple squamous epithelium
+simple cuboidal epithelium
+simple columnar epithelium
+pseudostratified columnar epithelium
+stratified squamous epithelium
+transitional epithelium
+urothelium
+basement membrane
+basal lamina
+lamina propria
+muscularis mucosae
+submucosa
+muscularis externa
+serosa
+adventitia
+goblet cell
+enterocyte
+Paneth cell
+enteroendocrine cell
+Peyer patches
+Brunner glands
+crypts of Lieberkuhn
+hepatocyte
+Kupffer cell
+space of Disse
+portal triad
+sinusoid
+Bowman capsule
+glomerulus
+proximal convoluted tubule
+distal convoluted tubule
+loop of Henle
+juxtaglomerular apparatus
+macula densa
+podocyte
+mesangial cell
+alveolus
+type II pneumocyte
+Clara cell
+osteoblast
+osteocyte
+osteoclast
+chondrocyte
+fibroblast
+mast cell
+plasma cell
+macrophage
+Langerhans cell
+keratinocyte
+melanocyte
+stratum corneum
+stratum granulosum
+stratum spinosum
+stratum basale
+Schwann cell
+oligodendrocyte
+astrocyte
+microglia
+node of Ranvier
+hematoxylin and eosin
+periodic acid Schiff
+Masson trichrome
+Golgi apparatus
+rough endoplasmic reticulum
+tr:hematoksilen eozin
+# --- merged from the Cline reference vocabulary (deduplicated against the terms above) ---
+epithelial tissue
+apical surface
+basolateral membrane
+microvilli
+brush border
+stereocilia
+cilia
+tight junction
+zonula occludens
+adherens junction
+desmosome
+gap junction
+hemidesmosome
+connective tissue
+loose connective tissue
+dense regular connective tissue
+dense irregular connective tissue
+reticular fibers
+collagen type I
+collagen type III
+elastic fibers
+ground substance
+glycosaminoglycans
+proteoglycans
+myofibroblast
+adipocyte
+white adipose tissue
+brown adipose tissue
+neutrophil
+eosinophil
+basophil
+lymphocyte
+monocyte
+platelet
+erythrocyte
+reticulocyte
+megakaryocyte
+hematopoietic stem cell
+bone marrow
+Haversian system
+osteon
+lacuna
+canaliculi
+osteoid
+periosteum
+endosteum
+compact bone
+spongy bone
+trabecular bone
+hyaline cartilage
+elastic cartilage
+fibrocartilage
+chondroblast
+perichondrium
+skeletal muscle fiber
+cardiac muscle
+smooth muscle
+sarcomere
+A band
+I band
+Z line
+M line
+H zone
+sarcoplasmic reticulum
+transverse tubule
+intercalated disc
+neuromuscular junction
+motor end plate
+Purkinje cell
+ependymal cell
+satellite cell
+nissl body
+axon hillock
+dendritic spine
+myelin sheath
+collecting duct
+acinus
+zymogen granule
+villus
+crypt of Lieberkuhn
+chief cell
+parietal cell
+alveolar type I cell
+alveolar type II cell
+surfactant
+thyroid follicle
+adrenal cortex
+zona glomerulosa
+zona fasciculata
+zona reticularis

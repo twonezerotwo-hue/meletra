@@ -1,0 +1,10 @@
+{
+ "title": "Laboratory medicine",
+ "version": "1.0.0",
+ "related": [
+  "biochemistry",
+  "hematology",
+  "microbiology",
+  "pathology"
+ ]
+}

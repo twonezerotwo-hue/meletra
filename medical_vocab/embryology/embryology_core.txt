@@ -1,0 +1,120 @@
+# Embryology and development. canonical | aliases | cues | confusables | kind
+fertilization | fertilisation; fertilized | sperm; oocyte; zona pellucida; acrosome reaction; ampulla; zygote
+zygote | zygotes | fertilized egg; one cell; first cell
+cleavage | cleavage divisions | blastomeres; zygote; mitosis; morula
+blastomere | blastomeres | cleavage; embryo cells
+morula | | 16 cells; compaction; solid ball
+blastocyst | blastocysts | inner cell mass; trophoblast; blastocele; implantation
+inner cell mass | embryoblast | blastocyst; epiblast; hypoblast
+trophoblast | trophoblasts | blastocyst; placenta; cytotrophoblast; syncytiotrophoblast; hCG
+syncytiotrophoblast | | hCG; implantation; invades endometrium; placenta
+cytotrophoblast | | trophoblast; villi
+implantation | | blastocyst; endometrium; day 6 to 7; decidua
+decidua | decidual | endometrium; pregnancy; decidua basalis
+bilaminar disc | bilaminar germ disc; bilaminar embryonic disc | epiblast; hypoblast; week 2
+epiblast | | bilaminar disc; gastrulation; amnion
+hypoblast | | bilaminar disc; yolk sac
+amniotic cavity | amnion | epiblast; fluid; embryo
+yolk sac | | hypoblast; blood islands; hematopoiesis; primordial germ cells
+gastrulation | | primitive streak; three germ layers; week 3; ectoderm; mesoderm; endoderm
+primitive streak | | gastrulation; epiblast cells migrate; Hensen's node
+primitive node | Hensen's node; Hensen node | gastrulation; notochord; cranial end of streak
+primitive pit | | notochordal process
+trilaminar disc | trilaminar germ disc; trilaminar embryonic disc | three germ layers; gastrulation
+germ layers | germ layer; three germ layers | ectoderm; mesoderm; endoderm
+ectoderm | ectodermal | skin; nervous system; neural crest; surface
+mesoderm | mesodermal | muscle; bone; heart; kidneys; paraxial; intermediate; lateral plate
+endoderm | endodermal | gut lining; lungs; liver; pancreas
+neuroectoderm | neuroectodermal | neural plate; nervous system; induced by notochord
+paraxial mesoderm | | somites; somitomeres
+somite | somites | sclerotome; myotome; dermatome; segmentation
+sclerotome | | somite; vertebrae; ribs
+dermomyotome | | somite; dermis; muscle
+intermediate mesoderm | | kidneys; gonads; urogenital ridge
+lateral plate mesoderm | | somatic; splanchnic; body wall; serous membranes
+intraembryonic coelom | | lateral plate; body cavities
+notochordal process | | notochord formation; primitive pit
+neural tube defect | neural tube defects; NTD; NTDs | failure of closure; folic acid; anencephaly; spina bifida
+anterior neuropore | | neural tube closure; day 25; anencephaly
+posterior neuropore | caudal neuropore | neural tube closure; day 27; spina bifida
+neural tube closure | | neuropore; neural folds; fusion
+primary neurulation | | neural plate; neural tube; cranial to caudal
+secondary neurulation | | caudal; medullary cord; canalization
+neuroepithelium | neuroepithelial cells | neural tube; stem cells; ventricular zone; pseudostratified
+ventricular zone | germinal zone; neuroepithelial layer | neural tube; proliferation; radial glia; innermost
+intermediate zone | mantle zone; mantle layer | neuroblasts; gray matter; neural tube
+neuroblast | neuroblasts | neurons; immature; mantle layer
+glioblast | glioblasts | glia; astrocytes; oligodendrocytes
+radial glial cell | radial glial cells | scaffold; neuronal migration; neural stem cell
+neuronal migration | | radial migration; cortex; inside-out; reelin
+inside-out pattern | inside-out | cortex; later neurons pass earlier ones
+reelin | | Cajal-Retzius; cortical layering; migration
+rhombomere | rhombomeres | hindbrain; segments; Hox genes
+pharyngeal arch | pharyngeal arches; branchial arch; branchial arches | neural crest; cranial nerves; mesoderm; face and neck
+pharyngeal pouch | pharyngeal pouches | endoderm; thymus; parathyroid; middle ear
+pharyngeal cleft | pharyngeal clefts; branchial cleft | ectoderm; external ear canal
+first pharyngeal arch | first arch | mandibular; trigeminal; Meckel cartilage; maxillary
+second pharyngeal arch | second arch | hyoid; facial nerve; Reichert cartilage
+neural crest cell | neural crest cells | migrate; melanocytes; peripheral neurons; Schwann cells; adrenal medulla
+neurocristopathy | neurocristopathies | neural crest defect; Hirschsprung; DiGeorge
+cleft lip | cleft lip and palate; cleft palate | failure of fusion; facial prominences; palatine shelves
+heart tube | primitive heart tube | cardiogenic area; looping; sinus venosus; bulbus cordis
+cardiac looping | heart looping | dextro-looping; right
+septum primum | | atrial septation; foramen ovale
+septum secundum | | atrial septation; foramen ovale
+foramen ovale | patent foramen ovale; PFO | fetal circulation; right to left shunt; atria
+ductus arteriosus | patent ductus arteriosus; PDA | fetal circulation; pulmonary artery to aorta; prostaglandins; indomethacin
+ductus venosus | | fetal circulation; umbilical vein; liver bypass
+fetal circulation | | placenta; shunts; foramen ovale; ductus arteriosus; ductus venosus
+truncus arteriosus | persistent truncus arteriosus | outflow tract; neural crest; aorticopulmonary septum
+aorticopulmonary septum | | spiral septum; neural crest cells; outflow tract
+ventricular septal defect | VSD | most common congenital heart defect; membranous part
+atrial septal defect | ASD | ostium secundum; fixed split S2
+tetralogy of Fallot | Fallot tetralogy | pulmonary stenosis; VSD; overriding aorta; right ventricular hypertrophy
+transposition of the great arteries | TGA | aorticopulmonary septum failure; cyanosis
+coarctation of the aorta | aortic coarctation | Turner; rib notching; preductal; postductal
+foregut | | esophagus; stomach; liver; pancreas; celiac artery
+midgut | | small intestine; proximal colon; superior mesenteric artery; herniation
+hindgut | | distal colon; rectum; inferior mesenteric artery; cloaca
+physiological herniation | physiologic herniation | midgut; umbilical cord; week 6
+midgut rotation | | 270 degrees; counterclockwise; malrotation
+omphalocele | exomphalos | herniation; abdominal contents; covered by peritoneum
+gastroschisis | | abdominal wall defect; no covering
+Meckel's diverticulum | Meckel diverticulum | vitelline duct remnant; ileum; rule of 2s
+tracheoesophageal fistula | TEF | esophageal atresia; foregut; polyhydramnios
+respiratory diverticulum | lung bud | laryngotracheal groove; foregut; trachea; bronchi
+pseudoglandular period | | lung development; weeks 5 to 17
+alveolar period | | lung development; type II pneumocytes; surfactant
+urogenital ridge | | intermediate mesoderm; kidney; gonad
+pronephros | | first kidney; regresses
+mesonephros | mesonephric duct | second kidney; Wolffian duct; male
+metanephros | metanephric | definitive kidney; ureteric bud; metanephric mesenchyme
+ureteric bud | | collecting system; ureter; mesonephric duct; renal pelvis
+metanephric mesenchyme | metanephric blastema | nephrons; glomeruli; induced by ureteric bud
+renal agenesis | | no kidney; Potter sequence; oligohydramnios
+Potter sequence | Potter syndrome | oligohydramnios; pulmonary hypoplasia; renal agenesis
+horseshoe kidney | | inferior mesenteric artery; fusion; lower poles
+cloaca | | hindgut; urogenital sinus; urorectal septum
+urogenital sinus | | bladder; urethra
+SRY gene | SRY; sex-determining region Y | testis-determining factor; Y chromosome; male development
+anti-Müllerian hormone | AMH; Müllerian inhibiting substance; MIS | Sertoli cells; regression of paramesonephric ducts
+Müllerian duct | Mullerian duct; paramesonephric duct | female; uterus; uterine tubes; upper vagina
+Wolffian duct | mesonephric duct | male; epididymis; vas deferens; seminal vesicles; testosterone
+dihydrotestosterone | DHT | external genitalia; 5-alpha reductase; prostate
+indifferent gonad | indifferent gonads | genital ridge; sex cords; bipotential
+genital tubercle | | external genitalia; phallus; clitoris
+hypospadias | | urethral opening ventral; urethral folds
+cryptorchidism | undescended testis | gubernaculum; testis; inguinal canal
+gubernaculum | | testis descent; ovary
+congenital anomaly | congenital anomalies; birth defect; birth defects; congenital malformation | teratogen; genetic; multifactorial
+teratogenesis | | teratogens; critical period; weeks 3 to 8
+critical period | | organogenesis; teratogen sensitivity; weeks 3 to 8
+organogenesis | | embryonic period; weeks 3 to 8; organ formation
+embryonic period | | weeks 3 to 8; organogenesis
+fetal period | | week 9 to birth; growth
+chorionic villi | chorionic villus | placenta; trophoblast; fetal vessels
+amniotic fluid | | fetal urine; volume; polyhydramnios; oligohydramnios
+polyhydramnios | | excess amniotic fluid; esophageal atresia
+oligohydramnios | | reduced amniotic fluid; renal agenesis
+twin | twins; monozygotic twins; dizygotic twins | zygosity; chorionicity
+conjoined twins | | incomplete division

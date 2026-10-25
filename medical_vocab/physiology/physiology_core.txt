@@ -1,0 +1,169 @@
+# Physiology. canonical | aliases | cues | confusables | kind
+homeostasis | homeostatic | feedback; set point; regulation; internal environment
+negative feedback | | homeostasis; set point; stabilizing
+positive feedback | | amplifying; childbirth; clotting; action potential upstroke
+osmosis | osmotic | water movement; semipermeable membrane; osmolarity; tonicity
+osmolarity | osmolality; osmolar | solute concentration; osmoles; plasma
+tonicity | isotonic; hypotonic; hypertonic | cell volume; effective osmolarity
+diffusion | simple diffusion; facilitated diffusion | concentration gradient; Fick's law; passive transport
+active transport | primary active transport; secondary active transport | ATP; pumps; against gradient; cotransport
+cotransport | symport; antiport; countertransport; exchanger | secondary active transport; sodium gradient
+sodium-potassium ATPase | Na+/K+ ATPase; sodium potassium pump; Na/K pump | three sodium out; two potassium in; ATP; ouabain
+aquaporin | aquaporins; AQP2 | water channel; collecting duct; ADH
+ion channel | ion channels | gated; voltage-gated; ligand-gated; selectivity
+electrochemical gradient | | concentration; voltage; ion movement
+Donnan effect | Donnan equilibrium | impermeant anions; osmotic
+body fluid compartments | fluid compartments | intracellular fluid; extracellular fluid; plasma; interstitial
+extracellular fluid | ECF | plasma; interstitial fluid; sodium
+intracellular fluid | ICF | potassium; two thirds
+interstitial fluid | interstitium | between cells; edema; lymph
+plasma | blood plasma | proteins; albumin; fluid portion of blood
+edema | oedema | swelling; interstitial fluid; Starling forces
+cardiac cycle | | systole; diastole; valves; pressure; volume
+systole | systolic | ventricular contraction; ejection; systolic pressure
+diastole | diastolic | relaxation; filling; coronary perfusion
+preload | | end-diastolic volume; stretch; Frank-Starling; venous return
+afterload | | resistance; aortic pressure; wall stress
+contractility | inotropy | cardiac muscle; calcium; sympathetic
+cardiac output | | heart rate times stroke volume; Fick principle
+stroke volume | | end-diastolic volume minus end-systolic volume; ejection fraction
+ejection fraction | | stroke volume over end-diastolic volume; systolic function
+end-diastolic volume | EDV | preload; filling
+end-systolic volume | ESV | after ejection
+Frank-Starling law | Frank-Starling mechanism; Starling's law of the heart | preload; stroke volume; length-tension
+pressure-volume loop | pressure volume loop; PV loop | ventricle; cardiac cycle; preload; afterload
+cardiac action potential | | plateau; calcium; ventricular myocyte; phases 0 to 4
+sinoatrial node | SA node; sinus node | pacemaker; funny current; automaticity; phase 4 depolarization
+atrioventricular node | AV node | conduction delay; slow conduction; calcium channels
+Purkinje fibers | Purkinje fibres | fast conduction; ventricular conduction; His bundle
+bundle of His | His bundle | AV node; bundle branches; conduction
+electrocardiogram | ECG; EKG | P wave; QRS complex; T wave; PR interval; QT interval
+P wave | | atrial depolarization; ECG
+QRS complex | QRS | ventricular depolarization; ECG
+T wave | | ventricular repolarization; ECG
+PR interval | | AV conduction; ECG
+QT interval | | ventricular action potential duration; torsades; prolongation
+heart sounds | S1; S2; S3; S4 | valves closing; murmur; auscultation
+murmur | murmurs; heart murmur | turbulent flow; valve disease; auscultation
+blood pressure | | systolic; diastolic; mean arterial pressure; baroreceptors
+mean arterial pressure | MAP | diastolic plus one third pulse pressure; perfusion
+pulse pressure | | systolic minus diastolic; stroke volume; arterial compliance
+baroreceptor | baroreceptors; baroreceptor reflex; baroreflex | carotid sinus; aortic arch; blood pressure; vagus; glossopharyngeal
+chemoreceptor | chemoreceptors | carotid body; oxygen; carbon dioxide; pH; ventilation
+vascular resistance | systemic vascular resistance; SVR; peripheral resistance | arterioles; radius; Poiseuille
+Poiseuille's law | Poiseuille | flow; radius to the fourth; viscosity; resistance
+Laplace's law | law of Laplace | wall tension; pressure; radius
+compliance | | stretch; volume change; veins; lungs
+venous return | | preload; veins; muscle pump; respiratory pump
+microcirculation | | capillaries; arterioles; venules; exchange
+capillary exchange | | Starling forces; filtration; reabsorption
+Starling forces | Starling force; Starling equation | hydrostatic pressure; oncotic pressure; capillary filtration
+oncotic pressure | colloid osmotic pressure | albumin; plasma proteins; pulling water
+hydrostatic pressure | | capillary; pushing fluid out
+autoregulation | | blood flow; local control; kidney; brain; myogenic
+vasoconstriction | | smooth muscle; sympathetic; angiotensin II; endothelin
+vasodilation | vasodilatation | nitric oxide; prostacyclin; adenosine; local metabolites
+shock | circulatory shock | hypotension; perfusion; hypovolemic; cardiogenic; septic; anaphylactic
+hemorrhage | haemorrhage | bleeding; blood loss; hypovolemia
+ventilation | pulmonary ventilation | breathing; tidal volume; minute ventilation
+tidal volume | | breath; lung volumes; 500 mL
+vital capacity | | lung volumes; spirometry
+residual volume | | lung volumes; cannot be exhaled
+functional residual capacity | FRC | lung volumes; end of expiration
+dead space | anatomic dead space; physiologic dead space | ventilation; no gas exchange
+lung compliance | | elastic recoil; surfactant; stretch
+airway resistance | | bronchioles; flow; asthma
+alveolar ventilation | | gas exchange; dead space
+diffusing capacity | DLCO | gas transfer; membrane
+ventilation-perfusion ratio | V/Q ratio; ventilation perfusion ratio; V/Q mismatch | lung zones; shunt; dead space
+shunt | right-to-left shunt | unoxygenated blood bypasses lungs; hypoxemia
+oxygen-hemoglobin dissociation curve | oxygen dissociation curve; oxyhemoglobin dissociation curve | P50; sigmoidal; Bohr effect; 2,3-BPG
+Bohr effect | | CO2 and H+ shift curve right; oxygen unloading
+2,3-bisphosphoglycerate | 2,3-BPG; 2,3-DPG | shifts curve right; red blood cells
+carbon monoxide | CO poisoning | carboxyhemoglobin; shifts curve left; cherry red
+hypoxia | hypoxic; hypoxemia | low oxygen; cyanosis; altitude
+hypercapnia | hypercarbia | high carbon dioxide; respiratory acidosis
+hypocapnia | hypocarbia | low carbon dioxide; hyperventilation; alkalosis
+respiratory center | respiratory centers | medulla; pons; dorsal respiratory group; ventral respiratory group; pneumotaxic
+acid-base balance | acid base balance | pH; bicarbonate; CO2; compensation
+metabolic acidosis | | low bicarbonate; anion gap; diabetic ketoacidosis
+metabolic alkalosis | | high bicarbonate; vomiting; diuretics
+respiratory acidosis | | high PaCO2; hypoventilation
+respiratory alkalosis | | low PaCO2; hyperventilation
+anion gap | | sodium minus chloride minus bicarbonate; metabolic acidosis
+glomerular filtration rate | GFR | creatinine clearance; kidney; filtration; inulin
+renal clearance | clearance | kidney; PAH; inulin; creatinine
+filtration fraction | | GFR over renal plasma flow
+renal blood flow | | autoregulation; tubuloglomerular feedback
+tubuloglomerular feedback | | macula densa; afferent arteriole; GFR
+reabsorption | | proximal tubule; sodium; glucose; water
+secretion | tubular secretion | kidney; organic acids; potassium
+countercurrent multiplier | countercurrent mechanism | loop of Henle; medullary gradient; urea
+countercurrent exchanger | vasa recta | medulla; preserves gradient
+antidiuretic hormone | ADH; vasopressin | collecting duct; aquaporin-2; water reabsorption; osmolality
+aldosterone | | adrenal cortex; sodium reabsorption; potassium secretion; principal cells; mineralocorticoid
+renin | | juxtaglomerular cells; angiotensinogen; blood pressure
+angiotensin II | angiotensin 2 | vasoconstriction; aldosterone; ACE; AT1 receptor
+atrial natriuretic peptide | ANP | sodium excretion; atrial stretch; vasodilation
+erythropoietin | EPO | kidney; red blood cell production; hypoxia
+calcitriol | | active vitamin D; kidney; calcium absorption
+micturition | micturition reflex | bladder; detrusor; sphincters; pelvic nerve
+gastric acid | hydrochloric acid; HCl | parietal cells; proton pump; stomach
+parietal cell | parietal cells | gastric acid; intrinsic factor; H+/K+ ATPase
+chief cell | chief cells | pepsinogen; stomach
+pepsin | pepsinogen | protein digestion; acid
+gastrin | | G cells; gastric acid; antrum
+secretin | | S cells; bicarbonate; pancreas; duodenum
+cholecystokinin | CCK | I cells; gallbladder contraction; pancreatic enzymes; fat
+gastric inhibitory peptide | GIP | glucose-dependent insulinotropic peptide; incretin
+motilin | | migrating motor complex
+bile | | liver; emulsification; bile salts; bilirubin
+pancreatic juice | pancreatic secretions | bicarbonate; amylase; lipase; trypsinogen; secretin
+trypsinogen | trypsin | enterokinase; protease activation; pancreas
+amylase | alpha-amylase; salivary amylase; pancreatic amylase | starch digestion
+pancreatic lipase | | fat digestion; colipase; pancreas; triglycerides
+brush border enzymes | brush border | lactase; sucrase; maltase; peptidases
+absorption | intestinal absorption | villi; microvilli; sodium-glucose cotransporter
+SGLT1 | sodium-glucose cotransporter 1 | glucose absorption; intestine
+peristalsis | peristaltic | gut motility; smooth muscle; waves
+migrating motor complex | MMC | fasting; housekeeper
+enterohepatic circulation | | bile acids; terminal ileum; liver
+intrinsic factor | | parietal cells; vitamin B12 absorption; terminal ileum
+growth hormone | GH; somatotropin | pituitary; IGF-1; growth; insulin antagonist
+thyroid hormone | thyroid hormones; thyroxine; triiodothyronine; T3; T4 | metabolic rate; thyroid; TSH; iodine
+parathyroid hormone | PTH | calcium; phosphate; bone resorption; kidney
+calcitonin | | C cells; lowers calcium
+cortisol | | adrenal cortex; stress; glucose; ACTH; circadian
+catecholamines | catecholamine | epinephrine; norepinephrine; dopamine; adrenal medulla
+insulin secretion | | beta cells; glucose; K-ATP channel; calcium
+menstrual cycle | | follicular phase; ovulation; luteal phase; estrogen; progesterone; LH surge
+ovulation | | LH surge; follicle rupture; oocyte release
+spermatogenesis | | seminiferous tubules; Sertoli cells; FSH; testosterone
+thermoregulation | | hypothalamus; heat loss; sweating; shivering; fever
+fever | pyrexia | pyrogens; IL-1; prostaglandin E2; hypothalamus
+muscle contraction | | sliding filament; calcium; troponin; cross-bridge; ATP
+sliding filament theory | sliding filament model | actin; myosin; sarcomere
+excitation-contraction coupling | excitation contraction coupling | T tubules; ryanodine receptor; calcium release
+troponin | troponin C; troponin I; troponin T | calcium binding; thin filament; cardiac marker
+tropomyosin | | thin filament; blocks myosin
+cross-bridge cycle | crossbridge cycle | myosin head; ATP; power stroke
+length-tension relationship | length tension relationship | sarcomere length; force
+motor unit recruitment | size principle | motor neurons; Henneman
+muscle spindle | muscle spindles | stretch reflex; gamma motor neurons; Ia afferents; proprioception
+stretch reflex | myotatic reflex; knee jerk | muscle spindle; monosynaptic
+withdrawal reflex | flexor reflex; crossed extensor reflex | polysynaptic; pain
+reflex arc | | receptor; afferent; integration; efferent; effector
+proprioception | | joint position; muscle spindle; dorsal columns
+nociception | nociceptor; nociceptors | pain; A-delta fibers; C fibers; substance P
+A-delta fibers | A delta fibers; Aδ fibers; A-delta fibres | fast pain; myelinated; sharp
+C fibers | C fibres; C fiber; unmyelinated fibers | slow pain; unmyelinated; dull
+A-beta fibers | Aβ fibers; A beta fibers; A-beta fibres | touch; myelinated; mechanoreceptors
+A-alpha fibers | Aα fibers; A alpha fibers; A-alpha fibres | motor neurons; proprioception; largest
+nerve fiber classification | Erlanger-Gasser classification; Lloyd-Hunt classification | A alpha; A beta; A gamma; A delta; B; C
+sleep | sleep stages; REM sleep; NREM sleep | EEG; delta waves; spindles; circadian
+circadian rhythm | circadian rhythms | suprachiasmatic nucleus; melatonin; sleep wake
+phototransduction | | rods; cones; rhodopsin; cGMP; hyperpolarization; retina
+rhodopsin | | rods; retinal; opsin; vitamin A
+hearing | audition | cochlea; hair cells; basilar membrane; tonotopy
+taste | gustation | taste buds; sweet; sour; salty; bitter; umami
+olfaction | smell | olfactory epithelium; olfactory bulb; receptor neurons

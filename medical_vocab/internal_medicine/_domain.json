@@ -1,0 +1,14 @@
+{
+ "title": "Internal medicine and general clinical terms",
+ "version": "1.0.0",
+ "related": [
+  "pathology",
+  "pharmacology",
+  "cardiology",
+  "pulmonology",
+  "nephrology",
+  "gastroenterology",
+  "endocrinology",
+  "hematology"
+ ]
+}

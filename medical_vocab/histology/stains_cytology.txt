@@ -1,0 +1,107 @@
+# Histology: stains, methods, cell organelles, tissues. canonical | aliases | cues | confusables | kind
+cresyl violet | cresyl violet stain; cresyl fast violet; cresyl echt violet | Nissl; stain; basophilic; neurons; rough endoplasmic reticulum; ribosomes; thionine; histology; section
+thionine | thionin; thionine stain | Nissl; stain; basophilic; cresyl violet
+hematoxylin and eosin | H&E; H and E; haematoxylin and eosin; HE stain | stain; routine; histology; basophilic; acidophilic; nuclei; cytoplasm; section
+basophilic | basophilia; basophil | blue; hematoxylin; nucleic acids; ribosomes; rough endoplasmic reticulum; Nissl; acidic
+acidophilic | acidophilia; eosinophilic; eosinophilia | pink; eosin; proteins; cytoplasm; mitochondria; collagen
+periodic acid-Schiff | PAS; PAS stain; periodic acid Schiff | glycogen; carbohydrates; basement membrane; mucin; magenta
+silver stain | silver staining; silver impregnation; silver nitrate | Golgi; Cajal; Bielschowsky; neurons; axons; reticular fibers; black
+immunohistochemistry | IHC; immunostaining; immunocytochemistry | antibody; antigen; marker; staining; GFAP; detection
+immunofluorescence | IF | antibody; fluorescent; marker; microscopy; secondary antibody
+in situ hybridization | ISH; FISH; fluorescence in situ hybridization | mRNA; probe; chromosome; gene expression
+light microscope | light microscopy; optical microscope | histology; stain; section; magnification; resolution
+electron microscope | electron microscopy; transmission electron microscopy; TEM; scanning electron microscopy; SEM | ultrastructure; organelles; resolution; nanometer; membrane
+confocal microscopy | confocal microscope; confocal | fluorescence; optical section; laser
+paraffin section | paraffin sections; paraffin embedding | fixation; histology; microtome; formalin
+frozen section | frozen sections; cryosection; cryostat | rapid; intraoperative; histology
+fixation | fixative; formalin; paraformaldehyde | histology; preservation; cross-linking; tissue
+microtome | | section; paraffin; thin slices; histology
+cytoplasm | cytosol | cell; organelles; nucleus; membrane; cytoskeleton
+nucleus | nuclei; nuclear | chromatin; nucleolus; nuclear envelope; DNA; cell
+nucleolus | nucleoli | rRNA; ribosome assembly; nucleus; basophilic
+chromatin | euchromatin; heterochromatin | DNA; histones; nucleus; nuclear; condensed
+euchromatin | | active transcription; pale; chromatin; nucleus; open
+heterochromatin | | dense; inactive; dark; chromatin; nucleus; Barr body
+nuclear envelope | nuclear membrane; nuclear pore; nuclear pores; nuclear pore complex | nucleus; double membrane; transport; lamina
+plasma membrane | cell membrane; plasmalemma | lipid bilayer; phospholipids; proteins; fluid mosaic; cell
+lipid bilayer | phospholipid bilayer | membrane; phospholipids; hydrophobic; hydrophilic
+mitochondria | mitochondrion; mitochondrial | ATP; oxidative phosphorylation; cristae; matrix; Krebs cycle; powerhouse
+cristae | crista | mitochondria; inner membrane; ATP synthase
+rough endoplasmic reticulum | RER; rough ER; granular endoplasmic reticulum | ribosomes; protein synthesis; Nissl; basophilic; secretory; cisternae; translation
+smooth endoplasmic reticulum | SER; smooth ER; agranular endoplasmic reticulum | lipid synthesis; detoxification; calcium storage; steroid
+endoplasmic reticulum | ER | ribosomes; protein synthesis; smooth; rough; cisternae
+ribosome | ribosomes; polyribosomes; polysomes | translation; mRNA; protein synthesis; rRNA; 80S; 40S; 60S; rough endoplasmic reticulum
+lysosome | lysosomes; lysosomal | hydrolytic enzymes; acid hydrolases; digestion; autophagy; pH 5; phagocytosis
+peroxisome | peroxisomes | catalase; hydrogen peroxide; fatty acid oxidation; very long chain fatty acids
+endosome | endosomes; early endosome; late endosome | endocytosis; receptor; sorting; clathrin
+vesicle | vesicles; vesicular | transport; membrane; exocytosis; secretory; budding
+secretory granule | secretory granules; secretory vesicle; secretory vesicles | exocytosis; Golgi; hormone; zymogen
+cytoskeleton | cytoskeletal | microtubules; actin; intermediate filaments; microfilaments; cell shape
+microtubule | microtubules | tubulin; kinesin; dynein; mitotic spindle; axonal transport; cilia; centrosome
+tubulin | alpha-tubulin; beta-tubulin; α-tubulin; β-tubulin | microtubule; polymerization; GTP; dimer
+actin | actin filament; actin filaments; microfilament; microfilaments; F-actin; G-actin | cytoskeleton; myosin; muscle; cell motility; polymerization
+intermediate filament | intermediate filaments | keratin; vimentin; desmin; GFAP; neurofilament; lamin; tensile strength
+vimentin | | intermediate filament; mesenchymal; fibroblast; cytoskeleton
+keratin | keratins; cytokeratin; cytokeratins | epithelium; intermediate filament; skin; carcinoma marker
+desmin | | muscle; intermediate filament; Z disc
+centrosome | centrosomes; centriole; centrioles; microtubule organizing center; MTOC | mitosis; spindle; microtubules; cilia
+cilia | cilium; ciliated | motile; microtubules; 9+2; axoneme; epithelium; respiratory; ependymal
+flagellum | flagella | sperm; motility; axoneme; microtubules
+glycocalyx | | cell surface; carbohydrates; glycoproteins; membrane
+cell junction | cell junctions; intercellular junction; junctional complex | epithelium; tight; adherens; desmosome; gap junction
+tight junction | tight junctions; zonula occludens; occluding junction | claudin; occludin; barrier; epithelium; blood-brain barrier; apical
+adherens junction | adherens junctions; zonula adherens | cadherin; actin; epithelium; cell adhesion
+desmosome | desmosomes; macula adherens | cadherin; keratin; intermediate filaments; skin; cardiac; strong adhesion
+hemidesmosome | hemidesmosomes | integrin; basement membrane; keratin; epithelium
+focal adhesion | focal adhesions | integrin; actin; extracellular matrix
+basement membrane | basal lamina; basal laminae | epithelium; type IV collagen; laminin; fibronectin; Schwann cell; support
+extracellular matrix | ECM | collagen; elastin; proteoglycans; glycosaminoglycans; fibronectin; connective tissue
+collagen | collagen fibers; collagen fibres; type I collagen; type II collagen; type III collagen; type IV collagen | connective tissue; fibroblast; tensile strength; triple helix; bone; cartilage; skin
+elastin | elastic fibers; elastic fibres; elastic fiber | elasticity; stretch; arteries; lung; skin; fibrillin
+fibroblast | fibroblasts | connective tissue; collagen; extracellular matrix; wound healing
+proteoglycan | proteoglycans; glycosaminoglycan; glycosaminoglycans; GAG | extracellular matrix; hyaluronic acid; heparan sulfate; chondroitin sulfate; ground substance
+epithelium | epithelia; epithelial; epithelial tissue | lining; basement membrane; apical; basal; polarity; cells
+simple squamous epithelium | simple squamous | single layer; flat; diffusion; endothelium; mesothelium; alveoli
+simple cuboidal epithelium | simple cuboidal | single layer; cube; kidney tubules; glands
+simple columnar epithelium | simple columnar | single layer; tall; absorption; intestine; microvilli
+pseudostratified columnar epithelium | pseudostratified epithelium; pseudostratified | respiratory; cilia; goblet cells; basement membrane; trachea
+stratified squamous epithelium | stratified squamous; keratinized | skin; epidermis; esophagus; protection
+transitional epithelium | urothelium; transitional | bladder; urinary; stretch; umbrella cells
+goblet cell | goblet cells | mucus; mucin; epithelium; intestine; respiratory
+microvilli | microvillus; brush border | absorption; intestine; actin; apical; surface area
+stereocilia | stereocilium | hair cells; epididymis; actin; inner ear
+connective tissue | connective tissues | fibroblast; collagen; extracellular matrix; cells; support
+loose connective tissue | areolar tissue; areolar connective tissue | fibroblasts; ground substance; fibers
+dense connective tissue | dense regular connective tissue; dense irregular connective tissue | collagen; tendon; ligament; dermis
+adipose tissue | adipocyte; adipocytes; fat tissue; white adipose tissue; brown adipose tissue | fat; lipid; energy storage; signet ring; unilocular
+cartilage | hyaline cartilage; elastic cartilage; fibrocartilage; cartilaginous | chondrocyte; chondroblast; lacuna; matrix; perichondrium; avascular
+chondrocyte | chondrocytes; chondroblast; chondroblasts | cartilage; lacuna; matrix; collagen type II
+bone | osseous; bony; bones | osteocyte; osteoblast; osteoclast; osteon; matrix; hydroxyapatite; periosteum
+osteoblast | osteoblasts | bone formation; matrix; osteoid; alkaline phosphatase
+osteocyte | osteocytes | lacunae; canaliculi; mature bone cell; mechanosensing
+osteoclast | osteoclasts | bone resorption; multinucleated; Howship lacunae; macrophage lineage; RANKL
+osteon | osteons; Haversian system; Haversian systems | compact bone; Haversian canal; lamellae; concentric
+muscle | skeletal muscle; cardiac muscle; smooth muscle | contraction; myofibril; sarcomere; striated; actin; myosin
+sarcomere | sarcomeres | Z disc; A band; I band; actin; myosin; contraction; titin
+myofibril | myofibrils | sarcomere; actin; myosin; muscle fiber
+muscle fiber | muscle fibre; muscle fibers; muscle fibres; myofiber; myofibers | skeletal muscle; multinucleated; myofibrils; sarcolemma
+sarcolemma | | muscle fiber; membrane; T tubules
+sarcoplasmic reticulum | SR | calcium; muscle; ryanodine receptor; T tubule
+T tubule | T tubules; transverse tubule; transverse tubules | muscle; excitation-contraction coupling; sarcolemma
+cardiac muscle | cardiomyocyte; cardiomyocytes; cardiac myocyte; cardiac myocytes | intercalated discs; heart; striated; involuntary; branching
+intercalated disc | intercalated discs; intercalated disk | cardiac muscle; gap junctions; desmosomes
+smooth muscle | smooth muscle cell; smooth muscle cells | involuntary; spindle-shaped; dense bodies; no striations; caveolae
+blood | | red blood cells; white blood cells; platelets; plasma; hematology
+erythrocyte | erythrocytes; red blood cell; red blood cells; RBC | hemoglobin; oxygen; biconcave; anucleate
+leukocyte | leukocytes; white blood cell; white blood cells; WBC | immune; neutrophil; lymphocyte; monocyte
+neutrophil | neutrophils | polymorphonuclear; multilobed nucleus; bacteria; acute inflammation; phagocytosis
+eosinophil | eosinophils | bilobed nucleus; parasites; allergy; granules
+basophil | basophils | histamine; heparin; allergy; granules
+lymphocyte | lymphocytes | T cell; B cell; adaptive immunity; nucleus; small
+monocyte | monocytes | macrophage; blood; phagocytosis; kidney-shaped nucleus
+platelet | platelets; thrombocyte; thrombocytes | clotting; megakaryocyte; hemostasis
+megakaryocyte | megakaryocytes | platelets; bone marrow; large; polyploid
+macrophage | macrophages; histiocyte; histiocytes | phagocytosis; monocytes; antigen presentation; connective tissue; Kupffer; microglia
+mast cell | mast cells | histamine; heparin; allergy; connective tissue; IgE
+plasma cell | plasma cells | antibody; B cell; immunoglobulin; clock-face; rough endoplasmic reticulum
+dendritic cell | dendritic cells | antigen presenting; Langerhans; T cell activation

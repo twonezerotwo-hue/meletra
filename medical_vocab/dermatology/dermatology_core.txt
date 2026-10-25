@@ -1,0 +1,40 @@
+# Dermatology. canonical | aliases | cues | confusables | kind
+dermatitis | eczema | itchy rash; atopic
+atopic dermatitis | atopic eczema | children; flexural; IgE
+contact dermatitis | | allergic; irritant; type IV hypersensitivity
+psoriasis | | silvery scales; plaques; Auspitz sign; Koebner phenomenon
+acne vulgaris | acne | sebaceous glands; comedones; Propionibacterium
+rosacea | | facial erythema; telangiectasia
+urticaria | hives | wheals; mast cells; histamine
+cellulitis | | skin infection; erythema; Streptococcus
+impetigo | | honey-colored crusts; Staphylococcus
+erysipelas | | raised border; Streptococcus pyogenes
+tinea | ringworm; tinea corporis; tinea pedis; tinea capitis | dermatophytes; fungal
+scabies | | Sarcoptes scabiei; burrows; itching
+pediculosis | lice | head lice
+herpes zoster | shingles | dermatomal vesicles; varicella-zoster virus
+warts | verruca; verrucae | HPV
+molluscum contagiosum | | pearly papules; umbilicated
+vitiligo | | depigmentation; autoimmune
+pemphigus vulgaris | pemphigus | intraepidermal blisters; desmoglein; acantholysis; Nikolsky sign
+bullous pemphigoid | pemphigoid | subepidermal blisters; hemidesmosomes; elderly
+Stevens-Johnson syndrome | SJS | drug reaction; mucosal; epidermal detachment
+toxic epidermal necrolysis | TEN | severe; skin sloughing
+erythema multiforme | | target lesions; HSV
+basal cell carcinoma | BCC | pearly papule; rodent ulcer; sun-exposed
+actinic keratosis | | precancerous; sun damage
+nevus | nevi; mole; moles | melanocytes; benign
+seborrheic keratosis | | stuck-on; benign
+lupus rash | malar rash; butterfly rash | SLE; cheeks
+dermatomyositis | | heliotrope rash; Gottron papules
+sunburn | | UVB; erythema
+melasma | | hyperpigmentation; pregnancy
+alopecia | alopecia areata | hair loss
+hyperhidrosis | | excessive sweating
+pruritus | itching | itch; uremia; cholestasis
+macule | macules | flat lesion; less than 1 cm
+papule | papules | raised lesion; less than 1 cm
+plaque | plaques | raised; greater than 1 cm
+bulla | bullae | large blister
+pustule | pustules | pus-filled
+nodule | nodules | solid lesion; deep

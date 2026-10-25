@@ -1,0 +1,131 @@
+# Pharmacology concepts and drug classes. canonical | aliases | cues | confusables | kind
+pharmacokinetics | PK | absorption; distribution; metabolism; excretion; ADME; clearance
+pharmacodynamics | PD pharmacology | receptor; dose-response; efficacy; potency; mechanism of action
+ADME | | absorption; distribution; metabolism; excretion
+bioavailability | | fraction absorbed; first-pass metabolism; oral; F
+first-pass metabolism | first pass effect; first-pass effect | liver; oral drugs; bioavailability; portal circulation
+volume of distribution | Vd | drug distribution; plasma; tissue; loading dose
+clearance | drug clearance | elimination; kidney; liver; steady state
+half-life | half life; elimination half-life | steady state; five half-lives; elimination
+steady state | | dosing; plasma concentration; half-life
+loading dose | | volume of distribution; rapid effect
+maintenance dose | | clearance; steady state
+first-order kinetics | first order kinetics | constant fraction; linear
+zero-order kinetics | zero order kinetics | constant amount; saturable; phenytoin; ethanol; aspirin
+therapeutic index | therapeutic window | toxic dose; effective dose; narrow; digoxin; lithium; warfarin
+dose-response curve | dose response curve | potency; efficacy; ED50
+potency | | ED50; dose needed
+efficacy | | maximal effect; Emax
+affinity | | binding strength; Kd; receptor
+full agonist | | maximal response
+partial agonist | | submaximal response; buprenorphine; buspirone
+inverse agonist | | opposite effect; constitutive activity
+competitive antagonist | | surmountable; shifts curve right
+noncompetitive antagonist | non-competitive antagonist | insurmountable; reduces Emax
+receptor desensitization | desensitization | tachyphylaxis; downregulation
+tachyphylaxis | | rapid tolerance; repeated dosing
+tolerance | | reduced response; chronic use
+cytochrome P450 | CYP450; CYP enzymes; cytochrome P450 enzymes | drug metabolism; liver; CYP3A4; CYP2D6; CYP2C9
+CYP3A4 | | cytochrome P450; most common; ketoconazole; rifampin; grapefruit
+CYP2D6 | | cytochrome P450; codeine; polymorphism; SSRIs
+CYP2C9 | | cytochrome P450; warfarin; phenytoin
+CYP inducer | CYP inducers; enzyme inducer; enzyme inducers | rifampin; phenytoin; carbamazepine; barbiturates; St John's wort
+CYP inhibitor | CYP inhibitors; enzyme inhibitor | ketoconazole; erythromycin; cimetidine; grapefruit juice
+phase I metabolism | phase 1 metabolism | oxidation; reduction; hydrolysis; cytochrome P450
+phase II metabolism | phase 2 metabolism | conjugation; glucuronidation; sulfation; acetylation
+glucuronidation | glucuronide | phase II; UDP-glucuronosyltransferase
+acetylation | acetylator; slow acetylators; fast acetylators | isoniazid; hydralazine; procainamide; N-acetyltransferase
+prodrug | prodrugs | activated in body; metabolism
+drug interaction | drug interactions | CYP; additive; synergism
+synergism | synergistic | combined effect greater than sum
+antagonism | antagonistic | opposing effects
+adverse drug reaction | adverse drug reactions; ADR; side effects; side effect | toxicity; hypersensitivity; idiosyncratic
+teratogen | teratogens; teratogenic | birth defects; pregnancy; thalidomide; warfarin; isotretinoin; valproate
+idiosyncratic reaction | | unpredictable; genetic; G6PD
+anaphylaxis | anaphylactic | IgE; epinephrine; hypersensitivity; urticaria
+cholinergic | cholinergics | acetylcholine; parasympathomimetic; muscarinic; nicotinic
+anticholinergic | anticholinergics; antimuscarinic | atropine; dry mouth; urinary retention; mydriasis
+adrenergic | adrenergics | norepinephrine; epinephrine; alpha; beta receptors
+sympathomimetic | sympathomimetics | adrenergic agonist; amphetamine; ephedrine
+sympatholytic | sympatholytics | adrenergic blocker; beta blocker; clonidine
+alpha blocker | alpha blockers; alpha-blocker | prazosin; phenoxybenzamine; vasodilation
+beta blocker | beta blockers; beta-blocker; beta-blockers | propranolol; metoprolol; heart rate; hypertension; heart failure
+calcium channel blocker | calcium channel blockers | amlodipine; verapamil; diltiazem; hypertension; angina
+ACE inhibitor | ACE inhibitors | captopril; lisinopril; hypertension; cough; angioedema; hyperkalemia
+angiotensin receptor blocker | angiotensin receptor blockers | losartan; hypertension
+diuretic | diuretics | furosemide; thiazide; spironolactone; edema; hypertension
+loop diuretic | loop diuretics | furosemide; ototoxicity; loop of Henle
+thiazide diuretic | thiazide diuretics; thiazides | hydrochlorothiazide; distal tubule; hypercalcemia
+potassium-sparing diuretic | potassium-sparing diuretics; potassium sparing diuretics | spironolactone; amiloride; hyperkalemia
+vasodilator | vasodilators | hydralazine; nitrates; afterload reduction
+nitrate | nitrates | nitroglycerin; angina; nitric oxide; vasodilation
+antiarrhythmic | antiarrhythmics; antiarrhythmic drugs | Vaughan Williams classification; sodium channel; potassium channel
+inotrope | inotropes; positive inotrope | contractility; digoxin; dobutamine
+anticoagulant | anticoagulants | warfarin; heparin; DOAC; thrombosis
+antiplatelet | antiplatelets; antiplatelet drugs | aspirin; clopidogrel; platelet aggregation
+thrombolytic | thrombolytics; fibrinolytic | alteplase; stroke; myocardial infarction
+statin | statins | HMG-CoA reductase inhibitor; cholesterol; myopathy; rhabdomyolysis
+antibiotic | antibiotics; antibacterial; antibacterials | bacteria; resistance; bactericidal; bacteriostatic
+bactericidal | | kills bacteria; beta-lactams; aminoglycosides
+bacteriostatic | | inhibits growth; tetracyclines; macrolides
+beta-lactam | beta-lactams; β-lactam; beta lactam | penicillin; cephalosporin; carbapenem; cell wall; penicillin-binding proteins
+beta-lactamase | beta-lactamases; β-lactamase | resistance; clavulanate; penicillinase
+penicillin-binding protein | penicillin-binding proteins; PBP | transpeptidase; cell wall; MRSA
+cephalosporin | cephalosporins | beta-lactam; generations
+carbapenem | carbapenems | beta-lactam; broad spectrum; meropenem
+aminoglycoside | aminoglycosides | 30S ribosome; gentamicin; nephrotoxicity; ototoxicity; oxygen-dependent uptake
+macrolide | macrolides | 50S ribosome; erythromycin; azithromycin
+tetracycline class | tetracyclines | 30S ribosome; doxycycline
+fluoroquinolone | fluoroquinolones; quinolone; quinolones | DNA gyrase; topoisomerase IV; tendon rupture
+sulfonamide | sulfonamides | folate synthesis; dihydropteroate synthase
+antifungal | antifungals | azole; polyene; echinocandin; ergosterol
+azole | azoles; azole antifungals | ergosterol synthesis; CYP inhibition; fluconazole
+antiviral | antivirals | acyclovir; nucleoside analog; HIV; influenza
+nucleoside analog | nucleoside analogs; nucleoside analogue | DNA chain termination; acyclovir; zidovudine
+antiretroviral | antiretrovirals; ART; HAART | HIV; reverse transcriptase; protease inhibitor; integrase inhibitor
+protease inhibitor | protease inhibitors | HIV; ritonavir
+antiparasitic | antiparasitics; antimalarial; antimalarials; anthelmintic; anthelmintics | parasites; malaria; worms
+chemotherapy | chemotherapeutic | cytotoxic; cancer; alkylating agents; antimetabolites; cell cycle specific
+alkylating agent | alkylating agents | DNA cross-linking; cyclophosphamide; cisplatin
+antimetabolite | antimetabolites | S phase; methotrexate; 5-fluorouracil; folate; purine; pyrimidine
+monoclonal antibody | monoclonal antibodies; mAb; mAbs | rituximab; trastuzumab; targeted therapy; -mab
+tyrosine kinase inhibitor | tyrosine kinase inhibitors; TKI; TKIs | imatinib; erlotinib; targeted therapy; -nib
+immunosuppressant | immunosuppressants; immunosuppressive | transplant; cyclosporine; tacrolimus; azathioprine
+glucocorticoid | glucocorticoids; corticosteroid; corticosteroids; steroids | prednisone; anti-inflammatory; immunosuppression; adrenal suppression; Cushing
+NSAID | NSAIDs; nonsteroidal anti-inflammatory drugs; non-steroidal anti-inflammatory drugs | COX inhibition; prostaglandins; ibuprofen; gastric ulcer; renal impairment
+opioid | opioids; opiate; opiates | mu receptor; analgesia; respiratory depression; naloxone; dependence
+benzodiazepine | benzodiazepines; benzos | GABA-A; anxiolytic; sedative; flumazenil; dependence
+barbiturate | barbiturates | GABA-A; duration of channel opening; phenobarbital
+antiepileptic | antiepileptics; anticonvulsant; anticonvulsants; antiepileptic drugs; AEDs | seizures; sodium channel; GABA
+antidepressant | antidepressants | SSRI; SNRI; tricyclic; MAOI; serotonin; norepinephrine
+antipsychotic | antipsychotics | dopamine D2 antagonist; schizophrenia; extrapyramidal symptoms; tardive dyskinesia
+typical antipsychotic | typical antipsychotics; first-generation antipsychotic | haloperidol; D2 antagonism; extrapyramidal symptoms
+atypical antipsychotic | atypical antipsychotics; second-generation antipsychotic | olanzapine; risperidone; metabolic syndrome
+mood stabilizer | mood stabilizers | lithium; valproate; bipolar disorder
+extrapyramidal symptoms | EPS; extrapyramidal side effects | antipsychotics; dystonia; akathisia; parkinsonism; tardive dyskinesia
+neuroleptic malignant syndrome | NMS | antipsychotic; fever; rigidity; dantrolene
+serotonin syndrome | | SSRI; MAOI; hyperthermia; clonus; agitation
+tardive dyskinesia | | antipsychotics; involuntary movements; chronic
+local anesthetic | local anesthetics | sodium channel block; lidocaine; bupivacaine; nerve conduction
+general anesthetic | general anesthetics; inhalational anesthetic; inhaled anesthetics | MAC; potency; sevoflurane
+neuromuscular blocker | neuromuscular blockers; neuromuscular blocking agents | succinylcholine; rocuronium; paralysis
+muscle relaxant | muscle relaxants; skeletal muscle relaxants | baclofen; dantrolene; spasm
+antihistamine | antihistamines | H1 receptor; histamine; allergy; diphenhydramine
+H2 blocker | H2 blockers; H2 receptor antagonist; H2 antagonists | famotidine; gastric acid
+proton pump inhibitor | proton pump inhibitors; PPIs | omeprazole; H+/K+ ATPase; gastric acid; reflux
+antiemetic | antiemetics | ondansetron; nausea; vomiting
+laxative | laxatives | constipation; osmotic; stimulant
+bisphosphonate | bisphosphonates | osteoporosis; alendronate; osteoclast apoptosis
+oral contraceptive | oral contraceptives; contraceptive pill; combined oral contraceptive | estrogen; progestin; ovulation inhibition
+hormone replacement therapy | HRT | estrogen; menopause
+insulin therapy | | diabetes; basal; bolus; analogs
+sulfonylurea | sulfonylureas | glipizide; K-ATP channel; insulin secretion; hypoglycemia
+biguanide | biguanides | metformin
+thiazolidinedione | thiazolidinediones; TZD; TZDs; glitazones | pioglitazone; PPAR gamma
+incretin | incretins | GLP-1; GIP; DPP-4
+GLP-1 | glucagon-like peptide-1; glucagon-like peptide 1 | incretin; liraglutide; insulin secretion
+DPP-4 inhibitor | DPP-4 inhibitors; gliptins | sitagliptin; incretin
+SGLT2 inhibitor | SGLT2 inhibitors; gliflozins | empagliflozin; glucosuria; diabetes
+poisoning | toxicology; overdose; toxicity | antidote; antidotes; chelation
+antidote | antidotes | naloxone; N-acetylcysteine; flumazenil; atropine; pralidoxime
+chelating agent | chelating agents; chelators; chelator | lead; iron; copper; deferoxamine; penicillamine

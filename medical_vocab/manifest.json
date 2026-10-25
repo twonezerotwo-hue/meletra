@@ -1,0 +1,6 @@
+{
+  "format": 1,
+  "version": "1.0.0",
+  "line_format": "canonical | aliases; ... | cues; ... | confusables (known ASR mishearings); ... | kind (term, abbr, eponym, latin, gene, drug)",
+  "note": "Plain text, one concept per line, reviewed by hand. Extend by adding lines or folders; nothing here is a replacement table: a term is only ever proposed when sound AND context agree."
+}

@@ -1,0 +1,256 @@
+# medical-lecture-transcriber - transcription settings
+#
+# Every tunable lives here. Nothing below is hard-coded in src/.
+# Values are read with PyYAML (UTF-8). Edit freely; run `python -m pytest` after.
+
+# --------------------------------------------------------------------------
+# Defaults used when the CLI flag is omitted
+# --------------------------------------------------------------------------
+defaults:
+  mode: quality            # quality | fast
+  language: auto           # auto | en | tr | any Whisper language code
+  subject: general_medical # one or more of medical_terms/*.txt (comma separated) or "all"
+  model: default           # key of config/models.yaml
+  device: auto             # auto = CUDA when it works, otherwise the CPU (with a clear reason); or cuda / cpu
+  device_index: 0
+  preprocessing: none      # none | light
+
+# --------------------------------------------------------------------------
+# Quality profile: accuracy first (RTX 2070 8 GB: needs ~4-5 GB free VRAM)
+# --------------------------------------------------------------------------
+quality:
+  beam_size: 5
+  temperature: 0           # 0 = deterministic. A list (e.g. [0, 0.2, 0.4]) enables Whisper's fallback ladder.
+  compute_type: float16
+  fallback_compute_type: int8_float16   # used automatically (and logged) if float16 does not fit in VRAM
+  vad_filter: true
+  condition_on_previous_text: true
+  word_timestamps: true
+  use_hotwords: true       # pass subject/PDF terms to the backend when it supports it
+  repetition_penalty: 1.0
+  no_repeat_ngram_size: 0
+
+# --------------------------------------------------------------------------
+# Fast profile: same model, smaller footprint
+# --------------------------------------------------------------------------
+fast:
+  beam_size: 3
+  temperature: 0
+  compute_type: int8_float16
+  fallback_compute_type: null
+  vad_filter: true
+  condition_on_previous_text: true
+  word_timestamps: false
+  use_hotwords: true
+  repetition_penalty: 1.0
+  no_repeat_ngram_size: 0
+
+# --------------------------------------------------------------------------
+# Decode-time gates (Whisper itself uses these to drop / retry windows).
+# Values are faster-whisper's own defaults, written out so they are visible.
+# --------------------------------------------------------------------------
+decoding:
+  no_speech_threshold: 0.6
+  log_prob_threshold: -1.0
+  compression_ratio_threshold: 2.4
+
+# --------------------------------------------------------------------------
+# Voice activity detection (Silero VAD bundled with faster-whisper)
+# --------------------------------------------------------------------------
+vad:
+  threshold: 0.5
+  min_silence_duration_ms: 500
+  min_speech_duration_ms: 250
+  speech_pad_ms: 400
+
+# --------------------------------------------------------------------------
+# Multilingual recordings (Auto Detect over time) and speech coverage
+# --------------------------------------------------------------------------
+multilingual:
+  scan: auto                # auto = scan the whole recording for language changes only when the first sampling shows more than one language, weak evidence, or singing / music
+                            # always = scan every recording; off = the older single-language behaviour
+  coverage: auto            # auto = after decoding, loud stretches without any words are decoded again (bounded) and the rest is reported; off = skip the check
+  level_quiet_speech: auto  # auto = speech far quieter than normal (a speaker far from the microphone) is made louder in the working copy of the audio before the voice filter; off = never
+  recheck: auto             # auto = after decoding, each segment's language is checked against the audio (bounded) and a segment in another language is read again in it; off = skip
+  coverage_share: 0.25      # at most this share of the recording is decoded again by the coverage check (and never more than 30 min on a GPU / 10 min on a CPU)
+  verify_samples_gpu: 40    # windows (one per ~30 s of an unsure stretch, at most this many in all) used to decide the language of a stretch the detector is unsure about
+  verify_samples_cpu: 12
+
+# --------------------------------------------------------------------------
+# Audio extraction (FFmpeg)
+# --------------------------------------------------------------------------
+audio:
+  sample_rate: 16000
+  channels: 1
+  codec: pcm_s16le          # lossless PCM; the only lossy step is the source's own codec
+  ffmpeg_path: null         # optional explicit path to ffmpeg.exe (otherwise PATH / WinGet is searched)
+  supported_extensions:
+    video: [".mp4", ".mkv", ".mov", ".avi", ".webm", ".m4v", ".wmv", ".flv", ".ts"]
+    audio: [".mp3", ".m4a", ".wav", ".flac", ".ogg", ".opus", ".aac", ".wma"]
+  # Denoising is OFF by default: aggressive noise reduction hurts ASR accuracy.
+  # "light" = gentle high-pass + loudness normalisation only (no spectral denoise).
+  preprocessing_filters:
+    none: null
+    light: "highpass=f=70,loudnorm=I=-20:TP=-2:LRA=11"
+
+# --------------------------------------------------------------------------
+# Hotword / prompt context
+# --------------------------------------------------------------------------
+context:
+  max_hotwords: 40          # number of terms handed to the backend
+  max_hotword_chars: 700    # hard cap on the hotword string length
+  # MEASURED on large-v3 (README "Hotword experiment"): hotwords together with
+  # condition_on_previous_text=true made the output truncate and loop (WER 2.8% -> 46.7%), while
+  # hotwords with condition_on_previous_text=false improved it (WER 2.2%, term recall 1.00).
+  # When true, the profile's condition_on_previous_text is switched off whenever hotwords are sent.
+  hotwords_disable_conditioning: true
+  # TOKEN budgets (counted with Whisper's real tokenizer, never estimated from word counts).
+  # Whisper's decoder window is 448 tokens and the prompt SHARES it with the sentence being written; if hotwords
+  # + previous text fill it, words get cut off and loops start (measured). So:
+  #   prompt_token_budget   = most the whole prompt (hotwords + initial prompt) may use,
+  #   hotwords_token_budget = most the hotword list alone may use.
+  # Both are clamped to 448 - 4 - generation_reserve_tokens (and faster-whisper's own 223-token cap per part);
+  # a clamp is logged and written to metadata. Whole terms only: lowest-priority terms are dropped first,
+  # multi-word terms and terms found in the lecture slides are kept longest.
+  prompt_token_budget: 280
+  hotwords_token_budget: 160
+  generation_reserve_tokens: 160
+  multiword_priority: true  # legacy (engine: legacy): multi-word terms before single words
+  pdf_enabled: true         # auto-detect <media stem>.pdf next to the media file
+  pdf_max_terms: 25         # how many PDF-derived terms are prioritised
+  pdf_min_frequency: 2      # candidate (non-dictionary) terms must appear at least this often
+
+# --------------------------------------------------------------------------
+# Medical context engine (default ON): file name + first minutes + slides + --subject -> subject scores
+# (19 areas, 0-1) -> only the relevant vocabulary -> every term scored -> best terms become hotwords.
+#   engine: expert  = scored, subject-focused context (default)
+#   engine: legacy  = the earlier behaviour (subject word lists in file order, multi-word first)
+# --------------------------------------------------------------------------
+context_engine:
+  engine: expert
+  max_areas: 3             # the strongest 1-3 areas are used
+  relative_cutoff: 0.5     # an extra area must score at least this share of the best one
+  min_area_score: 0.2      # below this nothing is selected (only generic clinical vocabulary is used)
+  saturation: 12.0         # raw -> 0..1 squashing: score = raw / (raw + saturation)
+  candidate_limit: 60      # best-scored terms handed to the backend (the token budget makes the final cut)
+  rolling_new_terms: 12    # chunk-to-chunk adaptation: at most this many newly heard terms are added per chunk
+  # score = sum(weights * components) + multi-word bonus; weights are normalised to sum to 1
+  weights:
+    subject_match: 0.30
+    pdf_presence: 0.25
+    early_transcript_presence: 0.15
+    frequency: 0.10
+    rarity: 0.10
+    medical_specificity: 0.10
+  multiword_bonus: {2: 0.15, 3: 0.20}
+
+# --------------------------------------------------------------------------
+# Topic probe (on by default; --no-auto-topic skips it): transcribe a few minutes starting at the first sustained
+# speech WITHOUT hotwords to learn the language and subject.
+# --------------------------------------------------------------------------
+topic:
+  auto: true
+  probe_minutes: 4.0
+  max_subjects: 2          # legacy topic.py knobs (engine: legacy)
+  relative_cutoff: 0.5
+  min_score: 4.0
+
+# --------------------------------------------------------------------------
+# Long recordings: chunking + checkpoints
+# --------------------------------------------------------------------------
+long_audio:
+  enabled: true
+  chunk_minutes: 15        # files up to ~1.25x this are decoded in one piece
+  overlap_seconds: 3       # each decode window reaches this far into its neighbours
+  snap_window_seconds: 60  # cut points move onto the longest pause within +-this many seconds of the nominal cut
+  min_pause_seconds: 0.6
+  chunk_retries: 2         # a chunk that fails is retried this many times (model reloaded in between)
+  loop_repair: true        # re-decode ONLY a window where the model looped (e.g. echoed the hotword list), hotwords off
+  gap_repair: true         # re-decode ONLY stretches of real speech (per the VAD pass) that came back without text
+  gap_repair_min_seconds: 5.0      # shorter gaps are breaths / noise
+  gap_repair_padding_seconds: 2.0  # context decoded on each side of a gap (only the gap itself is inserted)
+checkpoint:
+  enabled: true            # every finished segment is saved; finished chunks are never decoded twice
+progress:
+  step_percent: 5          # print a PROGRESS line every N percent ...
+  interval_seconds: 30     # ... or every N seconds, whichever comes first
+
+# --------------------------------------------------------------------------
+# Terminology report (possible_medical_errors.txt) and transcript quality audit
+# --------------------------------------------------------------------------
+medical_report:
+  cutoff: 0.86             # similarity (0-1) for "looks like a dictionary term but is not one"
+  candidate_min_count: 2   # medical-looking words outside the dictionary must occur this often
+  min_suggestion_score: 0.45   # a "did you mean ...?" needs this much combined evidence (0-1); LOW <0.60, MEDIUM <0.75, HIGH
+
+# --------------------------------------------------------------------------
+# Optional online second opinion (Deepgram Nova-3 Medical). DEFAULT = local only.
+# The API key is read from the environment or a .env file (DEEPGRAM_API_KEY), never from this file.
+# --------------------------------------------------------------------------
+deepgram:
+  model: nova-3-medical
+  language: en
+  max_keyterms: 100
+  max_retries: 3
+  suspect_thresholds:        # --deepgram-if-suspect: ask Deepgram only if the local transcript looks doubtful
+    uncertain_ratio: 0.10
+    loop_flags: 5
+
+# --------------------------------------------------------------------------
+# Merge gate for tuning changes (scripts/quality_gate.py): a new setup is accepted only if
+#   WER is equal/better (within wer_noise), or recall rises by >= recall_gain_min while WER worsens <= wer_max_loss,
+# and medical-term recall never drops by more than recall_drop_max.
+# --------------------------------------------------------------------------
+quality_gate:
+  wer_noise: 0.002           # 0.2 percentage points counts as "the same"
+  recall_gain_min: 0.05      # +5 points of medical-term recall is a meaningful gain
+  wer_max_loss: 0.01         # ... as long as WER is at most 1 point worse
+  recall_drop_max: 0.02      # recall may not fall by more than 2 points
+audit:                     # NOT the "quality" mode profile above; settings of the transcript audit
+  window_minutes: 10       # size of the beginning / middle / end windows in the audit
+  missing_speech_min_gap_s: 8.0
+
+# --------------------------------------------------------------------------
+# Uncertainty detection
+# --------------------------------------------------------------------------
+uncertainty:
+  avg_logprob_threshold: -1.0      # segment is uncertain if avg_logprob <  this
+  no_speech_threshold: 0.6         # ... or no_speech_prob >  this
+  compression_ratio_threshold: 2.4 # ... or compression_ratio > this
+  min_words: 2                     # very short segments ...
+  min_chars: 6                     # ... (fewer words AND fewer letters) are flagged
+  repetition_min_repeats: 4        # same word/phrase repeated this many times in a row
+  repetition_max_ngram: 4          # longest phrase length checked for loops
+  repeated_segment_count: 3        # identical consecutive segments (hallucination loop)
+  hotword_echo_min_words: 4        # a verbatim slice of the hotword list this long => prompt echo
+  duplicate_lookback: 6            # same text as one of the previous N segments (not only the last one)
+  duplicate_min_words: 4           # ... and at least this many words (ignores "Thank you.", "Yes.")
+  low_density_min_seconds: 6.0     # a segment at least this long ...
+  min_words_per_second: 0.6        # ... with fewer words per second than this lost content (truncation)
+  near_miss_enabled: true          # flag words that look like a dictionary term but are not one
+  near_miss_ratio: 0.88            # difflib similarity cut-off (0-1)
+  near_miss_min_length: 7          # ignore short words (too many false positives)
+
+# --------------------------------------------------------------------------
+# Heuristic confidence (NOT a calibrated model probability)
+#   confidence = clip(exp(avg_logprob)) * (1 - no_speech_prob) * compression_penalty
+# --------------------------------------------------------------------------
+confidence:
+  compression_penalty: 0.5     # multiplier applied when compression_ratio exceeds the threshold above
+
+# --------------------------------------------------------------------------
+# Clean transcript
+# --------------------------------------------------------------------------
+cleaner:
+  paragraph_gap_seconds: 2.0   # blank line between segments separated by a longer pause (layout only)
+  fix_term_spacing: true       # "spino thalamic tract" -> "spinothalamic tract" (deterministic, dictionary-backed)
+  fix_eponym_case: true        # "broca area" -> "Broca area"
+  mark_uncertain: true         # wrap uncertain segments as [UNCERTAIN: ...]
+
+# --------------------------------------------------------------------------
+# Paths (relative paths are resolved from the project root)
+# --------------------------------------------------------------------------
+paths:
+  input: input
+  outputs: outputs
+  medical_terms: medical_terms

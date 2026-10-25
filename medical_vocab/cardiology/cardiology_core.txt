@@ -1,0 +1,69 @@
+# Cardiology. canonical | aliases | cues | confusables | kind
+angina pectoris | angina; stable angina; unstable angina | chest pain; coronary; nitroglycerin; exertion
+myocardial infarction | MI; heart attack; STEMI; NSTEMI | troponin; ST elevation; coronary occlusion; chest pain
+acute coronary syndrome | ACS | unstable angina; STEMI; NSTEMI
+coronary artery disease | CAD; ischemic heart disease | atherosclerosis; angina
+heart failure | congestive heart failure; CHF; cardiac failure | edema; dyspnea; ejection fraction; BNP
+systolic heart failure | HFrEF | reduced ejection fraction
+diastolic heart failure | HFpEF | preserved ejection fraction; stiff ventricle
+cor pulmonale | | right heart failure; pulmonary hypertension; COPD
+cardiomyopathy | cardiomyopathies | dilated; hypertrophic; restrictive; arrhythmogenic
+hypertrophic cardiomyopathy | HCM | septal hypertrophy; sudden death in athletes; sarcomere mutation
+dilated cardiomyopathy | DCM | enlarged ventricle; alcohol; doxorubicin
+atrial fibrillation | AF; A-fib; afib | irregularly irregular; stroke risk; anticoagulation
+atrial flutter | | sawtooth; reentry
+ventricular tachycardia | VT; V-tach | wide complex; sudden death
+ventricular fibrillation | VF; V-fib | cardiac arrest; defibrillation
+supraventricular tachycardia | SVT | narrow complex; AV nodal reentry; adenosine
+bradycardia | bradycardic | slow heart rate; sinus node; heart block
+tachycardia | tachycardic | fast heart rate
+heart block | AV block; first degree AV block; second degree AV block; third degree AV block; complete heart block | PR interval; Mobitz; conduction
+bundle branch block | BBB cardiac; left bundle branch block; right bundle branch block; LBBB; RBBB | QRS widening
+Wolff-Parkinson-White syndrome | WPW; pre-excitation | delta wave; accessory pathway; Kent bundle
+long QT syndrome | long QT | torsades de pointes; sudden death; QT prolongation
+torsades de pointes | torsade | polymorphic ventricular tachycardia; long QT; magnesium
+premature ventricular contraction | PVC; premature ventricular contractions | ectopic; wide QRS
+ST elevation | ST segment elevation; ST-elevation | STEMI; transmural infarction
+Q wave | pathological Q waves | old infarct; necrosis
+troponin | cardiac troponin; troponin I; troponin T | myocardial injury; marker; infarction
+creatine kinase-MB | CK-MB | myocardial injury; marker
+hypertension | high blood pressure; HTN | systolic; diastolic; essential; secondary; end-organ damage
+essential hypertension | primary hypertension | no identifiable cause; 90 percent
+secondary hypertension | | renal artery stenosis; pheochromocytoma; hyperaldosteronism
+hypertensive crisis | hypertensive emergency | severe; end-organ damage
+orthostatic hypotension | postural hypotension | standing; autonomic; syncope
+syncope | | fainting; vasovagal; transient loss of consciousness
+valvular heart disease | valve disease | stenosis; regurgitation
+aortic stenosis | | calcific; ejection murmur; syncope angina dyspnea; pulsus parvus et tardus
+aortic regurgitation | aortic insufficiency | diastolic murmur; wide pulse pressure; water hammer pulse
+mitral stenosis | | rheumatic; opening snap; diastolic rumble; left atrial enlargement
+mitral regurgitation | mitral insufficiency | holosystolic murmur; apex; left atrium
+mitral valve prolapse | MVP | midsystolic click; myxomatous degeneration
+tricuspid regurgitation | | right-sided; drug use; carcinoid
+pulmonary stenosis | | right ventricular outflow obstruction; Noonan
+infective endocarditis | endocarditis | vegetations; fever; murmur; Osler nodes; Janeway lesions; blood cultures
+pericardial effusion | | fluid; tamponade; muffled heart sounds
+cardiac tamponade | tamponade | Beck's triad; pulsus paradoxus; hypotension; jugular venous distension
+constrictive pericarditis | | stiff pericardium; Kussmaul sign
+aortic dissection | dissecting aneurysm | tearing pain; hypertension; Marfan; intimal flap
+abdominal aortic aneurysm | AAA | screening; rupture; pulsatile mass
+peripheral artery disease | PAD; peripheral arterial disease | claudication; ankle-brachial index
+deep vein thrombosis | DVT | leg swelling; Virchow triad; pulmonary embolism; D-dimer
+pulmonary embolism | PE | dyspnea; chest pain; V/Q scan; CT angiography; DVT
+pulmonary hypertension | | right heart strain; PAH
+congenital heart disease | congenital heart defects | VSD; ASD; PDA; tetralogy of Fallot
+cyanotic heart disease | | right-to-left shunt; tetralogy; transposition
+Eisenmenger syndrome | Eisenmenger | shunt reversal; pulmonary hypertension
+percutaneous coronary intervention | PCI; angioplasty; stent | coronary; balloon; revascularization
+coronary artery bypass grafting | CABG; bypass surgery | saphenous vein; internal thoracic artery
+pacemaker | pacemakers; implantable pacemaker | bradycardia; heart block
+implantable cardioverter-defibrillator | ICD | sudden death prevention
+echocardiography | echocardiogram; echo | ultrasound; ejection fraction; valves
+cardiac catheterization | angiography; coronary angiography | contrast; pressures
+stress test | exercise stress test; treadmill test | ischemia; ECG
+Holter monitor | Holter | ambulatory ECG; arrhythmia
+cardiac biomarker | cardiac biomarkers | troponin; BNP; CK-MB
+lipid profile | lipid panel | LDL; HDL; triglycerides; cholesterol
+hyperlipidemia | dyslipidemia; hypercholesterolemia | LDL; cardiovascular risk
+metabolic syndrome | | obesity; insulin resistance; hypertension; dyslipidemia
+cardiovascular risk | cardiovascular risk factors | smoking; diabetes; hypertension; lipids

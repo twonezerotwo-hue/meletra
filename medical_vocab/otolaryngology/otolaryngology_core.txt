@@ -1,0 +1,34 @@
+# Otolaryngology (ENT). canonical | aliases | cues | confusables | kind
+otitis media | middle ear infection | ear pain; tympanic membrane; children; Eustachian tube
+otitis externa | swimmer's ear | external ear canal; pain on tragus
+tympanic membrane perforation | perforated eardrum | hearing loss
+cholesteatoma | | middle ear; keratin; erosion
+otosclerosis | | stapes fixation; conductive hearing loss
+hearing loss | deafness | conductive; sensorineural
+conductive hearing loss | | outer or middle ear; Rinne negative
+sensorineural hearing loss | SNHL | cochlea; nerve; presbycusis
+presbycusis | | age-related hearing loss; high frequency
+tinnitus | | ringing in ears
+Meniere disease | Ménière's disease; Meniere's disease | vertigo; tinnitus; hearing loss; endolymphatic hydrops
+benign paroxysmal positional vertigo | BPPV | semicircular canals; Epley maneuver; otoliths
+vestibular neuritis | | acute vertigo; viral
+acoustic neuroma | vestibular schwannoma | cranial nerve VIII; unilateral hearing loss; NF2
+Weber test | | tuning fork; lateralization
+Rinne test | | tuning fork; air vs bone conduction
+audiometry | audiogram | hearing test
+sinusitis | | paranasal sinuses; facial pain; nasal congestion
+rhinitis | allergic rhinitis | nasal inflammation; sneezing; hay fever
+epistaxis | nosebleed | Kiesselbach plexus; Little's area
+nasal polyps | | asthma; aspirin sensitivity
+deviated septum | | nasal obstruction
+tonsillitis | | sore throat; Group A strep; Centor criteria
+peritonsillar abscess | quinsy | trismus; uvular deviation
+pharyngitis | sore throat | viral; streptococcal
+laryngitis | | hoarseness; vocal cords
+epiglottitis | | Haemophilus influenzae; drooling; thumb sign; emergency
+croup | laryngotracheobronchitis | children; barking cough; steeple sign; parainfluenza
+vocal cord paralysis | | recurrent laryngeal nerve; hoarseness
+laryngeal cancer | | smoking; squamous cell carcinoma
+obstructive sleep apnea | OSA | snoring; CPAP; daytime sleepiness
+thyroglossal duct cyst | | midline neck mass; moves with swallowing
+branchial cleft cyst | | lateral neck mass

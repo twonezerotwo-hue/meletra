@@ -1,0 +1,263 @@
+# Abbreviations: canonical = the written form (exact capitalisation); aliases = the spoken-out expansion. Ambiguous ones (MS, PD, AD, RA, CA, MI, PE, ER) are
+# only ever case-fixed when the letters stand clearly for the term; the expansions in aliases are recognised, never swapped for each other.
+# canonical | expansions | cues | confusables | abbr
+CNS | central nervous system | brain; spinal cord; neurons; glia | | abbr
+PNS | peripheral nervous system | nerves; ganglia; Schwann cells | | abbr
+ANS | autonomic nervous system | sympathetic; parasympathetic; visceral | | abbr
+ENS | enteric nervous system | gut; myenteric plexus | | abbr
+CSF | cerebrospinal fluid | ventricles; choroid plexus; lumbar puncture; brain | | abbr
+BBB | blood-brain barrier | endothelial cells; tight junctions; astrocytes | | abbr
+GFAP | glial fibrillary acidic protein | astrocytes; intermediate filament; marker; immunostaining | | abbr
+GABA | gamma-aminobutyric acid; γ-aminobutyric acid | inhibitory; neurotransmitter; chloride; interneuron | | abbr
+NMDA | N-methyl-D-aspartate | glutamate receptor; calcium; plasticity | | abbr
+AMPA | alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid | glutamate receptor; fast excitatory | | abbr
+EPSP | excitatory postsynaptic potential | depolarization; summation | | abbr
+IPSP | inhibitory postsynaptic potential | hyperpolarization; summation | | abbr
+LTP | long-term potentiation | hippocampus; plasticity; memory | | abbr
+LTD | long-term depression | plasticity; cerebellum | | abbr
+DRG | dorsal root ganglion | sensory; spinal nerve | | abbr
+UMN | upper motor neuron | corticospinal; spasticity | | abbr
+LMN | lower motor neuron | ventral horn; flaccid | | abbr
+MRI | magnetic resonance imaging | scan; T1; T2; contrast | | abbr
+CT | computed tomography; CT scan | scan; X-ray; contrast; slices | | abbr
+PET | positron emission tomography | scan; tracer; glucose; metabolism | | abbr
+fMRI | functional magnetic resonance imaging | BOLD; brain activity | | abbr
+EEG | electroencephalogram; electroencephalography | brain waves; alpha; beta; seizures | | abbr
+EMG | electromyography; electromyogram | muscle; nerve conduction | | abbr
+ECG | electrocardiogram; electrocardiography | heart; P wave; QRS; T wave | | abbr
+EKG | electrocardiogram | heart; P wave; QRS | | abbr
+DNA | deoxyribonucleic acid | double helix; genes; replication; nucleotides | | abbr
+RNA | ribonucleic acid | transcription; mRNA; tRNA; rRNA | | abbr
+mRNA | messenger RNA | transcription; translation; ribosome; codon | | abbr
+tRNA | transfer RNA | translation; anticodon; amino acid | | abbr
+rRNA | ribosomal RNA | ribosome; translation | | abbr
+miRNA | microRNA | gene regulation; silencing | | abbr
+siRNA | small interfering RNA | RNA interference; silencing | | abbr
+cDNA | complementary DNA | reverse transcriptase | | abbr
+PCR | polymerase chain reaction | amplification; primers; Taq; thermocycler | | abbr
+qPCR | quantitative PCR; real-time PCR | amplification; Ct value | | abbr
+RT-PCR | reverse transcription PCR | RNA; cDNA | | abbr
+SNP | single nucleotide polymorphism | genetics; variant | | abbr
+ATP | adenosine triphosphate | energy; ATPase; mitochondria; phosphate | | abbr
+ADP | adenosine diphosphate | energy; ATP; phosphorylation | | abbr
+AMP | adenosine monophosphate | nucleotide | | abbr
+GTP | guanosine triphosphate | G proteins; translation; tubulin | | abbr
+GDP | guanosine diphosphate | G proteins | | abbr
+cAMP | cyclic AMP; cyclic adenosine monophosphate | second messenger; adenylyl cyclase; PKA; G protein | | abbr
+cGMP | cyclic GMP; cyclic guanosine monophosphate | second messenger; guanylyl cyclase; nitric oxide | | abbr
+NAD | nicotinamide adenine dinucleotide | coenzyme; redox; dehydrogenase | | abbr
+NADH | reduced NAD | electron transport; glycolysis; Krebs cycle | | abbr
+NADPH | reduced NADP | pentose phosphate pathway; reductive biosynthesis; antioxidant | | abbr
+FAD | flavin adenine dinucleotide | coenzyme; succinate dehydrogenase | | abbr
+FADH2 | reduced FAD | electron transport | | abbr
+CoA | coenzyme A | acetyl-CoA; acyl; fatty acid | | abbr
+TCA | tricarboxylic acid cycle; TCA cycle | Krebs cycle; citric acid cycle; mitochondria | | abbr
+PKA | protein kinase A | cAMP; phosphorylation; G protein | | abbr
+PKC | protein kinase C | diacylglycerol; calcium; phosphorylation | | abbr
+PKB | protein kinase B | AKT; PI3K; insulin | | abbr
+AKT | protein kinase B | PI3K; insulin signaling; survival; mTOR | | abbr
+mTOR | mechanistic target of rapamycin | AKT; growth; protein synthesis; autophagy; rapamycin | | abbr
+MAPK | mitogen-activated protein kinase | ERK; signaling cascade; Ras | | abbr
+ERK | extracellular signal-regulated kinase | MAPK; Ras; proliferation | | abbr
+PI3K | phosphoinositide 3-kinase | AKT; insulin; PIP3 | | abbr
+PLC | phospholipase C | IP3; DAG; G protein; calcium | | abbr
+IP3 | inositol trisphosphate | calcium release; endoplasmic reticulum; PLC | | abbr
+DAG | diacylglycerol | PKC; PLC; second messenger | | abbr
+GPCR | G protein-coupled receptor | G protein; seven transmembrane; second messenger | | abbr
+JAK | Janus kinase | STAT; cytokine receptor | | abbr
+STAT | signal transducer and activator of transcription | JAK; cytokines | | abbr
+NF-κB | nuclear factor kappa B; NF-kB; NFkB | inflammation; transcription factor; immune | | abbr
+TNF | tumor necrosis factor | cytokine; inflammation; TNF-alpha | | abbr
+IL-1 | interleukin 1; interleukin-1 | cytokine; inflammation | | abbr
+IL-2 | interleukin 2; interleukin-2 | T cells; cytokine | | abbr
+IL-6 | interleukin 6; interleukin-6 | cytokine; acute phase | | abbr
+IFN | interferon | antiviral; cytokine | | abbr
+TGF-β | TGF-beta; transforming growth factor beta | growth factor; fibrosis; signaling | | abbr
+VEGF | vascular endothelial growth factor | angiogenesis; endothelial | | abbr
+EGF | epidermal growth factor | receptor; tyrosine kinase | | abbr
+FGF | fibroblast growth factor | development; receptor | | abbr
+BDNF | brain-derived neurotrophic factor | neurotrophin; plasticity; TrkB | | abbr
+NGF | nerve growth factor | neurotrophin; TrkA; sympathetic neurons | | abbr
+BMP | bone morphogenetic protein | development; TGF-beta family; dorsal | | abbr
+SHH | sonic hedgehog | notochord; morphogen; ventral patterning | | abbr
+HOX | homeobox; Hox genes | body plan; segmentation; development | | abbr
+HLA | human leukocyte antigen | MHC; transplantation; immune | | abbr
+MHC | major histocompatibility complex | antigen presentation; HLA; T cells | | abbr
+TCR | T cell receptor; T-cell receptor | T cells; antigen recognition | | abbr
+BCR | B cell receptor; B-cell receptor | B cells; antibody | | abbr
+Ig | immunoglobulin | antibody; IgG; IgM; IgA; IgE | | abbr
+IgG | immunoglobulin G | antibody; secondary response; placenta | | abbr
+IgM | immunoglobulin M | antibody; primary response; pentamer | | abbr
+IgA | immunoglobulin A | antibody; mucosal; secretory | | abbr
+IgE | immunoglobulin E | antibody; allergy; mast cells | | abbr
+IgD | immunoglobulin D | antibody; B cell surface | | abbr
+NK | natural killer; natural killer cell | lymphocyte; innate; cytotoxic | | abbr
+APC | antigen-presenting cell; antigen presenting cell | MHC; dendritic cell; macrophage | | abbr
+CD4 | cluster of differentiation 4 | helper T cells; HIV | | abbr
+CD8 | cluster of differentiation 8 | cytotoxic T cells | | abbr
+HIV | human immunodeficiency virus | CD4; AIDS; retrovirus | | abbr
+AIDS | acquired immunodeficiency syndrome | HIV; CD4; opportunistic infection | | abbr
+HBV | hepatitis B virus | liver; hepatitis; vaccine | | abbr
+HCV | hepatitis C virus | liver; hepatitis; RNA virus | | abbr
+EBV | Epstein-Barr virus | mononucleosis; B cells; Burkitt | | abbr
+CMV | cytomegalovirus | herpesvirus; congenital infection | | abbr
+HSV | herpes simplex virus | herpesvirus; cold sores | | abbr
+HPV | human papillomavirus | cervical cancer; warts | | abbr
+MRSA | methicillin-resistant Staphylococcus aureus | antibiotic resistance; infection | | abbr
+TB | tuberculosis | Mycobacterium; granuloma; lung | | abbr
+UTI | urinary tract infection | bladder; E. coli; cystitis | | abbr
+STI | sexually transmitted infection | chlamydia; gonorrhea; syphilis | | abbr
+RBC | red blood cell | erythrocyte; hemoglobin; hematocrit | | abbr
+WBC | white blood cell | leukocyte; differential; infection | | abbr
+Hb | hemoglobin; haemoglobin | oxygen; red blood cell; anemia | | abbr
+Hct | hematocrit | red blood cell; blood volume | | abbr
+MCV | mean corpuscular volume | anemia; red blood cell size | | abbr
+PT | prothrombin time | coagulation; warfarin; INR | | abbr
+INR | international normalized ratio | coagulation; warfarin; PT | | abbr
+aPTT | activated partial thromboplastin time | coagulation; heparin | | abbr
+DIC | disseminated intravascular coagulation | clotting; bleeding; sepsis | | abbr
+DVT | deep vein thrombosis; deep venous thrombosis | clot; leg; pulmonary embolism | | abbr
+PE | pulmonary embolism | clot; lung; DVT; dyspnea | | abbr
+MI | myocardial infarction | heart attack; troponin; ST elevation; coronary | | abbr
+ACS | acute coronary syndrome | MI; unstable angina; troponin | | abbr
+CAD | coronary artery disease | atherosclerosis; angina | | abbr
+CHF | congestive heart failure | edema; dyspnea; ejection fraction | | abbr
+HF | heart failure | ejection fraction; edema | | abbr
+LVH | left ventricular hypertrophy | hypertension; ECG | | abbr
+AF | atrial fibrillation | arrhythmia; irregularly irregular; anticoagulation | | abbr
+SVT | supraventricular tachycardia | arrhythmia; AV node | | abbr
+VT | ventricular tachycardia | arrhythmia; wide complex | | abbr
+VF | ventricular fibrillation | arrhythmia; cardiac arrest | | abbr
+SA node | sinoatrial node; sinus node | pacemaker; right atrium | | abbr
+AV node | atrioventricular node | conduction; delay; septum | | abbr
+BP | blood pressure | systolic; diastolic; mmHg | | abbr
+HR | heart rate | beats per minute; tachycardia | | abbr
+CO | cardiac output | stroke volume; heart rate | | abbr
+SV | stroke volume | preload; contractility; afterload | | abbr
+EF | ejection fraction | left ventricle; systolic function | | abbr
+MAP | mean arterial pressure | perfusion; blood pressure | | abbr
+TPR | total peripheral resistance | afterload; vasoconstriction | | abbr
+JVP | jugular venous pressure | right heart; volume status | | abbr
+GFR | glomerular filtration rate | kidney; creatinine; filtration | | abbr
+BUN | blood urea nitrogen | kidney; urea; azotemia | | abbr
+RAAS | renin-angiotensin-aldosterone system | kidney; blood pressure; ACE | | abbr
+ACE | angiotensin-converting enzyme | RAAS; angiotensin II; ACE inhibitor | | abbr
+ARB | angiotensin receptor blocker | hypertension; losartan | | abbr
+ADH | antidiuretic hormone | vasopressin; water reabsorption; collecting duct | | abbr
+ANP | atrial natriuretic peptide | natriuresis; atrium | | abbr
+ACTH | adrenocorticotropic hormone | pituitary; cortisol; adrenal | | abbr
+TSH | thyroid-stimulating hormone; thyrotropin | pituitary; thyroid; T3; T4 | | abbr
+FSH | follicle-stimulating hormone | pituitary; ovary; spermatogenesis | | abbr
+LH | luteinizing hormone | pituitary; ovulation; testosterone | | abbr
+GH | growth hormone | pituitary; IGF-1; growth | | abbr
+IGF-1 | insulin-like growth factor 1; insulin-like growth factor-1 | growth hormone; liver | | abbr
+PTH | parathyroid hormone | calcium; bone; kidney | | abbr
+hCG | human chorionic gonadotropin | pregnancy; placenta; test | | abbr
+GnRH | gonadotropin-releasing hormone | hypothalamus; pituitary; pulsatile | | abbr
+CRH | corticotropin-releasing hormone | hypothalamus; stress; ACTH | | abbr
+TRH | thyrotropin-releasing hormone | hypothalamus; TSH | | abbr
+GHRH | growth hormone-releasing hormone | hypothalamus; pituitary | | abbr
+T3 | triiodothyronine | thyroid hormone; active | | abbr
+T4 | thyroxine | thyroid hormone; prohormone | | abbr
+HbA1c | hemoglobin A1c; glycated hemoglobin; glycosylated hemoglobin | diabetes; glucose control | | abbr
+DM | diabetes mellitus | glucose; insulin; hyperglycemia | | abbr
+DKA | diabetic ketoacidosis | ketones; acidosis; type 1 diabetes | | abbr
+GERD | gastroesophageal reflux disease | heartburn; lower esophageal sphincter | | abbr
+IBD | inflammatory bowel disease | Crohn; ulcerative colitis | | abbr
+IBS | irritable bowel syndrome | functional; bowel habits | | abbr
+LFT | liver function tests | AST; ALT; bilirubin | | abbr
+ALT | alanine aminotransferase; alanine transaminase | liver; enzyme; hepatocellular | | abbr
+AST | aspartate aminotransferase; aspartate transaminase | liver; heart; enzyme | | abbr
+ALP | alkaline phosphatase | bone; biliary; enzyme | | abbr
+GGT | gamma-glutamyl transferase; gamma-glutamyltransferase | biliary; alcohol | | abbr
+LDH | lactate dehydrogenase | enzyme; tissue damage | | abbr
+CK | creatine kinase | muscle damage; CK-MB | | abbr
+CK-MB | creatine kinase MB | myocardial infarction | | abbr
+BNP | brain natriuretic peptide | heart failure | | abbr
+COPD | chronic obstructive pulmonary disease | emphysema; chronic bronchitis; FEV1 | | abbr
+ARDS | acute respiratory distress syndrome | lung injury; hypoxemia; edema | | abbr
+FEV1 | forced expiratory volume in one second | spirometry; obstruction | | abbr
+FVC | forced vital capacity | spirometry; restriction | | abbr
+TLC | total lung capacity | lung volumes | | abbr
+V/Q | ventilation-perfusion; ventilation perfusion | lung; mismatch; embolism | | abbr
+PaO2 | partial pressure of arterial oxygen | blood gas; oxygenation | | abbr
+PaCO2 | partial pressure of arterial carbon dioxide | blood gas; ventilation | | abbr
+SpO2 | oxygen saturation | pulse oximetry | | abbr
+CPR | cardiopulmonary resuscitation | cardiac arrest; compressions | | abbr
+ICU | intensive care unit | critical care | | abbr
+ICP | intracranial pressure | brain; Cushing reflex; hydrocephalus | | abbr
+CVA | cerebrovascular accident | stroke; infarct; hemorrhage | | abbr
+TIA | transient ischemic attack | stroke; reversible; carotid | | abbr
+SAH | subarachnoid hemorrhage | aneurysm; thunderclap headache | | abbr
+MS | multiple sclerosis | demyelination; oligodendrocytes; CNS; relapsing | | abbr
+ALS | amyotrophic lateral sclerosis | motor neuron disease; Lou Gehrig | | abbr
+PD | Parkinson disease | substantia nigra; dopamine; tremor | | abbr
+AD | Alzheimer disease | amyloid; tau; dementia | | abbr
+HD | Huntington disease | CAG repeat; chorea; caudate | | abbr
+TBI | traumatic brain injury | head trauma; concussion | | abbr
+ADHD | attention deficit hyperactivity disorder | stimulants; children | | abbr
+PTSD | post-traumatic stress disorder | trauma; anxiety; amygdala | | abbr
+OCD | obsessive-compulsive disorder | compulsions; SSRI | | abbr
+SSRI | selective serotonin reuptake inhibitor | antidepressant; serotonin | | abbr
+MAOI | monoamine oxidase inhibitor | antidepressant; tyramine | | abbr
+TCAs | tricyclic antidepressants; tricyclic antidepressant | antidepressant | | abbr
+NSAID | nonsteroidal anti-inflammatory drug; non-steroidal anti-inflammatory drug | COX; ibuprofen; aspirin | | abbr
+COX | cyclooxygenase | prostaglandins; NSAIDs; aspirin | | abbr
+PPI | proton pump inhibitor | omeprazole; acid; gastric | | abbr
+ACEi | ACE inhibitor | hypertension; cough | | abbr
+CCB | calcium channel blocker | hypertension; amlodipine; verapamil | | abbr
+IV | intravenous | route; injection | | abbr
+IM | intramuscular | route; injection | | abbr
+SC | subcutaneous | route; injection | | abbr
+PO | per os; by mouth; oral | route | | abbr
+PRN | pro re nata; as needed | dosing | | abbr
+BID | twice daily | dosing | | abbr
+TID | three times daily | dosing | | abbr
+QID | four times daily | dosing | | abbr
+RDA | recommended dietary allowance | nutrition | | abbr
+BMI | body mass index | obesity; weight; height | | abbr
+BMR | basal metabolic rate | energy; thyroid | | abbr
+RQ | respiratory quotient | metabolism; carbohydrates; fats | | abbr
+GLUT | glucose transporter | GLUT4; insulin; glucose uptake | | abbr
+GLUT4 | glucose transporter 4 | insulin; muscle; adipose | | abbr
+LDL | low-density lipoprotein | cholesterol; atherosclerosis | | abbr
+HDL | high-density lipoprotein | cholesterol; reverse cholesterol transport | | abbr
+VLDL | very low-density lipoprotein | triglycerides; liver | | abbr
+HMG-CoA | hydroxymethylglutaryl-CoA | cholesterol synthesis; statins | | abbr
+G6PD | glucose-6-phosphate dehydrogenase | pentose phosphate pathway; hemolysis; NADPH | | abbr
+PFK | phosphofructokinase | glycolysis; regulation | | abbr
+PDH | pyruvate dehydrogenase | pyruvate; acetyl-CoA; thiamine | | abbr
+ETC | electron transport chain | mitochondria; complexes; oxygen | | abbr
+ROS | reactive oxygen species | oxidative stress; free radicals | | abbr
+SOD | superoxide dismutase | antioxidant; ROS | | abbr
+ER | endoplasmic reticulum | ribosomes; protein synthesis; organelle | | abbr
+RER | rough endoplasmic reticulum; rough ER | ribosomes; Nissl; protein synthesis | | abbr
+SER | smooth endoplasmic reticulum; smooth ER | lipid synthesis; calcium; detoxification | | abbr
+MTOC | microtubule-organizing center; microtubule organizing center | centrosome; spindle | | abbr
+H&E | hematoxylin and eosin; haematoxylin and eosin | stain; histology | | abbr
+IHC | immunohistochemistry | antibody; staining | | abbr
+FISH | fluorescence in situ hybridization | probe; chromosome | | abbr
+ELISA | enzyme-linked immunosorbent assay | antibody; antigen; assay | | abbr
+SDS-PAGE | sodium dodecyl sulfate polyacrylamide gel electrophoresis | protein; gel | | abbr
+RFLP | restriction fragment length polymorphism | genetics; restriction enzyme | | abbr
+CRISPR | clustered regularly interspaced short palindromic repeats; CRISPR-Cas9 | gene editing; Cas9; guide RNA | | abbr
+ORF | open reading frame | gene; codon; translation | | abbr
+UTR | untranslated region | mRNA; 5 prime; 3 prime | | abbr
+TATA box | TATA | promoter; transcription | | abbr
+CpG | CpG island | methylation; promoter | | abbr
+LINE | long interspersed nuclear element | transposon | | abbr
+BRCA1 | breast cancer gene 1 | tumor suppressor; DNA repair; breast cancer | | gene
+BRCA2 | breast cancer gene 2 | tumor suppressor; DNA repair | | gene
+p53 | TP53; tumor protein p53 | tumor suppressor; apoptosis; cell cycle; guardian of the genome | | gene
+Rb | retinoblastoma protein; RB1 | tumor suppressor; cell cycle; E2F | | gene
+RAS | Ras; KRAS; HRAS; NRAS | oncogene; GTPase; MAPK | | gene
+MYC | c-myc; Myc | oncogene; Burkitt; transcription factor | | gene
+BCL-2 | Bcl-2; BCL2 | apoptosis; anti-apoptotic; follicular lymphoma | | gene
+HER2 | ERBB2; HER2/neu | breast cancer; tyrosine kinase; trastuzumab | | gene
+CFTR | cystic fibrosis transmembrane conductance regulator | cystic fibrosis; chloride channel | | gene
+APOE | apolipoprotein E; ApoE | Alzheimer; lipoprotein; epsilon 4 | | gene
+APP | amyloid precursor protein | Alzheimer; amyloid beta | | gene
+MAPT | tau | microtubule-associated protein; tauopathy | | gene
+SOD1 | superoxide dismutase 1 | ALS; familial | | gene
+HTT | huntingtin | Huntington; CAG repeat | | gene
+SNCA | alpha-synuclein | Parkinson; Lewy body | | gene

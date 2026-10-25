@@ -1,0 +1,122 @@
+# General clinical terms, pulmonology, nephrology, GI, endocrine, haematology, laboratory. canonical | aliases | cues | confusables | kind
+anamnesis | medical history; history taking | patient interview; symptoms
+differential diagnosis | differential | possible diagnoses; workup
+prognosis | | outcome; survival
+syndrome | syndromes | group of signs and symptoms
+chief complaint | presenting complaint | history; reason for visit
+physical examination | physical exam; examination | inspection; palpation; percussion; auscultation
+auscultation | | stethoscope; heart sounds; breath sounds
+dyspnea | dyspnoea; shortness of breath; breathlessness | lungs; heart failure; asthma
+orthopnea | | breathless lying flat; pillows; heart failure
+paroxysmal nocturnal dyspnea | PND | night; heart failure
+cyanosis | cyanotic | blue discoloration; hypoxemia; deoxygenated hemoglobin
+clubbing | digital clubbing | fingers; lung cancer; cyanotic heart disease
+wheeze | wheezing | asthma; bronchoconstriction; expiratory
+stridor | | upper airway obstruction; inspiratory
+rales | crackles; crepitations | pulmonary edema; pneumonia; fine
+rhonchi | rhonchus | large airways; secretions
+hemoptysis | haemoptysis | coughing blood; tuberculosis; cancer
+pleural effusion | pleural effusions | fluid; chest X-ray; transudate; exudate
+chronic obstructive pulmonary disease | COPD | emphysema; chronic bronchitis; FEV1/FVC reduced; smoking
+acute respiratory distress syndrome | ARDS | diffuse alveolar damage; hypoxemia; bilateral infiltrates
+pulmonary function test | pulmonary function tests; PFT; PFTs; spirometry | FEV1; FVC; obstructive; restrictive
+obstructive lung disease | obstructive | asthma; COPD; reduced FEV1/FVC
+restrictive lung disease | restrictive | fibrosis; reduced FVC
+respiratory failure | | hypoxemic; hypercapnic; ventilator
+mechanical ventilation | ventilator | intubation; PEEP
+oxygen saturation | SpO2; pulse oximetry | pulse oximeter; hypoxemia
+arterial blood gas | ABG; blood gas | pH; PaO2; PaCO2; bicarbonate
+renal failure | kidney failure | uremia; creatinine; dialysis
+dialysis | hemodialysis; peritoneal dialysis | renal replacement; end-stage kidney disease
+creatinine | serum creatinine | kidney function; GFR; muscle
+proteinuria | albuminuria | urine protein; nephrotic; glomerular
+hematuria | haematuria | blood in urine; glomerulonephritis; stones
+oliguria | | low urine output; renal failure
+polyuria | | high urine output; diabetes; diabetes insipidus
+nocturia | | night urination; BPH
+urinalysis | | dipstick; casts; sediment
+hyponatremia | | low sodium; SIADH; confusion
+hypernatremia | | high sodium; dehydration; diabetes insipidus
+hypokalemia | hypokalaemia | low potassium; weakness; U waves; diuretics
+hyperkalemia | hyperkalaemia | high potassium; peaked T waves; renal failure
+hypocalcemia | | low calcium; tetany; Chvostek; Trousseau
+hypercalcemia | | high calcium; stones bones groans psychiatric overtones; hyperparathyroidism
+hypomagnesemia | | low magnesium; arrhythmia
+hypoglycemia | | low blood glucose; insulin; sweating; confusion
+hyperglycemia | | high blood glucose; diabetes; polyuria
+dehydration | | volume depletion; hypernatremia; skin turgor
+hypovolemia | | low blood volume; shock
+nausea | | vomiting; antiemetics
+vomiting | emesis | nausea; gastroenteritis
+diarrhea | diarrhoea | loose stools; infection; secretory; osmotic
+constipation | | hard stools; laxatives
+dysphagia | | difficulty swallowing; achalasia; esophageal cancer
+heartburn | pyrosis | reflux; GERD
+gastroesophageal reflux disease | GERD; reflux; acid reflux | lower esophageal sphincter; Barrett esophagus; PPI
+peptic ulcer disease | PUD | Helicobacter pylori; NSAIDs; gastric; duodenal
+inflammatory bowel disease | IBD | Crohn disease; ulcerative colitis
+Crohn disease | Crohn's disease | skip lesions; transmural; terminal ileum; granulomas
+ulcerative colitis | UC | continuous; rectum; mucosal; crypt abscesses; pANCA
+irritable bowel syndrome | IBS | functional; abdominal pain; bowel habit
+celiac disease | coeliac disease | gluten; villous atrophy; anti-tissue transglutaminase; dermatitis herpetiformis
+lactose intolerance | | lactase deficiency; bloating; diarrhea
+hepatitis B | | virus; HBsAg; liver
+hepatitis C | | virus; chronic; cirrhosis
+cirrhosis of the liver | | fibrosis; portal hypertension; ascites; varices; encephalopathy
+hepatic encephalopathy | | ammonia; lactulose; asterixis
+hepatocellular carcinoma | HCC | alpha-fetoprotein; cirrhosis; hepatitis B
+acute pancreatitis | | epigastric pain; lipase; gallstones; alcohol
+cholecystitis | | gallbladder inflammation; Murphy sign
+cholangitis | | Charcot triad; biliary infection
+appendicitis | | McBurney point; right lower quadrant pain; rebound tenderness
+bowel obstruction | intestinal obstruction | vomiting; distension; adhesions
+hernia | hernias; inguinal hernia; femoral hernia | protrusion; inguinal canal; strangulation
+diabetes mellitus type 1 | type 1 diabetes; T1DM | autoimmune; beta cell destruction; insulin dependent; ketoacidosis
+diabetes mellitus type 2 | type 2 diabetes; T2DM | insulin resistance; obesity; metformin
+diabetes insipidus | | ADH; polyuria; desmopressin; central; nephrogenic
+diabetic ketoacidosis | DKA | type 1; ketones; Kussmaul breathing; fruity breath
+hyperosmolar hyperglycemic state | HHS | type 2; severe hyperglycemia; dehydration
+insulin resistance | | obesity; type 2 diabetes; metabolic syndrome
+hyperthyroidism | thyrotoxicosis | Graves disease; low TSH; tachycardia; weight loss
+hypothyroidism | | Hashimoto; high TSH; bradycardia; weight gain; myxedema
+Graves disease | Graves' disease | TSH receptor antibodies; exophthalmos; pretibial myxedema
+Hashimoto thyroiditis | Hashimoto's thyroiditis | anti-TPO; autoimmune; hypothyroidism
+thyroid nodule | thyroid nodules | fine needle aspiration; cancer
+Cushing syndrome | Cushing's syndrome | cortisol excess; moon face; striae; central obesity
+Addison disease | Addison's disease; adrenal insufficiency | cortisol deficiency; hyperpigmentation; hypotension
+pheochromocytoma | phaeochromocytoma | catecholamines; paroxysmal hypertension; adrenal medulla
+primary hyperaldosteronism | Conn syndrome; Conn's syndrome | hypertension; hypokalemia; low renin
+acromegaly | | growth hormone excess; pituitary adenoma; enlarged hands
+prolactinoma | | prolactin; galactorrhea; dopamine agonist
+hyperparathyroidism | | PTH excess; hypercalcemia; kidney stones
+hypoparathyroidism | | low PTH; hypocalcemia
+osteoporosis | | bone mineral density; fragility fractures; DEXA
+hypogonadism | | low testosterone; low sex hormones
+polycystic ovary syndrome | PCOS | anovulation; hirsutism; insulin resistance
+menopause | menopausal | estrogen decline; hot flashes
+preeclampsia | pre-eclampsia | hypertension in pregnancy; proteinuria; magnesium sulfate
+ectopic pregnancy | | fallopian tube; hCG; abdominal pain
+gestational diabetes | gestational diabetes mellitus; GDM | pregnancy; glucose tolerance
+anemia of chronic disease | | inflammation; hepcidin; normocytic
+sickle cell crisis | vaso-occlusive crisis | pain; hemoglobin S
+acute myeloid leukemia | AML | myeloblasts; Auer rods; adults
+acute lymphoblastic leukemia | ALL | lymphoblasts; children; TdT
+chronic myeloid leukemia | CML | Philadelphia chromosome; BCR-ABL; imatinib
+chronic lymphocytic leukemia | CLL | smudge cells; elderly; CD5 CD20
+Hodgkin lymphoma | Hodgkin's lymphoma; Hodgkin disease | Reed-Sternberg cells; young adults; B symptoms
+non-Hodgkin lymphoma | NHL | B cell; follicular; diffuse large B cell
+coagulation cascade | clotting cascade | intrinsic pathway; extrinsic pathway; common pathway; factor X; thrombin; fibrin
+intrinsic pathway | | factor XII; aPTT; heparin
+extrinsic pathway | | tissue factor; factor VII; PT; warfarin
+fibrinolysis | | plasmin; tPA; D-dimer
+platelet plug | primary hemostasis | platelets; von Willebrand factor; adhesion; aggregation
+von Willebrand disease | von Willebrand factor; vWF | bleeding disorder; platelet adhesion; factor VIII carrier
+disseminated intravascular coagulation | DIC | consumption; bleeding and clotting; sepsis
+blood transfusion | transfusion | blood groups; cross-match; reaction
+ABO blood group | ABO blood groups; blood group; blood groups | A; B; AB; O; antibodies; transfusion
+Rh factor | Rhesus factor; Rh antigen; Rhesus | Rh disease; anti-D; hemolytic disease of the newborn
+complete blood count | CBC; full blood count | hemoglobin; white cells; platelets; MCV
+erythrocyte sedimentation rate | ESR | inflammation marker
+reticulocyte | reticulocytes | immature red cells; bone marrow response
+blood smear | peripheral smear; peripheral blood smear | morphology; schistocytes; spherocytes
+bone marrow biopsy | bone marrow aspiration | hematologic disease; cellularity

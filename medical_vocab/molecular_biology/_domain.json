@@ -1,0 +1,10 @@
+{
+ "title": "Molecular and cell biology",
+ "version": "1.0.0",
+ "related": [
+  "genetics",
+  "biochemistry",
+  "immunology",
+  "histology"
+ ]
+}

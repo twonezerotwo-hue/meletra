@@ -1,0 +1,143 @@
+# Biochemistry starter vocabulary (one term per line, "#" starts a comment).
+# Prefix "tr:" = only used for Turkish/auto runs, "en:" = only English. No prefix = both.
+glycolysis
+gluconeogenesis
+glycogenolysis
+glycogen synthase
+glycogen phosphorylase
+pentose phosphate pathway
+glucose 6 phosphate dehydrogenase
+hexokinase
+glucokinase
+phosphofructokinase
+pyruvate kinase
+pyruvate dehydrogenase complex
+citric acid cycle
+Krebs cycle
+oxidative phosphorylation
+electron transport chain
+ATP synthase
+cytochrome c oxidase
+coenzyme Q
+beta oxidation
+carnitine shuttle
+ketogenesis
+ketone bodies
+fatty acid synthase
+acetyl CoA carboxylase
+HMG CoA reductase
+cholesterol
+lipoprotein lipase
+chylomicron
+low density lipoprotein
+high density lipoprotein
+urea cycle
+carbamoyl phosphate synthetase
+ornithine transcarbamylase
+transamination
+aminotransferase
+phenylalanine hydroxylase
+phenylketonuria
+maple syrup urine disease
+homocysteine
+cystathionine beta synthase
+purine synthesis
+pyrimidine synthesis
+Lesch-Nyhan syndrome
+orotic aciduria
+Michaelis-Menten kinetics
+Lineweaver-Burk plot
+competitive inhibition
+allosteric regulation
+cofactor
+thiamine pyrophosphate
+pyridoxal phosphate
+biotin
+tetrahydrofolate
+cobalamin
+hemoglobin
+myoglobin
+collagen
+tr:glikoliz
+tr:glukoneogenez
+# --- merged from the Cline reference vocabulary (deduplicated against the terms above) ---
+glycogen synthesis
+hexose monophosphate shunt
+tricarboxylic acid cycle
+substrate-level phosphorylation
+chemiosmotic coupling
+proton gradient
+complex I
+complex II
+complex III
+complex IV
+ubiquinone
+flavoprotein
+phosphofructokinase-1
+pyruvate dehydrogenase
+pyruvate carboxylase
+lactate dehydrogenase
+aldolase
+enolase
+succinate dehydrogenase
+fumarase
+malate dehydrogenase
+citrate synthase
+isocitrate dehydrogenase
+alpha-ketoglutarate dehydrogenase
+malonyl-CoA
+acetoacetate
+beta-hydroxybutyrate
+mevalonate pathway
+cholesterol synthesis
+very low density lipoprotein
+apolipoprotein
+deamination
+argininosuccinate lyase
+arginase
+glutamine synthetase
+homogentisate oxidase
+branched-chain amino acid
+one-carbon metabolism
+S-adenosylmethionine
+purine salvage pathway
+de novo synthesis
+nucleotide salvage
+ribonucleotide reductase
+dihydrofolate reductase
+xanthine oxidase
+hyperuricemia
+glycogen storage disease
+enzyme kinetics
+Michaelis constant
+Michaelis-Menten
+noncompetitive inhibition
+uncompetitive inhibition
+feedback inhibition
+Km and Vmax
+activation energy
+free energy change
+redox potential
+coenzyme
+prosthetic group
+nicotinamide adenine dinucleotide
+flavin adenine dinucleotide
+biotin carboxylation
+# amino-acid metabolism (added after the real 87-minute lecture review)
+cysteine
+methionine
+arginine
+proline
+aspartate
+glutathione
+gamma-glutamyl
+gamma-glutamyl transpeptidase
+gamma-glutamyl cycle
+essential amino acids
+semi-essential amino acids
+protonated
+ammonium
+tripeptide
+dipeptide
+ACE2
+B0AT1

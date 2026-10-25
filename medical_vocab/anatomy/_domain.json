@@ -1,0 +1,11 @@
+{
+ "title": "Gross anatomy (bones, joints, muscles, vessels, nerves, organs)",
+ "version": "1.0.0",
+ "related": [
+  "latin",
+  "embryology",
+  "radiology",
+  "surgery",
+  "orthopedics"
+ ]
+}

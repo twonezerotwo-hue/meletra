@@ -1,0 +1,106 @@
+# Neurons, glia, myelin. canonical | aliases | cues | confusables | kind
+neuron | neurons; nerve cell; nerve cells; neurone; neuronal; neurones; neurone | soma; axon; dendrite; synapse; glia; perikaryon
+perikaryon | perikarya; soma; cell body; neuronal soma; perikarya | Nissl body; nucleus; neuron; rough endoplasmic reticulum; axon hillock; ganglia; ganglion; located; neuronal; cell bodies
+soma | somata; somas | neuron; perikaryon; dendrite; axon hillock; Nissl body; synapse
+axon | axons;  nerve fiber;  nerve fibre;  axonal;  axons | myelin; node of Ranvier; action potential; neuron; conduction; axon terminal; axon hillock
+axon hillock | axon hillocks | initial segment; action potential; soma; spike; threshold; trigger zone
+initial segment | axon initial segment; AIS | axon hillock; action potential; ankyrin G; sodium channels; spike
+axon terminal | axon terminals; terminal bouton; terminal button; presynaptic terminal; bouton; synaptic bouton | synapse; vesicle; neurotransmitter; presynaptic; axon
+dendrite | dendrites; dendritic tree; dendritic arbor; dendritic; dendrites | spine; synapse; soma; neuron; branching; postsynaptic
+dendritic spine | dendritic spines; spine; spines | synapse; postsynaptic; dendrite; excitatory; plasticity; PSD
+dendritic arbor | dendritic arborization; dendritic tree | dendrite; branching; neuron; Purkinje cell
+postsynaptic density | PSD | spine; glutamate receptor; synapse; postsynaptic; NMDA
+neuropil | neuropils | synapse; dendrite; axon; glial processes; gray matter; unmyelinated
+unipolar neuron | unipolar neurons; pseudounipolar neuron; pseudounipolar neurons | dorsal root ganglion; sensory neuron; single process; T-shaped
+bipolar neuron | bipolar neurons; bipolar cell | retina; olfactory; sensory; two processes
+multipolar neuron | multipolar neurons | motor neuron; interneuron; dendrites; one axon
+pyramidal cell | pyramidal cells; pyramidal neuron; pyramidal neurons | cortex; apical dendrite; glutamate; hippocampus; spine
+Purkinje cell | Purkinje cells; Purkinje neuron | cerebellum; dendritic tree; climbing fiber; parallel fiber; GABA; molecular layer
+granule cell | granule cells | cerebellum; parallel fiber; mossy fiber; olfactory bulb; dentate gyrus
+stellate cell | stellate cells | cerebellum; molecular layer; cortex; interneuron
+basket cell | basket cells | cerebellum; Purkinje; interneuron; GABA
+Golgi cell | Golgi cells | cerebellum; granular layer; interneuron; mossy fiber
+interneuron | interneurons; local circuit neuron; local circuit neurons | GABA; inhibitory; cortex; local; circuit
+motor neuron | motor neurons; lower motor neuron; upper motor neuron; alpha motor neuron | anterior horn; spinal cord; skeletal muscle; neuromuscular junction; acetylcholine
+sensory neuron | sensory neurons | dorsal root ganglion; receptor; afferent; pseudounipolar
+afferent | afferents; afferent fiber; afferent fibers | sensory; toward; spinal cord; dorsal root
+efferent | efferents; efferent fiber; efferent fibers | motor; away; ventral root; muscle
+mitral cell | mitral cells | olfactory bulb; glomerulus; olfactory; tufted cell
+Betz cell | Betz cells | motor cortex; layer V; giant pyramidal; corticospinal
+Cajal-Retzius cell | Cajal-Retzius cells | cortex; development; reelin; layer I
+Renshaw cell | Renshaw cells | spinal cord; recurrent inhibition; glycine; motor neuron
+Martinotti cell | Martinotti cells | cortex; somatostatin; interneuron
+chandelier cell | chandelier cells | axo-axonic; initial segment; cortex; interneuron
+Nissl body | Nissl bodies; Nissl substance; tigroid substance; chromatophilic substance; Nissl granules | rough endoplasmic reticulum; ribosomes; soma; perikaryon; cresyl violet; basophilic; neuron; stain; protein synthesis
+Nissl stain | Nissl staining; Nissl method | cresyl violet; neuron; soma; basophilic; cell body; stain
+chromatolysis |  | axon injury; Nissl body; soma; swelling; regeneration; transection; dispersal
+neurofilament | neurofilaments; neurofilament protein | cytoskeleton; axon; intermediate filament; microtubule; neurofibril
+neurofibril | neurofibrils | silver stain; neurofilament; axon; cytoskeleton
+microtubule | microtubules; microtubule-associated protein | tubulin; axonal transport; kinesin; dynein; cytoskeleton; tau
+microfilament | microfilaments; actin filament; actin filaments | actin; spine; growth cone; cytoskeleton
+anterograde transport | anterograde axonal transport; anterograde axoplasmic transport | kinesin; microtubule; axon; vesicles; toward the terminal; fast transport
+retrograde transport | retrograde axonal transport; retrograde axoplasmic transport | dynein; microtubule; axon; toward the soma; rabies; herpes; tetanus; tracer
+axonal transport | axoplasmic transport; axoplasmic flow | kinesin; dynein; microtubule; anterograde; retrograde; vesicles; mitochondria
+kinesin | kinesins | anterograde; microtubule; motor protein; axonal transport; plus end
+dynein | dyneins | retrograde; microtubule; motor protein; axonal transport; minus end
+growth cone | growth cones | axon guidance; development; filopodia; lamellipodia; netrin
+lipofuscin | lipofuscin granules | aging; pigment; neuron; lysosome; wear and tear
+neuromelanin |  | substantia nigra; locus coeruleus; dopamine; pigment; dark
+glia | glial cells; glial cell; neuroglia | astrocyte; oligodendrocyte; microglia; ependymal; support cells; CNS
+astrocyte | astrocytes; astroglia; astrocytes; astrocytic | glia; blood-brain barrier; end-feet; GFAP; potassium buffering; star-shaped; glial scar; gliosis; blood vessels; capillaries; neurons and blood vessels; barrier; end-feet; glial; neuronal environment; potassium buffering; metabolic support
+protoplasmic astrocyte | protoplasmic astrocytes | gray matter; astrocyte; synapse; end-feet
+fibrous astrocyte | fibrous astrocytes | white matter; astrocyte; GFAP; long processes
+reactive astrocyte | reactive astrocytes; reactive astrogliosis | gliosis; injury; glial scar; GFAP; hypertrophy
+gliosis | astrogliosis; reactive gliosis | glial scar; astrocyte; injury; scar; GFAP
+glial scar | glial scars | astrocyte; gliosis; injury; regeneration; inhibits; CNS
+GFAP | glial fibrillary acidic protein | astrocyte; intermediate filament; marker; glia; gliosis
+glia limitans | glia limitans externa; glia limitans interna; glial limiting membrane | astrocyte; pia mater; end-feet; basement membrane; surface of the brain
+perivascular end-feet | perivascular endfeet; astrocytic end-feet; astrocyte end-feet; end-feet; endfeet; astrocytic endfeet | astrocyte; capillary; blood-brain barrier; aquaporin 4; vessel
+blood-brain barrier | BBB; blood brain barrier | tight junctions; endothelial cells; astrocyte; capillary; end-feet; pericyte; permeability; brain capillaries
+pericyte | pericytes | capillary; blood-brain barrier; contractile; endothelial; basement membrane
+tight junction | tight junctions; zonula occludens | endothelial; blood-brain barrier; claudin; occludin; epithelium
+oligodendrocyte | oligodendrocytes; oligodendroglia; oligodendrocytes; oligodendroglia; oligodendroglial | myelin; CNS; white matter; several axons; internode; glia
+oligodendrocyte precursor cell | OPC; oligodendrocyte precursor cells; NG2 glia; NG2 cells | NG2; progenitor; remyelination; myelination
+myelin | myelin sheath; myelinated; myelination; myelin sheaths | node of Ranvier; internode; Schwann cell; oligodendrocyte; conduction velocity; saltatory conduction; axon; insulation
+myelin basic protein | MBP | myelin; oligodendrocyte; multiple sclerosis; protein
+proteolipid protein | PLP | myelin; oligodendrocyte; CNS
+myelinated axon | myelinated axons; myelinated fiber; myelinated fibers | myelin; node of Ranvier; internode; fast conduction
+unmyelinated axon | unmyelinated axons; unmyelinated fiber; unmyelinated fibers; non-myelinated fibers | Remak bundle; C fiber; Schwann cell; slow conduction; Remak fiber
+internode | internodes; internodal segment | myelin; node of Ranvier; Schwann cell; oligodendrocyte; length
+node of Ranvier | nodes of Ranvier; Ranvier node; Ranvier nodes; nodal gap | sodium channels; saltatory conduction; myelin; internode; action potential; depolarization; gap
+paranode | paranodes; paranodal region | node of Ranvier; potassium channels; juxtaparanode; myelin loops
+juxtaparanode | juxtaparanodes | potassium channels; Kv1; paranode; node of Ranvier
+saltatory conduction | saltatory propagation; saltatory transmission | myelin; node of Ranvier; action potential jumps; conduction velocity; fast; internode; node
+conduction velocity | nerve conduction velocity; NCV | myelin; diameter; axon; fast; action potential; saltatory
+Schwann cell | Schwann cells; neurolemmocyte; neurilemmocyte; neurolemmocytes | PNS; myelin; peripheral nerve; Remak; basal lamina; internode; regeneration; unmyelinated; axon
+neurolemma | neurilemma; sheath of Schwann | Schwann cell; peripheral nerve; regeneration; outer layer
+mesaxon | mesaxons; internal mesaxon; external mesaxon | Schwann cell; myelin; membrane fold; unmyelinated; axon
+Remak bundle | Remak bundles; Remak fiber; Remak fibers; Remak fibre; Remak cell; Remak cells; Remak bundles | unmyelinated axons; Schwann cell; C fiber; peripheral nerve; non-myelinating; endoneurium; embedded; several small axons
+Schmidt-Lanterman incisure | Schmidt-Lanterman incisures; Schmidt-Lanterman cleft; Schmidt-Lanterman clefts | Schwann cell; myelin; cytoplasm; peripheral nerve
+satellite cell | satellite cells; satellite glial cell; satellite glial cells; amphicyte; amphicytes | ganglion; dorsal root ganglion; PNS; soma; sensory neuron; surround
+ependymal cell | ependymal cells; ependyma; ependymocyte; ependymocytes | ventricle; central canal; cilia; CSF; choroid plexus; lining; cerebrospinal fluid
+tanycyte | tanycytes; tanycytic; tanycytic | third ventricle; ependymal; radial glia; hypothalamus; median eminence; hypothalamic; bottom of the third ventricle; special ependymal
+radial glia | radial glial cell; radial glial cells; radial glial; radial glia cells | development; neuronal migration; progenitor; astrocyte; scaffold; cortex; ventricular zone; third ventricle
+Muller glia | Müller glia; Müller cell; Müller cells; Muller cell; Muller cells; Müller glial cell; Müller glial cells | retina; radial; photoreceptors; glia; ophthalmology; inner limiting membrane
+Bergmann glia | Bergmann glial cell; Bergmann glial cells; Golgi epithelial cell; Bergmann cells | cerebellum; Purkinje; radial; molecular layer; glia
+pituicyte | pituicytes | posterior pituitary; neurohypophysis; glia; vasopressin; oxytocin
+microglia | microglial cells; microglial cell; microglial; Hortega cell; Hortega cells; Hortega cells; microglial; microglial cell; microglial cells; microglia cell; microglia cells | macrophage; phagocytosis; immune; yolk sac; brain; mesoderm; resident; activation; plaque; debris; blood islands; brain macrophage; phagocytic; police of the brain; mesoderm; ischemic; activated; resting; ramified; amoeboid
+macrophage | macrophages | phagocytosis; monocyte; microglia; immune; kupffer
+monocyte | monocytes | macrophage; blood; microglia; myeloid; origin; bone marrow; yolk sac | monosaccharide; monosaccharides
+yolk sac | yolk sacs | blood islands; microglia; origin; early development; embryo; hematopoiesis; primitive
+blood islands | blood island | yolk sac; hematopoiesis; embryo; early development; angioblast
+choroid plexus | choroid plexuses; choroid plexi | CSF; ventricle; ependymal; cerebrospinal fluid; secretion; fenestrated
+circumventricular organs | circumventricular organ; CVO; CVOs | area postrema; subfornical organ; no blood-brain barrier; fenestrated; median eminence
+area postrema |  | vomiting; chemoreceptor trigger zone; fourth ventricle; circumventricular; medulla
+median eminence |  | hypothalamus; portal system; tanycytes; circumventricular; releasing hormones; third ventricle
+subfornical organ | SFO | circumventricular; angiotensin; thirst; third ventricle
+cerebrospinal fluid | CSF | ventricle; subarachnoid space; choroid plexus; lumbar puncture; brain; hydrocephalus; produced; clear
+ventricular zone | ventricular zones | neuroepithelium; progenitor; radial glia; neurogenesis; development; proliferative
+neuroepithelium | neuroepithelial cell; neuroepithelial cells | neural tube; development; ventricular zone; progenitor; radial glia
+neural crest | neural crest cells | development; Schwann cell; ganglia; melanocyte; migration; PNS; dorsal root ganglion
+neural tube | neural tubes | development; neuroepithelium; neurulation; spinal cord; closure; neural plate
+neurogenesis | adult neurogenesis | neural stem cell; dentate gyrus; subventricular zone; hippocampus; new neurons
+neural stem cell | neural stem cells | neurogenesis; subventricular zone; dentate gyrus; progenitor; astrocyte-like
+synaptogenesis |  | synapse formation; development; astrocyte; spine
+apoptosis | programmed cell death | caspase; development; neuron; elimination; pruning
+anaxonic neuron | anaxonic neurons; anaxonic | retina; amacrine; no axon; dendrites only; interneuron | | term

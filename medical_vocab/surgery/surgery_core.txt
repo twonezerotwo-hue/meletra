@@ -1,0 +1,35 @@
+# Surgery and procedures. canonical | aliases | cues | confusables | kind
+laparotomy | laparotomies | open abdominal surgery; incision
+laparoscopy | laparoscopic | minimally invasive; camera; trocars
+thoracotomy | | chest incision; lung surgery
+craniotomy | | skull opening; brain surgery
+appendectomy | | appendix removal; appendicitis
+cholecystectomy | | gallbladder removal; gallstones
+hernia repair | herniorrhaphy; hernioplasty | mesh; inguinal
+colectomy | | colon resection
+gastrectomy | | stomach removal
+hysterectomy | | uterus removal
+mastectomy | | breast removal; cancer
+thyroidectomy | | thyroid removal; recurrent laryngeal nerve; hypocalcemia
+splenectomy | | spleen removal; encapsulated organisms; vaccines
+nephrectomy | | kidney removal
+prostatectomy | | prostate removal; cancer
+tracheostomy | | airway; neck; ventilator
+intubation | endotracheal intubation; endotracheal tube | airway; laryngoscope; ventilation
+cricothyroidotomy | | emergency airway; cricothyroid membrane
+chest tube | chest drain; tube thoracostomy | pneumothorax; pleural effusion
+central venous catheter | central line | internal jugular; subclavian
+biopsy | biopsies; fine needle aspiration; FNA | tissue sample; histology
+anastomosis | anastomoses | surgical connection; bowel; leak
+resection | | removal of a part
+debridement | | removal of dead tissue; wound
+incision | incisions | cut; scalpel
+suture | sutures | stitches; wound closure
+sterile technique | aseptic technique; asepsis | gloves; drapes
+anesthesia | anaesthesia; general anesthesia; regional anesthesia; local anesthesia | sedation; nerve block
+epidural anesthesia | epidural | lumbar; labor; catheter
+spinal anesthesia | spinal block | subarachnoid; cerebrospinal fluid
+nerve block | | local anesthetic; regional
+postoperative complications | surgical complications | infection; bleeding; ileus; thrombosis
+wound dehiscence | dehiscence | wound reopening
+surgical site infection | SSI | wound infection; antibiotics

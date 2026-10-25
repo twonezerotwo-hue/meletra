@@ -1,0 +1,34 @@
+# Psychiatry. canonical | aliases | cues | confusables | kind
+major depressive disorder | MDD; depression; clinical depression | low mood; anhedonia; SSRIs; suicide risk
+bipolar disorder | bipolar; manic depression | mania; depression; lithium; mood stabilizers
+mania | manic | elevated mood; decreased need for sleep; grandiosity
+hypomania | hypomanic | milder mania; bipolar II
+schizophrenia | schizophrenic | psychosis; hallucinations; delusions; dopamine; antipsychotics
+psychosis | psychotic | hallucinations; delusions; loss of reality contact
+hallucination | hallucinations | perception without stimulus; auditory
+delusion | delusions | fixed false belief
+anxiety disorder | anxiety disorders; generalized anxiety disorder; GAD | worry; benzodiazepines; SSRIs
+panic disorder | panic attacks; panic attack | sudden fear; palpitations
+phobia | phobias; specific phobia; social phobia | irrational fear; exposure therapy
+obsessive-compulsive disorder | OCD | obsessions; compulsions; SSRIs
+post-traumatic stress disorder | PTSD | trauma; flashbacks; hyperarousal
+attention deficit hyperactivity disorder | ADHD | inattention; hyperactivity; stimulants
+autism spectrum disorder | autism; ASD psychiatry | social communication; repetitive behaviors
+anorexia nervosa | anorexia | restriction; low BMI; body image
+bulimia nervosa | bulimia | binge eating; purging; Russell sign
+borderline personality disorder | BPD | unstable relationships; self-harm
+antisocial personality disorder | ASPD | disregard for others; conduct disorder
+delirium tremens | DT | alcohol withdrawal; hallucinations; autonomic instability
+alcohol use disorder | alcoholism | withdrawal; thiamine; naltrexone
+substance use disorder | addiction | dependence; tolerance; withdrawal
+opioid use disorder | | methadone; buprenorphine; naloxone
+electroconvulsive therapy | ECT | severe depression; seizure induced; anesthesia
+cognitive behavioral therapy | CBT | psychotherapy; thoughts and behaviors
+psychotherapy | | talk therapy; counseling
+suicidal ideation | suicide | risk assessment; depression
+mental status examination | MSE | appearance; mood; affect; thought process; insight
+affect | | outward emotional expression; flat; blunted
+mood | | sustained emotion
+catatonia | catatonic | immobility; waxy flexibility; benzodiazepines
+dopamine hypothesis | | schizophrenia; mesolimbic; D2
+serotonin hypothesis | monoamine hypothesis | depression; SSRIs

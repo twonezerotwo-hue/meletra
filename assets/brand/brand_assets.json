@@ -1,0 +1,114 @@
+{
+ "apple-touch-icon.png": {
+  "bytes": 28068,
+  "sha256": "6f885c2504a9215200ef4cd987ae335780ebb92dac2ff7d6f172c84ca0194007"
+ },
+ "favicon-192.png": {
+  "bytes": 31207,
+  "sha256": "ba495480626aa5df17eba8bff90f477f5b79a7cbaf7b8fb989c0f1789aa0fb96"
+ },
+ "favicon-32.png": {
+  "bytes": 2445,
+  "sha256": "57ec758d3bf146f21a5306df7bdea398ae272d4c640869e8cee1129082d6a508"
+ },
+ "favicon.ico": {
+  "bytes": 7846,
+  "sha256": "7f2948310c8b24059659b34b6cd0e7d2ef27557f300c0bdce4ebdb5a619b3ef9"
+ },
+ "installer/wizard_large_100.bmp": {
+  "bytes": 154542,
+  "sha256": "856c2cd574dd50738b43fd60436706389b557e10a26a23263a4d5b4968da837c"
+ },
+ "installer/wizard_large_150.bmp": {
+  "bytes": 348594,
+  "sha256": "4d70227861173256f99227eba677c1cf9b95303415b2fa915ad283687b5b732a"
+ },
+ "installer/wizard_large_200.bmp": {
+  "bytes": 618006,
+  "sha256": "a081b529cac85b512677b08c218cc1b3b33bbd599dc93f4f845f91501963c9df"
+ },
+ "installer/wizard_small_100.bmp": {
+  "bytes": 9294,
+  "sha256": "c7192c1f09ebc6b502e19f610690a964890a7fa3be5e6ddf8bb3272079cc18b6"
+ },
+ "installer/wizard_small_150.bmp": {
+  "bytes": 20390,
+  "sha256": "74a13dc55e090e568a39895438b234a8d8abb966f5918096cabeb459152829f3"
+ },
+ "installer/wizard_small_200.bmp": {
+  "bytes": 36574,
+  "sha256": "320848b91d71e1a2e71d520d51a320cbdcd7fd268dfc8fb29fdb4076a191f1b1"
+ },
+ "meletra.icns": {
+  "bytes": 770667,
+  "sha256": "fabf36f5dfee2a793356df504006837e187874bd650d1b4abd5e788257500729"
+ },
+ "meletra.ico": {
+  "bytes": 81058,
+  "sha256": "9ce308efb7054c1a0706ffdaccb4c8dcdc05e48a01e03c9716fd199ba30c9b22"
+ },
+ "meletra_icon.png": {
+  "bytes": 536927,
+  "sha256": "3f3d21823442b25e34a4ec066349a351a0895d8cee2314704e85bcfaca09b637"
+ },
+ "meletra_icon_1024.png": {
+  "bytes": 536927,
+  "sha256": "3f3d21823442b25e34a4ec066349a351a0895d8cee2314704e85bcfaca09b637"
+ },
+ "meletra_icon_128.png": {
+  "bytes": 16428,
+  "sha256": "79babdeefdb4770194916a6e31fcbc5bfee0fc5e5d1e4cdff4a3e317fc6a0095"
+ },
+ "meletra_icon_16.png": {
+  "bytes": 783,
+  "sha256": "2b9f89fabd3dded7f4dea70b982d3d7e0bf94c3a6902d52c71d37a9587bf091b"
+ },
+ "meletra_icon_24.png": {
+  "bytes": 1531,
+  "sha256": "f9f46a1cd877d752780aeca4fa7e1a1506822f05678c910e7c26f6ff3a786091"
+ },
+ "meletra_icon_256.png": {
+  "bytes": 49649,
+  "sha256": "5d0017da15753f162e94c71f7ea7d9a30a8554b983fb90893e1c13a39d37e4e4"
+ },
+ "meletra_icon_32.png": {
+  "bytes": 2445,
+  "sha256": "57ec758d3bf146f21a5306df7bdea398ae272d4c640869e8cee1129082d6a508"
+ },
+ "meletra_icon_48.png": {
+  "bytes": 4564,
+  "sha256": "c8116f2e678c6571ad7f4032968ceb4f8c8b9307a99e72cb89ef82f8d9bc07be"
+ },
+ "meletra_icon_512.png": {
+  "bytes": 158831,
+  "sha256": "7cf8c0f31d13019df3a42ebc146a5a14ebd403e19f423c3ea7c443ef22c1af5d"
+ },
+ "meletra_icon_64.png": {
+  "bytes": 5540,
+  "sha256": "204c17b3dda9fc2f14a448314a94c26c1fc9389fb2e224077bf8cfed5d93dff2"
+ },
+ "meletra_logo.png": {
+  "bytes": 413239,
+  "sha256": "4c7bac26772b225c446669452de8026d4759ccc774f6753663e7c71320cc682f"
+ },
+ "meletra_logo_horizontal.png": {
+  "bytes": 358940,
+  "sha256": "f590527cf487679932559c03ab6f3026c35fc7bb332c4c1cda9977d7561cd6f4"
+ },
+ "meletra_symbol.png": {
+  "bytes": 99216,
+  "sha256": "714522a94834ac79f63b0d14107d6433f1b02f392432501db4bdf4fa4cac697e"
+ },
+ "_source": {
+  "file": "meletra_symbol_source.png",
+  "sha256": "567f357462a0d44fe5fc5ceb6e15a7808ad5b765c2ca56ce25b7162448393c70",
+  "symbol_box": [
+   227,
+   96,
+   1022,
+   851
+  ],
+  "wordmark_font": "Constantia Bold (Windows system font)",
+  "tagline_font": "Segoe UI (Windows system font)"
+ }
+}

@@ -1,0 +1,222 @@
+# Brain, brainstem, cerebellum, spinal cord, meninges, ventricles, vessels. canonical | aliases | cues | confusables | kind
+central nervous system | CNS | brain; spinal cord; neurons; glia; myelin; oligodendrocytes
+peripheral nervous system | PNS | nerves; ganglia; Schwann cells; myelin; cranial nerves; spinal nerves
+cerebrum | cerebral hemisphere; cerebral hemispheres; telencephalon | cortex; lobes; white matter; gray matter; sulci; gyri
+cerebral cortex | cortex; neocortex; cortical layers; isocortex | layers; pyramidal; gray matter; gyri; sulci; Brodmann
+cerebral lobe | cerebral lobes | frontal; parietal; temporal; occipital; insula; limbic
+frontal lobe | frontal lobes | prefrontal cortex; motor cortex; Broca; executive; precentral gyrus
+parietal lobe | parietal lobes | somatosensory; postcentral gyrus; spatial; angular gyrus
+temporal lobe | temporal lobes | auditory; hippocampus; amygdala; Wernicke; memory
+occipital lobe | occipital lobes | visual cortex; striate cortex; calcarine sulcus
+insula | insular cortex | lateral sulcus; taste; interoception; opercula
+limbic system | limbic lobe | hippocampus; amygdala; cingulate gyrus; emotion; memory; fornix; Papez
+prefrontal cortex | PFC | executive function; frontal lobe; working memory; decision making
+primary motor cortex | motor cortex; precentral gyrus; Brodmann area 4 | Betz cells; homunculus; corticospinal; voluntary movement
+primary somatosensory cortex | somatosensory cortex; postcentral gyrus; S1 | homunculus; touch; parietal; thalamus
+primary visual cortex | visual cortex; striate cortex; V1 | occipital; calcarine; optic radiation; lateral geniculate
+primary auditory cortex | auditory cortex; Heschl's gyrus | temporal lobe; cochlea; medial geniculate
+Broca's area | Broca area | inferior frontal gyrus; speech production; motor aphasia; Brodmann 44; frontal lobe
+Wernicke's area | Wernicke area | superior temporal gyrus; language comprehension; sensory aphasia; Brodmann 22
+gyrus | gyri | cortex; fold; sulcus; convolution | | latin
+sulcus | sulci | groove; cortex; gyrus; fissure | | latin
+central sulcus | Rolandic fissure; fissure of Rolando | precentral gyrus; postcentral gyrus; frontal; parietal
+lateral sulcus | Sylvian fissure; lateral fissure | temporal lobe; frontal lobe; insula
+precentral gyrus | | motor cortex; frontal lobe; central sulcus
+postcentral gyrus | | somatosensory cortex; parietal lobe; central sulcus
+superior temporal gyrus | | auditory; Wernicke; temporal lobe
+inferior frontal gyrus | | Broca; pars opercularis; pars triangularis
+angular gyrus | | parietal; reading; Gerstmann
+supramarginal gyrus | | parietal; language; phonological
+cingulate gyrus | cingulate cortex | limbic; corpus callosum; emotion
+parahippocampal gyrus | | hippocampus; memory; entorhinal
+fusiform gyrus | | face recognition; temporal lobe; occipitotemporal
+corpus callosum | callosal fibers; callosal fibres | commissure; hemispheres; white matter; splenium; genu; body; rostrum
+commissure | commissures; anterior commissure; posterior commissure; habenular commissure | white matter; crossing fibers; hemispheres
+association fibers | association fibres; association fiber; association tracts | white matter; arcuate fasciculus; cingulum; uncinate
+projection fibers | projection fibres; projection fiber; projection tracts | internal capsule; corticospinal; corona radiata
+commissural fibers | commissural fibres; commissural fiber | corpus callosum; hemispheres
+internal capsule | | anterior limb; posterior limb; genu; corticospinal; thalamus; basal ganglia; stroke
+external capsule | | claustrum; putamen
+corona radiata | | white matter; internal capsule; projection fibers
+white matter | | myelin; tracts; axons; oligodendrocytes; fibers
+gray matter | grey matter | neurons; cell bodies; cortex; nuclei; dendrites
+basal ganglia | basal nuclei | caudate; putamen; globus pallidus; substantia nigra; subthalamic nucleus; movement; Parkinson; dopamine
+caudate nucleus | caudate | basal ganglia; striatum; lateral ventricle; Huntington
+putamen | | basal ganglia; striatum; lentiform nucleus
+globus pallidus | pallidum | basal ganglia; lentiform nucleus; internal segment; external segment; GABA
+striatum | neostriatum; corpus striatum | caudate; putamen; basal ganglia; dopamine
+lentiform nucleus | lenticular nucleus | putamen; globus pallidus; internal capsule
+nucleus accumbens | | ventral striatum; reward; dopamine; addiction
+substantia nigra | | pars compacta; pars reticulata; dopamine; Parkinson; midbrain; neuromelanin
+subthalamic nucleus | | basal ganglia; hemiballismus; glutamate
+claustrum | | external capsule; insula; thin sheet
+amygdala | amygdaloid body; amygdaloid nucleus; amygdalae | fear; emotion; limbic; temporal lobe; anxiety
+hippocampus | hippocampal formation; hippocampi | memory; dentate gyrus; CA1; CA3; temporal lobe; limbic; Alzheimer
+dentate gyrus | | hippocampus; neurogenesis; granule cells; memory
+fornix | | hippocampus; mammillary bodies; limbic; Papez
+mammillary body | mammillary bodies | hypothalamus; fornix; Papez; memory; Korsakoff
+septal nuclei | septum pellucidum; septal area | limbic; septum
+septum pellucidum | | lateral ventricles; thin membrane; corpus callosum
+diencephalon | | thalamus; hypothalamus; epithalamus; subthalamus; third ventricle
+thalamus | thalami | relay; sensory; ventral posterior; lateral geniculate; medial geniculate; third ventricle; diencephalon
+hypothalamus | hypothalami; hypothalamic | homeostasis; pituitary; temperature; hunger; third ventricle; endocrine
+pituitary gland | hypophysis; pituitary; anterior pituitary; posterior pituitary; adenohypophysis; neurohypophysis | hypothalamus; hormones; sella turcica; ACTH; TSH
+pineal gland | pineal body; epiphysis | melatonin; circadian; third ventricle; epithalamus
+epithalamus | | pineal gland; habenula
+habenula | habenular nuclei | epithalamus; pineal
+lateral geniculate nucleus | LGN; lateral geniculate body | thalamus; visual; optic tract; retina
+medial geniculate nucleus | MGN; medial geniculate body | thalamus; auditory; inferior colliculus
+ventral posterolateral nucleus | VPL | thalamus; somatosensory; medial lemniscus; spinothalamic
+ventral posteromedial nucleus | VPM | thalamus; face; trigeminal
+ventral lateral nucleus | VL | thalamus; motor; cerebellum; basal ganglia
+mesencephalon | midbrain | superior colliculus; inferior colliculus; red nucleus; substantia nigra; cerebral peduncles; tegmentum
+brainstem | brain stem | midbrain; pons; medulla; cranial nerves; reticular formation
+pons | | brainstem; cerebellar peduncles; basilar; cranial nerves V VI VII VIII
+medulla oblongata | medulla; myelencephalon | brainstem; pyramids; olives; cranial nerves IX X XI XII; respiratory
+tectum | | superior colliculus; inferior colliculus; midbrain; quadrigeminal plate
+tegmentum | | midbrain; reticular formation; red nucleus; periaqueductal gray
+superior colliculus | superior colliculi | tectum; visual reflexes; eye movements
+inferior colliculus | inferior colliculi | tectum; auditory; brachium
+red nucleus | | midbrain; rubrospinal tract; cerebellum
+periaqueductal gray | PAG; periaqueductal grey | midbrain; pain modulation; endorphins; cerebral aqueduct
+cerebral peduncle | cerebral peduncles; crus cerebri | midbrain; corticospinal; descending fibers
+reticular formation | RAS; reticular activating system | brainstem; arousal; consciousness; sleep wake
+locus coeruleus | locus ceruleus | norepinephrine; pons; arousal; stress
+raphe nuclei | raphe nucleus; nuclei of raphe | serotonin; brainstem; mood
+nucleus ambiguus | | vagus; glossopharyngeal; motor; medulla
+nucleus tractus solitarius | nucleus of the solitary tract; solitary nucleus; NTS | taste; visceral afferent; medulla; vagus
+inferior olivary nucleus | inferior olive; olivary nucleus; olive | medulla; climbing fibers; cerebellum
+pyramid | pyramids; medullary pyramids | medulla; corticospinal; decussation
+pyramidal decussation | decussation of pyramids | corticospinal; medulla; crossing
+dorsal column nuclei | nucleus gracilis; nucleus cuneatus | medulla; dorsal columns; medial lemniscus
+cerebellum | cerebella; cerebellar | coordination; balance; vermis; Purkinje; folia; peduncles; fourth ventricle
+cerebellar cortex | | molecular layer; Purkinje cell layer; granular layer; folia
+vermis | cerebellar vermis | cerebellum; midline; trunk
+cerebellar hemisphere | cerebellar hemispheres | cerebellum; limbs; coordination
+flocculonodular lobe | vestibulocerebellum; flocculus; nodulus | cerebellum; balance; vestibular
+cerebellar peduncle | cerebellar peduncles; superior cerebellar peduncle; middle cerebellar peduncle; inferior cerebellar peduncle | cerebellum; brainstem; fibers
+deep cerebellar nuclei | dentate nucleus; interposed nucleus; fastigial nucleus; emboliform; globose | cerebellum; output; white matter
+mossy fiber | mossy fibers | cerebellum; granule cells; afferent; pontine
+climbing fiber | climbing fibers | cerebellum; inferior olive; Purkinje; complex spike
+parallel fiber | parallel fibers | cerebellum; granule cell axons; molecular layer; Purkinje
+spinal cord | medulla spinalis | gray matter; white matter; dorsal horn; ventral horn; tracts; vertebral canal; conus medullaris
+dorsal horn | posterior horn | spinal cord; sensory; gray matter; substantia gelatinosa
+ventral horn | anterior horn | spinal cord; motor neurons; gray matter
+lateral horn | intermediolateral cell column | sympathetic; preganglionic; T1-L2
+dorsal root | posterior root; dorsal roots | sensory; afferent; spinal nerve
+dorsal root ganglion | DRG; dorsal root ganglia; spinal ganglion; spinal ganglia | pseudounipolar; sensory neurons; satellite cells
+ventral root | anterior root; ventral roots | motor; efferent; spinal nerve
+spinal nerve | spinal nerves | dorsal root; ventral root; dermatome; plexus; 31 pairs
+dermatome | dermatomes | spinal nerve; skin; sensory; shingles
+myotome | myotomes | spinal nerve; muscle group
+cauda equina | | lumbar puncture; spinal nerves; conus medullaris; filum terminale
+conus medullaris | | spinal cord; L1; L2; end
+filum terminale | | pia mater; coccyx; spinal cord
+central canal | | spinal cord; ependymal cells; cerebrospinal fluid; remnant
+brachial plexus | | C5; T1; upper limb; trunks; cords; Erb; Klumpke
+lumbar plexus | | L1-L4; femoral nerve; obturator nerve
+sacral plexus | | L4-S4; sciatic nerve
+cervical plexus | | C1-C4; phrenic nerve
+sciatic nerve | | sacral plexus; tibial; common fibular; thigh
+femoral nerve | | lumbar plexus; quadriceps; thigh
+median nerve | | forearm; carpal tunnel; hand; thenar
+ulnar nerve | | funny bone; forearm; hand; cubital tunnel
+radial nerve | | triceps; wrist drop; posterior cord; humerus
+axillary nerve | | deltoid; shoulder; surgical neck of humerus
+musculocutaneous nerve | | biceps; lateral cord
+phrenic nerve | | diaphragm; C3 C4 C5
+vagus nerve | cranial nerve X; CN X; vagal; vagus | parasympathetic; heart; gut; cranial nerve; larynx
+cranial nerve | cranial nerves; CN | twelve pairs; brainstem; foramina
+olfactory nerve | cranial nerve I; CN I | smell; cribriform plate; olfactory bulb
+optic nerve | cranial nerve II; CN II | vision; retina; optic chiasm; optic canal
+oculomotor nerve | cranial nerve III; CN III | eye movement; pupil; midbrain; ptosis
+trochlear nerve | cranial nerve IV; CN IV | superior oblique; midbrain; dorsal
+trigeminal nerve | cranial nerve V; CN V | face sensation; mastication; V1 V2 V3; pons
+abducens nerve | cranial nerve VI; CN VI | lateral rectus; pons; eye abduction
+facial nerve | cranial nerve VII; CN VII | facial expression; taste; Bell palsy; pons
+vestibulocochlear nerve | cranial nerve VIII; CN VIII | hearing; balance; inner ear
+glossopharyngeal nerve | cranial nerve IX; CN IX | taste; pharynx; parotid; medulla
+accessory nerve | cranial nerve XI; CN XI; spinal accessory nerve | trapezius; sternocleidomastoid
+hypoglossal nerve | cranial nerve XII; CN XII | tongue; medulla
+meninges | meningeal; meninx | dura mater; arachnoid mater; pia mater; subarachnoid space; protection
+dura mater | dura; dural | meninges; outer layer; venous sinuses; falx cerebri; tentorium
+arachnoid mater | arachnoid | meninges; subarachnoid space; arachnoid villi; granulations
+pia mater | pia | meninges; innermost; glia limitans; subarachnoid space
+subarachnoid space | | CSF; arachnoid; pia; cisterns; hemorrhage
+epidural space | extradural space | dura; spinal anesthesia; hematoma
+subdural space | | subdural hematoma; bridging veins
+falx cerebri | | dura; hemispheres; superior sagittal sinus
+tentorium cerebelli | tentorium | dura; cerebellum; occipital lobe
+dural venous sinus | dural venous sinuses; venous sinuses | superior sagittal sinus; transverse sinus; sigmoid sinus; cavernous sinus
+superior sagittal sinus | | dural venous sinus; arachnoid granulations; falx cerebri
+cavernous sinus | | dural venous sinus; cranial nerves III IV V VI; internal carotid
+ventricular system | ventricles; brain ventricles; cerebral ventricles | CSF; lateral ventricles; third ventricle; fourth ventricle; choroid plexus
+lateral ventricle | lateral ventricles | ventricular system; interventricular foramen; caudate; corpus callosum
+third ventricle | | ventricular system; hypothalamus; thalamus; tanycytes; diencephalon
+fourth ventricle | | ventricular system; pons; medulla; cerebellum; foramina of Luschka and Magendie
+cerebral aqueduct | aqueduct of Sylvius; Sylvian aqueduct; mesencephalic aqueduct | midbrain; hydrocephalus; third ventricle; fourth ventricle
+interventricular foramen | foramen of Monro; foramina of Monro | lateral ventricle; third ventricle
+choroid plexus | choroid plexuses | CSF production; ependymal cells; ventricles; tela choroidea
+cerebrospinal fluid | CSF; cerebrospinal | ventricles; choroid plexus; subarachnoid; lumbar puncture; hydrocephalus; arachnoid granulations
+hydrocephalus | | CSF; ventricles; enlarged; obstruction; shunt
+lumbar puncture | spinal tap | CSF; L3-L4; subarachnoid; cauda equina
+blood-brain barrier | BBB | endothelial cells; tight junctions; astrocytes; end-feet; capillaries; permeability
+circle of Willis | Willis circle; arterial circle of Willis | anterior communicating; posterior communicating; internal carotid; basilar; cerebral arteries
+internal carotid artery | ICA | circle of Willis; neck; brain blood supply
+vertebral artery | vertebral arteries | basilar; neck; foramen transversarium; brainstem
+basilar artery | | pons; vertebral; posterior circulation
+anterior cerebral artery | ACA | circle of Willis; medial surface; leg area
+middle cerebral artery | MCA | lateral surface; stroke; lenticulostriate; face and arm
+posterior cerebral artery | PCA | occipital lobe; visual cortex; thalamus
+anterior communicating artery | ACoA | circle of Willis; aneurysm
+posterior communicating artery | PCoA | circle of Willis; aneurysm
+corticospinal tract | pyramidal tract; lateral corticospinal tract; anterior corticospinal tract; corticospinal | motor; descending; pyramids; decussation; voluntary
+corticobulbar tract | corticobulbar | cranial nerve nuclei; motor; face
+spinothalamic tract | anterolateral system; spinothalamic | pain; temperature; crude touch; ascending; contralateral
+dorsal column-medial lemniscus pathway | dorsal column pathway; DCML; dorsal columns; posterior column | fine touch; vibration; proprioception; gracile; cuneate
+fasciculus gracilis | gracile fasciculus; gracile tract | dorsal columns; lower limb; proprioception
+fasciculus cuneatus | cuneate fasciculus; cuneate tract | dorsal columns; upper limb; proprioception
+medial lemniscus | | dorsal column; thalamus; fine touch
+spinocerebellar tract | spinocerebellar tracts; dorsal spinocerebellar; ventral spinocerebellar | proprioception; cerebellum; unconscious
+rubrospinal tract | | red nucleus; motor; flexors
+reticulospinal tract | | reticular formation; posture; motor
+vestibulospinal tract | | vestibular nuclei; balance; extensors
+tectospinal tract | | superior colliculus; head turning
+extrapyramidal system | extrapyramidal tract; extrapyramidal tracts | basal ganglia; motor; movement; involuntary
+upper motor neuron | UMN; upper motor neurons | corticospinal; spasticity; Babinski; hyperreflexia
+lower motor neuron | LMN; lower motor neurons | ventral horn; flaccid paralysis; fasciculations; atrophy
+visual pathway | optic pathway; visual pathways | retina; optic nerve; optic chiasm; optic tract; lateral geniculate; optic radiation
+optic chiasm | optic chiasma | optic nerve; decussation; pituitary; bitemporal hemianopia
+optic tract | optic tracts | optic chiasm; lateral geniculate
+optic radiation | geniculocalcarine tract; Meyer loop | lateral geniculate; visual cortex
+auditory pathway | auditory pathways | cochlea; cochlear nuclei; superior olive; inferior colliculus; medial geniculate
+vestibular system | vestibular apparatus | semicircular canals; otolith; utricle; saccule; balance
+neural tube | neural tubes | neurulation; neuroepithelium; neural plate; closure; spina bifida; anencephaly
+neural plate | | ectoderm; notochord; neurulation; induction
+neural fold | neural folds | neural plate; neural groove; fusion; neurulation
+neural groove | | neural plate; neural folds; neurulation
+neural crest | neural crest cells | migration; neurulation; peripheral nervous system; melanocytes; ganglia
+neurulation | | neural plate; neural tube; notochord; primary neurulation; secondary neurulation
+notochord | | mesoderm; induction; neural plate; sonic hedgehog; nucleus pulposus
+sonic hedgehog | SHH | notochord; floor plate; ventral patterning; morphogen
+floor plate | | neural tube; ventral; sonic hedgehog
+roof plate | | neural tube; dorsal; BMP
+alar plate | alar plates | dorsal; sensory; neural tube
+basal plate | basal plates | ventral; motor; neural tube
+sulcus limitans | | alar plate; basal plate; neural tube
+mantle layer | mantle zone; intermediate zone | neural tube; gray matter; neuroblasts
+marginal layer | marginal zone | neural tube; white matter; axons
+prosencephalon | forebrain | primary brain vesicle; telencephalon; diencephalon
+mesencephalon vesicle | | primary brain vesicle; midbrain
+rhombencephalon | hindbrain | primary brain vesicle; metencephalon; myelencephalon; pons; cerebellum; medulla
+telencephalon | | secondary brain vesicle; cerebral hemispheres
+metencephalon | | secondary brain vesicle; pons; cerebellum
+myelencephalon | | secondary brain vesicle; medulla
+primary brain vesicles | primary brain vesicle | prosencephalon; mesencephalon; rhombencephalon; neural tube
+secondary brain vesicles | secondary brain vesicle | telencephalon; diencephalon; metencephalon; myelencephalon
+anencephaly | | neural tube defect; failure of closure; anterior neuropore; folic acid
+spina bifida | | neural tube defect; posterior neuropore; folic acid; meningocele; myelomeningocele; occulta
+meningocele | | spina bifida; meninges
+myelomeningocele | meningomyelocele | spina bifida; spinal cord; meninges
+encephalocele | | neural tube defect; skull defect
+folic acid | folate | neural tube defects; prevention; pregnancy; B9

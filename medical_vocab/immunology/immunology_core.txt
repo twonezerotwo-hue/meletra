@@ -1,0 +1,80 @@
+# Immunology. canonical | aliases | cues | confusables | kind
+innate immunity | innate immune system | first line; neutrophils; macrophages; complement; toll-like receptors; non-specific
+adaptive immunity | adaptive immune system; acquired immunity | T cells; B cells; antibodies; memory; specific
+humoral immunity | humoral response | B cells; antibodies; plasma cells
+cell-mediated immunity | cell mediated immunity; cellular immunity | T cells; cytotoxic; delayed hypersensitivity
+antigen | antigens | foreign molecule; epitope; antibody binding
+epitope | epitopes; antigenic determinant | antibody binding site; antigen
+antibody | antibodies; immunoglobulin; immunoglobulins | B cells; plasma cells; Fab; Fc; IgG; IgM
+Fab region | Fab; antigen-binding fragment | antibody; variable region
+Fc region | Fc; crystallizable fragment | antibody; effector function; complement; Fc receptor
+immunoglobulin class switching | class switching; isotype switching | B cells; cytokines; heavy chain
+somatic hypermutation | | affinity maturation; germinal center; B cells
+V(D)J recombination | VDJ recombination | RAG1; RAG2; antibody diversity; T cell receptor
+clonal selection | | lymphocyte; antigen; expansion
+B cell | B cells; B lymphocyte; B lymphocytes; B-cell | antibody; bone marrow; plasma cell; CD19; CD20
+T cell | T cells; T lymphocyte; T lymphocytes; T-cell | thymus; CD3; TCR; helper; cytotoxic
+helper T cell | helper T cells; CD4 T cell; CD4 T cells; Th cells; TH cells | CD4; MHC class II; cytokines; Th1; Th2
+cytotoxic T cell | cytotoxic T cells; CD8 T cell; CD8 T cells; killer T cells | CD8; MHC class I; perforin; granzyme
+regulatory T cell | regulatory T cells; Treg; Tregs | FOXP3; tolerance; suppression
+natural killer cell | natural killer cells; NK cell; NK cells | innate lymphocyte; missing self; perforin
+memory cell | memory cells; memory B cell; memory T cell | secondary response; faster
+major histocompatibility complex | MHC | HLA; antigen presentation; chromosome 6
+MHC class I | MHC I; class I MHC | all nucleated cells; CD8; endogenous antigen; beta-2 microglobulin
+MHC class II | MHC II; class II MHC | antigen-presenting cells; CD4; exogenous antigen
+HLA | human leukocyte antigen | MHC; transplantation; HLA-B27; HLA-DR
+antigen presentation | | MHC; APC; T cells; processing
+T cell receptor | TCR | CD3; antigen recognition; alpha beta chains
+CD4 | CD4 molecule | helper T cells; HIV; MHC II
+CD8 | CD8 molecule | cytotoxic T cells; MHC I
+co-stimulation | costimulation; second signal | CD28; B7; T cell activation
+cytokine | cytokines | interleukin; interferon; TNF; signaling molecule
+interleukin | interleukins | cytokine; IL-1; IL-2; IL-4; IL-6; IL-10
+interferon gamma | IFN-gamma; IFN-γ | Th1; macrophage activation; cytokine
+tumor necrosis factor | TNF; TNF-alpha; TNF-α | cytokine; inflammation; macrophages
+chemokine | chemokines | chemotaxis; IL-8; CXCL8
+complement | complement system; complement cascade | C3; C3b; C5a; membrane attack complex; opsonization
+classical pathway | | C1q; antibody-antigen complexes; complement
+alternative pathway | | C3b; microbial surfaces; complement
+lectin pathway | | mannose-binding lectin; complement
+membrane attack complex | MAC; C5b-9 | lysis; Neisseria; complement
+acute phase proteins | acute phase protein; acute phase reactants | CRP; fibrinogen; ferritin; IL-6; liver
+C-reactive protein | CRP | acute phase; inflammation; pentraxin
+toll-like receptor | toll-like receptors; TLR; TLRs | pattern recognition; PAMPs; innate immunity; TLR4; LPS
+inflammasome | inflammasomes; NLRP3 | caspase-1; IL-1 beta; pyroptosis
+pattern recognition receptor | pattern recognition receptors; PRR; PRRs | PAMPs; innate immunity
+hypersensitivity | hypersensitivities | type I; type II; type III; type IV; Gell and Coombs
+type I hypersensitivity | immediate hypersensitivity; anaphylactic hypersensitivity | IgE; mast cells; histamine; allergy
+type II hypersensitivity | cytotoxic hypersensitivity | antibody; cell surface antigens; transfusion reaction; hemolytic disease
+type III hypersensitivity | immune complex hypersensitivity | immune complexes; serum sickness; lupus; Arthus
+type IV hypersensitivity | delayed-type hypersensitivity; delayed type hypersensitivity; DTH | T cells; contact dermatitis; tuberculin test
+allergy | allergies; allergic | IgE; mast cells; atopy; allergen
+atopy | atopic | IgE; asthma; eczema; allergic rhinitis
+allergen | allergens | triggers allergy; IgE
+autoimmunity | autoimmune; autoimmune disease | self-tolerance; autoantibodies; lupus
+self-tolerance | tolerance; central tolerance; peripheral tolerance | negative selection; thymus; Tregs
+negative selection | | thymus; self-reactive T cells; AIRE
+positive selection | | thymic cortex; MHC recognition
+autoantibody | autoantibodies | self antigens; ANA; rheumatoid factor
+antinuclear antibody | antinuclear antibodies; ANA | lupus; autoimmunity; screening
+immunodeficiency | immunodeficiencies; immune deficiency | infections; primary; secondary
+severe combined immunodeficiency | SCID | T and B cell deficiency; adenosine deaminase; X-linked
+X-linked agammaglobulinemia | Bruton agammaglobulinemia; Bruton disease | BTK; no B cells; recurrent infections
+common variable immunodeficiency | CVID | hypogammaglobulinemia
+chronic granulomatous disease | CGD | NADPH oxidase; catalase-positive organisms; nitroblue tetrazolium
+selective IgA deficiency | IgA deficiency | most common; anaphylaxis to blood products
+transplant rejection | graft rejection; rejection | hyperacute; acute; chronic; HLA mismatch
+graft-versus-host disease | graft versus host disease; GVHD | bone marrow transplant; donor T cells
+immunosuppression | immunosuppressed; immunocompromised | transplant; drugs; infections
+immunization | | vaccine; active; passive
+passive immunity | | maternal IgG; antibodies given; immunoglobulin therapy
+active immunity | | own response; vaccine; infection
+herd immunity | | population protection; vaccination coverage
+primary immune response | primary response | IgM; slow; naive
+secondary immune response | secondary response | IgG; faster; memory cells
+germinal center | germinal centers | B cell proliferation; lymph node; affinity maturation
+lymphoid follicle | lymphoid follicles | B cells; lymph node cortex
+mucosa-associated lymphoid tissue | MALT | Peyer patches; mucosal immunity
+secretory IgA | sIgA | mucosal immunity; breast milk; dimer
+monoclonal gammopathy | MGUS | M protein; plasma cells
+multiple myeloma | myeloma | plasma cell malignancy; M spike; bone lesions; CRAB

@@ -1,0 +1,37 @@
+# Laboratory medicine. canonical | aliases | cues | confusables | kind
+reference range | reference ranges; normal range; normal values | laboratory; interval
+sensitivity | | true positive rate; screening test
+specificity | | true negative rate; confirmatory test
+positive predictive value | PPV | prevalence; probability of disease
+negative predictive value | NPV | probability of no disease
+false positive | false positives | test positive without disease
+false negative | false negatives | test negative with disease
+likelihood ratio | | diagnostic test
+receiver operating characteristic curve | ROC curve | sensitivity vs 1 - specificity; AUC
+standard deviation | SD | variability
+confidence interval | CI | statistics
+p-value | p value | significance; null hypothesis
+null hypothesis | | statistics
+randomized controlled trial | RCT | randomization; control group
+cohort study | | prospective; incidence; relative risk
+case-control study | | odds ratio; retrospective
+odds ratio | OR | case-control
+relative risk | RR | cohort
+incidence | | new cases
+prevalence | | existing cases
+number needed to treat | NNT | absolute risk reduction
+glucose tolerance test | oral glucose tolerance test; OGTT | diabetes diagnosis
+fasting glucose | fasting plasma glucose | diabetes
+liver function tests | LFTs | ALT; AST; ALP; bilirubin
+renal function tests | | creatinine; urea; eGFR
+thyroid function tests | TFTs | TSH; free T4
+cardiac enzymes | | troponin; CK-MB
+serum electrolytes | electrolytes | sodium; potassium; chloride; bicarbonate
+coagulation studies | | PT; aPTT; INR
+Gram stain | | gram-positive; gram-negative; crystal violet; safranin
+Ziehl-Neelsen stain | acid-fast stain | mycobacteria
+culture and sensitivity | | antibiotic susceptibility
+immunoassay | | antibody detection; antigen
+agglutination | | clumping; blood typing
+Coombs test | direct Coombs test; indirect Coombs test; antiglobulin test | hemolytic anemia; Rh
+cross-matching | crossmatch; cross-match | transfusion compatibility

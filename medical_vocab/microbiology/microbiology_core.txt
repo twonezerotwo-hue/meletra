@@ -1,0 +1,141 @@
+# Microbiology. canonical | aliases | cues | confusables | kind
+bacteria | bacterial | prokaryotes; infection; gram stain; antibiotics
+gram-positive | Gram-positive; gram positive; Gram positive | thick peptidoglycan; crystal violet; purple
+gram-negative | Gram-negative; gram negative; Gram negative | outer membrane; lipopolysaccharide; endotoxin; pink
+peptidoglycan | murein | cell wall; bacteria; penicillin; lysozyme
+lipopolysaccharide | LPS; endotoxin | gram-negative; outer membrane; lipid A; sepsis
+capsule | bacterial capsule | polysaccharide; antiphagocytic; encapsulated
+pili | pilus; fimbriae; fimbria | attachment; conjugation; adhesion
+spore | spores; endospore; endospores | Bacillus; Clostridium; resistant; dormant
+conjugation | | pilus; plasmid transfer; F factor
+transformation | | uptake of naked DNA; competence
+transduction | | bacteriophage; DNA transfer
+bacteriophage | phage; phages | bacterial virus; transduction; lysogenic
+Staphylococcus aureus | S. aureus; staph aureus; Staphylococcus | gram-positive cocci; clusters; catalase; coagulase; MRSA; abscess
+Staphylococcus epidermidis | S. epidermidis | coagulase-negative; biofilm; catheter; skin
+Streptococcus pyogenes | S. pyogenes; group A strep; group A Streptococcus; GAS | beta-hemolytic; pharyngitis; rheumatic fever; M protein
+Streptococcus pneumoniae | S. pneumoniae; pneumococcus | alpha-hemolytic; optochin; pneumonia; meningitis; encapsulated
+Streptococcus agalactiae | S. agalactiae; group B strep; group B Streptococcus; GBS organism | neonatal sepsis; CAMP test; hippurate
+viridans streptococci | viridans strep; Streptococcus viridans | alpha-hemolytic; endocarditis; dental
+Enterococcus | Enterococcus faecalis; E. faecalis; enterococci | vancomycin-resistant; urinary tract infection; bile esculin
+Bacillus anthracis | B. anthracis; anthrax | spores; capsule of D-glutamate; wool sorters
+Bacillus cereus | B. cereus | food poisoning; fried rice
+Clostridium tetani | C. tetani; tetanus | spastic paralysis; tetanospasmin
+Clostridium botulinum | C. botulinum; botulism | flaccid paralysis; botulinum toxin
+Clostridium perfringens | C. perfringens; gas gangrene | alpha toxin; lecithinase
+Clostridioides difficile | Clostridium difficile; C. difficile; C. diff | pseudomembranous colitis; antibiotics; toxins A and B
+Corynebacterium diphtheriae | C. diphtheriae; diphtheria | pseudomembrane; exotoxin; ADP ribosylation
+Listeria monocytogenes | Listeria; L. monocytogenes | tumbling motility; cold enrichment; neonatal meningitis
+Escherichia coli | E. coli; Escherichia | gram-negative rod; urinary tract infection; enterotoxigenic; lactose fermenter
+Salmonella | Salmonella typhi; Salmonella enterica; S. typhi | gram-negative rod; typhoid; H2S; non-lactose fermenter
+Shigella | Shigella dysenteriae | bacillary dysentery; Shiga toxin; non-motile
+Klebsiella pneumoniae | Klebsiella; K. pneumoniae | mucoid; currant jelly sputum; alcoholics; capsule
+Proteus mirabilis | Proteus | urease; swarming; struvite stones
+Pseudomonas aeruginosa | Pseudomonas; P. aeruginosa | oxidase positive; blue-green pigment; burns; cystic fibrosis
+Haemophilus influenzae | Haemophilus; H. influenzae; Hemophilus | type b; epiglottitis; factor X and V; chocolate agar
+Neisseria meningitidis | meningococcus; N. meningitidis | meningitis; petechiae; Waterhouse-Friderichsen; diplococci
+Neisseria gonorrhoeae | gonococcus; N. gonorrhoeae; gonorrhea | urethritis; Thayer-Martin; diplococci
+Vibrio cholerae | V. cholerae; cholera | rice water stool; comma-shaped; cholera toxin; Gs activation
+Campylobacter jejuni | Campylobacter | Guillain-Barré; bloody diarrhea; poultry
+Helicobacter pylori | H. pylori; Helicobacter | gastric ulcer; urease; gastritis; stomach cancer
+Legionella pneumophila | Legionella; legionnaires disease; Legionnaires' disease | water; atypical pneumonia; BCYE agar
+Bordetella pertussis | pertussis; whooping cough | cough; lymphocytosis; pertussis toxin
+Yersinia pestis | Y. pestis; plague | bubonic; fleas; rodents
+Francisella tularensis | tularemia | rabbits; ticks
+Brucella | brucellosis | unpasteurized milk; undulant fever
+Mycobacterium tuberculosis | M. tuberculosis; tubercle bacillus; TB bacillus | acid-fast; granuloma; caseous necrosis; Ghon complex; cord factor
+Mycobacterium leprae | M. leprae; leprosy; Hansen disease | armadillo; skin; peripheral nerves; Schwann cells
+Mycobacterium avium | MAC; Mycobacterium avium complex | AIDS; atypical mycobacteria
+Treponema pallidum | T. pallidum; syphilis | spirochete; VDRL; chancre; dark-field microscopy
+Borrelia burgdorferi | Lyme disease; Borrelia | Ixodes tick; erythema migrans
+Leptospira | leptospirosis; Weil disease | water; rats; spirochete
+Chlamydia trachomatis | C. trachomatis; Chlamydia | obligate intracellular; elementary body; reticulate body
+Mycoplasma pneumoniae | Mycoplasma | no cell wall; atypical pneumonia; cold agglutinins
+Rickettsia rickettsii | Rickettsia; Rocky Mountain spotted fever | tick; rash; obligate intracellular
+Coxiella burnetii | Q fever | aerosol; atypical pneumonia
+Actinomyces | Actinomyces israelii; actinomycosis | sulfur granules; anaerobic; jaw
+Nocardia | Nocardia asteroides; nocardiosis | modified acid-fast; branching; immunocompromised
+Bacteroides fragilis | Bacteroides | anaerobe; abscess; intra-abdominal
+virus | viruses; viral | capsid; envelope; genome; replication; host cell
+capsid | capsids | viral protein coat; nucleocapsid
+viral envelope | envelope | lipid; budding; glycoproteins
+DNA virus | DNA viruses | herpes; adenovirus; poxvirus; papillomavirus
+RNA virus | RNA viruses | influenza; HIV; hepatitis C; picornavirus
+retrovirus | retroviruses | reverse transcriptase; integrase; HIV
+herpesvirus | herpesviruses; herpes viruses | latency; HSV; VZV; CMV; EBV
+herpes simplex virus | HSV-1; HSV-2; HSV | cold sores; genital herpes; trigeminal ganglion; latency
+varicella-zoster virus | VZV; chickenpox; shingles; herpes zoster | dorsal root ganglion; dermatome; vesicles
+cytomegalovirus | CMV | owl's eye inclusions; congenital; transplant
+Epstein-Barr virus | EBV; infectious mononucleosis; mononucleosis | atypical lymphocytes; heterophile; B cells
+human papillomavirus | HPV | warts; cervical cancer; E6 E7
+adenovirus | adenoviruses | respiratory; conjunctivitis; DNA virus
+influenza virus | influenza; flu | hemagglutinin; neuraminidase; antigenic drift; antigenic shift
+SARS-CoV-2 | coronavirus; COVID-19; COVID | spike protein; ACE2; pandemic
+respiratory syncytial virus | RSV | bronchiolitis; infants; palivizumab
+rhinovirus | | common cold; picornavirus
+poliovirus | polio | picornavirus; anterior horn cells; paralysis; vaccine
+rabies virus | rabies | Negri bodies; retrograde axonal transport; bite
+measles virus | measles | Koplik spots; rash; SSPE
+mumps virus | mumps | parotitis; orchitis
+rubella virus | rubella; German measles | congenital rubella; TORCH
+hepatitis A virus | HAV | fecal-oral; picornavirus
+hepatitis B virus | HBV | HBsAg; DNA virus; hepatocellular carcinoma; vaccine
+hepatitis C virus | HCV | RNA virus; chronic; cirrhosis
+HIV | human immunodeficiency virus | CD4; gp120; reverse transcriptase; AIDS
+rotavirus | | infant diarrhea; reovirus; vaccine
+norovirus | | gastroenteritis; cruise ships
+Zika virus | Zika | microcephaly; mosquito; congenital
+dengue virus | dengue | mosquito; hemorrhagic fever
+Ebola virus | Ebola | hemorrhagic fever; filovirus
+fungus | fungi; fungal; mycosis | yeast; mold; ergosterol; chitin
+Candida albicans | Candida; candidiasis; thrush | yeast; pseudohyphae; germ tubes; oral
+Aspergillus fumigatus | Aspergillus; aspergillosis | septate hyphae; acute-angle branching; fungus ball
+Cryptococcus neoformans | Cryptococcus; cryptococcosis | India ink; capsule; meningitis; pigeons
+Histoplasma capsulatum | Histoplasma; histoplasmosis | Ohio River Valley; bird droppings; macrophages
+Coccidioides immitis | Coccidioides; coccidioidomycosis; valley fever | southwestern United States; spherules
+Pneumocystis jirovecii | Pneumocystis; PCP; Pneumocystis pneumonia | AIDS; ground-glass; silver stain
+Mucor | mucormycosis; Rhizopus | nonseptate hyphae; diabetic ketoacidosis; right-angle branching
+dermatophytes | dermatophyte; tinea | skin fungi; KOH; ringworm
+parasite | parasites; parasitic | protozoa; helminths; ectoparasites
+protozoa | protozoan | Plasmodium; Giardia; Entamoeba; Toxoplasma
+Plasmodium falciparum | P. falciparum; malaria; Plasmodium | Anopheles; red blood cells; cerebral malaria; ring forms
+Plasmodium vivax | P. vivax | benign tertian malaria; hypnozoites; Duffy antigen
+Toxoplasma gondii | Toxoplasma; toxoplasmosis | cats; congenital; ring-enhancing lesions; TORCH
+Trypanosoma cruzi | T. cruzi; Chagas disease | reduviid bug; cardiomyopathy; megacolon
+Trypanosoma brucei | African sleeping sickness; sleeping sickness | tsetse fly
+Leishmania | leishmaniasis; kala-azar | sandfly; macrophages
+Giardia lamblia | Giardia; giardiasis | trophozoites; foul-smelling diarrhea; metronidazole
+Entamoeba histolytica | amebiasis; amoebiasis; E. histolytica | flask-shaped ulcers; liver abscess; bloody diarrhea
+Cryptosporidium | cryptosporidiosis | AIDS; watery diarrhea; modified acid-fast
+Trichomonas vaginalis | trichomoniasis | motile trophozoites; vaginitis
+helminth | helminths; worms | roundworms; tapeworms; flukes
+Ascaris lumbricoides | Ascaris; roundworm | nematode; intestinal obstruction
+Enterobius vermicularis | pinworm; Enterobius | perianal itching; scotch tape test
+Strongyloides stercoralis | Strongyloides | larva currens; autoinfection
+Taenia solium | pork tapeworm; cysticercosis; neurocysticercosis | cysts; brain; seizures
+Schistosoma | schistosomiasis; bilharzia | snails; blood fluke; egg granulomas
+Wuchereria bancrofti | filariasis; elephantiasis | lymphatic obstruction; mosquito
+Onchocerca volvulus | river blindness; onchocerciasis | black fly
+sterilization | sterile technique | autoclave; disinfection
+disinfection | disinfectant | alcohol; chlorhexidine
+agar | | culture medium; blood agar; MacConkey; chocolate agar
+MacConkey agar | | lactose fermenters; gram-negative selective
+blood agar | | hemolysis; alpha; beta; gamma
+catalase | catalase test | hydrogen peroxide; staphylococci positive; streptococci negative
+coagulase | coagulase test | Staphylococcus aureus
+oxidase | oxidase test | Pseudomonas; Neisseria
+antibiotic resistance | antimicrobial resistance | MRSA; beta-lactamase; efflux; target alteration
+minimum inhibitory concentration | MIC | antibiotic susceptibility; lowest concentration
+virulence factor | virulence factors | toxins; adhesins; capsule; invasion
+exotoxin | exotoxins | secreted protein; diphtheria toxin; cholera toxin; tetanus toxin
+endotoxin | endotoxins | lipid A; LPS; fever; shock
+superantigen | superantigens | toxic shock syndrome toxin; T cell activation; cytokine storm
+biofilm | biofilms | adherent community; catheters; Pseudomonas; Staphylococcus epidermidis
+normal flora | microbiota; microbiome; commensals | gut bacteria; skin; colonization
+nosocomial infection | nosocomial infections; hospital-acquired infection | catheter; ventilator; MRSA
+opportunistic infection | opportunistic infections | immunocompromised; AIDS; transplant
+zoonosis | zoonotic | animal to human; rabies; brucellosis
+vector-borne | vector | mosquito; tick; flea; malaria
+vaccine | vaccines; vaccination; immunization | antigen; immunity; booster; live attenuated; toxoid
+live attenuated vaccine | live-attenuated vaccine | MMR; varicella; weakened
+toxoid | toxoids | inactivated toxin; tetanus; diphtheria

@@ -1,0 +1,37 @@
+# Reproductive medicine (obstetrics, gynecology, urology). canonical | aliases | cues | confusables | kind
+menstruation | menstrual | endometrial shedding; cycle
+amenorrhea | | absent periods; pregnancy; PCOS
+dysmenorrhea | | painful periods; endometriosis
+menorrhagia | | heavy periods; fibroids
+endometriosis | | endometrial tissue outside uterus; chocolate cyst; infertility
+uterine fibroids | leiomyoma; leiomyomas; fibroid | benign smooth muscle tumors; menorrhagia
+endometrial cancer | endometrial carcinoma | postmenopausal bleeding; unopposed estrogen
+cervical cancer | | HPV; Pap smear; CIN
+Pap smear | Pap test; cervical screening | cytology; dysplasia
+ovarian cancer | | CA-125; BRCA; serous
+ovarian cyst | ovarian cysts | follicular; corpus luteum; dermoid
+pelvic inflammatory disease | PID | Chlamydia; Neisseria gonorrhoeae; infertility
+infertility | | conception difficulty
+contraception | | pill; IUD; condoms
+intrauterine device | IUD | copper; levonorgestrel
+labor | labour | contractions; dilation; delivery
+placenta previa | | painless bleeding; low-lying
+placental abruption | abruptio placentae | painful bleeding; premature separation
+postpartum hemorrhage | | uterine atony; bleeding after delivery
+preterm birth | premature birth | before 37 weeks
+cesarean section | caesarean section; C-section | surgical delivery
+Apgar score | | newborn assessment
+Rh incompatibility | | anti-D; hemolytic disease of the newborn
+lactation | | breastfeeding; prolactin; oxytocin
+mastitis | | breast infection; lactation
+fibrocystic breast changes | | benign; cyclic
+breast cancer | | BRCA; ER; PR; HER2; mammography
+benign prostatic hyperplasia | BPH | prostate enlargement; nocturia; alpha blockers
+prostate cancer | | PSA; adenocarcinoma; digital rectal exam
+testicular cancer | | germ cell tumor; AFP; hCG; seminoma
+seminoma | | germ cell tumor; testis; radiosensitive
+testicular torsion | | emergency; sudden pain; high-riding testis
+varicocele | | pampiniform plexus; bag of worms
+hydrocele | | fluid around testis
+erectile dysfunction | | PDE5 inhibitors
+epididymitis | | testicular pain; infection
