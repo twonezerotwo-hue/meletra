@@ -46,9 +46,11 @@ if ARCH == "arm64":                                                            #
         binaries += _binaries
         hiddenimports += [_package] + _hidden
 
-excludes = ["torch", "torchaudio", "torchvision", "transformers", "tkinter", "matplotlib", "pandas", "scipy", "IPython", "notebook",
-            "pytest", "numba", "llvmlite", "sympy", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets", "PySide6.QtQml",
+excludes = ["torch", "torchaudio", "torchvision", "transformers", "tkinter", "matplotlib", "pandas", "IPython", "notebook",
+            "pytest", "sympy", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets", "PySide6.QtQml",
             "PySide6.QtQuick", "PySide6.Qt3DCore", "PySide6.QtMultimedia", "PySide6.QtCharts", "PySide6.QtDataVisualization", "winrt"]
+if ARCH != "arm64":
+    excludes += ["scipy", "numba", "llvmlite"]                    # mlx-whisper needs these for word timestamps on Apple Silicon
 
 a = Analysis([str(ROOT / "launcher.py")], pathex=[str(ROOT)], binaries=binaries, datas=datas, hiddenimports=hiddenimports,
              hookspath=[], runtime_hooks=[], excludes=excludes, noarchive=False)
