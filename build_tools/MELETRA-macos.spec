@@ -5,7 +5,7 @@ import os
 import sys
 from pathlib import Path
 
-from PyInstaller.utils.hooks import collect_data_files, collect_dynamic_libs, collect_submodules
+from PyInstaller.utils.hooks import collect_all, collect_data_files, collect_dynamic_libs, collect_submodules
 
 ROOT = Path(SPECPATH).resolve().parent
 ASSETS = ROOT / "build" / "assets"
@@ -40,9 +40,11 @@ hiddenimports = collect_submodules("src") + [
 datas += collect_data_files("rapidocr_onnxruntime")
 hiddenimports += collect_submodules("rapidocr_onnxruntime") + ["cv2", "shapely", "pyclipper"]
 if ARCH == "arm64":                                                            # the optimized engine: Apple Silicon only
-    datas += collect_data_files("mlx_whisper") + collect_data_files("mlx")
-    binaries += collect_dynamic_libs("mlx")
-    hiddenimports += collect_submodules("mlx") + collect_submodules("mlx_whisper")
+    for _package in ("mlx", "mlx_whisper"):
+        _datas, _binaries, _hidden = collect_all(_package)
+        datas += _datas
+        binaries += _binaries
+        hiddenimports += [_package] + _hidden
 
 excludes = ["torch", "torchaudio", "torchvision", "transformers", "tkinter", "matplotlib", "pandas", "scipy", "IPython", "notebook",
             "pytest", "numba", "llvmlite", "sympy", "PySide6.QtWebEngineCore", "PySide6.QtWebEngineWidgets", "PySide6.QtQml",
