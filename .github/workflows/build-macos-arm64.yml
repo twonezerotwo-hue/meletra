@@ -209,7 +209,7 @@ jobs:
           gh release create "$TAG" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --prerelease \
             --title "MELETRA ${MLT_VERSION_BASE} Apple Silicon — CI verified" \
             --notes "Built and fully exercised on GitHub's macos-15 arm64 runner with the network blocked for packaged-app runs. The DMG is split into ordered parts; join them and verify the whole-file SHA-256. If this run has no Apple credentials, it is ad-hoc signed and not notarized, so use right-click > Open."
-          FILES=("$OUT"/parts/* "$OUT/release_manifest.json" "$OUT/MELETRA-Apple-Silicon-Mac-Offline.dmg.sha256 ci_out/packaged_validation.json ci_out/packaged_validation.log ci_out/test_counts.json ci_out/notarization.txt)
+          FILES=("$OUT"/parts/* "$OUT/release_manifest.json" "$OUT/MELETRA-Apple-Silicon-Mac-Offline.dmg.sha256" ci_out/packaged_validation.json ci_out/packaged_validation.log ci_out/test_counts.json ci_out/notarization.txt)
           gh release upload "$TAG" --repo "$GITHUB_REPOSITORY" "${FILES[@]}"
           gh release view "$TAG" --repo "$GITHUB_REPOSITORY" --json url,assets --jq '{url,assets:[.assets[]|{name,size}]}' | tee ci_out/release.json
 
