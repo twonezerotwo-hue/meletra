@@ -143,7 +143,7 @@ def study_check(result: dict) -> tuple[bool, str]:
         problems.append(f"flashcard buttons {sorted(cards)}")
     if not any(re.match(r"^(Transcript|Slide|Page)\b", b) for b in cards):
         problems.append("no source link on the card")
-    if not all(w in labels for w in ("Topic:", "Type:", "Level:")):
+    if not all(w in (content.get("Flashcards") or {}).get("labels", []) for w in ("Topic", "Type", "Level")):
         problems.append("filters missing")
     if not all(w in labels for w in ("Key concepts", "Question preview", "Study progress")):
         problems.append("right information rail missing")
@@ -272,7 +272,7 @@ def main(argv: Optional[list[str]] = None) -> int:
         seconds = float(data.get("audio_seconds", 0) or 0)
         keywords = ("glucose", "glycolysis", "pyruvate", "hexokinase", "phosphorylates", "atp")
         record("audio_stt", data.get("state") == "completed" and len(raw.split()) >= 8 and any(k in raw for k in keywords),
-               f"{data.get('state')} {seconds:.1f} s of audio, voice {pick_voice(subprocess.run(['say', '-v', '?'], capture_output=True, text=True, check=False).stdout.splitlines())}; text: {raw[:110]!r}")
+               f"{data.get('state')} {seconds:.1f} s of audio; error: {data.get('error', '')}; text: {raw[:110]!r}")
         report["probes"] = {"home": data.get("ui_home"), "first_launch": data.get("ui_first_launch"), "audio_ui_trace": (data.get("ui_trace") or [])[:60]}
         backend = "MLX Whisper (Apple Silicon)" if platform.machine() == "arm64" else "faster-whisper / CTranslate2 (CPU)"
         report["performance"] = {"audio_seconds": seconds, "processing_seconds": round(r["seconds"], 1), "real_time_factor": intel.realtime_factor(r["seconds"], seconds),
@@ -402,6 +402,9 @@ def main(argv: Optional[list[str]] = None) -> int:
         report["gatekeeper_quarantined_copy"] = {"accepted": gk.returncode == 0, "output": ((gk.stdout or "") + (gk.stderr or "")).strip()[:300]}
         say(f"gatekeeper (informational): accepted={gk.returncode == 0} {report['gatekeeper_quarantined_copy']['output'][:160]}")
     finally:
+        logs = list(session.home.rglob("app.log"))
+        if logs:
+            report["app_log_tail"] = logs[0].read_text(encoding="utf-8", errors="replace")[-12000:]
         args.out.parent.mkdir(parents=True, exist_ok=True)
         report["finished"] = time.strftime("%Y-%m-%dT%H:%M:%S")
         args.out.write_text(json.dumps(report, indent=2), encoding="utf-8")

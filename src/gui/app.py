@@ -123,11 +123,11 @@ class AutoRun:
         self.timer = QTimer(window)
         self.timer.setInterval(250)
         self.timer.timeout.connect(self._tick)
+        self.probe = probe_tools.UiProbe(window) if probe_tools.enabled() else None          # capture the empty start screen before choosing a file
         window.select_file(str(source))
         idx = window.home.language_combo.findData(language)
         if idx >= 0:
             window.home.language_combo.setCurrentIndex(idx)
-        self.probe = probe_tools.UiProbe(window) if probe_tools.enabled() else None          # MLT_UI_TRACE=1: report what the window shows
         self.timer.start()
 
     def _progress(self, event: dict) -> None:
@@ -188,8 +188,8 @@ class AutoRunQueue:
         idx = window.home.language_combo.findData(language)
         if idx >= 0:
             window.home.language_combo.setCurrentIndex(idx)
-        window.simple_home.set_files(paths)
         self.probe = probe_tools.UiProbe(window) if probe_tools.enabled() else None
+        window.simple_home.set_files(paths)
         self.timer = QTimer(window)
         self.timer.setInterval(250)
         self.timer.timeout.connect(self._tick)
